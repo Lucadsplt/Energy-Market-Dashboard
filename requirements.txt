@@ -1,0 +1,5 @@
+entsoe-py
+fredapi
+yfinance
+pandas
+python-dotenv
