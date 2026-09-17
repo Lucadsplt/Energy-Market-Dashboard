@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Énergie — Gaz</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Prix du gaz</h1>
+    <canvas id="graphique-gaz"></canvas>
+
+    <script src="js/gas.js"></script>
+
+    <h1>Volatilité du gaz (annualisée, %)</h1>
+    <canvas id="graphique-gaz-vol"></canvas>
+
+    <script src="js/gas_vol.js"></script>
+
+    <h1>Prix du pétrole</h1>
+    <canvas id="graphique-petrole"></canvas>
+
+    <script src="js/oil.js"></script>
+    
+    <h1>Spread Brent-WTI ($/baril)</h1>
+    <canvas id="graphique-spread"></canvas>
+    <script src="js/spread.js"></script>
+
+    <h1>Prix de l'électricité — day-ahead (€/MWh)</h1>
+    <canvas id="graphique-electricite"></canvas>
+
+    <script src="js/electricity.js"></script>
+
+    <h1>Spread électricité FR − DE (€/MWh)</h1>
+    <canvas id="graphique-elec-spread"></canvas>
+
+    <script src="js/electricity_spread.js"></script>
+</body>
+</html>
