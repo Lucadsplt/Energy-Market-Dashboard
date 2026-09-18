@@ -3,37 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Énergie — Gaz</title>
+    <title>Dashboard Énergie</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Les graphes remplissent la hauteur de leur conteneur (.chart-box)
+        Chart.defaults.maintainAspectRatio = false;
+    </script>
 </head>
 <body>
-    <h1>Prix du gaz</h1>
-    <canvas id="graphique-gaz"></canvas>
+    <div class="app">
+        <nav class="sidebar">
+            <h2 class="logo">Énergie</h2>
+            <ul>
+                <li><a href="#" class="nav-link active" data-cible="general">Général</a></li>
+                <li><a href="#" class="nav-link" data-cible="petrole">Pétrole</a></li>
+                <li><a href="#" class="nav-link" data-cible="gaz">Gaz</a></li>
+                <li><a href="#" class="nav-link" data-cible="electricite">Électricité</a></li>
+                <li><a href="#" class="nav-link" data-cible="news">News</a></li>
+                <li><a href="#" class="nav-link" data-cible="copilot">Copilot</a></li>
+            </ul>
+        </nav>
 
+        <main class="contenu">
+            <section id="general" class="onglet active">
+                <h1>Général</h1>
+                <p>Vue d'ensemble — KPIs à venir.</p>
+            </section>
+
+            <section id="petrole" class="onglet">
+                <h1>Pétrole</h1>
+                <h2>Prix — Brent / WTI ($/baril)</h2>
+                <div class="chart-box"><canvas id="graphique-petrole"></canvas></div>
+                <h2>Spread Brent-WTI ($/baril)</h2>
+                <div class="chart-box"><canvas id="graphique-spread"></canvas></div>
+            </section>
+
+            <section id="gaz" class="onglet">
+                <h1>Gaz</h1>
+                <h2>Prix — TTF / Henry Hub</h2>
+                <div class="chart-box"><canvas id="graphique-gaz"></canvas></div>
+                <h2>Volatilité annualisée (%)</h2>
+                <div class="chart-box"><canvas id="graphique-gaz-vol"></canvas></div>
+            </section>
+
+            <section id="electricite" class="onglet">
+                <h1>Électricité</h1>
+                <h2>Prix day-ahead — FR / DE-LU (€/MWh)</h2>
+                <div class="chart-box"><canvas id="graphique-electricite"></canvas></div>
+                <h2>Spread FR − DE (€/MWh)</h2>
+                <div class="chart-box"><canvas id="graphique-elec-spread"></canvas></div>
+            </section>
+
+            <section id="news" class="onglet">
+                <h1>News</h1>
+                <p>Fil d'actualité à venir.</p>
+            </section>
+
+            <section id="copilot" class="onglet">
+                <h1>Copilot</h1>
+                <p>Assistant à venir.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/nav.js?v=9"></script>
     <script src="js/gas.js"></script>
-
-    <h1>Volatilité du gaz (annualisée, %)</h1>
-    <canvas id="graphique-gaz-vol"></canvas>
-
     <script src="js/gas_vol.js"></script>
-
-    <h1>Prix du pétrole</h1>
-    <canvas id="graphique-petrole"></canvas>
-
     <script src="js/oil.js"></script>
-    
-    <h1>Spread Brent-WTI ($/baril)</h1>
-    <canvas id="graphique-spread"></canvas>
     <script src="js/spread.js"></script>
-
-    <h1>Prix de l'électricité — day-ahead (€/MWh)</h1>
-    <canvas id="graphique-electricite"></canvas>
-
     <script src="js/electricity.js"></script>
-
-    <h1>Spread électricité FR − DE (€/MWh)</h1>
-    <canvas id="graphique-elec-spread"></canvas>
-
     <script src="js/electricity_spread.js"></script>
 </body>
 </html>
