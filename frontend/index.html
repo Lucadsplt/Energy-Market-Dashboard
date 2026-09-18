@@ -28,7 +28,35 @@
         <main class="contenu">
             <section id="general" class="onglet active">
                 <h1>Général</h1>
-                <p>Vue d'ensemble — KPIs à venir.</p>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <span class="kpi-label">Gaz TTF (€/MWh)</span>
+                        <span class="kpi-value" id="kpi-ttf">—</span>
+                        <span class="kpi-change" id="kpi-ttf-var"></span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Pétrole Brent ($/baril)</span>
+                        <span class="kpi-value" id="kpi-brent">—</span>
+                        <span class="kpi-change" id="kpi-brent-var"></span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Électricité FR (€/MWh)</span>
+                        <span class="kpi-value" id="kpi-elec-fr">—</span>
+                        <span class="kpi-change" id="kpi-elec-fr-var"></span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Spread Brent-WTI ($/baril)</span>
+                        <span class="kpi-value" id="kpi-spread-oil">—</span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Spread FR − DE (€/MWh)</span>
+                        <span class="kpi-value" id="kpi-spread-elec">—</span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Volatilité gaz TTF (%)</span>
+                        <span class="kpi-value" id="kpi-vol-ttf">—</span>
+                    </div>
+                </div>
             </section>
 
             <section id="petrole" class="onglet">
@@ -68,6 +96,7 @@
     </div>
 
     <script src="js/nav.js?v=9"></script>
+    <script src="js/general.js"></script>
     <script src="js/gas.js"></script>
     <script src="js/gas_vol.js"></script>
     <script src="js/oil.js"></script>

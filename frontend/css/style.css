@@ -88,3 +88,45 @@ body {
     border-radius: 8px;
     padding: 12px;
 }
+
+/* Grille de cartes KPI */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid #e3e6ea;
+    border-radius: 8px;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.kpi-label {
+    font-size: 13px;
+    color: #777;
+}
+
+.kpi-value {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+.kpi-change {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.kpi-change.up {
+    color: #2f9e44;
+}
+
+.kpi-change.down {
+    color: #e03131;
+}
