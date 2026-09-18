@@ -18,7 +18,7 @@ function afficherVariation(id, variation) {
 
 window.addEventListener("load", () => {
     // Gaz : prix TTF + volatilite
-    fetch("../data/gas.json")
+    fetch("data/gas.json")
         .then(r => r.json())
         .then(d => {
             const ttf = dernierEtVariation(d.series.ttf);
@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
         .catch(e => console.error("KPI gaz :", e));
 
     // Petrole : Brent + spread Brent-WTI
-    fetch("../data/oil.json")
+    fetch("data/oil.json")
         .then(r => r.json())
         .then(d => {
             const brent = dernierEtVariation(d.series.brent);
@@ -44,7 +44,7 @@ window.addEventListener("load", () => {
         .catch(e => console.error("KPI petrole :", e));
 
     // Electricite : prix FR + spread FR-DE
-    fetch("../data/electricity.json")
+    fetch("data/electricity.json")
         .then(r => r.json())
         .then(d => {
             const fr = dernierEtVariation(d.series.fr);

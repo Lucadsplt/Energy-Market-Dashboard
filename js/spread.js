@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    fetch("../data/oil.json")
+    fetch("data/oil.json")
         .then(reponse => reponse.json())
         .then(donnees => {
             const canvas = document.getElementById("graphique-spread");

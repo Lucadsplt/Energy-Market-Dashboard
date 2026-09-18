@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    fetch("../data/gas.json")
+    fetch("data/gas.json")
         .then(reponse => reponse.json())
         .then(donnees => {
             const canvas = document.getElementById("graphique-gaz-vol");

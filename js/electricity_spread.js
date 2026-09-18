@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    fetch("../data/electricity.json")
+    fetch("data/electricity.json")
         .then(reponse => reponse.json())
         .then(donnees => {
             const canvas = document.getElementById("graphique-elec-spread");
