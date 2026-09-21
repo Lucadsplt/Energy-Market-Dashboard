@@ -130,3 +130,29 @@ body {
 .kpi-change.down {
     color: #e03131;
 }
+
+/* Liste des actualites (onglet News) */
+.news-item {
+    background: #ffffff;
+    border: 1px solid #e3e6ea;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+}
+
+.news-titre {
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.news-titre:hover {
+    color: #3b5bdb;
+    text-decoration: underline;
+}
+
+.news-meta {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+}
