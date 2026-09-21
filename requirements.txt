@@ -3,3 +3,5 @@ fredapi
 yfinance
 pandas
 python-dotenv
+feedparser
+requests

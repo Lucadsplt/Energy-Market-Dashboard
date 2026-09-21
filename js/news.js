@@ -9,11 +9,12 @@ const MOTS = {
 };
 
 const ICONES = { petrole: "🛢️", gaz: "🔥", electricite: "⚡" };
+const JOURS = { jour: 1, semaine: 7, mois: 30, tout: 100000 };
 
 let tousLesArticles = [];
-const filtresActifs = new Set();
+let periodeActive = "tout";
+const filtresCommodite = new Set();
 
-// Renvoie la liste des commodites detectees dans un titre
 function commoditesDe(titre) {
     const t = (titre || "").toLowerCase();
     const trouvees = [];
@@ -23,18 +24,27 @@ function commoditesDe(titre) {
     return trouvees;
 }
 
-// (Re)construit la liste selon les filtres actifs
 function afficher() {
     const conteneur = document.getElementById("liste-news");
     conteneur.innerHTML = "";
 
+    const limite = Date.now() - JOURS[periodeActive] * 24 * 3600 * 1000;
+
     const articles = tousLesArticles.filter(a => {
-        if (filtresActifs.size === 0) return true;               // aucun filtre = tout
-        return a.commodites.some(c => filtresActifs.has(c));     // sinon, au moins une commodite active
+        // Filtre periode
+        if (periodeActive !== "tout") {
+            const d = a.date ? new Date(a.date).getTime() : 0;
+            if (d < limite) return false;
+        }
+        // Filtre commodite (aucun = tout)
+        if (filtresCommodite.size > 0 && !a.commodites.some(c => filtresCommodite.has(c))) {
+            return false;
+        }
+        return true;
     });
 
     if (articles.length === 0) {
-        conteneur.textContent = "Aucun article pour ce filtre.";
+        conteneur.textContent = "Aucun article pour ces filtres.";
         return;
     }
 
@@ -42,13 +52,12 @@ function afficher() {
         const bloc = document.createElement("div");
         bloc.className = "news-item";
 
-        // Vignette (si disponible)
         if (article.image) {
             const img = document.createElement("img");
             img.className = "news-image";
             img.src = article.image;
             img.loading = "lazy";
-            img.onerror = () => img.remove();   // image cassee -> on la retire
+            img.onerror = () => img.remove();
             bloc.appendChild(img);
         }
 
@@ -75,15 +84,26 @@ function afficher() {
     }
 }
 
-// Boutons de filtre
-document.querySelectorAll(".news-filtre").forEach(bouton => {
+// Filtre PERIODE (un seul actif a la fois)
+document.querySelectorAll("#filtres-periode .news-filtre").forEach(bouton => {
+    bouton.addEventListener("click", () => {
+        periodeActive = bouton.dataset.periode;
+        document.querySelectorAll("#filtres-periode .news-filtre")
+            .forEach(b => b.classList.remove("actif"));
+        bouton.classList.add("actif");
+        afficher();
+    });
+});
+
+// Filtre COMMODITE (plusieurs cumulables)
+document.querySelectorAll("#filtres-commodite .news-filtre").forEach(bouton => {
     bouton.addEventListener("click", () => {
         const com = bouton.dataset.com;
-        if (filtresActifs.has(com)) {
-            filtresActifs.delete(com);
+        if (filtresCommodite.has(com)) {
+            filtresCommodite.delete(com);
             bouton.classList.remove("actif");
         } else {
-            filtresActifs.add(com);
+            filtresCommodite.add(com);
             bouton.classList.add("actif");
         }
         afficher();
@@ -91,7 +111,7 @@ document.querySelectorAll(".news-filtre").forEach(bouton => {
 });
 
 window.addEventListener("load", () => {
-    fetch("/api/news")
+    fetch("data/news.json")
         .then(reponse => reponse.json())
         .then(donnees => {
             tousLesArticles = (donnees.articles || []).map(a => ({
@@ -101,8 +121,7 @@ window.addEventListener("load", () => {
             afficher();
         })
         .catch(erreur => {
-            document.getElementById("liste-news").textContent =
-                "Actualités indisponibles (la fonction /api/news ne répond qu'en ligne sur Vercel, pas en local).";
+            document.getElementById("liste-news").textContent = "Actualités indisponibles.";
             console.error("Erreur News :", erreur);
         });
 });

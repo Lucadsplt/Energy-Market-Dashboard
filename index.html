@@ -85,10 +85,16 @@
 
             <section id="news" class="onglet">
                 <h1>News</h1>
-                <div class="news-filtres">
-                    <button class="news-filtre" data-com="petrole">🛢️ Pétrole</button>
-                    <button class="news-filtre" data-com="gaz">🔥 Gaz</button>
-                    <button class="news-filtre" data-com="electricite">⚡ Électricité</button>
+                <div class="news-filtres" id="filtres-periode">
+                    <button class="news-filtre actif" data-periode="tout">Tout</button>
+                    <button class="news-filtre" data-periode="jour">Jour</button>
+                    <button class="news-filtre" data-periode="semaine">Semaine</button>
+                    <button class="news-filtre" data-periode="mois">Mois</button>
+                </div>
+                <div class="news-filtres" id="filtres-commodite">
+                    <button class="news-filtre" data-com="petrole">Pétrole</button>
+                    <button class="news-filtre" data-com="gaz">Gaz</button>
+                    <button class="news-filtre" data-com="electricite">Électricité</button>
                 </div>
                 <div id="liste-news">Chargement des actualités…</div>
             </section>

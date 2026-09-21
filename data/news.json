@@ -1,0 +1,522 @@
+{
+  "articles": [
+    {
+      "source": "IFPEN",
+      "titre": "Séminaire “E-fuels Made in Europe: Challenges for a Successful Deployment.”",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/seminaire-e-fuels-made-europe-challenges-successful-deployment",
+      "date": "2026-10-15T09:07:54+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Crude Falls on Iran Diplomacy Hopes",
+      "lien": "https://www.rigzone.com/news/wire/crude_falls_on_iran_diplomacy_hopes-21-sep-2026-184667-article/?rss=true",
+      "date": "2026-09-21T20:31:52+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Crude-Falls-on-Iran-Diplomacy-Hopes-184667-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Where Is OPEC+? Riyadh and Moscow’s Silence Is Becoming Deafening",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
+      "date": "2026-09-21T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_rmlvega73v.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "China Confirms Xi's First Trip to USA in Nearly 3 Years",
+      "lien": "https://www.rigzone.com/news/wire/china_confirms_xis_first_trip_to_usa_in_nearly_3_years-21-sep-2026-184663-article/?rss=true",
+      "date": "2026-09-21T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/China-Confirms-Xis-First-Trip-to-USA-in-Nearly-3-Years-184663-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "War Is Now A Core Risk Category For Data Centre Operators",
+      "lien": "https://oilprice.com/Geopolitics/International/War-Is-Now-A-Core-Risk-Category-For-Data-Centre-Operators.html",
+      "date": "2026-09-21T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_5btjk9gnq7.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices retreat as Middle East supply concerns ease amid diplomatic talks",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55406596/oil-prices-retreat-as-middle-east-supply-concerns-ease-amid-diplomatic-talks",
+      "date": "2026-09-21T18:24:23+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab165e20426b329ad49aa28-iran_flag.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trade Tensions Tear at Russia’s Eurasian Economic Union",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Trade-Tensions-Tear-at-Russias-Eurasian-Economic-Union.html",
+      "date": "2026-09-21T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_dutpmljnhc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Prague Caps Fuel Prices, Taxes Orlen's ‘Windfall’ Refining Margins",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
+      "date": "2026-09-21T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_aedqgtm3zp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Bitcoin Tops $85,000 For First Time Since Late January",
+      "lien": "https://oilprice.com/Finance/the-Economy/Bitcoin-Tops-85000-For-First-Time-Since-Late-January.html",
+      "date": "2026-09-21T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_qnuqkzwvpi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Blockage Puts Qatar's $83 Billion LNG Bet at Risk",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
+      "date": "2026-09-21T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_04ndrkza1x.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Record Diesel Prices Raise Fears of Local Fuel Shortages",
+      "lien": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Prices-Raise-Fears-of-Local-Fuel-Shortages.html",
+      "date": "2026-09-21T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_9e3pkfipry.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hungary Asks U.S. to Waive Tariffs Over Russian Oil Purchases",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
+      "date": "2026-09-21T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_c213hnimbp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ABO Energy Exits Argentina",
+      "lien": "https://www.rigzone.com/news/abo_energy_exits_argentina-21-sep-2026-184666-article/?rss=true",
+      "date": "2026-09-21T15:05:02+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Secret Houthi-U.S. Deal That Could Push Saudi Arabia Back to Beijing",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Secret-Houthi-US-Deal-That-Could-Push-Saudi-Arabia-Back-to-Beijing.html",
+      "date": "2026-09-21T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_jcgk7dve3j.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Masdar Raises Its Gross Renewables Capacity in Serbia to Over 300MW",
+      "lien": "https://www.rigzone.com/news/masdar_raises_its_gross_renewables_capacity_in_serbia_to_over_300mw-21-sep-2026-184665-article/?rss=true",
+      "date": "2026-09-21T14:56:40+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Masdar-Raises-Its-Gross-Renewables-Capacity-in-Serbia-to-Over-300MW-184665-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Losing Rigs Again",
+      "lien": "https://www.rigzone.com/news/north_america_losing_rigs_again-21-sep-2026-184664-article/?rss=true",
+      "date": "2026-09-21T14:30:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Losing-Rigs-Again-184664-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wholesale Gas Prices Are Reaching Consumers Faster, ECB Says",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Wholesale-Gas-Prices-Are-Reaching-Consumers-Faster-ECB-Says.html",
+      "date": "2026-09-21T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_yu6rk4aoqi.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "AI-Like Mania Grips Oil Refining Stocks",
+      "lien": "https://www.rigzone.com/news/wire/ailike_mania_grips_oil_refining_stocks-21-sep-2026-184662-article/?rss=true",
+      "date": "2026-09-21T14:20:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/AILike-Mania-Grips-Oil-Refining-Stocks-184662-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rising Energy Costs Threaten UK Growth Despite 1.3% Expansion",
+      "lien": "https://oilprice.com/Energy/Energy-General/Rising-Energy-Costs-Threaten-UK-Growth-Despite-13-Expansion.html",
+      "date": "2026-09-21T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_1dnaev3ipq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+      "date": "2026-09-21T13:51:13+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_m2kpodw7t0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India's Coal Demand Set to Jump 4.2% as Plant Stocks Hit Critical Lows",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Demand-Set-to-Jump-42-as-Plant-Stocks-Hit-Critical-Lows.html",
+      "date": "2026-09-21T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_ncsygs8gmt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trafigura Launches Volare Shipping to Cash In on Record Tanker Rates",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Launches-Volare-Shipping-to-Cash-In-on-Record-Tanker-Rates.html",
+      "date": "2026-09-21T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_46lhpx92us.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway's Arctic Oil Pitch Falls Flat in Brussels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Norways-Arctic-Oil-Pitch-Falls-Flat-in-Brussels.html",
+      "date": "2026-09-21T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-21_4bcvyxkf1p.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Naftogaz Secures Polish Deals for Energy Supply to Ukraine",
+      "lien": "https://www.rigzone.com/news/naftogaz_secures_polish_deals_for_energy_supply_to_ukraine-21-sep-2026-184661-article/?rss=true",
+      "date": "2026-09-21T11:15:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Naftogaz-Secures-Polish-Deals-for-Energy-Supply-to-Ukraine-184661-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Has the Oil Market Changed Forever?",
+      "lien": "https://www.rigzone.com/news/has_the_oil_market_changed_forever-21-sep-2026-184660-article/?rss=true",
+      "date": "2026-09-21T10:33:37+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Has-the-Oil-Market-Changed-Forever-184660-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP to Further Sell Down Browse Project Stake to Osaka Gas",
+      "lien": "https://www.rigzone.com/news/bp_to_further_sell_down_browse_project_stake_to_osaka_gas-21-sep-2026-184659-article/?rss=true",
+      "date": "2026-09-21T08:59:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-to-Further-Sell-Down-Browse-Project-Stake-to-Osaka-Gas-184659-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "JPM Analysts No Longer Have USA-Iran Conflict Baseline",
+      "lien": "https://www.rigzone.com/news/jpm_analysts_no_longer_have_usairan_conflict_baseline-21-sep-2026-184650-article/?rss=true",
+      "date": "2026-09-21T08:28:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/JPM-Analysts-No-Longer-Have-USAIran-Conflict-Baseline-184650-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Moscow Refinery Hit in Major Drone Attack by Ukraine",
+      "lien": "https://www.rigzone.com/news/wire/moscow_refinery_hit_in_major_drone_attack_by_ukraine-21-sep-2026-184658-article/?rss=true",
+      "date": "2026-09-21T08:18:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Moscow-Refinery-Hit-in-Major-Drone-Attack-by-Ukraine-184658-1200x628.png"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Tableau de bord - Marchés pétroliers",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/tableau-bord-marches-petroliers",
+      "date": "2026-09-21T06:09:04+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "European Commission Approves Grants for 3 Cross-Border RE Projects",
+      "lien": "https://www.rigzone.com/news/european_commission_approves_grants_for_3_crossborder_re_projects-20-sep-2026-184655-article/?rss=true",
+      "date": "2026-09-20T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/European-Commission-Approves-Grants-for-3-CrossBorder-RE-Projects-184655-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Mitsui OSK to Sell Older Oil Tankers as Prices Surge",
+      "lien": "https://www.rigzone.com/news/wire/mitsui_osk_to_sell_older_oil_tankers_as_prices_surge-19-sep-2026-184654-article/?rss=true",
+      "date": "2026-09-19T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Mitsui-OSK-to-Sell-Older-Oil-Tankers-as-Prices-Surge-184654-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices slip on technicals and easing of supply",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55406323/oil-prices-slip-on-technicals-and-easing-of-supply",
+      "date": "2026-09-18T20:46:46+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Falls as Supply Fears Ease",
+      "lien": "https://www.rigzone.com/news/wire/oil_falls_as_supply_fears_ease-18-sep-2026-184657-article/?rss=true",
+      "date": "2026-09-18T20:23:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Falls-as-Supply-Fears-Ease-184657-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Editorial: Let’s make a deal",
+      "lien": "https://www.ogj.com/general-interest/blog/55405372/editorial-lets-make-a-deal-venezuela-trump-oil",
+      "date": "2026-09-18T19:10:22+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aad8c808760e9722da26a44-260216155057826__ruletkka_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Petrobras lets composite pipe contract for Brazilian post-salt cluster",
+      "lien": "https://www.ogj.com/general-interest/news/55405571/petrobras-lets-composite-pipe-contract-for-brazilian-post-salt-cluster",
+      "date": "2026-09-18T18:14:45+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aad800483fb501dc66ad0e2-strohm.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US sanctions bill targets Russian energy but gives Trump broad discretion",
+      "lien": "https://www.ogj.com/general-interest/government/news/55406236/us-sanctions-bill-targets-russian-energy-but-gives-trump-broad-discretion",
+      "date": "2026-09-18T17:09:44+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aad6fb08760e9722da24084-251023_32895968__kashamalasha_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Denarius, Çan2 Termik back Venezuela oil field redevelopment",
+      "lien": "https://www.ogj.com/general-interest/news/55406232/denarius-can2-termik-back-venezuela-oil-field-redevelopment",
+      "date": "2026-09-18T17:00:27+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Port Arthur LNG to Supply Petrobras for 20 Years",
+      "lien": "https://www.rigzone.com/news/port_arthur_lng_to_supply_petrobras_for_20_years-18-sep-2026-184656-article/?rss=true",
+      "date": "2026-09-18T15:16:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Port-Arthur-LNG-to-Supply-Petrobras-for-20-Years-184656-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "What goes into diesel prices?",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "date": "2026-09-18T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "BKV completes Barnett shale asset acquisition",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55405949/bkv-completes-barnett-shale-asset-acquisition",
+      "date": "2026-09-17T19:45:29+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Vitesse acquires interest in Chevron-operated DJ basin assets",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55405882/vitesse-acquires-interest-in-chevron-operated-denver-julesburg-basin-assets",
+      "date": "2026-09-17T15:47:50+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aac0b9429700e4b8b04c7d8-241022id_201464859__ruhuntn_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "California Resources unloads Uinta assets",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55405856/california-resources-unloads-uinta-assets",
+      "date": "2026-09-17T15:14:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aac01c18760e9722da0709d-crc_uinta_map.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US natural gas storage",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298988/us-natural-gas-storage",
+      "date": "2026-09-17T14:52:41+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Les rapports annuels des Carnot IFPEN 2025 sont disponibles !",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/les-rapports-annuels-des-carnot-ifpen-2025-sont-disponibles",
+      "date": "2026-09-17T12:29:09+00:00",
+      "image": null
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude inventories down 600,000 bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55405589/eia-us-crude-inventories-down-600000-bbl",
+      "date": "2026-09-16T17:57:23+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aaad87a29700e4b8b03401f-ogjrecapsept_16_2026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Continental Resources, PDVSA sign MoU for potential Venezuela oil development",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55405564/continental-resources-pdvsa-sign-mou-for-potential-venezuela-oil-development",
+      "date": "2026-09-16T17:17:50+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aaacee783fb501dc66765f1-260903venezuelan_flag_8_stars_no_coat_of_arms_id_2.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "OGJ Crack Spread",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298996/ogj-crack-spread",
+      "date": "2026-09-16T16:38:22+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Crude and Product Stocks",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298997/crude-and-product-stocks",
+      "date": "2026-09-16T16:37:51+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "POSCO to acquire Chord's Marcellus gas assets for $550 million",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55405540/posco-international-to-acquire-chords-marcellus-gas-assets-for-550-million",
+      "date": "2026-09-16T16:31:26+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aaac6f32a1a98549d55a3c8-chord_pennsylvania.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "EIA",
+      "titre": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+      "date": "2026-09-15T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Participation d’IFPEN à ROG.e 2026",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/participation-difpen-roge-2026",
+      "date": "2026-09-11T12:49:32+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "United States on track for record crude oil production in 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+      "date": "2026-09-10T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "New England natural gas prices have been trading near record discounts to Henry Hub",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68124",
+      "date": "2026-09-09T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+      "date": "2026-09-04T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Modèle proche-paroi pour le refroidissement par jet d’huile d'un moteur électrique",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/modele-proche-paroi-refroidissement-jet-dhuile-dun-moteur-electrique",
+      "date": "2026-09-04T09:45:14+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Weekly average load in ERCOT continues near record high",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+      "date": "2026-09-03T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68064",
+      "date": "2026-09-01T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Tableau de bord transport - 2ème trimestre 2026",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/tableau-bord-transport-2eme-trimestre-2026",
+      "date": "2026-08-31T08:17:29+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
+      "date": "2026-08-28T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Table ronde \"Carburants d'aviation durables : quels leviers d'action en France ?\"",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/table-ronde-carburants-daviation-durables-quels-leviers-daction-en-france",
+      "date": "2026-08-26T15:25:29+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+      "date": "2026-08-26T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Dangote refinery drives increase in petroleum shipments from Nigeria",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
+      "date": "2026-08-24T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFP School remporte le SPE Energython Europe 2026",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-remporte-spe-energython-europe-2026",
+      "date": "2026-08-24T12:55:50+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFP School de nouveau mise à l’honneur par le Label DD&RS",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-nouveau-mise-lhonneur-label-ddrs",
+      "date": "2026-08-24T12:48:11+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Longer wells boost Permian crude oil and natural gas production",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+      "date": "2026-08-19T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+      "date": "2026-08-17T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "United States on track for record natural gas production in 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+      "date": "2026-08-12T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+      "date": "2026-08-10T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Battery storage capacity averaged 70% growth over the last three years",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+      "date": "2026-08-07T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Fin de Elether 2 : bilan de quatre années de travaux de recherche en thermodynamique des électrolytes",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/fin-elether-2-bilan-quatre-annees-travaux-recherche-en-thermodynamique-des-electrolytes",
+      "date": "2026-07-28T08:08:12+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFPEN au H2 & CCT World Expo",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifpen-au-h2-cct-world-expo",
+      "date": "2026-07-22T08:36:53+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Journées scientifiques de l’éolien 2027",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/journees-scientifiques-leolien-2027",
+      "date": "2026-07-15T12:30:33+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Un indice multivarié pour estimer l’âge de vieillissement des plastiques dans les océans",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/indice-multivarie-estimer-lage-vieillissement-des-plastiques-les-oceans",
+      "date": "2026-07-08T08:57:59+00:00",
+      "image": null
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Carbone des sols : Valorhiz, IFPEN et CCARBON renforcent la coopération franco-brésilienne au service de la résilience des écosystèmes",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/carbone-des-sols-valorhiz-ifpen-et-ccarbon-renforcent-cooperation-franco-bresilienne-au-service-resilience-des-ecosystemes",
+      "date": "2026-06-30T14:58:45+00:00",
+      "image": null
+    }
+  ]
+}
