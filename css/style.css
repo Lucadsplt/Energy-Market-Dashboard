@@ -131,13 +131,58 @@ body {
     color: #e03131;
 }
 
-/* Liste des actualites (onglet News) */
+/* Onglet News : barre de filtres */
+.news-filtres {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.news-filtre {
+    padding: 6px 14px;
+    border: 1px solid #d0d4da;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #444;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.news-filtre:hover {
+    border-color: #3b5bdb;
+}
+
+.news-filtre.actif {
+    background: #3b5bdb;
+    color: #ffffff;
+    border-color: #3b5bdb;
+}
+
+/* Onglet News : cartes d'articles */
 .news-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
     background: #ffffff;
     border: 1px solid #e3e6ea;
     border-radius: 8px;
-    padding: 12px 16px;
+    padding: 12px;
     margin-bottom: 10px;
+}
+
+.news-image {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: #f0f2f5;
+}
+
+.news-corps {
+    flex: 1;
+    min-width: 0;
 }
 
 .news-titre {
