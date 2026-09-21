@@ -1,0 +1,41 @@
+name: Rafraichir les donnees
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # tous les jours a 06:00 UTC
+  workflow_dispatch: {}    # permet aussi un lancement manuel depuis GitHub
+
+permissions:
+  contents: write          # autorise le robot a committer/pousser
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt
+
+      - name: Regenerer les donnees
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ENTSOE_API_KEY: ${{ secrets.ENTSOE_API_KEY }}
+        run: |
+          python pipeline/sources/gas_source.py
+          python pipeline/sources/oil_sources.py
+          python pipeline/sources/electricity_source.py
+
+      - name: Committer les donnees mises a jour
+        run: |
+          git config user.name "Luca Desplat"
+          git config user.email "desplatluca@gmail.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "Mise a jour automatique des donnees"
+          git push
