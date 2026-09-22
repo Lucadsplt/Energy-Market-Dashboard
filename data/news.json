@@ -8,6 +8,76 @@
       "image": null
     },
     {
+      "source": "OilPrice",
+      "titre": "Saudi Oil Lifeline May Reopen as Aramco Eyes Yanbu Restart",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Lifeline-May-Reopen-as-Aramco-Eyes-Yanbu-Restart.html",
+      "date": "2026-09-22T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-22_tbetskdyqi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Oil Import Bill Jumps 48% as Crude Prices Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Import-Bill-Jumps-48-as-Crude-Prices-Soar.html",
+      "date": "2026-09-22T09:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-22_pyflxbaiuq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Poised to Resume Oil Exports at Red Sea Port",
+      "lien": "https://www.rigzone.com/news/wire/aramco_poised_to_resume_oil_exports_at_red_sea_port-22-sep-2026-184668-article/?rss=true",
+      "date": "2026-09-22T09:14:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Poised-to-Resume-Oil-Exports-at-Red-Sea-Port-184668-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-and-Gas-Prices-Push-Europes-Inflation-Fight-Into-2027.html",
+      "date": "2026-09-22T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-22_5kravejdhy.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Threatens to Ground Iranian Airlines Worldwide",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Threatens-to-Ground-Iranian-Airlines-Worldwide.html",
+      "date": "2026-09-22T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-22_1fcxhzuepk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Reverse Course as Traders Watch US-Iran Diplomacy",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Reverse-Course-as-Traders-Watch-US-Iran-Diplomacy.html",
+      "date": "2026-09-22T05:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-22_fkoq2rjld9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Qatar’s LNG Loss Revives Projects From Argentina to Timor-Leste",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Qatars-LNG-Loss-Revives-Projects-From-Argentina-to-Timor-Leste.html",
+      "date": "2026-09-22T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_sg1snqzuq6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "New U.S. Sanctions Law Threatens India’s Huge Russian Oil Trade",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/New-US-Sanctions-Law-Threatens-Indias-Huge-Russian-Oil-Trade.html",
+      "date": "2026-09-21T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_rr3g5w6jqx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Refinery Crunch Pushes Diesel Prices to New Records",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
+      "date": "2026-09-21T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_v8yqid0zbs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Energy Transition Has a Speed Advantage That Cost Models Miss",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/The-Energy-Transition-Has-a-Speed-Advantage-That-Cost-Models-Miss.html",
+      "date": "2026-09-21T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-21_zeo1jqkh3y.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "Crude Falls on Iran Diplomacy Hopes",
       "lien": "https://www.rigzone.com/news/wire/crude_falls_on_iran_diplomacy_hopes-21-sep-2026-184667-article/?rss=true",
