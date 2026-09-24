@@ -16,6 +16,279 @@
     },
     {
       "source": "OilPrice",
+      "titre": "U.S. to Back Argentina’s First LNG Export Project With $6 Billion Loan",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-to-Back-Argentinas-First-LNG-Export-Project-With-6-Billion-Loan.html",
+      "date": "2026-09-24T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_f3baizpukv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Morgan Stanley: Diesel Export Ban Would Push U.S. Gas Prices Higher",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Says-Diesel-Export-Ban-Would-Push-US-Gas-Prices-Higher.html",
+      "date": "2026-09-24T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_juka34izcv.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Qatar Ramps Up LNG Shipping via Hormuz",
+      "lien": "https://www.rigzone.com/news/wire/qatar_ramps_up_lng_shipping_via_hormuz-24-sep-2026-184690-article/?rss=true",
+      "date": "2026-09-24T08:45:11+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Qatar-Ramps-Up-LNG-Shipping-via-Hormuz-184690-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Indian Refiners Lift LPG Output Nearly 20% as Hormuz Blockage Chokes Imports",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Lift-LPG-Output-Nearly-20-as-Hormuz-Blockage-Chokes-Imports.html",
+      "date": "2026-09-24T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_qrxn7tdi0d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Southeast Asia Keeps Building Gas Plants Despite Hormuz LNG Shock",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Southeast-Asia-Keeps-Building-Gas-Plants-Despite-Hormuz-LNG-Shock.html",
+      "date": "2026-09-24T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_usk6rvapte.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Holds Above $102 as Iran Talks Stall Over Hormuz Conditions",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Iran-Talks-Stall-Over-Hormuz-Conditions.html",
+      "date": "2026-09-24T05:08:03+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_7q8miurh2d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Canada’s Oil Patch On Track For Biggest M&A Wave In A Decade",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Canadas-Oil-Patch-On-Track-For-Biggest-MA-Wave-In-A-Decade.html",
+      "date": "2026-09-23T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_gjkoxry05a.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "White House Rules Out Diesel Export Ban as Prices Surge Above $6.50",
+      "lien": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
+      "date": "2026-09-23T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_avkznncv4t.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China's Newest Power Plant Swaps Steam for Supercritical CO2",
+      "lien": "https://oilprice.com/Energy/Energy-General/Chinas-Newest-Power-Plant-Swaps-Steam-for-Supercritical-CO2.html",
+      "date": "2026-09-23T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_l06sfnxzia.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Workarounds Keep Gulf Oil Flowing—at a Steep Cost",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
+      "date": "2026-09-23T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_7tumpjjtgv.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Fuel Export Ban Threat Sends European Diesel Soaring",
+      "lien": "https://www.rigzone.com/news/wire/trump_fuel_export_ban_threat_sends_european_diesel_soaring-23-sep-2026-184685-article/?rss=true",
+      "date": "2026-09-23T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Fuel-Export-Ban-Threat-Sends-European-Diesel-Soaring-184685-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Rises as Diesel Export Talk Swirls",
+      "lien": "https://www.rigzone.com/news/wire/oil_rises_as_diesel_export_talk_swirls-23-sep-2026-184689-article/?rss=true",
+      "date": "2026-09-23T19:58:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Rises-as-Diesel-Export-Talk-Swirls-184689-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Supply Crisis to Change LNG Market Forever",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Supply-Crisis-to-Change-LNG-Market-Forever.html",
+      "date": "2026-09-23T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_wlshzkngxz.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "OQEP lets contract for Bisat field expansion project in Oman",
+      "lien": "https://www.ogj.com/general-interest/news/55407259/oqep-lets-contract-for-bisat-field-expansion-project-in-oman",
+      "date": "2026-09-23T18:07:07+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab40a152428f02de6af9a6f-oq_image_9232026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Uzbekistan Eyes Caspian and Black Sea Ports to Break Out of Central Asia",
+      "lien": "https://oilprice.com/Geopolitics/International/Uzbekistan-Eyes-Caspian-and-Black-Sea-Ports-to-Break-Out-of-Central-Asia.html",
+      "date": "2026-09-23T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_lh5v8zytgy.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Petrobras completes composite pipe JIP",
+      "lien": "https://www.ogj.com/general-interest/news/55407236/petrobras-completes-composite-pipe-jip",
+      "date": "2026-09-23T17:57:06+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US LNG exports on track to top 120 million tonnes in 2026, Energy Secretary says",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55407251/us-lng-exports-on-track-to-top-120-million-tonnes-in-2026-energy-secretary-says",
+      "date": "2026-09-23T17:44:10+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab408cdceb39a7769015ae3-hs0otefxgaau3t1.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Imperial-Oil-Becomes-First-Major-Alberta-Energy-Company-to-Oppose-Separatism.html",
+      "date": "2026-09-23T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-23_j3vt6qlijz.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Perenco Brazil, Porto do Açu advance Campos basin platform electrification project",
+      "lien": "https://www.ogj.com/general-interest/news/55407263/perenco-brazil-porto-do-acu-advance-campos-basin-platform-electrification-project",
+      "date": "2026-09-23T17:26:10+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Energy Secretary: Blunt Tool of Banning Diesel Exports Doesn't Work",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
+      "date": "2026-09-23T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-23_6rwlem5oys.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dangote's Kenya Refinery Project Launches This Week at Up to $20B",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Kenya-Refinery-Project-Launches-This-Week-at-Up-to-20B.html",
+      "date": "2026-09-23T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-23_j7ualzbnro.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "World Crude Prices",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298977/world-crude-prices",
+      "date": "2026-09-23T16:28:15+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US Crude Prices",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298987/us-crude-prices",
+      "date": "2026-09-23T16:27:47+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Petrodata Rig Count",
+      "lien": "https://www.ogj.com/drilling-production/document/17298979/petrodata-rig-count",
+      "date": "2026-09-23T16:27:16+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Refined Product Prices",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298971/refined-product-prices",
+      "date": "2026-09-23T16:26:43+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "OGJ Gasoline Prices",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298972/ogj-gasoline-prices",
+      "date": "2026-09-23T16:25:12+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Crude Imports by Country of Origin",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/55269585/crude-imports-by-country-of-origin",
+      "date": "2026-09-23T16:24:35+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Exports of Crude and Products",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298976/exports-of-crude-and-products",
+      "date": "2026-09-23T16:22:55+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Imports of Crude and Products",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298985/imports-of-crude-and-products",
+      "date": "2026-09-23T16:19:24+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories up 3 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55407207/eia-us-crude-oil-inventories-up-3-million-bbl",
+      "date": "2026-09-23T16:05:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab3f8a329700e4b8b12fb9f-ogjrecapsept_23_2026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Glencore Joins Project Vault With $500 Million Cobalt Commitment",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Glencore-Joins-Project-Vault-With-500-Million-Cobalt-Commitment.html",
+      "date": "2026-09-23T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-23_obeq0u7lfb.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shell Exits BP's Na Kika Platform in US Gulf",
+      "lien": "https://www.rigzone.com/news/shell_exits_bps_na_kika_platform_in_us_gulf-23-sep-2026-184688-article/?rss=true",
+      "date": "2026-09-23T14:52:04+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shell-Exits-BPs-Na-Kika-Platform-in-US-Gulf-184688-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Raises USA Oil Production Forecasts for 2026, 2027",
+      "lien": "https://www.rigzone.com/news/eia_raises_usa_oil_production_forecasts_for_2026_2027-23-sep-2026-184687-article/?rss=true",
+      "date": "2026-09-23T14:30:42+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Czechia's MND Set to Expand Production Activities in Ukraine",
+      "lien": "https://www.rigzone.com/news/czechias_mnd_set_to_expand_production_activities_in_ukraine-23-sep-2026-184686-article/?rss=true",
+      "date": "2026-09-23T13:59:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Czechias-MND-Set-to-Expand-Production-Activities-in-Ukraine-184686-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Imperial Oil Chief Calls for Alberta to Reject Separatism",
+      "lien": "https://www.rigzone.com/news/wire/imperial_oil_chief_calls_for_alberta_to_reject_separatism-23-sep-2026-184684-article/?rss=true",
+      "date": "2026-09-23T13:25:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Imperial-Oil-Chief-Calls-for-Alberta-to-Reject-Separatism-184684-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies Approves New Upstream Project for Nigeria LNG",
+      "lien": "https://www.rigzone.com/news/totalenergies_approves_new_upstream_project_for_nigeria_lng-23-sep-2026-184683-article/?rss=true",
+      "date": "2026-09-23T13:17:16+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Approves-New-Upstream-Project-for-Nigeria-LNG-184683-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA-Iran Conflict Changes Definition of Available Barrel",
+      "lien": "https://www.rigzone.com/news/usairan_conflict_changes_definition_of_available_barrel-23-sep-2026-184682-article/?rss=true",
+      "date": "2026-09-23T11:28:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USAIran-Conflict-Changes-Definition-of-Available-Barrel-184682-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "European Commission Proposes Energy Efficiency Rating for Data Centers",
+      "lien": "https://www.rigzone.com/news/european_commission_proposes_energy_efficiency_rating_for_data_centers-23-sep-2026-184681-article/?rss=true",
+      "date": "2026-09-23T11:13:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/European-Commission-Proposes-Energy-Efficiency-Rating-for-Data-Centers-184681-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "A Critical Week for Oil",
+      "lien": "https://www.rigzone.com/news/a_critical_week_for_oil-23-sep-2026-184680-article/?rss=true",
+      "date": "2026-09-23T10:22:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/A-Critical-Week-for-Oil-184680-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Oil Set for Longest Losing Streak Since August 2025",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Longest-Losing-Streak-Since-August-2025.html",
       "date": "2026-09-23T10:00:00+00:00",
