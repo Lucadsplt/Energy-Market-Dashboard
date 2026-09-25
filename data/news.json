@@ -16,6 +16,209 @@
     },
     {
       "source": "OilPrice",
+      "titre": "Netherlands Pushes to Scrap EU Gas Storage Mandate After $1.14 Billion Bill",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Netherlands-Pushes-to-Scrap-EU-Gas-Storage-Mandate-After-114-Billion-Bill.html",
+      "date": "2026-09-25T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_32jcqabrp5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Says It Will Keep Exporting Diesel",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Says-It-Will-Keep-Exporting-Diesel.html",
+      "date": "2026-09-25T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_cthmzoawqn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Tanker Transits Crash to Single Digits as Crisis Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
+      "date": "2026-09-25T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_yhsitarlu7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "VLCC Rates Hit Record $1.27 Million a Day",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/VLCC-Rates-Hit-Record-127-Million-a-Day-as-Oman-Transfer-Capacity-Maxes-Out.html",
+      "date": "2026-09-25T06:17:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Set for Weekly Gain as Houthi Attacks Rattle Saudi Oil Supply",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+      "date": "2026-09-25T05:04:32+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_g8q0edrmuu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Energy Stocks Positioned for a Prolonged Iran War",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
+      "date": "2026-09-25T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_xfbj8ze3k2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Soaring Freight Costs Make Japan’s Crude Imports the World’s Most Expensive",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Soaring-Freight-Costs-Make-Japans-Crude-Imports-the-Worlds-Most-Expensive.html",
+      "date": "2026-09-24T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_xglpfdncui.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why a U.S. Diesel Export Ban Won’t Lower Fuel Prices",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-a-US-Diesel-Export-Ban-Wont-Lower-Fuel-Prices.html",
+      "date": "2026-09-24T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_zzcl2trqrx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can the World Hit 35% Electrification by 2035?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Can-the-World-Hit-35-Electrification-by-2035.html",
+      "date": "2026-09-24T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_zpkh4gr05p.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Crude Gains on Tight Supply Signals",
+      "lien": "https://www.rigzone.com/news/wire/crude_gains_on_tight_supply_signals-24-sep-2026-184700-article/?rss=true",
+      "date": "2026-09-24T20:14:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Crude-Gains-on-Tight-Supply-Signals-184700-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Biofuels Output Could Surge 70% Amid Energy Crisis",
+      "lien": "https://oilprice.com/Alternative-Energy/Biofuels/Global-Biofuels-Output-Could-Surge-70-Amid-Energy-Crisis.html",
+      "date": "2026-09-24T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_cl2qtuzi9w.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Backs Argentina LNG Project",
+      "lien": "https://www.rigzone.com/news/wire/trump_backs_argentina_lng_project-24-sep-2026-184696-article/?rss=true",
+      "date": "2026-09-24T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Backs-Argentina-LNG-Project-184696-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Italy Returns to Nuclear After 40-Year Hiatus",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Italy-Returns-to-Nuclear-After-40-Year-Hiatus.html",
+      "date": "2026-09-24T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_xpumc0j1fo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Oil Export Costs Surge as Red Sea Risks Mount",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
+      "date": "2026-09-24T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_uqsren0tgh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Are Diesel Prices So High?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Are-Diesel-Prices-So-High.html",
+      "date": "2026-09-24T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_sl21nw4cx3.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Turkish Petroleum extends contract for Sakarya Phase 3 commissioning",
+      "lien": "https://www.ogj.com/general-interest/news/55407608/turkish-petroleum-extends-contract-for-sakarya-phase-3-commissioning",
+      "date": "2026-09-24T17:37:42+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "CNOOC UK renews offshore EPC agreement",
+      "lien": "https://www.ogj.com/general-interest/news/55407611/cnooc-uk-renews-offshore-epc-agreement",
+      "date": "2026-09-24T17:34:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab55b2ac5b86efbad298807-cnnoc_image_9242026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Vitol Scoops Up 25 Million Barrels of Discounted Iraqi Crude",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Vitol-Scoops-Up-25-Million-Barrels-of-Discounted-Iraqi-Crude.html",
+      "date": "2026-09-24T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-24_uihgnvkp6a.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices rise as US-Iran breakthrough hopes fade",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55407590/oil-rises-as-us-iran-breakthrough-hopes-fade",
+      "date": "2026-09-24T17:20:44+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab55bb509c618441cc5c1e0-260206_157237874__engdao_wichitpunya_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Warns U.S. Strikes Could Push War Into Indian Ocean",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
+      "date": "2026-09-24T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-24_hdyrc9wter.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EOG appoints Hibbard to succeed Janssen as CFO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55407518/eog-appoints-hibbard-to-succeed-janssen-as-cfo",
+      "date": "2026-09-24T15:35:21+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab542d3477a5f5eccaa2436-eog_2.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Exus Repowers 2 Pennsylvania Wind Farms",
+      "lien": "https://www.rigzone.com/news/exus_repowers_2_pennsylvania_wind_farms-24-sep-2026-184699-article/?rss=true",
+      "date": "2026-09-24T14:45:05+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Exus-Repowers-2-Pennsylvania-Wind-Farms-184699-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Rise Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_week_on_week-24-sep-2026-184698-article/?rss=true",
+      "date": "2026-09-24T14:27:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Rise-Week-on-Week-184698-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ProPetro to Supply 230 MW to Targa",
+      "lien": "https://www.rigzone.com/news/propetro_to_supply_230_mw_to_targa-24-sep-2026-184697-article/?rss=true",
+      "date": "2026-09-24T13:41:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ProPetro-to-Supply-230-MW-to-Targa-184697-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudis Ease Asia Oil Crunch",
+      "lien": "https://www.rigzone.com/news/wire/saudis_ease_asia_oil_crunch-24-sep-2026-184695-article/?rss=true",
+      "date": "2026-09-24T13:07:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudis-Ease-Asia-Oil-Crunch-184695-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "FortisBC Gets BC Environmental Clearance for Tilbury LNG Expansion",
+      "lien": "https://www.rigzone.com/news/fortisbc_gets_bc_environmental_clearance_for_tilbury_lng_expansion-24-sep-2026-184694-article/?rss=true",
+      "date": "2026-09-24T12:51:36+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/FortisBC-Gets-BC-Environmental-Clearance-for-Tilbury-LNG-Expansion-184694-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Gas Company Worker Passes Away Following Shark Attack",
+      "lien": "https://www.rigzone.com/news/gas_company_worker_passes_away_following_shark_attack-24-sep-2026-184693-article/?rss=true",
+      "date": "2026-09-24T11:41:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Gas-Company-Worker-Passes-Away-Following-Shark-Attack-184693-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Petrobrazi Biofuels Project Progresses toward Startup in 2028",
+      "lien": "https://www.rigzone.com/news/petrobrazi_biofuels_project_progresses_toward_startup_in_2028-24-sep-2026-184692-article/?rss=true",
+      "date": "2026-09-24T10:52:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Petrobrazi-Biofuels-Project-Progresses-toward-Startup-in-2028-184692-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Analysts Say China 2026 Oil, Gas Demand Outlook Weakens",
+      "lien": "https://www.rigzone.com/news/analysts_say_china_2026_oil_gas_demand_outlook_weakens-24-sep-2026-184691-article/?rss=true",
+      "date": "2026-09-24T10:42:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Analysts-Say-China-2026-Oil-Gas-Demand-Outlook-Weakens-184691-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "U.S. to Back Argentina’s First LNG Export Project With $6 Billion Loan",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-to-Back-Argentinas-First-LNG-Export-Project-With-6-Billion-Loan.html",
       "date": "2026-09-24T10:00:00+00:00",
