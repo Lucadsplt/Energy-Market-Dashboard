@@ -16,10 +16,199 @@
     },
     {
       "source": "OilPrice",
+      "titre": "Nigeria Joins IEA As Crude Output Hits Six-Year High",
+      "lien": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
+      "date": "2026-09-25T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_dnclimr4qx.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "A volatile week for crude ends with lower prices",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55407910/a-volatile-week-for-crude-ends-with-lower-prices",
+      "date": "2026-09-25T20:32:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab6da6771a0f753c3ac5e8d-260415straitofhormuz_map_id_368153131__laterase_dr.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Falls on Signs of Iran Progress",
+      "lien": "https://www.rigzone.com/news/wire/oil_falls_on_signs_of_iran_progress-25-sep-2026-184710-article/?rss=true",
+      "date": "2026-09-25T20:03:16+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Falls-on-Signs-of-Iran-Progress-184710-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Record Heat Failed to Lift U.S. Natural Gas Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Why-Record-Heat-Failed-to-Lift-US-Natural-Gas-Prices.html",
+      "date": "2026-09-25T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_nhe9dp1lfo.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Pembina pursues gas-to-power opportunities through Greenlight development",
+      "lien": "https://www.ogj.com/members/article/55407855/pembina-pursues-gas-to-power-opportunities-through-greenlight-development",
+      "date": "2026-09-25T18:24:25+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab6ba2f962252ba5ed0c268-260925canadaflagbinarycodeid_94825691__birgit_korb.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela Oil Output Could Hit 1.8 Million Bpd By 2030, Rystad Says",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Venezuela-Oil-Output-Could-Hit-18-Million-Bpd-By-2030-Rystad-Says.html",
+      "date": "2026-09-25T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_zuhfulbqjc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil, Gas Drilling Perks Up As Pressure Mounts",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
+      "date": "2026-09-25T17:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_os4iux6eh8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "BP Eyes Bigger U.S. Shale Footprint After Devon Deal Talks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/BP-Eyes-Bigger-US-Shale-Footprint-After-Devon-Deal-Talks.html",
+      "date": "2026-09-25T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_ozv1c08hn2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why WTI Is Suddenly Trading $12 Below Brent",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-WTI-Is-Suddenly-Trading-12-Below-Brent.html",
+      "date": "2026-09-25T16:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_pwdo3gqbbs.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Colorado finalizes methane controls for existing oil and gas operations as federal rules remain in flux",
+      "lien": "https://www.ogj.com/general-interest/government/news/55407828/colorado-finalizes-methane-controls-for-existing-oil-and-gas-operations-as-federal-rules-remain-in-flux",
+      "date": "2026-09-25T16:07:59+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6ab69b0088df5805ab4097b7-241022id_201464859__ruhuntn_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Shrugs Off Gas Supply Fears Despite Low Storage Levels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Shrugs-Off-Gas-Supply-Fears-Despite-Low-Storage-Levels.html",
+      "date": "2026-09-25T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_9waud6spkk.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Advisers Study Impact of Diesel Export Ban",
+      "lien": "https://www.rigzone.com/news/wire/trump_advisers_study_impact_of_diesel_export_ban-25-sep-2026-184707-article/?rss=true",
+      "date": "2026-09-25T15:19:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Advisers-Study-Impact-of-Diesel-Export-Ban-184707-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ukraine Says 2 Russian Refineries Ablaze after Strikes",
+      "lien": "https://www.rigzone.com/news/wire/ukraine_says_2_russian_refineries_ablaze_after_strikes-25-sep-2026-184706-article/?rss=true",
+      "date": "2026-09-25T15:10:02+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ukraine-Says-2-Russian-Refineries-Ablaze-after-Strikes-184706-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "WhiteHawk Completes Acquisition of Appalachia, Haynesville Gas Assets",
+      "lien": "https://www.rigzone.com/news/whitehawk_completes_acquisition_of_appalachia_haynesville_gas_assets-25-sep-2026-184705-article/?rss=true",
+      "date": "2026-09-25T15:03:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/WhiteHawk-Completes-Acquisition-of-Appalachia-Haynesville-Gas-Assets-184705-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump’s Diesel Export Threat Puts Britain on Edge",
+      "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
+      "date": "2026-09-25T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_6kgbdnen3x.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Italy Pushes Refineries to Raise Fuel Output Amid Price Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+      "date": "2026-09-25T14:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_xypwogrzf0.jpg"
+    },
+    {
+      "source": "EIA",
+      "titre": "Henry Hub natural gas prices this summer were 6% lower than last summer",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+      "date": "2026-09-25T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Beijing's Iran Oil Trade Draws Fresh Criticism From Capitol Hill",
+      "lien": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
+      "date": "2026-09-25T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_0giqueyr5o.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Spiritus Secures Preliminary Deals to Supply CO2 for EOR",
+      "lien": "https://www.rigzone.com/news/spiritus_secures_preliminary_deals_to_supply_co2_for_eor-25-sep-2026-184704-article/?rss=true",
+      "date": "2026-09-25T13:34:40+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Spiritus-Secures-Preliminary-Deals-to-Supply-CO2-for-EOR-184704-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies Backs Pouyanne to Remain Chair and CEO",
+      "lien": "https://www.rigzone.com/news/totalenergies_backs_pouyanne_to_remain_chair_and_ceo-25-sep-2026-184703-article/?rss=true",
+      "date": "2026-09-25T13:03:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Backs-Pouyanne-to-Remain-Chair-and-CEO-184703-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "WTI Whipsaws as Hormuz Hopes Collide With Diesel Crunch",
+      "lien": "https://oilprice.com/Energy/Energy-General/WTI-Whipsaws-as-Hormuz-Hopes-Collide-With-Diesel-Crunch.html",
+      "date": "2026-09-25T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_sytv09cjmb.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S.-Iran Talks Revive June Plan for Ending Hormuz Standoff",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
+      "date": "2026-09-25T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_dgctfi9rwp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Aramco Restores East-West Pipeline as War Risk Closes In on Yanbu",
+      "lien": "https://oilprice.com/Energy/Energy-General/Aramco-Restores-East-West-Pipeline-as-War-Risk-Closes-In-on-Yanbu.html",
+      "date": "2026-09-25T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-25_dobre72dvk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Pressures UK to Match Its Tariffs on Chinese-Made Cars",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Pressures-UK-to-Match-Its-Tariffs-on-Chinese-Made-Cars.html",
+      "date": "2026-09-25T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_bm3xwcj0fw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Weighs Mandatory Imported Coal Blending as Plant Stocks Crumble",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Weighs-Mandatory-Imported-Coal-Blending-as-Plant-Stocks-Crumble.html",
+      "date": "2026-09-25T12:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_vzadjh3mym.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "INPEX Pre-Empts JERA's Sale of Ichthys LNG Stake to MidOcean",
+      "lien": "https://www.rigzone.com/news/inpex_preempts_jeras_sale_of_ichthys_lng_stake_to_midocean-25-sep-2026-184702-article/?rss=true",
+      "date": "2026-09-25T11:18:11+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/INPEX-PreEmpts-JERAs-Sale-of-Ichthys-LNG-Stake-to-MidOcean-184702-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Netherlands Pushes to Scrap EU Gas Storage Mandate After $1.14 Billion Bill",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Netherlands-Pushes-to-Scrap-EU-Gas-Storage-Mandate-After-114-Billion-Bill.html",
       "date": "2026-09-25T10:00:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-25_32jcqabrp5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Dutch to Ask EU to End Mandatory Gas Storage Targets",
+      "lien": "https://www.rigzone.com/news/wire/dutch_to_ask_eu_to_end_mandatory_gas_storage_targets-25-sep-2026-184701-article/?rss=true",
+      "date": "2026-09-25T09:48:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Dutch-to-Ask-EU-to-End-Mandatory-Gas-Storage-Targets-184701-1200x628.png"
     },
     {
       "source": "OilPrice",
