@@ -16,10 +16,206 @@
     },
     {
       "source": "OilPrice",
+      "titre": "India Looks to Boost Exploration as Hormuz Crisis Threatens Supply",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Looks-to-Boost-Exploration-as-Hormuz-Crisis-Threatens-Supply.html",
+      "date": "2026-09-29T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_q3ludl19ca.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "SOCAR Expands International Partnerships",
+      "lien": "https://www.rigzone.com/news/socar_expands_international_partnerships-29-sep-2026-184724-article/?rss=true",
+      "date": "2026-09-29T10:52:41+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/SOCAR-Expands-International-Partnerships-184724-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia Restarts Red Sea Crude Oil Loadings",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
+      "date": "2026-09-29T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_7eqjv3hylg.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Risk Premium Is Becoming Structural",
+      "lien": "https://www.rigzone.com/news/oil_risk_premium_is_becoming_structural-29-sep-2026-184723-article/?rss=true",
+      "date": "2026-09-29T10:16:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Risk-Premium-Is-Becoming-Structural-184723-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Unlikely to Ditch Russian Oil Despite Trump's 100% Tariff Threat",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Unlikely-to-Ditch-Russian-Oil-Despite-Trumps-100-Tariff-Threat.html",
+      "date": "2026-09-29T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_deapuj2ifl.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Court Pauses $16B Dangote Refinery Project in Kenya",
+      "lien": "https://www.rigzone.com/news/wire/court_pauses_16b_dangote_refinery_project_in_kenya-29-sep-2026-184722-article/?rss=true",
+      "date": "2026-09-29T09:06:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Court-Pauses-16B-Dangote-Refinery-Project-in-Kenya-184722-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Insights: Prioritizing process safety management across the refining industry (Pt. II)",
+      "lien": "https://www.ogj.com/home/podcast/55407988/insights-prioritizing-process-safety-management-across-the-refining-industry-pt-ii",
+      "date": "2026-09-29T09:00:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aba59364506a5053fc1c124-260928podcast_micid_421589562__ronstik__dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Argentina Threatens UK with Court Action Over Falklands Oil Drilling",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Threatens-UK-with-Court-Action-Over-Falklands-Oil-Drilling.html",
+      "date": "2026-09-29T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_on5bomaise.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China's LNG Imports Set for Second Straight Monthly Drop",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-LNG-Imports-Set-for-Second-Straight-Monthly-Drop.html",
+      "date": "2026-09-29T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_ogo5aiskc8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Extends Rally Despite Higher Hormuz Volume Reports",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Extends-Rally-Despite-Higher-Hormuz-Volume-Reports.html",
+      "date": "2026-09-29T05:19:50+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-29_dqrgwxu476.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Rerouting Doubles Cape Traffic Without Delivering a Windfall",
+      "lien": "https://oilprice.com/Energy/Energy-General/Hormuz-Rerouting-Doubles-Cape-Traffic-Without-Delivering-a-Windfall.html",
+      "date": "2026-09-29T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_fhfq0vbbep.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Blocking U.S. Diesel Exports Could Make Fuel More Expensive",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Blocking-US-Diesel-Exports-Could-Make-Fuel-More-Expensive.html",
+      "date": "2026-09-28T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_4rlc1mbiv3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Standard Chartered: Record CTA Long Bets Are Capping Oil's Upside",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
+      "date": "2026-09-28T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_mswca6ac4b.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How AI Could Upend the Secretive World of Fuel Trading",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-AI-Could-Upend-the-Secretive-World-of-Fuel-Trading.html",
+      "date": "2026-09-28T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_dj3scpzmtl.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Execs Flocking to VEN Set Off Hunt for Golf Clubs",
+      "lien": "https://www.rigzone.com/news/wire/oil_execs_flocking_to_ven_set_off_hunt_for_golf_clubs-28-sep-2026-184719-article/?rss=true",
+      "date": "2026-09-28T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Execs-Flocking-to-VEN-Set-Off-Hunt-for-Golf-Clubs-184719-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Edges Higher as Supply Tightens",
+      "lien": "https://www.rigzone.com/news/wire/oil_edges_higher_as_supply_tightens-28-sep-2026-184721-article/?rss=true",
+      "date": "2026-09-28T20:12:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Edges-Higher-as-Supply-Tightens-184721-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The World Is Entering a New Era of Energy Security",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-World-Is-Entering-a-New-Era-of-Energy-Security.html",
+      "date": "2026-09-28T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_kiuxjmaocg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Gas Forecasts Are Not an Energy Strategy",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Europes-Gas-Forecasts-Are-Not-an-Energy-Strategy.html",
+      "date": "2026-09-28T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_ctustqsoev.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Strategic Petroleum Reserve Falls to Lowest Level Since 1982",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Strategic-Petroleum-Reserve-Falls-to-Lowest-Level-Since-1982.html",
+      "date": "2026-09-28T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-28_u0wz9rdfib.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Kimmeridge: US shale oil reserve replacement weakens as gas remains abundant",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55408195/kimmeridge-us-shale-oil-reserve-replacement-weakens-as-gas-remains-abundant",
+      "date": "2026-09-28T18:05:01+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6abaa6a5559d2cfdf91efbba-oil_reserves.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Record Diesel Costs Add Fresh Pressure on UK Economy",
+      "lien": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
+      "date": "2026-09-28T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-28_xkgjy6tqps.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Bear River Midstream adds CCO, COO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55408174/bear-river-midstream-adds-cco-coo",
+      "date": "2026-09-28T17:33:10+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6aba9f4ba9cce1d5cc75c033-bear_river_midstream_2.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia Tightens Secrecy On Energy Exports",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Tightens-Secrecy-On-Energy-Exports.html",
+      "date": "2026-09-28T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-28_gnrh0nqytc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Adds 15 Rigs WoW, BH Count Shows",
+      "lien": "https://www.rigzone.com/news/north_america_adds_15_rigs_wow_bh_count_shows-28-sep-2026-184720-article/?rss=true",
+      "date": "2026-09-28T14:46:43+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Adds-15-Rigs-WoW-BH-Count-Shows-184720-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Wins New Block offshore Indonesia",
+      "lien": "https://www.rigzone.com/news/eni_wins_new_block_offshore_indonesia-28-sep-2026-184717-article/?rss=true",
+      "date": "2026-09-28T13:51:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Wins-New-Block-offshore-Indonesia-184717-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi Arabia's Key Oil Pipeline Starts Exports",
+      "lien": "https://www.rigzone.com/news/wire/saudi_arabias_key_oil_pipeline_starts_exports-28-sep-2026-184718-article/?rss=true",
+      "date": "2026-09-28T13:48:04+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Arabias-Key-Oil-Pipeline-Starts-Exports-184718-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "PTTEP Approves Bussabong Gas Project",
+      "lien": "https://www.rigzone.com/news/pttep_approves_bussabong_gas_project-28-sep-2026-184716-article/?rss=true",
+      "date": "2026-09-28T13:19:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/PTTEP-Approves-Bussabong-Gas-Project-184716-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "UK Grid Operator Warns of Tight Power Margins",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Grid-Operator-Warns-of-Tight-Power-Margins.html",
       "date": "2026-09-28T12:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-28_h43aqxdcgf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Chevron, ExxonMobil Agree Potential Crude Supply to Vietnam",
+      "lien": "https://www.rigzone.com/news/chevron_exxonmobil_agree_potential_crude_supply_to_vietnam-28-sep-2026-184715-article/?rss=true",
+      "date": "2026-09-28T12:17:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Chevron-ExxonMobil-Agree-Potential-Crude-Supply-to-Vietnam-184715-1200x628.png"
     },
     {
       "source": "Rigzone",
@@ -1594,13 +1790,6 @@
       "titre": "Un indice multivarié pour estimer l’âge de vieillissement des plastiques dans les océans",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/indice-multivarie-estimer-lage-vieillissement-des-plastiques-les-oceans",
       "date": "2026-07-08T08:57:59+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "Carbone des sols : Valorhiz, IFPEN et CCARBON renforcent la coopération franco-brésilienne au service de la résilience des écosystèmes",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/carbone-des-sols-valorhiz-ifpen-et-ccarbon-renforcent-cooperation-franco-bresilienne-au-service-resilience-des-ecosystemes",
-      "date": "2026-06-30T14:58:45+00:00",
       "image": null
     }
   ]
