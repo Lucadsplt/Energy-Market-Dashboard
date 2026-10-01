@@ -22,11 +22,242 @@
       "image": null
     },
     {
+      "source": "Rigzone",
+      "titre": "Analysts Look at WTI-Brent Spread",
+      "lien": "https://www.rigzone.com/news/analysts_look_at_wtibrent_spread-01-oct-2026-184747-article/?rss=true",
+      "date": "2026-10-01T11:45:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Analysts-Look-at-WTIBrent-Spread-184747-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Three Tankers Struck by Unknown Projectiles in Strait of Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+      "date": "2026-10-01T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_eibygjua7o.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni's Renewables Arm Gets Capital Raise under New Shareholding Structure",
+      "lien": "https://www.rigzone.com/news/enis_renewables_arm_gets_capital_raise_under_new_shareholding_structure-01-oct-2026-184746-article/?rss=true",
+      "date": "2026-10-01T10:55:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Enis-Renewables-Arm-Gets-Capital-Raise-under-New-Shareholding-Structure-184746-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Halts Fuel Exports Until Further Notice",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-Fuel-Exports-Until-Further-Notice.html",
+      "date": "2026-10-01T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_gd5tdqwyni.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "JPM Flags 'Remarkable Recovery' for Oil Market",
+      "lien": "https://www.rigzone.com/news/jpm_flags_remarkable_recovery_for_oil_market-01-oct-2026-184745-article/?rss=true",
+      "date": "2026-10-01T10:23:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/JPM-Flags-Remarkable-Recovery-for-Oil-Market-184745-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Taiwan Allocates $13 Billion to Shield Consumers From High Energy Costs",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Taiwan-Allocates-13-Billion-to-Shield-Consumers-From-High-Energy-Costs.html",
+      "date": "2026-10-01T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_yripckc37o.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "China Fuel Exporters Cancel Some Cargoes",
+      "lien": "https://www.rigzone.com/news/wire/china_fuel_exporters_cancel_some_cargoes-01-oct-2026-184744-article/?rss=true",
+      "date": "2026-10-01T08:39:58+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/China-Fuel-Exporters-Cancel-Some-Cargoes-184744-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pakistan Weighs Direct LNG Imports for Power Plants to Ease Energy Crisis",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Weighs-Direct-LNG-Imports-for-Power-Plants-to-Ease-Energy-Crisis.html",
+      "date": "2026-10-01T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_elbe0ch5wr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Admits Diesel U.S. Export Ban Could Raise Gasoline Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html",
+      "date": "2026-10-01T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_hprxypvcuv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Tumbles to $96 as Gulf Oil Flows Bounce Back",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
+      "date": "2026-10-01T05:17:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-01_a3xcczun02.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran’s Disappearing Oil Is Becoming Everyone’s Problem",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyones-Problem.html",
+      "date": "2026-10-01T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_5fifiuzgxe.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Gas Crunch Forces Rethink of Methane Rules",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/EU-Gas-Crunch-Forces-Rethink-of-Methane-Rules.html",
+      "date": "2026-09-30T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_r8t7iseudw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela’s Oil Revival Accelerates as Foreign Companies Return",
+      "lien": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Accelerates-as-Foreign-Companies-Return.html",
+      "date": "2026-09-30T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_bqqg2m543s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can Quantum Computing Tame AI's Energy Appetite?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Can-Quantum-Computing-Tame-AIs-Energy-Appetite.html",
+      "date": "2026-09-30T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_lhxg2b6dgz.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iraq Deepens October Crude Price Discounts",
+      "lien": "https://www.rigzone.com/news/wire/iraq_deepens_october_crude_price_discounts-30-sep-2026-184740-article/?rss=true",
+      "date": "2026-09-30T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iraq-Deepens-October-Crude-Price-Discounts-184740-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Futures Rise Despite Increasing Flows",
+      "lien": "https://www.rigzone.com/news/wire/oil_futures_rise_despite_increasing_flows-30-sep-2026-184743-article/?rss=true",
+      "date": "2026-09-30T20:35:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Futures-Rise-Despite-Increasing-Flows-184743-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Africa’s Massive Cement Expansion Could Drive An Energy Boom",
+      "lien": "https://oilprice.com/Energy/Energy-General/Africas-Massive-Cement-Expansion-Could-Drive-An-Energy-Boom.html",
+      "date": "2026-09-30T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_7lkfnhqn8y.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Guyana’s Oil Riches Are Transforming Its Economy at Breakneck Speed",
+      "lien": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Riches-Are-Transforming-Its-Economy-at-Breakneck-Speed.html",
+      "date": "2026-09-30T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_pm3sg4lpwn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The World’s Diesel Problem Runs Deeper Than the Iran War",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Worlds-Diesel-Problem-Runs-Deeper-Than-the-Iran-War.html",
+      "date": "2026-09-30T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_zxeywkdolq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Dallas Fed survey: More than one in five firms plan to grow capex in 2027",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55408837/dallas-fed-survey-more-than-one-in-five-firms-plan-to-grow-capex-in-2027",
+      "date": "2026-09-30T17:59:44+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6abd4c020e8465bbcd9e8862-oil_well_2067615_natalia_bratslavsky_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil and Gas Production Climbs Despite Extreme Oil Price Volatility",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-and-Gas-Production-Climbs-Despite-Extreme-Oil-Price-Volatility.html",
+      "date": "2026-09-30T17:31:07+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-30_47jnlbzdtt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe Gets Hit by Another Energy-Driven Inflation Shock",
+      "lien": "https://oilprice.com/Energy/Energy-General/Europe-Gets-Hit-by-Another-Energy-Driven-Inflation-Shock.html",
+      "date": "2026-09-30T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-09-30_c4nlr7jqmk.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories up 900,000 bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55408775/eia-us-crude-oil-inventories-up-900000-bbl",
+      "date": "2026-09-30T16:20:35+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6abd36c28b079825b94ca0d4-ogjrecapsept_30_2026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Morningstar DBRS: Global diesel squeeze boosts US refiners",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55408732/morningstar-dbrs-global-diesel-squeeze-boosts-us-refiners",
+      "date": "2026-09-30T15:33:05+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6abd289fc506009d6e302547-dieselgas_oil_exports.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US seeks to release another 40 million bbl from SPR despite low inventory levels",
+      "lien": "https://www.ogj.com/general-interest/government/news/55408696/us-seeks-to-release-another-40-million-bbl-from-spr-despite-low-inventory-levels",
+      "date": "2026-09-30T14:36:56+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/09/6abd1e15610f41adafbdd73e-260930id_1970553__mary_katherine_wynn__dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Analyst Flags 'Dizzying Volatility' for NatGas",
+      "lien": "https://www.rigzone.com/news/analyst_flags_dizzying_volatility_for_natgas-30-sep-2026-184742-article/?rss=true",
+      "date": "2026-09-30T14:34:19+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Analyst-Flags-Dizzying-Volatility-for-NatGas-184742-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Cheniere Notches 22-Year LNG Contract to Supply Petrobras",
+      "lien": "https://www.rigzone.com/news/cheniere_notches_22year_lng_contract_to_supply_petrobras-30-sep-2026-184741-article/?rss=true",
+      "date": "2026-09-30T14:28:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Cheniere-Notches-22Year-LNG-Contract-to-Supply-Petrobras-184741-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "China Oil Comeback Loses Steam",
+      "lien": "https://www.rigzone.com/news/wire/china_oil_comeback_loses_steam-30-sep-2026-184739-article/?rss=true",
+      "date": "2026-09-30T14:09:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/China-Oil-Comeback-Loses-Steam-184739-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. electricity use for electric vehicles increasing at a slower pace in 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
+      "date": "2026-09-30T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "MidOcean Confirms Participation in LNG Canada",
+      "lien": "https://www.rigzone.com/news/midocean_confirms_participation_in_lng_canada-30-sep-2026-184738-article/?rss=true",
+      "date": "2026-09-30T13:30:58+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/MidOcean-Confirms-Participation-in-LNG-Canada-184738-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "KKR Backs New Indian Storage Terminals Developer",
+      "lien": "https://www.rigzone.com/news/kkr_backs_new_indian_storage_terminals_developer-30-sep-2026-184737-article/?rss=true",
+      "date": "2026-09-30T12:57:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/KKR-Backs-New-Indian-Storage-Terminals-Developer-184737-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "WTI Discount to Brent Deepens",
+      "lien": "https://www.rigzone.com/news/wti_discount_to_brent_deepens-30-sep-2026-184736-article/?rss=true",
+      "date": "2026-09-30T11:40:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/WTI-Discount-to-Brent-Deepens-184736-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "Analysts Cut China's Q4 Crude Import Forecasts by 400,000 Bpd",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
       "date": "2026-09-30T11:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-09-30_vwrqsefyxg.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Leviathan's Israeli Owners Cancel $6.7B Domestic Supply Deal",
+      "lien": "https://www.rigzone.com/news/leviathans_israeli_owners_cancel_67b_domestic_supply_deal-30-sep-2026-184735-article/?rss=true",
+      "date": "2026-09-30T11:06:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Leviathans-Israeli-Owners-Cancel-67B-Domestic-Supply-Deal-184735-1200x628.png"
     },
     {
       "source": "OilPrice",
