@@ -16,6 +16,202 @@
     },
     {
       "source": "OilPrice",
+      "titre": "Trump Says South Korea Deal Includes $8.4 Billion U.S. Oil Project",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Says-South-Korea-Deal-Includes-84-Billion-US-Oil-Project.html",
+      "date": "2026-10-02T21:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-02_lj3p04fpua.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Falls as G7 Taps Emergency Supplies",
+      "lien": "https://www.rigzone.com/news/wire/oil_falls_as_g7_taps_emergency_supplies-02-oct-2026-184766-article/?rss=true",
+      "date": "2026-10-02T20:10:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Falls-as-G7-Taps-Emergency-Supplies-184766-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Canada PM Invokes New Powers to Fast-Track Oil Pipeline",
+      "lien": "https://www.rigzone.com/news/wire/canada_pm_invokes_new_powers_to_fasttrack_oil_pipeline-02-oct-2026-184763-article/?rss=true",
+      "date": "2026-10-02T20:00:01+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Canada-PM-Invokes-New-Powers-to-FastTrack-Oil-Pipeline-184763-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iranian Oil Starts Flowing to Tajikistan Despite U.S. Sanctions Risk",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iranian-Oil-Starts-Flowing-to-Tajikistan-Despite-US-Sanctions-Risk.html",
+      "date": "2026-10-02T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_nx0f2l6dpw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil Drilling Inches Up As Prices Fall",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Inches-Up-As-Prices-Fall.html",
+      "date": "2026-10-02T17:16:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_uqxclhzddh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dated Brent Above $120 Signals a Serious Oil Squeeze",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
+      "date": "2026-10-02T16:50:45+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_dg01sjqhdy.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Chevron Australia extends non-destructive testing contract",
+      "lien": "https://www.ogj.com/general-interest/news/55409324/chevron-australia-extends-non-destructive-testing-contract",
+      "date": "2026-10-02T16:00:09+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Chevron ups interest in Namibia license with drill-ready prospect",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55409315/chevron-ups-interest-in-namibia-license-with-drill-ready-prospect",
+      "date": "2026-10-02T15:41:30+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6abfd0993f45089d8a61f7e0-260413namibia_id_327002273__juan_alejandro_bernal_.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "G7 Moves to Release 100 Million Barrels to Counter Diesel Crisis",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
+      "date": "2026-10-02T15:23:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-02_vjnpwcaezt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Rise Almost 1MM Barrels WoW",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_almost_1mm_barrels_wow-02-oct-2026-184765-article/?rss=true",
+      "date": "2026-10-02T15:05:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Rise-Almost-1MM-Barrels-WoW-184765-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "LNG Shipments Through Hormuz Hit Highest Level Since Iran War Began",
+      "lien": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
+      "date": "2026-10-02T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_n380vabpzt.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Canada lists Pacific Link as Project of National Interest",
+      "lien": "https://www.ogj.com/pipelines-transportation/pipelines/news/55409286/canada-lists-pacific-link-as-project-of-national-interest",
+      "date": "2026-10-02T14:47:13+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6abfc3a151ac3601f951fd6c-id_14901471__enrique_gomez_tamezdreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "WTI Whipsaws as Gulf Supply Improves and Middle East Risk Returns",
+      "lien": "https://oilprice.com/Energy/Energy-General/WTI-Whipsaws-as-Gulf-Supply-Improves-and-Middle-East-Risk-Returns.html",
+      "date": "2026-10-02T14:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_4gwmkh35dp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Exit Leaves Iraq With a Militia Problem",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Exit-Leaves-Iraq-With-a-Militia-Problem.html",
+      "date": "2026-10-02T14:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_a5xuqbn90v.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Kremlin Consolidates Power as Russia’s Economic Pain Mounts",
+      "lien": "https://oilprice.com/Geopolitics/Europe/The-Kremlin-Consolidates-Power-as-Russias-Economic-Pain-Mounts.html",
+      "date": "2026-10-02T14:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_7yplc1bsak.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Deploys Patriots to Shield Saudi Oil and Qatari Gas Facilities",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
+      "date": "2026-10-02T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-02_hytv7aocnk.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "YPF, Eni, XRG target November FID for Argentina LNG",
+      "lien": "https://www.ogj.com/general-interest/news/55409275/ypf-eni-xrg-target-november-fid-for-argentina-lng",
+      "date": "2026-10-02T14:15:34+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Flux énergétiques mondiaux 2025 : de nouveaux équilibres se dessinent",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/flux-energetiques-mondiaux-2025-nouveaux-equilibres-se-dessinent",
+      "date": "2026-10-02T14:03:21+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. natural gas production reached a record high in July 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
+      "date": "2026-10-02T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe's Soaring Gas Bill Is Sending Utilities Back to Coal",
+      "lien": "https://oilprice.com/Energy/Energy-General/Europes-Soaring-Gas-Bill-Is-Sending-Utilities-Back-to-Coal.html",
+      "date": "2026-10-02T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_mqytdlve2u.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFPEN Energy and Environmental Transition Day 2026 : découvrir les innovations au service de la transition",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifpen-energy-and-environmental-transition-day-2026-decouvrir-les-innovations-au-service-transition",
+      "date": "2026-10-02T13:56:29+00:00",
+      "image": null
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Trump cites $54 billion South Korean plan for Alaska LNG",
+      "lien": "https://www.ogj.com/general-interest/government/news/55409266/trump-cites-54-billion-south-korean-plan-for-alaska-lng",
+      "date": "2026-10-02T13:48:13+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6abfb6e2e01ece1c5873786a-liquefactionfacility.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan’s JERA Creates Oil Storage Firm to Manage National Reserve Sites",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japans-JERA-Creates-Oil-Storage-Firm-to-Manage-National-Reserve-Sites.html",
+      "date": "2026-10-02T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-02_knpk438tif.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ConocoPhillips Joins Venture Global's Long-Term LNG Buyers",
+      "lien": "https://www.rigzone.com/news/conocophillips_joins_venture_globals_longterm_lng_buyers-02-oct-2026-184761-article/?rss=true",
+      "date": "2026-10-02T13:26:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ConocoPhillips-Joins-Venture-Globals-LongTerm-LNG-Buyers-184761-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Gunvor Renames Itself",
+      "lien": "https://www.rigzone.com/news/wire/gunvor_renames_itself-02-oct-2026-184760-article/?rss=true",
+      "date": "2026-10-02T13:21:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Gunvor-Renames-Itself-184760-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Alaska LNG Hinges on How Much Asian Buyers Will Pay for Energy Security",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Alaska-LNG-Hinges-on-How-Much-Asian-Buyers-Will-Pay-for-Energy-Security.html",
+      "date": "2026-10-02T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-02_sgcbx6q9u2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iberdrola, GIC Expand Brazilian Power Transmission JV",
+      "lien": "https://www.rigzone.com/news/iberdrola_gic_expand_brazilian_power_transmission_jv-02-oct-2026-184759-article/?rss=true",
+      "date": "2026-10-02T12:19:02+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iberdrola-GIC-Expand-Brazilian-Power-Transmission-JV-184759-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Latest Dallas Fed Survey Reveals Theme Among Respondents",
+      "lien": "https://www.rigzone.com/news/latest_dallas_fed_survey_reveals_theme_among_respondents-02-oct-2026-184758-article/?rss=true",
+      "date": "2026-10-02T12:00:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Latest-Dallas-Fed-Survey-Reveals-Theme-Among-Respondents-184758-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "WTI Sinks Nearly 4% as EU Weighs Emergency Stockpile Release",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/WTI-Sinks-Nearly-4-as-EU-Weighs-Emergency-Stockpile-Release.html",
       "date": "2026-10-02T11:02:00+00:00",
@@ -216,6 +412,13 @@
       "lien": "https://www.rigzone.com/news/wire/europe_holds_emergency_diesel_talks-01-oct-2026-184749-article/?rss=true",
       "date": "2026-10-01T14:02:34+00:00",
       "image": "https://images.rigzone.com/images/news/articles/Europe-Holds-Emergency-Diesel-Talks-184749-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. exports of propane reached records in the first half of 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68244",
+      "date": "2026-10-01T14:00:00+00:00",
+      "image": null
     },
     {
       "source": "Rigzone",
