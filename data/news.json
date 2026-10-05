@@ -8,6 +8,125 @@
       "image": null
     },
     {
+      "source": "EIA",
+      "titre": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "date": "2026-10-05T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Korea Plans to Triple Canadian Crude Imports as Saudi Share Slips",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Plans-to-Triple-Canadian-Crude-Imports-as-Saudi-Share-Slips.html",
+      "date": "2026-10-05T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_w8e9yvr6no.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan Rules Out More Reserve Releases After G7 Pledges 100 Million Barrels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Rules-Out-More-Reserve-Releases-After-G7-Pledges-100-Million-Barrels.html",
+      "date": "2026-10-05T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_faposvbgfx.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Buru Launches Approval Process for Western Australian Gas Project",
+      "lien": "https://www.rigzone.com/news/buru_launches_approval_process_for_western_australian_gas_project-05-oct-2026-184769-article/?rss=true",
+      "date": "2026-10-05T11:03:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Buru-Launches-Approval-Process-for-Western-Australian-Gas-Project-184769-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC+ 7 Reveal Production Plan for November",
+      "lien": "https://www.rigzone.com/news/opec_7_reveal_production_plan_for_november-05-oct-2026-184768-article/?rss=true",
+      "date": "2026-10-05T10:34:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-7-Reveal-Production-Plan-for-November-184768-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz LNG Flows Still Down More Than 75% Despite Rebound",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html",
+      "date": "2026-10-05T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_l9mvqirxai.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Diesel Margins Slide as G7 Announces 100 Million Barrel Stocks Release",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
+      "date": "2026-10-05T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_l3h8jwrnws.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Denis Guillaume prend la direction du site lyonnais d’IFPEN",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/denis-guillaume-prend-direction-du-site-lyonnais-difpen",
+      "date": "2026-10-05T08:37:45+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iran Oil Minister Quits as Exports Dry Up",
+      "lien": "https://www.rigzone.com/news/wire/iran_oil_minister_quits_as_exports_dry_up-05-oct-2026-184767-article/?rss=true",
+      "date": "2026-10-05T08:20:37+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iran-Oil-Minister-Quits-as-Exports-Dry-Up-184767-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Aramco Cuts Asia Oil Prices to Six-Year Low, Raises Prices for Europe",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
+      "date": "2026-10-05T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_tgawmzlqln.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "OPEC+ Holds November Quota at 31.01 Million Barrels Daily",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Holds-November-Quota-at-3101-Million-Barrels-Daily.html",
+      "date": "2026-10-05T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_ytujuar0bm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Fall as Reports Say Hormuz Crude Flows Top Pre-War Levels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
+      "date": "2026-10-05T05:26:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-05_dd72qlzony.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Fuel Price Shock Pushes Global Gas Car Sales Below 50% for First Time",
+      "lien": "https://oilprice.com/Energy/Energy-General/Fuel-Price-Shock-Pushes-Global-Gas-Car-Sales-Below-50-for-First-Time.html",
+      "date": "2026-10-04T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-04_j5kzqcxliy.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Diesel Woes Just Got Even Worse",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
+      "date": "2026-10-04T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-04_h0hleg3cfc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pentagon Backs Ambitious Plan to Beam Solar Power From Space",
+      "lien": "https://oilprice.com/Energy/Energy-General/Pentagon-Backs-Ambitious-Plan-to-Beam-Solar-Power-From-Space.html",
+      "date": "2026-10-04T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_k6aebaezpv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Floating Power Plants Are Opening a New Energy Frontier",
+      "lien": "https://oilprice.com/Energy/Energy-General/Floating-Power-Plants-Are-Opening-a-New-Energy-Frontier.html",
+      "date": "2026-10-04T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_d1kxudnpsf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Private Equity Firms Double Down on Fossil Fuels",
+      "lien": "https://oilprice.com/Energy/Energy-General/Private-Equity-Firms-Double-Down-on-Fossil-Fuels.html",
+      "date": "2026-10-04T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-02_qfcnga6emn.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "Uniper, Biotrend Plan to Produce Biogas in Turkiye for Europe",
       "lien": "https://www.rigzone.com/news/uniper_biotrend_plan_to_produce_biogas_in_turkiye_for_europe-04-oct-2026-184764-article/?rss=true",
