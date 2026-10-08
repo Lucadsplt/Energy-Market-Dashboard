@@ -1,33 +1,31 @@
-// Recupere tous les liens de navigation
-const liens = document.querySelectorAll(".nav-link");
+// Navigation par onglets (barre du haut + tags de la synthèse)
+function afficherOnglet(cible) {
+    document.querySelectorAll(".nav-link").forEach(l =>
+        l.classList.toggle("active", l.dataset.cible === cible));
+    document.querySelectorAll(".onglet").forEach(o =>
+        o.classList.toggle("active", o.id === cible));
 
-liens.forEach(lien => {
-    lien.addEventListener("click", (evenement) => {
-        evenement.preventDefault();   // empeche le saut de page du lien "#"
+    // Les graphes ont été créés dans des onglets masqués : on les redessine.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+        document.getElementById(cible).querySelectorAll("canvas").forEach(canvas => {
+            const graphe = Chart.getChart(canvas);
+            if (graphe) { graphe.resize(); graphe.update(); }
+        });
+    }));
+    window.scrollTo({ top: 0 });
+}
 
-        // 1. Retire "active" de TOUS les liens et de TOUS les onglets
-        document.querySelectorAll(".nav-link").forEach(l => l.classList.remove("active"));
-        document.querySelectorAll(".onglet").forEach(o => o.classList.remove("active"));
+document.querySelectorAll(".nav-link").forEach(lien => {
+    lien.addEventListener("click", e => {
+        e.preventDefault();
+        afficherOnglet(lien.dataset.cible);
+    });
+});
 
-        // 2. Active le lien clique
-        lien.classList.add("active");
-
-        // 3. Affiche l'onglet correspondant (data-cible -> id de la section)
-        const cible = lien.dataset.cible;
-        const section = document.getElementById(cible);
-        section.classList.add("active");
-
-        // 4. Redessiner les graphes de l'onglet (crees quand il etait masque).
-        //    Double requestAnimationFrame : on attend que la mise en page ET le
-        //    redimensionnement soient termines avant de recalculer/redessiner.
-        requestAnimationFrame(() => requestAnimationFrame(() => {
-            section.querySelectorAll("canvas").forEach(canvas => {
-                const graphe = Chart.getChart(canvas);
-                if (graphe) {
-                    graphe.resize();
-                    graphe.update();
-                }
-            });
-        }));
+// Les tags de la synthèse renvoient vers l'onglet correspondant
+document.querySelectorAll("[data-aller]").forEach(tag => {
+    tag.addEventListener("click", e => {
+        e.preventDefault();
+        afficherOnglet(tag.dataset.aller);
     });
 });
