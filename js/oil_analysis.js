@@ -5,6 +5,7 @@ window.addEventListener("load", () => {
         .then(d => {
             dessinerDistribution(d.brent.distribution);
             dessinerMonteCarlo(d.brent.monte_carlo);
+            dessinerBacktest(d.brent.backtest);
         })
         .catch(e => console.error("Analyse pétrole :", e));
 });
@@ -80,4 +81,15 @@ function dessinerMonteCarlo(mc) {
         }).join("");
     document.getElementById("lecture-mc").textContent =
         "Les valeurs de VaR et d'ES sont données au format gaussien · queues épaisses. La probabilité compte les scénarios qui touchent le niveau à un moment quelconque des 30 jours.";
+}
+
+function dessinerBacktest(lignes) {
+    document.getElementById("table-backtest").innerHTML =
+        "<tr><th>Calibration sur</th><th>Tests</th><th>Dépassements à la baisse</th><th>À la hausse</th><th>Valeur p (Kupiec)</th><th>Verdict</th></tr>" +
+        lignes.map(l => `<tr>
+            <td>${l.fenetre_ans} ans</td><td>${l.tests}</td>
+            <td>${l.depassement_bas_pct} %</td><td>${l.depassement_haut_pct} %</td>
+            <td>${l.p_kupiec}</td><td>${l.p_kupiec > 0.05 ? "Cohérent" : "Rejeté"}</td></tr>`).join("");
+    document.getElementById("lecture-backtest").textContent =
+        "Pour chaque date, le modèle est calibré uniquement sur le passé, puis comparé au rendement observé 30 jours plus tard. Si la VaR 95 % est bien calibrée, environ 5 % des cas la dépassent. Un test de Kupiec avec une valeur p supérieure à 0,05 signifie que l'écart à 5 % peut s'expliquer par le hasard.";
 }

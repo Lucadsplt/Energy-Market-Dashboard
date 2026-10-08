@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 from pipeline.analysis.distribution import distribution
@@ -9,6 +10,7 @@ from pipeline.analysis.monte_carlo import calibrer, resumer, simuler
 from pipeline.analysis.returns import log_returns
 from pipeline.export.json_export import save_json
 from pipeline.sources.oil_history import fetch_brent_history
+from pipeline.analysis.backtest import backtest_var
 
 HORIZON = 30
 VARIATIONS = [-20, -10, 10, 20]    # niveaux testes, en % du prix actuel
@@ -55,11 +57,15 @@ def monte_carlo_petrole(prix, kurtosis):
 
 
 def analyse_petrole():
-    prix = fetch_brent_history(years=5)
-    dist = distribution(log_returns(prix))
+    prix = fetch_brent_history(years=10)          # calibration du modele actuel
+    # distribution sur 5 ans : sur 10 ans, le jour d'avril 2020 (-64 %) domine tout
+    recent = prix[prix.index >= prix.index[-1] - pd.DateOffset(years=5)]
+    dist = distribution(log_returns(recent))
+    historique_long = fetch_brent_history(years=40)   # depuis 1987, pour le backtest
     return {"brent": {
         "distribution": dist,
         "monte_carlo": monte_carlo_petrole(prix, dist["stats"]["kurtosis_exces"]),
+        "backtest": [backtest_var(historique_long, w) for w in (3, 5, 10, 20)],
     }}
 
 
