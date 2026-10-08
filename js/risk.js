@@ -1,4 +1,4 @@
-// Onglet Risque : fan chart Monte Carlo du Brent (données calculées par le pipeline Python)
+// Onglet Risque : cone de projection Monte Carlo du Brent (données calculées par le pipeline Python)
 window.addEventListener("load", () => {
     fetch("data/risk.json")
         .then(r => r.json())
@@ -27,9 +27,9 @@ function dessinerRisque(b) {
             labels,
             datasets: [
                 { label: "5 %", data: bande("p5"), ...sansLigne },
-                { label: "Bande 5–95 %", data: bande("p95"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.12)" },
+                { label: "90 % des cas", data: bande("p95"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.12)" },
                 { label: "25 %", data: bande("p25"), ...sansLigne },
-                { label: "Bande 25–75 %", data: bande("p75"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.25)" },
+                { label: "50 % des cas", data: bande("p75"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.25)" },
                 { label: "Médiane simulée", data: bande("p50"), borderColor: vert, borderDash: [6, 4], borderWidth: 2, pointRadius: 0 },
                 { label: "Historique", data: historique, borderColor: "#0F2A22", borderWidth: 2, pointRadius: 0 },
             ],
@@ -62,5 +62,5 @@ function dessinerRisque(b) {
     document.getElementById("risk-mu").textContent = p.mu_prix.toFixed(1);
     document.getElementById("risk-demi").textContent = Math.round(Math.LN2 / p.kappa);
     document.getElementById("risk-vol").textContent = (p.sigma_quotidien * Math.sqrt(252) * 100).toFixed(0);
-    document.getElementById("risk-sous-titre").textContent = `horizon ${b.horizon_jours} jours ouvrés`;
+    document.getElementById("risk-sous-titre").textContent = `horizon de ${b.horizon_jours} jours ouvrés`;
 }

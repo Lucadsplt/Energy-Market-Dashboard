@@ -9,8 +9,8 @@ const COULEURS = {
 };
 
 Chart.defaults.maintainAspectRatio = false;
-Chart.defaults.font.family = '"JetBrains Mono", ui-monospace, Consolas, monospace';
-Chart.defaults.font.size = 11;
+Chart.defaults.font.family = '"DM Sans", system-ui, sans-serif';
+Chart.defaults.font.size = 12;
 Chart.defaults.color = "#6b7683";
 
 // Graphes déjà créés, pour pouvoir filtrer la période sans les reconstruire
@@ -146,7 +146,7 @@ function afficherKpi(id, valeurs, { variation = true } = {}) {
 
 function afficherMaj(id, dates) {
     const el = document.getElementById(id);
-    if (el) el.textContent = "dernière donnée : " + dates[dates.length - 1].slice(0, 10);
+    if (el) el.textContent = "dernière donnée du " + dates[dates.length - 1].slice(0, 10);
 }
 
 function charger(nom) {
@@ -170,7 +170,7 @@ window.addEventListener("load", () => {
         creerGraphe("synth-petrole", d, prix);
         creerGraphe("graphique-petrole", d, prix);
         creerGraphe("graphique-spread", d, [
-            { cle: "spread", label: "Brent − WTI", couleur: ambre, unite: "$/baril", remplir: true },
+            { cle: "spread", label: "Écart Brent − WTI", couleur: ambre, unite: "$/baril", remplir: true },
         ]);
     }).catch(e => console.error("Pétrole :", e));
 
@@ -204,7 +204,7 @@ window.addEventListener("load", () => {
             { cle: "de_lu", label: "Allemagne-Luxembourg", couleur: bleu },
         ], { dailyOnly: false, escalier: true });
         creerGraphe("graphique-elec-spread", d, [
-            { cle: "spread_fr_de", label: "FR − DE", couleur: ambre, unite: "€/MWh", remplir: true },
+            { cle: "spread_fr_de", label: "Écart France − Allemagne", couleur: ambre, unite: "€/MWh", remplir: true },
         ], { dailyOnly: false, escalier: true });
     }).catch(e => console.error("Électricité :", e));
 

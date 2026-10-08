@@ -8,33 +8,35 @@
     <link rel="icon" type="image/png" href="assets/luceo-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
     <header class="topbar">
         <div class="topbar-inner">
-            <img src="assets/luceo-logo.png" alt="Luceo" class="logo-img">
+            <img src="assets/luceo-logo-light.png" alt="Luceo" class="logo-img">
             <nav class="topnav" id="topnav">
-                <a href="#" class="nav-link active" data-cible="general">Synthèse</a>
+                <a href="#" class="nav-link active" data-cible="general">Vue d'ensemble</a>
                 <a href="#" class="nav-link" data-cible="petrole">Pétrole</a>
                 <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
                 <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
                 <a href="#" class="nav-link" data-cible="risque">Risque</a>
                 <a href="#" class="nav-link" data-cible="news">News</a>
-                <a href="#" class="nav-link" data-cible="copilot">Copilot</a>
+                <a href="#" class="nav-link" data-cible="copilot">Assistant</a>
             </nav>
             <span class="auteur">Luca Desplat</span>
         </div>
     </header>
 
-    <div class="subbar">
-        <p class="subbar-titre"><strong>DASHBOARD SYNTHÉTIQUE</strong>
-            <span>Luceo, analyse des marchés du pétrole, du gaz et de l'électricité, par Luca Desplat.</span></p>
+    <div class="intro">
+        <div>
+            <p class="intro-sur">Pétrole · Gaz · Électricité</p>
+            <h1>Tableau de bord des marchés de l'énergie</h1>
+        </div>
         <div class="segment" id="plage" role="group" aria-label="Période affichée">
-            <button class="segment-btn" data-jours="30">30 JOURS</button>
-            <button class="segment-btn actif" data-jours="0">TOUT</button>
+            <button class="segment-btn" data-jours="30">30 jours</button>
+            <button class="segment-btn actif" data-jours="0">Tout</button>
         </div>
     </div>
 
@@ -42,23 +44,6 @@
 
         <!-- ========== SYNTHÈSE ========== -->
         <section id="general" class="onglet active">
-            <div class="panneau accent">
-                <div class="ligne-tags"><b>Marchés</b>
-                    <a href="#" class="tag" data-aller="petrole">Brent</a>
-                    <a href="#" class="tag" data-aller="petrole">WTI</a>
-                    <a href="#" class="tag" data-aller="petrole">Spread Brent-WTI</a>
-                    <a href="#" class="tag" data-aller="gaz">TTF</a>
-                    <a href="#" class="tag" data-aller="gaz">Henry Hub</a>
-                    <a href="#" class="tag" data-aller="electricite">Spot FR</a>
-                    <a href="#" class="tag" data-aller="electricite">Spot DE-LU</a>
-                </div>
-                <div class="ligne-tags"><b>Analyses</b>
-                    <a href="#" class="tag" data-aller="gaz">Volatilité</a>
-                    <a href="#" class="tag" data-aller="electricite">Couplage FR-DE</a>
-                    <a href="#" class="tag" data-aller="news">Actualités</a>
-                </div>
-            </div>
-
             <div class="kpi-grid">
                 <article class="carte kpi"><span class="kpi-label">Brent <i>$/baril</i></span>
                     <span class="kpi-value" id="kpi-brent">—</span><span class="kpi-change" id="kpi-brent-var"></span>
@@ -66,13 +51,13 @@
                 <article class="carte kpi"><span class="kpi-label">Gaz TTF <i>€/MWh</i></span>
                     <span class="kpi-value" id="kpi-ttf">—</span><span class="kpi-change" id="kpi-ttf-var"></span>
                     <div class="spark"><canvas id="spark-ttf"></canvas></div></article>
-                <article class="carte kpi"><span class="kpi-label">Électricité FR <i>€/MWh</i></span>
+                <article class="carte kpi"><span class="kpi-label">Électricité France <i>€/MWh</i></span>
                     <span class="kpi-value" id="kpi-elec-fr">—</span><span class="kpi-change" id="kpi-elec-fr-var"></span>
                     <div class="spark"><canvas id="spark-elec"></canvas></div></article>
-                <article class="carte kpi"><span class="kpi-label">Spread Brent-WTI <i>$/baril</i></span>
+                <article class="carte kpi"><span class="kpi-label">Écart Brent − WTI <i>$/baril</i></span>
                     <span class="kpi-value" id="kpi-spread-oil">—</span>
                     <div class="spark"><canvas id="spark-spread-oil"></canvas></div></article>
-                <article class="carte kpi"><span class="kpi-label">Spread FR − DE <i>€/MWh</i></span>
+                <article class="carte kpi"><span class="kpi-label">Écart France − Allemagne <i>€/MWh</i></span>
                     <span class="kpi-value" id="kpi-spread-elec">—</span>
                     <div class="spark"><canvas id="spark-spread-elec"></canvas></div></article>
                 <article class="carte kpi"><span class="kpi-label">Volatilité TTF <i>% annualisée</i></span>
@@ -93,7 +78,7 @@
             <div class="grille-2">
                 <article class="carte"><h2>Prix <small>Brent / WTI, $/baril</small></h2>
                     <div class="chart-box"><canvas id="graphique-petrole"></canvas></div></article>
-                <article class="carte"><h2>Spread <small>Brent − WTI, $/baril</small></h2>
+                <article class="carte"><h2>Écart de prix <small>Brent − WTI, $/baril</small></h2>
                     <div class="chart-box"><canvas id="graphique-spread"></canvas></div></article>
             </div>
             <p class="note">Source : FRED (séries DCOILBRENTEU et DCOILWTICO). Publication avec environ une semaine de décalage.</p>
@@ -113,9 +98,9 @@
         <!-- ========== ÉLECTRICITÉ ========== -->
         <section id="electricite" class="onglet">
             <div class="grille-2">
-                <article class="carte"><h2>Marché spot <small>day-ahead, €/MWh</small></h2>
+                <article class="carte"><h2>Prix de marché <small>veille pour le lendemain, €/MWh</small></h2>
                     <div class="chart-box"><canvas id="graphique-electricite"></canvas></div></article>
-                <article class="carte"><h2>Couplage <small>spread FR − DE-LU, €/MWh</small></h2>
+                <article class="carte"><h2>Couplage <small>écart France − Allemagne, €/MWh</small></h2>
                     <div class="chart-box"><canvas id="graphique-elec-spread"></canvas></div></article>
             </div>
             <p class="note">Source : ENTSO-E Transparency Platform, résolution 15 minutes.</p>
@@ -124,24 +109,24 @@
         <!-- ========== RISQUE ========== -->
         <section id="risque" class="onglet">
             <div class="kpi-grid">
-                <article class="carte kpi"><span class="kpi-label">Dernier prix Brent <i>$/baril</i></span>
+                <article class="carte kpi"><span class="kpi-label">Dernier prix du Brent <i>$/baril</i></span>
                     <span class="kpi-value" id="risk-prix">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">VaR 95 % <i>perte max à 30 j</i></span>
+                <article class="carte kpi"><span class="kpi-label">Perte maximale probable <i>VaR 95 %, à 30 jours</i></span>
                     <span class="kpi-value" id="risk-var">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Expected Shortfall 95 % <i>perte moyenne pire cas</i></span>
+                <article class="carte kpi"><span class="kpi-label">Perte moyenne dans les pires cas <i>ES 95 %, à 30 jours</i></span>
                     <span class="kpi-value" id="risk-es">—</span></article>
             </div>
-            <article class="carte"><h2>Fan chart Brent <small id="risk-sous-titre"></small></h2>
+            <article class="carte"><h2>Cône de projection du Brent <small id="risk-sous-titre"></small></h2>
                 <div class="chart-box grand"><canvas id="graphique-risque"></canvas></div></article>
             <div class="kpi-grid" style="margin-top:20px">
-                <article class="carte kpi"><span class="kpi-label">Prix d'équilibre μ <i>$/baril</i></span>
+                <article class="carte kpi"><span class="kpi-label">Prix d'équilibre estimé <i>$/baril</i></span>
                     <span class="kpi-value" id="risk-mu">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Demi-vie du retour <i>jours ouvrés</i></span>
+                <article class="carte kpi"><span class="kpi-label">Retour à l'équilibre <i>demi-vie, en jours ouvrés</i></span>
                     <span class="kpi-value" id="risk-demi">—</span></article>
                 <article class="carte kpi"><span class="kpi-label">Volatilité <i>% annualisée</i></span>
                     <span class="kpi-value" id="risk-vol">—</span></article>
             </div>
-            <p class="note">Modèle d'Ornstein-Uhlenbeck sur le log du prix, calibré sur 5 ans (FRED), 10 000 trajectoires simulées. Bandes : 5–95 % (claire) et 25–75 % (foncée).</p>
+            <p class="note">Modèle à retour à la moyenne (Ornstein-Uhlenbeck) sur le logarithme du prix, calibré sur 5 ans de données FRED, avec 10 000 trajectoires simulées. Bandes : 90 % des cas (claire) et 50 % des cas (foncée).</p>
         </section>
 
         <!-- ========== NEWS ========== -->
@@ -165,8 +150,8 @@
         <!-- ========== COPILOT ========== -->
         <section id="copilot" class="onglet">
             <article class="carte vide">
-                <h2>Copilot</h2>
-                <p>Un assistant qui explique les graphes arrive bientôt.</p>
+                <h2>Assistant</h2>
+                <p>Un assistant qui commente les graphiques arrive bientôt.</p>
             </article>
         </section>
     </main>
