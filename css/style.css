@@ -240,3 +240,14 @@ body {
     .contenu, .intro { padding-left: 14px; padding-right: 14px; }
     .ligne-tags b { width: 100%; }
 }
+
+.titre-section {
+    font-family: var(--titre);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--vert-fonce);
+    margin: 36px 0 16px;
+}
+.stats { display: grid; grid-template-columns: 1fr auto; gap: 10px 16px; }
+.stats dt { color: var(--texte-doux); font-size: 14px; }
+.stats dd { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }

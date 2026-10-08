@@ -82,6 +82,14 @@
                     <div class="chart-box"><canvas id="graphique-spread"></canvas></div></article>
             </div>
             <p class="note">Source : FRED (séries DCOILBRENTEU et DCOILWTICO). Publication avec environ une semaine de décalage.</p>
+            <h3 class="titre-section">Analyses</h3>
+            <div class="grille-2">
+                <article class="carte"><h2>Distribution des rendements <small>Brent, variation quotidienne en %</small></h2>
+                    <div class="chart-box"><canvas id="graphique-distribution"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre la distribution</h2>
+                    <dl class="stats" id="stats-distribution"></dl>
+                    <p class="note" id="lecture-distribution"></p></article>
+            </div>
         </section>
 
         <!-- ========== GAZ ========== -->
@@ -161,6 +169,7 @@
     <script src="js/nav.js?v=10"></script>
     <script src="js/charts.js?v=10"></script>
     <script src="js/risk.js?v=10"></script>
+    <script src="js/oil_analysis.js?v=1"></script>
     <script src="js/news.js?v=10"></script>
 </body>
 </html>
