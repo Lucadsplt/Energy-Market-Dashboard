@@ -4,7 +4,10 @@ const MOIS = ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Août", "Sep"
 window.addEventListener("load", () => {
     fetch("data/gas_analysis.json")
         .then(r => r.json())
-        .then(d => dessinerSaisonnalite(d.ttf.saisonnalite))
+        .then(d => {
+            dessinerSaisonnalite(d.ttf.saisonnalite);
+            dessinerEcart(d.ecart);
+        })
         .catch(e => console.error("Analyse gaz :", e));
 });
 
@@ -45,4 +48,47 @@ function dessinerSaisonnalite(s) {
         <dt>Années analysées</dt><dd>${Object.keys(s.annees).length}</dd>`;
     document.getElementById("lecture-saison-gaz").textContent =
         "Chaque ligne grise est une année complète ; la ligne verte est la médiane. Un indice de 110 signifie que le mois est 10 % plus cher que la moyenne de son année. La forme varie d'une année à l'autre (2021 et 2022 sont atypiques) : la saisonnalité est une tendance, pas une règle.";
+}
+
+function dessinerEcart(e) {
+    const axeX = {
+        grid: { display: false },
+        ticks: { maxTicksLimit: 8, maxRotation: 0, callback: (v, i) => e.dates[i].slice(0, 4) },
+    };
+    const ligne = (label, data, couleur, extra = {}) => ({
+        label, data, borderColor: couleur, borderWidth: 1.8, pointRadius: 0, tension: 0.2, ...extra,
+    });
+    const options = {
+        interaction: { mode: "index", intersect: false },
+        plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 10 } } },
+        scales: { x: axeX, y: { grid: { color: "#eee9dd" } } },
+    };
+
+    new Chart(document.getElementById("graphique-ecart-prix"), {
+        type: "line",
+        data: { labels: e.dates, datasets: [
+            ligne("TTF (Europe)", e.ttf, "#12B981"),
+            ligne("Henry Hub (États-Unis)", e.hh_eur, "#3b6fb6"),
+        ] },
+        options,
+    });
+
+    new Chart(document.getElementById("graphique-ecart"), {
+        type: "line",
+        data: { labels: e.dates, datasets: [
+            ligne("Écart TTF − Henry Hub", e.ecart, "#e8a317",
+                  { fill: true, backgroundColor: "rgba(232,163,23,0.15)" }),
+        ] },
+        options: { ...options, plugins: { legend: { display: false } } },
+    });
+
+    const s = e.stats;
+    document.getElementById("stats-ecart").innerHTML = `
+        <dt>Écart actuel</dt><dd>${s.actuel} €/MWh</dd>
+        <dt>Médiane depuis 2017</dt><dd>${s.mediane} €/MWh</dd>
+        <dt>Maximum</dt><dd>${s.maximum} €/MWh (${s.date_max})</dd>
+        <dt>Minimum</dt><dd>${s.minimum} €/MWh (${s.date_min})</dd>
+        <dt>Plus élevé que</dt><dd>${s.centile_actuel} % des jours</dd>`;
+    document.getElementById("lecture-ecart").textContent =
+        "Le Henry Hub (cotation en $/MMBtu) est converti en €/MWh avec le taux EUR/USD du jour. L'écart reflète en grande partie le coût de liquéfaction, de transport par méthanier et de regazéification du GNL : quand il s'envole, le gaz européen est en tension.";
 }
