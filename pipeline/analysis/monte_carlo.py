@@ -22,19 +22,23 @@ def calibrer(prix):
     return {"kappa": -b, "mu": -a / b, "sigma": residus.std()}
 
 
-def simuler(params, x0, jours, n=10000, seed=42):
+def simuler(params, x0, jours, n=10000, seed=42, df=None):
     """Simule `n` trajectoires de prix sur `jours` jours. Renvoie un tableau (jours, n).
 
-    On avance jour par jour, mais les n trajectoires en meme temps (vectorise).
-    seed fixe : meme resultat a chaque execution, donc reproductible.
+    df=None : chocs gaussiens. df=nombre : chocs de Student (queues epaisses),
+    remis a variance 1 pour que la volatilite reste celle calibree.
     """
     rng = np.random.default_rng(seed)
     x = np.full(n, x0)
     chemins = np.empty((jours, n))
     for t in range(jours):
-        x = x + params["kappa"] * (params["mu"] - x) + params["sigma"] * rng.standard_normal(n)
+        if df is None:
+            choc = rng.standard_normal(n)
+        else:
+            choc = rng.standard_t(df, n) * np.sqrt((df - 2) / df)
+        x = x + params["kappa"] * (params["mu"] - x) + params["sigma"] * choc
         chemins[t] = x
-    return np.exp(chemins)    # retour du log vers les prix
+    return np.exp(chemins)
 
 
 def resumer(chemins, prix0):

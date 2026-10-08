@@ -2,7 +2,10 @@
 window.addEventListener("load", () => {
     fetch("data/oil_analysis.json")
         .then(r => r.json())
-        .then(d => dessinerDistribution(d.brent.distribution))
+        .then(d => {
+            dessinerDistribution(d.brent.distribution);
+            dessinerMonteCarlo(d.brent.monte_carlo);
+        })
         .catch(e => console.error("Analyse pétrole :", e));
 });
 
@@ -41,4 +44,40 @@ function dessinerDistribution(dist) {
     const fois = (s.jours_extremes_pct / 0.27).toFixed(1);
     document.getElementById("lecture-distribution").textContent =
         `Sur ${s.nb_jours} jours, les mouvements extrêmes sont ${fois} fois plus fréquents que ne le prévoirait une loi normale : le risque est sous-estimé par un modèle gaussien.`;
+}
+
+function dessinerMonteCarlo(mc) {
+    const g = mc.gaussien, q = mc.queues_epaisses;
+    new Chart(document.getElementById("graphique-mc-final"), {
+        data: {
+            labels: g.histogramme.centres,
+            datasets: [
+                { type: "bar", label: "Chocs gaussiens", data: g.histogramme.pourcent,
+                  backgroundColor: "rgba(18,185,129,0.5)", barPercentage: 1, categoryPercentage: 1 },
+                { type: "line", label: "Chocs à queues épaisses", data: q.histogramme.pourcent,
+                  borderColor: "#0F2A22", borderWidth: 2, pointRadius: 0, tension: 0.3 },
+            ],
+        },
+        options: {
+            plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 10 } } },
+            scales: {
+                x: { grid: { display: false }, ticks: { maxTicksLimit: 8, callback: (v, i) => g.histogramme.centres[i] + " $" } },
+                y: { display: false },
+            },
+        },
+    });
+
+    document.getElementById("mc-sous-titre").textContent = `prix actuel ${mc.dernier_prix} $, horizon ${mc.horizon_jours} jours`;
+    document.getElementById("stats-mc").innerHTML = `
+        <dt>Médiane simulée</dt><dd>${g.mediane} $</dd>
+        <dt>Perte maximale probable (VaR 95 %)</dt><dd>${g.var95} % · ${q.var95} %</dd>
+        <dt>Perte moyenne pires cas (ES 95 %)</dt><dd>${g.es95} % · ${q.es95} %</dd>`;
+    document.getElementById("table-proba").innerHTML =
+        "<tr><th>Niveau atteint d'ici 30 jours</th><th>Gaussien</th><th>Queues épaisses</th></tr>" +
+        g.probas.map((p, i) => {
+            const nom = (p.variation > 0 ? "+" : "") + p.variation + " % (" + p.seuil + " $)";
+            return `<tr><td>${nom}</td><td>${p.proba} %</td><td>${q.probas[i].proba} %</td></tr>`;
+        }).join("");
+    document.getElementById("lecture-mc").textContent =
+        "Les valeurs de VaR et d'ES sont données au format gaussien · queues épaisses. La probabilité compte les scénarios qui touchent le niveau à un moment quelconque des 30 jours.";
 }

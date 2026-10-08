@@ -251,3 +251,8 @@ body {
 .stats { display: grid; grid-template-columns: 1fr auto; gap: 10px 16px; }
 .stats dt { color: var(--texte-doux); font-size: 14px; }
 .stats dd { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+
+.table-proba { width: 100%; border-collapse: collapse; margin-top: 18px; font-size: 14px; }
+.table-proba th { text-align: left; font-weight: 600; color: var(--texte-doux); font-size: 12px; padding: 6px 0; border-bottom: 1px solid var(--bordure); }
+.table-proba td { padding: 8px 0; border-bottom: 1px solid var(--bordure); font-variant-numeric: tabular-nums; }
+.table-proba td:not(:first-child), .table-proba th:not(:first-child) { text-align: right; }
