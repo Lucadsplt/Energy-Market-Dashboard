@@ -149,6 +149,8 @@ body {
 
 .chart-box { position: relative; height: 320px; }
 
+.chart-box.grand { height: 420px; }
+
 .vide p { color: var(--texte-doux); }
 .note { margin-top: 14px; font-size: 12px; color: var(--texte-doux); text-align: center; }
 

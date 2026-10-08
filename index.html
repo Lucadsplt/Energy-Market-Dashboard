@@ -21,6 +21,7 @@
                 <a href="#" class="nav-link" data-cible="petrole">Pétrole</a>
                 <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
                 <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
+                <a href="#" class="nav-link" data-cible="risque">Risque</a>
                 <a href="#" class="nav-link" data-cible="news">News</a>
                 <a href="#" class="nav-link" data-cible="copilot">Copilot</a>
             </nav>
@@ -120,6 +121,29 @@
             <p class="note">Source : ENTSO-E Transparency Platform, résolution 15 minutes.</p>
         </section>
 
+        <!-- ========== RISQUE ========== -->
+        <section id="risque" class="onglet">
+            <div class="kpi-grid">
+                <article class="carte kpi"><span class="kpi-label">Dernier prix Brent <i>$/baril</i></span>
+                    <span class="kpi-value" id="risk-prix">—</span></article>
+                <article class="carte kpi"><span class="kpi-label">VaR 95 % <i>perte max à 30 j</i></span>
+                    <span class="kpi-value" id="risk-var">—</span></article>
+                <article class="carte kpi"><span class="kpi-label">Expected Shortfall 95 % <i>perte moyenne pire cas</i></span>
+                    <span class="kpi-value" id="risk-es">—</span></article>
+            </div>
+            <article class="carte"><h2>Fan chart Brent <small id="risk-sous-titre"></small></h2>
+                <div class="chart-box grand"><canvas id="graphique-risque"></canvas></div></article>
+            <div class="kpi-grid" style="margin-top:20px">
+                <article class="carte kpi"><span class="kpi-label">Prix d'équilibre μ <i>$/baril</i></span>
+                    <span class="kpi-value" id="risk-mu">—</span></article>
+                <article class="carte kpi"><span class="kpi-label">Demi-vie du retour <i>jours ouvrés</i></span>
+                    <span class="kpi-value" id="risk-demi">—</span></article>
+                <article class="carte kpi"><span class="kpi-label">Volatilité <i>% annualisée</i></span>
+                    <span class="kpi-value" id="risk-vol">—</span></article>
+            </div>
+            <p class="note">Modèle d'Ornstein-Uhlenbeck sur le log du prix, calibré sur 5 ans (FRED), 10 000 trajectoires simulées. Bandes : 5–95 % (claire) et 25–75 % (foncée).</p>
+        </section>
+
         <!-- ========== NEWS ========== -->
         <section id="news" class="onglet">
             <div class="panneau">
@@ -151,6 +175,7 @@
 
     <script src="js/nav.js?v=10"></script>
     <script src="js/charts.js?v=10"></script>
+    <script src="js/risk.js?v=10"></script>
     <script src="js/news.js?v=10"></script>
 </body>
 </html>
