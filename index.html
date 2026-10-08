@@ -114,6 +114,14 @@
                     <div class="chart-box"><canvas id="graphique-gaz-vol"></canvas></div></article>
             </div>
             <p class="note">Source : Yahoo Finance (TTF=F, NG=F).</p>
+            <h3 class="titre-section">Analyses</h3>
+            <div class="grille-2">
+                <article class="carte"><h2>Saisonnalité du TTF <small>indice, 100 = moyenne de l'année</small></h2>
+                    <div class="chart-box"><canvas id="graphique-saison-gaz"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre la saisonnalité</h2>
+                    <dl class="stats" id="stats-saison-gaz"></dl>
+                    <p class="note" id="lecture-saison-gaz"></p></article>
+            </div>
         </section>
 
         <!-- ========== ÉLECTRICITÉ ========== -->
@@ -183,6 +191,7 @@
     <script src="js/charts.js?v=10"></script>
     <script src="js/risk.js?v=10"></script>
     <script src="js/oil_analysis.js?v=1"></script>
+    <script src="js/gas_analysis.js?v=1"></script>
     <script src="js/news.js?v=10"></script>
 </body>
 </html>

@@ -33,6 +33,7 @@ jobs:
           python pipeline/sources/electricity_source.py
           python pipeline/analysis/risk_report.py
           python pipeline/analysis/oil_analysis.py
+          python pipeline/analysis/gas_analysis.py
           python pipeline/sources/news_source.py
 
       - name: Committer les donnees mises a jour
