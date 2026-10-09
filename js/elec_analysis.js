@@ -4,7 +4,10 @@ const VERT = [18, 185, 129], CREME = [246, 244, 238], ROUGE = [214, 69, 61];
 window.addEventListener("load", () => {
     fetch("data/electricity_analysis.json")
         .then(r => r.json())
-        .then(d => dessinerProfil(d.fr.profil))
+        .then(d => {
+            dessinerProfil(d.fr.profil);
+            dessinerNegatifs(d.fr.negatifs);
+        })
         .catch(e => console.error("Analyse électricité :", e));
 });
 
@@ -70,4 +73,38 @@ function dessinerProfil(p) {
         <dt>Jours analysés</dt><dd>${s.nb_jours}</dd>`;
     document.getElementById("lecture-profil").textContent =
         "Le creux de la mi-journée vient de la production solaire, surtout le week-end quand la demande est faible ; le pic du soir apparaît quand le soleil se couche alors que la consommation reste élevée. Un prix négatif signifie que les producteurs paient pour injecter du courant sur un réseau saturé.";
+}
+
+const NOMS_MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
+
+// Diagramme en barres simple, axe vertical en pourcentage
+function barres(id, labels, valeurs) {
+    new Chart(document.getElementById(id), {
+        type: "bar",
+        data: { labels, datasets: [{ data: valeurs, backgroundColor: "rgba(18,185,129,0.65)", borderRadius: 3 }] },
+        options: {
+            plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.y} %` } } },
+            scales: {
+                x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true } },
+                y: { grid: { color: "#eee9dd" }, ticks: { callback: v => v + " %" } },
+            },
+        },
+    });
+}
+
+function dessinerNegatifs(n) {
+    const libelle = ym => NOMS_MOIS[+ym.slice(5) - 1] + " " + ym.slice(2, 4);
+    barres("graphique-neg-mois", n.mois.labels.map(libelle), n.mois.pct);
+    barres("graphique-neg-heure", Array.from({ length: 24 }, (_, h) => h + "h"), n.heures);
+    barres("graphique-neg-jour", n.jours.labels, n.jours.pct);
+
+    const s = n.stats;
+    document.getElementById("stats-neg").innerHTML = `
+        <dt>Part de quarts d'heure négatifs</dt><dd>${s.pct_total} %</dd>
+        <dt>Durée cumulée</dt><dd>${s.heures_negatives} heures</dd>
+        <dt>Part tombant un week-end</dt><dd>${s.pct_weekend} % (les week-ends = 29 % des jours)</dd>
+        <dt>Prix moyen quand négatif</dt><dd>${s.prix_moyen_si_negatif} €/MWh</dd>
+        <dt>Prix minimum</dt><dd>${s.prix_min} €/MWh</dd>`;
+    document.getElementById("lecture-neg").textContent =
+        "Les prix négatifs apparaissent quand la production (surtout solaire) dépasse la demande et ce que les interconnexions peuvent exporter : ils se concentrent à la mi-journée, au printemps et en été, et sont plus fréquents le week-end quand la consommation est basse. Le premier et le dernier mois du graphique sont incomplets.";
 }
