@@ -13,7 +13,7 @@ HORIZON = 30    # jours ouvres simules
 
 
 def rapport_brent():
-    prix = fetch_brent_history(years=5)
+    prix = fetch_brent_history(years=10)
     params = calibrer(prix)
     dernier = float(prix.iloc[-1])
 

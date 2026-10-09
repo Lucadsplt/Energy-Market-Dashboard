@@ -1,4 +1,4 @@
-// Onglet Risque : cone de projection Monte Carlo du Brent (données calculées par le pipeline Python)
+// Page Petrole : cone de projection Monte Carlo du Brent (données calculées par le pipeline Python)
 window.addEventListener("load", () => {
     fetch("data/risk.json")
         .then(r => r.json())
@@ -54,13 +54,12 @@ function dessinerRisque(b) {
         },
     });
 
-    // Cartes
+    // Paramètres du modèle
     const p = b.parametres;
-    document.getElementById("risk-prix").textContent = b.dernier_prix.toFixed(1);
-    document.getElementById("risk-var").textContent = b.risque.var95.toFixed(1) + " %";
-    document.getElementById("risk-es").textContent = b.risque.es95.toFixed(1) + " %";
-    document.getElementById("risk-mu").textContent = p.mu_prix.toFixed(1);
-    document.getElementById("risk-demi").textContent = Math.round(Math.LN2 / p.kappa);
-    document.getElementById("risk-vol").textContent = (p.sigma_quotidien * Math.sqrt(252) * 100).toFixed(0);
+    document.getElementById("stats-risque").innerHTML = `
+        <dt>Dernier prix</dt><dd>${b.dernier_prix.toFixed(1)} $/baril</dd>
+        <dt>Prix d'équilibre estimé</dt><dd>${p.mu_prix.toFixed(1)} $/baril</dd>
+        <dt>Retour à l'équilibre (demi-vie)</dt><dd>${Math.round(Math.LN2 / p.kappa)} jours ouvrés</dd>
+        <dt>Volatilité annualisée</dt><dd>${(p.sigma_quotidien * Math.sqrt(252) * 100).toFixed(0)} %</dd>`;
     document.getElementById("risk-sous-titre").textContent = `horizon de ${b.horizon_jours} jours ouvrés`;
 }

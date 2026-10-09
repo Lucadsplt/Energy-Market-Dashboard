@@ -1,3 +1,15 @@
+// Titre affiché en haut de chaque page
+const TITRES = {
+    general:     ["Pétrole · Gaz · Électricité", "Tableau de bord des marchés de l'énergie"],
+    petrole:     ["Brent et WTI", "Pétrole"],
+    gaz:         ["TTF et Henry Hub", "Gaz"],
+    electricite: ["France et Allemagne", "Électricité"],
+    news:        ["Pétrole · Gaz · Électricité", "Actualités"],
+    copilot:     ["Bientôt", "Assistant"],
+};
+// Le sélecteur de période ne concerne que les pages avec des prix journaliers
+const AVEC_PERIODE = ["general", "petrole", "gaz"];
+
 // Navigation par onglets (barre du haut + tags de la synthèse)
 function afficherOnglet(cible) {
     document.querySelectorAll(".nav-link").forEach(l =>
@@ -12,6 +24,9 @@ function afficherOnglet(cible) {
             if (graphe) { graphe.resize(); graphe.update(); }
         });
     }));
+    document.getElementById("intro-sur").textContent = TITRES[cible][0];
+    document.getElementById("intro-titre").textContent = TITRES[cible][1];
+    document.getElementById("plage").style.display = AVEC_PERIODE.includes(cible) ? "" : "none";
     window.scrollTo({ top: 0 });
 }
 

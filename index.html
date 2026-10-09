@@ -21,7 +21,6 @@
                 <a href="#" class="nav-link" data-cible="petrole">Pétrole</a>
                 <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
                 <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
-                <a href="#" class="nav-link" data-cible="risque">Risque</a>
                 <a href="#" class="nav-link" data-cible="news">News</a>
                 <a href="#" class="nav-link" data-cible="copilot">Assistant</a>
             </nav>
@@ -31,8 +30,8 @@
 
     <div class="intro">
         <div>
-            <p class="intro-sur">Pétrole · Gaz · Électricité</p>
-            <h1>Tableau de bord des marchés de l'énergie</h1>
+            <p class="intro-sur" id="intro-sur">Pétrole · Gaz · Électricité</p>
+            <h1 id="intro-titre">Tableau de bord des marchés de l'énergie</h1>
         </div>
         <div class="segment" id="plage" role="group" aria-label="Période affichée">
             <button class="segment-btn" data-jours="30">30 jours</button>
@@ -90,19 +89,26 @@
                     <dl class="stats" id="stats-distribution"></dl>
                     <p class="note" id="lecture-distribution"></p></article>
             </div>
-                        <div class="grille-2" style="margin-top:20px">
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Cône de projection du Brent <small id="risk-sous-titre"></small></h2>
+                    <div class="chart-box"><canvas id="graphique-risque"></canvas></div></article>
+                <article class="carte"><h2>Paramètres du modèle</h2>
+                    <dl class="stats" id="stats-risque"></dl>
+                    <p class="note">Modèle à retour à la moyenne (Ornstein-Uhlenbeck) sur le logarithme du prix, calibré sur 10 ans de données FRED, avec 10 000 trajectoires simulées. Bandes : 90 % des cas (claire) et 50 % des cas (foncée).</p></article>
+            </div>
+            <div class="grille-2" style="margin-top:20px">
                 <article class="carte"><h2>Prix du Brent dans 30 jours <small>10 000 scénarios simulés</small></h2>
                     <div class="chart-box"><canvas id="graphique-mc-final"></canvas></div></article>
                 <article class="carte"><h2>Risque et probabilités <small id="mc-sous-titre"></small></h2>
                     <dl class="stats" id="stats-mc"></dl>
                     <table class="table-proba" id="table-proba"></table>
                     <p class="note" id="lecture-mc"></p></article>
-                            <article class="carte" style="margin-top:20px">
+            </div>
+            <article class="carte" style="margin-top:20px">
                 <h2>Backtest de la VaR 95 % <small>2008-2026, horizon 30 jours</small></h2>
                 <table class="table-proba" id="table-backtest"></table>
                 <p class="note" id="lecture-backtest"></p>
-            </article>    
-            </div>
+            </article>
         </section>
 
         <!-- ========== GAZ ========== -->
@@ -148,48 +154,19 @@
                 <div class="legende-heatmap"><span id="legende-min"></span><div class="degrade"></div><span id="legende-max"></span></div>
             </article>
             <div class="grille-2" style="margin-top:20px">
-                <article class="carte"><h2>Semaine et week-end <small>prix moyen par heure, €/MWh</small></h2>
-                    <div class="chart-box"><canvas id="graphique-profil"></canvas></div></article>
-                <article class="carte"><h2>Ce que montre le profil</h2>
-                    <dl class="stats" id="stats-profil"></dl>
-                    <p class="note" id="lecture-profil"></p></article>
-            </div>
-                        <div class="grille-2" style="margin-top:20px">
                 <article class="carte"><h2>Prix négatifs par mois <small>% des quarts d'heure</small></h2>
                     <div class="chart-box"><canvas id="graphique-neg-mois"></canvas></div></article>
                 <article class="carte"><h2>Prix négatifs par heure <small>% des quarts d'heure</small></h2>
                     <div class="chart-box"><canvas id="graphique-neg-heure"></canvas></div></article>
             </div>
             <div class="grille-2" style="margin-top:20px">
-                <article class="carte"><h2>Par jour de la semaine <small>% des quarts d'heure</small></h2>
-                    <div class="chart-box"><canvas id="graphique-neg-jour"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre le profil de prix</h2>
+                    <dl class="stats" id="stats-profil"></dl>
+                    <p class="note" id="lecture-profil"></p></article>
                 <article class="carte"><h2>Ce que montrent les prix négatifs</h2>
                     <dl class="stats" id="stats-neg"></dl>
                     <p class="note" id="lecture-neg"></p></article>
             </div>
-        </section>
-
-        <!-- ========== RISQUE ========== -->
-        <section id="risque" class="onglet">
-            <div class="kpi-grid">
-                <article class="carte kpi"><span class="kpi-label">Dernier prix du Brent <i>$/baril</i></span>
-                    <span class="kpi-value" id="risk-prix">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Perte maximale probable <i>VaR 95 %, à 30 jours</i></span>
-                    <span class="kpi-value" id="risk-var">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Perte moyenne dans les pires cas <i>ES 95 %, à 30 jours</i></span>
-                    <span class="kpi-value" id="risk-es">—</span></article>
-            </div>
-            <article class="carte"><h2>Cône de projection du Brent <small id="risk-sous-titre"></small></h2>
-                <div class="chart-box grand"><canvas id="graphique-risque"></canvas></div></article>
-            <div class="kpi-grid" style="margin-top:20px">
-                <article class="carte kpi"><span class="kpi-label">Prix d'équilibre estimé <i>$/baril</i></span>
-                    <span class="kpi-value" id="risk-mu">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Retour à l'équilibre <i>demi-vie, en jours ouvrés</i></span>
-                    <span class="kpi-value" id="risk-demi">—</span></article>
-                <article class="carte kpi"><span class="kpi-label">Volatilité <i>% annualisée</i></span>
-                    <span class="kpi-value" id="risk-vol">—</span></article>
-            </div>
-            <p class="note">Modèle à retour à la moyenne (Ornstein-Uhlenbeck) sur le logarithme du prix, calibré sur 5 ans de données FRED, avec 10 000 trajectoires simulées. Bandes : 90 % des cas (claire) et 50 % des cas (foncée).</p>
         </section>
 
         <!-- ========== NEWS ========== -->
@@ -221,12 +198,12 @@
 
     <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · mises à jour chaque jour</footer>
 
-    <script src="js/nav.js?v=10"></script>
+    <script src="js/nav.js?v=11"></script>
     <script src="js/charts.js?v=10"></script>
-    <script src="js/risk.js?v=10"></script>
+    <script src="js/risk.js?v=11"></script>
     <script src="js/oil_analysis.js?v=1"></script>
     <script src="js/gas_analysis.js?v=1"></script>
-    <script src="js/elec_analysis.js?v=1"></script>
+    <script src="js/elec_analysis.js?v=2"></script>
     <script src="js/news.js?v=10"></script>
 </body>
 </html>

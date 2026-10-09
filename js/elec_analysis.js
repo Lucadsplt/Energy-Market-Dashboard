@@ -41,28 +41,6 @@ function dessinerProfil(p) {
     document.getElementById("legende-min").textContent = Math.round(min) + " €/MWh";
     document.getElementById("legende-max").textContent = Math.round(max) + " €/MWh";
 
-    // Courbes : moyenne lundi-vendredi et moyenne week-end, heure par heure
-    const moyenne = lignes => Array.from({ length: 24 }, (_, h) =>
-        +(lignes.reduce((s, l) => s + l[h], 0) / lignes.length).toFixed(1));
-    const semaine = moyenne(p.matrice.slice(0, 5));
-    const weekend = moyenne(p.matrice.slice(5));
-
-    new Chart(document.getElementById("graphique-profil"), {
-        type: "line",
-        data: {
-            labels: Array.from({ length: 24 }, (_, h) => h + "h"),
-            datasets: [
-                { label: "Lundi-vendredi", data: semaine, borderColor: "#0F2A22", borderWidth: 2.5, pointRadius: 0, tension: 0.35 },
-                { label: "Week-end", data: weekend, borderColor: "#12B981", borderWidth: 2.5, pointRadius: 0, tension: 0.35 },
-            ],
-        },
-        options: {
-            interaction: { mode: "index", intersect: false },
-            plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 10 } } },
-            scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } }, y: { grid: { color: "#eee9dd" } } },
-        },
-    });
-
     const s = p.stats;
     document.getElementById("stats-profil").innerHTML = `
         <dt>Prix moyen sur l'année</dt><dd>${s.moyenne} €/MWh</dd>
@@ -96,7 +74,6 @@ function dessinerNegatifs(n) {
     const libelle = ym => NOMS_MOIS[+ym.slice(5) - 1] + " " + ym.slice(2, 4);
     barres("graphique-neg-mois", n.mois.labels.map(libelle), n.mois.pct);
     barres("graphique-neg-heure", Array.from({ length: 24 }, (_, h) => h + "h"), n.heures);
-    barres("graphique-neg-jour", n.jours.labels, n.jours.pct);
 
     const s = n.stats;
     document.getElementById("stats-neg").innerHTML = `
