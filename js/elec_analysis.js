@@ -1,0 +1,73 @@
+// Analyses de la page Électricité
+const VERT = [18, 185, 129], CREME = [246, 244, 238], ROUGE = [214, 69, 61];
+
+window.addEventListener("load", () => {
+    fetch("data/electricity_analysis.json")
+        .then(r => r.json())
+        .then(d => dessinerProfil(d.fr.profil))
+        .catch(e => console.error("Analyse électricité :", e));
+});
+
+// Mélange deux couleurs : t = 0 donne a, t = 1 donne b
+function melange(a, b, t) {
+    return a.map((v, i) => Math.round(v + (b[i] - v) * t));
+}
+
+// Vert (pas cher) -> crème (milieu) -> rouge (cher)
+function couleur(t) {
+    const c = t < 0.5 ? melange(VERT, CREME, t * 2) : melange(CREME, ROUGE, (t - 0.5) * 2);
+    return `rgb(${c.join(",")})`;
+}
+
+function dessinerProfil(p) {
+    const tout = p.matrice.flat();
+    const min = Math.min(...tout), max = Math.max(...tout);
+
+    // Carte de chaleur : une ligne d'en-têtes (heures), puis une ligne par jour
+    let html = '<div class="cellule entete"></div>';
+    for (let h = 0; h < 24; h++) html += `<div class="cellule entete">${h}h</div>`;
+    p.matrice.forEach((ligne, j) => {
+        html += `<div class="cellule jour">${p.jours[j]}</div>`;
+        ligne.forEach((v, h) => {
+            const t = (v - min) / (max - min);
+            const texte = t > 0.85 ? "#fff" : "var(--texte)";
+            html += `<div class="cellule" style="background:${couleur(t)};color:${texte}" title="${p.jours[j]} ${h}h : ${v} €/MWh">${Math.round(v)}</div>`;
+        });
+    });
+    document.getElementById("heatmap-elec").innerHTML = html;
+    document.getElementById("legende-min").textContent = Math.round(min) + " €/MWh";
+    document.getElementById("legende-max").textContent = Math.round(max) + " €/MWh";
+
+    // Courbes : moyenne lundi-vendredi et moyenne week-end, heure par heure
+    const moyenne = lignes => Array.from({ length: 24 }, (_, h) =>
+        +(lignes.reduce((s, l) => s + l[h], 0) / lignes.length).toFixed(1));
+    const semaine = moyenne(p.matrice.slice(0, 5));
+    const weekend = moyenne(p.matrice.slice(5));
+
+    new Chart(document.getElementById("graphique-profil"), {
+        type: "line",
+        data: {
+            labels: Array.from({ length: 24 }, (_, h) => h + "h"),
+            datasets: [
+                { label: "Lundi-vendredi", data: semaine, borderColor: "#0F2A22", borderWidth: 2.5, pointRadius: 0, tension: 0.35 },
+                { label: "Week-end", data: weekend, borderColor: "#12B981", borderWidth: 2.5, pointRadius: 0, tension: 0.35 },
+            ],
+        },
+        options: {
+            interaction: { mode: "index", intersect: false },
+            plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 10 } } },
+            scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } }, y: { grid: { color: "#eee9dd" } } },
+        },
+    });
+
+    const s = p.stats;
+    document.getElementById("stats-profil").innerHTML = `
+        <dt>Prix moyen sur l'année</dt><dd>${s.moyenne} €/MWh</dd>
+        <dt>Heure la plus chère (en moyenne)</dt><dd>${s.heure_la_plus_chere} h</dd>
+        <dt>Heure la moins chère (en moyenne)</dt><dd>${s.heure_la_moins_chere} h</dd>
+        <dt>Quarts d'heure à prix négatif</dt><dd>${s.negatifs_pct} %</dd>
+        <dt>Prix minimum / maximum</dt><dd>${s.prix_min} / ${s.prix_max} €/MWh</dd>
+        <dt>Jours analysés</dt><dd>${s.nb_jours}</dd>`;
+    document.getElementById("lecture-profil").textContent =
+        "Le creux de la mi-journée vient de la production solaire, surtout le week-end quand la demande est faible ; le pic du soir apparaît quand le soleil se couche alors que la consommation reste élevée. Un prix négatif signifie que les producteurs paient pour injecter du courant sur un réseau saturé.";
+}

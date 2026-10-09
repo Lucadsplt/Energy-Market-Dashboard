@@ -141,6 +141,19 @@
                     <div class="chart-box"><canvas id="graphique-elec-spread"></canvas></div></article>
             </div>
             <p class="note">Source : ENTSO-E Transparency Platform, résolution 15 minutes.</p>
+            <h3 class="titre-section">Analyses</h3>
+            <article class="carte">
+                <h2>Profil de prix <small>France, moyenne par heure et jour de la semaine, €/MWh</small></h2>
+                <div class="heatmap" id="heatmap-elec"></div>
+                <div class="legende-heatmap"><span id="legende-min"></span><div class="degrade"></div><span id="legende-max"></span></div>
+            </article>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Semaine et week-end <small>prix moyen par heure, €/MWh</small></h2>
+                    <div class="chart-box"><canvas id="graphique-profil"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre le profil</h2>
+                    <dl class="stats" id="stats-profil"></dl>
+                    <p class="note" id="lecture-profil"></p></article>
+            </div>
         </section>
 
         <!-- ========== RISQUE ========== -->
@@ -200,6 +213,7 @@
     <script src="js/risk.js?v=10"></script>
     <script src="js/oil_analysis.js?v=1"></script>
     <script src="js/gas_analysis.js?v=1"></script>
+    <script src="js/elec_analysis.js?v=1"></script>
     <script src="js/news.js?v=10"></script>
 </body>
 </html>

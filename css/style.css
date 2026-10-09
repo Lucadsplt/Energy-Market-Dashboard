@@ -256,3 +256,14 @@ body {
 .table-proba th { text-align: left; font-weight: 600; color: var(--texte-doux); font-size: 12px; padding: 6px 0; border-bottom: 1px solid var(--bordure); }
 .table-proba td { padding: 8px 0; border-bottom: 1px solid var(--bordure); font-variant-numeric: tabular-nums; }
 .table-proba td:not(:first-child), .table-proba th:not(:first-child) { text-align: right; }
+
+.heatmap { display: grid; grid-template-columns: 44px repeat(24, minmax(0, 1fr)); gap: 2px; }
+.heatmap .cellule {
+    height: 36px; display: flex; align-items: center; justify-content: center;
+    border-radius: 3px; font-size: 11px; font-variant-numeric: tabular-nums;
+}
+.heatmap .entete { height: auto; color: var(--texte-doux); font-size: 11px; }
+.heatmap .jour { justify-content: flex-start; color: var(--texte-doux); font-size: 12px; font-weight: 500; }
+.legende-heatmap { display: flex; align-items: center; gap: 10px; margin-top: 16px; font-size: 12px; color: var(--texte-doux); }
+.degrade { width: 260px; max-width: 50%; height: 10px; border-radius: 5px; background: linear-gradient(90deg, #12B981, #f6f4ee, #d6453d); }
+@media (max-width: 900px) { .heatmap .cellule:not(.entete):not(.jour) { font-size: 0; } }
