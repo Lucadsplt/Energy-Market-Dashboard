@@ -15,6 +15,15 @@ def fetch_brent_history(years=5):
     return prix[prix.index >= debut]
 
 
+def fetch_brent_wti_history(years=6):
+    """Brent et WTI sur les `years` dernieres annees, aux jours ou les deux existent."""
+    df = pd.DataFrame({
+        "brent": fred.get_series("DCOILBRENTEU"),
+        "wti": fred.get_series("DCOILWTICO"),
+    }).dropna()
+    return df[df.index >= df.index[-1] - pd.DateOffset(years=years)]
+
+
 if __name__ == "__main__":
     h = fetch_brent_history()
     print(len(h), "points,", h.index[0].date(), "->", h.index[-1].date())   # attendu : ~1250 points

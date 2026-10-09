@@ -6,6 +6,7 @@ window.addEventListener("load", () => {
             dessinerDistribution(d.brent.distribution);
             dessinerMonteCarlo(d.brent.monte_carlo);
             dessinerBacktest(d.brent.backtest);
+            dessinerZscore(d.ecart);
         })
         .catch(e => console.error("Analyse pétrole :", e));
 });
@@ -92,4 +93,35 @@ function dessinerBacktest(lignes) {
             <td>${l.p_kupiec}</td><td>${l.p_kupiec > 0.05 ? "Cohérent" : "Rejeté"}</td></tr>`).join("");
     document.getElementById("lecture-backtest").textContent =
         "Pour chaque date, le modèle est calibré uniquement sur le passé, puis comparé au rendement observé 30 jours plus tard. Si la VaR 95 % est bien calibrée, environ 5 % des cas la dépassent. Un test de Kupiec avec une valeur p supérieure à 0,05 signifie que l'écart à 5 % peut s'expliquer par le hasard.";
+}
+
+function dessinerZscore(e) {
+    const seuil = valeur => e.dates.map(() => valeur);
+    const trait = { pointRadius: 0, tension: 0.2 };
+
+    new Chart(document.getElementById("graphique-zscore"), {
+        type: "line",
+        data: { labels: e.dates, datasets: [
+            { label: "Seuil +2", data: seuil(2), ...trait, borderColor: "#d6453d", borderDash: [5, 4], borderWidth: 1 },
+            { label: "Seuil −2", data: seuil(-2), ...trait, borderColor: "#d6453d", borderDash: [5, 4], borderWidth: 1 },
+            { label: "Z-score", data: e.z, ...trait, borderColor: "#e8a317", borderWidth: 1.8 },
+        ] },
+        options: {
+            interaction: { mode: "index", intersect: false },
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { display: false }, ticks: { maxTicksLimit: 8, maxRotation: 0, callback: (v, i) => e.dates[i].slice(0, 4) } },
+                y: { grid: { color: "#eee9dd" }, title: { display: true, text: "écarts-types" } },
+            },
+        },
+    });
+
+    const s = e.stats;
+    const etat = Math.abs(s.z_actuel) > 3 ? "très inhabituel" : Math.abs(s.z_actuel) > 2 ? "inhabituel" : "normal";
+    document.getElementById("stats-zscore").innerHTML = `
+        <dt>Écart actuel / moyenne sur 1 an</dt><dd>${s.ecart_actuel} / ${s.moyenne_actuelle} $/baril</dd>
+        <dt>Z-score actuel</dt><dd>${s.z_actuel} (${etat})</dd>
+        <dt>Jours avec |z| &gt; 2</dt><dd>${s.jours_extremes_pct} % (loi normale : 5 %)</dd>`;
+    document.getElementById("lecture-zscore").textContent =
+        "Le z-score compare l'écart du jour à sa moyenne et à sa variabilité des 252 derniers jours de bourse : au-delà de ±2, l'écart sort de sa zone habituelle. Si la situation dure, la moyenne glissante s'y adapte et le z-score redescend de lui-même.";
 }

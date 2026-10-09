@@ -11,6 +11,8 @@ from pipeline.analysis.returns import log_returns
 from pipeline.export.json_export import save_json
 from pipeline.sources.oil_history import fetch_brent_history
 from pipeline.analysis.backtest import backtest_var
+from pipeline.analysis.oil_spread import analyse_ecart
+from pipeline.sources.oil_history import fetch_brent_history, fetch_brent_wti_history
 
 HORIZON = 30
 VARIATIONS = [-20, -10, 10, 20]    # niveaux testes, en % du prix actuel
@@ -62,11 +64,14 @@ def analyse_petrole():
     recent = prix[prix.index >= prix.index[-1] - pd.DateOffset(years=5)]
     dist = distribution(log_returns(recent))
     historique_long = fetch_brent_history(years=40)   # depuis 1987, pour le backtest
-    return {"brent": {
-        "distribution": dist,
-        "monte_carlo": monte_carlo_petrole(prix, dist["stats"]["kurtosis_exces"]),
-        "backtest": [backtest_var(historique_long, w) for w in (3, 5, 10, 20)],
-    }}
+    return {
+        "brent": {
+            "distribution": dist,
+            "monte_carlo": monte_carlo_petrole(prix, dist["stats"]["kurtosis_exces"]),
+            "backtest": [backtest_var(historique_long, w) for w in (3, 5, 10, 20)],
+        },
+        "ecart": analyse_ecart(fetch_brent_wti_history(years=6)),
+    }
 
 
 if __name__ == "__main__":
