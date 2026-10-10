@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luceo · Marchés de l'énergie</title>
+    <meta name="description" content="Luceo — analyse des marchés du pétrole, du gaz et de l'électricité.">
+    <link rel="icon" type="image/png" href="assets/luceo-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a href="index.html" class="logo-lien" aria-label="Accueil Luceo"><img src="assets/luceo-logo-light.png" alt="Luceo" class="logo-img"></a>
+            <nav class="topnav" id="topnav">
+                <a href="#" class="nav-link active" data-cible="general">Vue d'ensemble</a>
+                <a href="#" class="nav-link" data-cible="petrole">Pétrole</a>
+                <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
+                <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
+                <a href="#" class="nav-link" data-cible="news">News</a>
+                <a href="#" class="nav-link" data-cible="copilot">Assistant</a>
+            </nav>
+            <a href="portfolio.html" class="auteur">Portfolio</a>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div>
+            <p class="intro-sur" id="intro-sur">Pétrole · Gaz · Électricité</p>
+            <h1 id="intro-titre">Tableau de bord des marchés de l'énergie</h1>
+        </div>
+        <div class="segment" id="plage" role="group" aria-label="Période affichée">
+            <button class="segment-btn" data-jours="30">30 jours</button>
+            <button class="segment-btn actif" data-jours="0">Tout</button>
+        </div>
+    </div>
+
+    <main class="contenu">
+
+        <!-- ========== SYNTHÈSE ========== -->
+        <section id="general" class="onglet active">
+            <div class="kpi-grid">
+                <article class="carte kpi"><span class="kpi-label">Brent <i>$/baril</i></span>
+                    <span class="kpi-value" id="kpi-brent">—</span><span class="kpi-change" id="kpi-brent-var"></span>
+                    <div class="spark"><canvas id="spark-brent"></canvas></div></article>
+                <article class="carte kpi"><span class="kpi-label">Gaz TTF <i>€/MWh</i></span>
+                    <span class="kpi-value" id="kpi-ttf">—</span><span class="kpi-change" id="kpi-ttf-var"></span>
+                    <div class="spark"><canvas id="spark-ttf"></canvas></div></article>
+                <article class="carte kpi"><span class="kpi-label">Électricité France <i>€/MWh</i></span>
+                    <span class="kpi-value" id="kpi-elec-fr">—</span><span class="kpi-change" id="kpi-elec-fr-var"></span>
+                    <div class="spark"><canvas id="spark-elec"></canvas></div></article>
+                <article class="carte kpi"><span class="kpi-label">Écart Brent − WTI <i>$/baril</i></span>
+                    <span class="kpi-value" id="kpi-spread-oil">—</span>
+                    <div class="spark"><canvas id="spark-spread-oil"></canvas></div></article>
+                <article class="carte kpi"><span class="kpi-label">Écart France − Allemagne <i>€/MWh</i></span>
+                    <span class="kpi-value" id="kpi-spread-elec">—</span>
+                    <div class="spark"><canvas id="spark-spread-elec"></canvas></div></article>
+                <article class="carte kpi"><span class="kpi-label">Volatilité TTF <i>% annualisée</i></span>
+                    <span class="kpi-value" id="kpi-vol-ttf">—</span>
+                    <div class="spark"><canvas id="spark-vol"></canvas></div></article>
+            </div>
+
+            <div class="grille-2">
+                <article class="carte"><h2>Pétrole <small id="maj-oil"></small></h2>
+                    <div class="chart-box"><canvas id="synth-petrole"></canvas></div></article>
+                <article class="carte"><h2>Gaz <small id="maj-gas"></small></h2>
+                    <div class="chart-box"><canvas id="synth-gaz"></canvas></div></article>
+            </div>
+        </section>
+
+        <!-- ========== PÉTROLE ========== -->
+        <section id="petrole" class="onglet">
+            <div class="grille-2">
+                <article class="carte"><h2>Prix <small>Brent / WTI, $/baril</small></h2>
+                    <div class="chart-box"><canvas id="graphique-petrole"></canvas></div></article>
+                <article class="carte"><h2>Écart de prix <small>Brent − WTI, $/baril</small></h2>
+                    <div class="chart-box"><canvas id="graphique-spread"></canvas></div></article>
+            </div>
+            <p class="note">Source : FRED (séries DCOILBRENTEU et DCOILWTICO). Publication avec environ une semaine de décalage.</p>
+            <h3 class="titre-section">Analyses</h3>
+            <div class="grille-2">
+                <article class="carte"><h2>Distribution des rendements <small>Brent, variation quotidienne en %</small></h2>
+                    <div class="chart-box"><canvas id="graphique-distribution"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre la distribution</h2>
+                    <dl class="stats" id="stats-distribution"></dl>
+                    <p class="note" id="lecture-distribution"></p></article>
+            </div>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Cône de projection du Brent <small id="risk-sous-titre"></small></h2>
+                    <div class="chart-box"><canvas id="graphique-risque"></canvas></div></article>
+                <article class="carte"><h2>Paramètres du modèle</h2>
+                    <dl class="stats" id="stats-risque"></dl>
+                    <p class="note">Modèle à retour à la moyenne (Ornstein-Uhlenbeck) sur le logarithme du prix, calibré sur 10 ans de données FRED, avec 10 000 trajectoires simulées. Bandes : 90 % des cas (claire) et 50 % des cas (foncée).</p></article>
+            </div>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Prix du Brent dans 30 jours <small>10 000 scénarios simulés</small></h2>
+                    <div class="chart-box"><canvas id="graphique-mc-final"></canvas></div></article>
+                <article class="carte"><h2>Risque et probabilités <small id="mc-sous-titre"></small></h2>
+                    <dl class="stats" id="stats-mc"></dl>
+                    <table class="table-proba" id="table-proba"></table>
+                    <p class="note" id="lecture-mc"></p></article>
+            </div>
+            <article class="carte" style="margin-top:20px">
+                <h2>Backtest de la VaR 95 % <small>2008-2026, horizon 30 jours</small></h2>
+                <table class="table-proba" id="table-backtest"></table>
+                <p class="note" id="lecture-backtest"></p>
+            </article>
+            
+            <article class="carte" style="margin-top:20px">
+                <h2>Écart Brent − WTI <small>z-score sur 1 an glissant</small></h2>
+                <div class="chart-box" style="height:260px"><canvas id="graphique-zscore"></canvas></div>
+                <dl class="stats" id="stats-zscore" style="margin-top:16px"></dl>
+                <p class="note" id="lecture-zscore"></p>
+            </article>
+        </section>
+
+        <!-- ========== GAZ ========== -->
+        <section id="gaz" class="onglet">
+            <div class="grille-2">
+                <article class="carte"><h2>Prix <small>TTF (€/MWh) / Henry Hub ($/MMBtu)</small></h2>
+                    <div class="chart-box"><canvas id="graphique-gaz"></canvas></div></article>
+                <article class="carte"><h2>Volatilité <small>glissante annualisée, %</small></h2>
+                    <div class="chart-box"><canvas id="graphique-gaz-vol"></canvas></div></article>
+            </div>
+            <p class="note">Source : Yahoo Finance (TTF=F, NG=F).</p>
+            <h3 class="titre-section">Analyses</h3>
+            <div class="grille-2">
+                <article class="carte"><h2>Saisonnalité du TTF <small>indice, 100 = moyenne de l'année</small></h2>
+                    <div class="chart-box"><canvas id="graphique-saison-gaz"></canvas></div></article>
+                <article class="carte"><h2>Ce que montre la saisonnalité</h2>
+                    <dl class="stats" id="stats-saison-gaz"></dl>
+                    <p class="note" id="lecture-saison-gaz"></p></article>
+            </div>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>TTF et Henry Hub <small>même unité, €/MWh</small></h2>
+                    <div class="chart-box"><canvas id="graphique-ecart-prix"></canvas></div></article>
+                <article class="carte"><h2>Écart TTF − Henry Hub <small>€/MWh</small></h2>
+                    <div class="chart-box"><canvas id="graphique-ecart"></canvas></div>
+                    <dl class="stats" id="stats-ecart" style="margin-top:16px"></dl>
+                    <p class="note" id="lecture-ecart"></p></article>
+            </div>
+        </section>
+
+        <!-- ========== ÉLECTRICITÉ ========== -->
+        <section id="electricite" class="onglet">
+            <div class="grille-2">
+                <article class="carte"><h2>Prix de marché <small>veille pour le lendemain, €/MWh</small></h2>
+                    <div class="chart-box"><canvas id="graphique-electricite"></canvas></div></article>
+                <article class="carte"><h2>Couplage <small>écart France − Allemagne, €/MWh</small></h2>
+                    <div class="chart-box"><canvas id="graphique-elec-spread"></canvas></div></article>
+            </div>
+            <p class="note">Source : ENTSO-E Transparency Platform, résolution 15 minutes.</p>
+            <h3 class="titre-section">Analyses</h3>
+            <article class="carte">
+                <h2>Profil de prix <small>France, moyenne par heure et jour de la semaine, €/MWh</small></h2>
+                <div class="heatmap" id="heatmap-elec"></div>
+                <div class="legende-heatmap"><span id="legende-min"></span><div class="degrade"></div><span id="legende-max"></span></div>
+            </article>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Prix négatifs par mois <small>% des quarts d'heure</small></h2>
+                    <div class="chart-box"><canvas id="graphique-neg-mois"></canvas></div></article>
+                <article class="carte"><h2>Prix négatifs par heure <small>% des quarts d'heure</small></h2>
+                    <div class="chart-box"><canvas id="graphique-neg-heure"></canvas></div></article>
+            </div>
+            <div class="grille-2" style="margin-top:20px">
+                <article class="carte"><h2>Ce que montre le profil de prix</h2>
+                    <dl class="stats" id="stats-profil"></dl>
+                    <p class="note" id="lecture-profil"></p></article>
+                <article class="carte"><h2>Ce que montrent les prix négatifs</h2>
+                    <dl class="stats" id="stats-neg"></dl>
+                    <p class="note" id="lecture-neg"></p></article>
+            </div>
+        </section>
+
+        <!-- ========== NEWS ========== -->
+        <section id="news" class="onglet">
+            <div class="panneau">
+                <div class="ligne-tags" id="filtres-periode"><b>Période</b>
+                    <button class="tag news-filtre actif" data-periode="tout">Tout</button>
+                    <button class="tag news-filtre" data-periode="jour">Jour</button>
+                    <button class="tag news-filtre" data-periode="semaine">Semaine</button>
+                    <button class="tag news-filtre" data-periode="mois">Mois</button>
+                </div>
+                <div class="ligne-tags" id="filtres-commodite"><b>Marché</b>
+                    <button class="tag news-filtre" data-com="petrole">Pétrole</button>
+                    <button class="tag news-filtre" data-com="gaz">Gaz</button>
+                    <button class="tag news-filtre" data-com="electricite">Électricité</button>
+                </div>
+            </div>
+            <div id="liste-news" class="liste-news">Chargement des actualités…</div>
+        </section>
+
+        <!-- ========== COPILOT ========== -->
+        <section id="copilot" class="onglet">
+            <article class="carte vide">
+                <h2>Assistant</h2>
+                <p>Un assistant qui commente les graphiques arrive bientôt.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · mises à jour chaque jour</footer>
+
+    <script src="js/nav.js?v=11"></script>
+    <script src="js/charts.js?v=10"></script>
+    <script src="js/risk.js?v=11"></script>
+    <script src="js/oil_analysis.js?v=1"></script>
+    <script src="js/gas_analysis.js?v=1"></script>
+    <script src="js/elec_analysis.js?v=2"></script>
+    <script src="js/news.js?v=10"></script>
+</body>
+</html>

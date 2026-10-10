@@ -1,0 +1,73 @@
+/* ===== Page d'accueil animée (index.html) ===== */
+
+/* ---------- Accueil ---------- */
+body.accueil {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: #112a24;
+    color: #f0f9f5;
+    font-family: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.scene { position: fixed; inset: 0; }
+.stage { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform-origin: 50% 50%; }
+
+/* Les deux choix, révélés à la fin de l'animation */
+.choix {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    gap: 16px;
+    width: min(720px, calc(100vw - 32px));
+    transform: translate(-50%, 12px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .7s ease, transform .7s ease;
+}
+.choix.visible { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+
+.choix-carte {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 18px 20px;
+    border: 1px solid rgba(240, 249, 245, .22);
+    border-radius: 10px;
+    color: #f0f9f5;
+    text-decoration: none;
+    transition: background .2s, border-color .2s, transform .2s;
+}
+.choix-carte:hover { border-color: #13b981; background: rgba(19, 185, 129, .1); transform: translateY(-2px); }
+.choix-carte.principal { background: #13b981; border-color: #13b981; color: #0b1f1a; }
+.choix-carte.principal:hover { background: #17cc8f; border-color: #17cc8f; }
+
+.choix-titre { font-size: 17px; font-weight: 600; }
+.choix-texte { font-size: 13px; line-height: 1.4; opacity: .75; }
+.choix-fleche { margin-top: 6px; font-size: 20px; transition: transform .2s; }
+.choix-carte:hover .choix-fleche { transform: translateX(4px); }
+
+.passer {
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: rgba(240, 249, 245, .5);
+    font-family: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    transition: color .2s, opacity .4s;
+}
+.passer:hover { color: #f0f9f5; }
+.passer.cache { opacity: 0; pointer-events: none; }
+
+@media (max-width: 560px) {
+    .choix { flex-direction: column; gap: 10px; }
+    .choix-carte { padding: 14px 16px; }
+    .choix-fleche { display: none; }
+}

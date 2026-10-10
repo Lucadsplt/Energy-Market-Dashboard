@@ -57,7 +57,9 @@ body {
 .nav-link:hover { color: #ffffff; }
 .nav-link.active { color: #ffffff; border-bottom-color: var(--emeraude); }
 
-.auteur { color: #7fa192; font-size: 13px; white-space: nowrap; }
+.auteur { color: #7fa192; font-size: 13px; white-space: nowrap; text-decoration: none; transition: color .15s; }
+.auteur:hover { color: #ffffff; }
+.logo-lien { display: flex; }
 
 /* ---------- Introduction ---------- */
 .intro {
@@ -229,7 +231,6 @@ body {
 @media (max-width: 900px) {
     .grille-2, .liste-news { grid-template-columns: 1fr; }
     .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .auteur { display: none; }
     .intro h1 { font-size: 28px; }
 }
 @media (max-width: 560px) {
