@@ -6,18 +6,18 @@
     const VERT = "#13b981";
     const BARRE = "#f0f9f5";
 
-    // Découpe du mot « luceo » (une tranche par lettre) et du slogan (une tranche par mot), en px de la planche
+    // Découpe du mot « luceo » (une tranche par lettre), en px de la planche
     const LETTRES = [[752, 832], [866, 1100], [1118, 1360], [1362, 1624], [1630, 1906]];
-    const MOTS = [[740, 1105], [1105, 1515], [1515, 1920]];
 
     // Mise à l'échelle du logo dans la scène de 1920 x 1080
     const K = 0.7;
     const BOX_L = 960 - 1000 * K;
-    const BOX_T = 540 - 364.5 * K;
+    const BOX_T = 540 - 364.5 * K + 34 * K;    // sans slogan, le logo est un peu descendu pour rester centré
 
-    // Repères de temps, en secondes (les scènes du film : Lumière, Symbole, Signature, Slogan)
-    const SYMBOLE = 2.0, SIGNATURE = 3.4, SLOGAN = 5.8;
-    const FIN = 8.2;    // l'animation s'arrête ici et le logo reste affiché
+    // Repères de temps, en secondes (les scènes du film : Lumière, Symbole, Signature, puis le logo tient)
+    const SYMBOLE = 1.2, SIGNATURE = 2.0;
+    const FIN = 3.6;    // l'animation s'arrête ici et le logo reste affiché
+    const DUREE_FILM = 5.2;
 
     // --- Courbes d'accélération ---
     const courbe = {
@@ -53,11 +53,9 @@
     const piece = el(stage, "position:absolute;inset:0");
     const boite = el(piece, `position:absolute;left:${BOX_L}px;top:${BOX_T}px;width:2000px;height:729px;transform:scale(${K});transform-origin:0 0`);
     boite.setAttribute("role", "img");
-    boite.setAttribute("aria-label", "Luceo, données, analyse, marchés");
+    boite.setAttribute("aria-label", "Luceo");
 
     const lettres = LETTRES.map(([a, b]) => tranche(boite, a, 80, 420, b));
-    const mots = MOTS.map(([a, b]) => tranche(boite, a, 560, 80, b));
-    mots.forEach(m => { m.fenetre.style.opacity = 0; });
 
     // Le symbole : un point de lumière, un quart de cercle, puis la barre
     const symbole = el(boite, "position:absolute;left:0;top:0;width:2000px;height:729px;transform-origin:368.5px 364px");
@@ -68,11 +66,11 @@
 
     // --- Dessin d'une image, en fonction du seul temps T ---
     function dessiner(T) {
-        const point_ = anime(courbe.rebond, 0, 1, 0.25, 0.75, T) * (1 - anime(courbe.sortieCubique, 0, 1, 0.75, 1.1, T));
-        const balayage = anime(courbe.entreeSortieCubique, 0, 90, 0.7, 1.9, T);
-        const hauteurBarre = anime(courbe.rebond, 0, 1, SYMBOLE + 0.1, SYMBOLE + 0.85, T);
-        const lueur = anime(courbe.sortieCubique, 0, 1, 0.6, 1.9, T) * (1 - anime(courbe.sortieCubique, 0, 1, SIGNATURE, SIGNATURE + 1, T));
-        const trajet = anime(courbe.entreeSortieCubique, 0, 1, SIGNATURE, SIGNATURE + 1, T);
+        const point_ = anime(courbe.rebond, 0, 1, 0.15, 0.5, T) * (1 - anime(courbe.sortieCubique, 0, 1, 0.5, 0.75, T));
+        const balayage = anime(courbe.entreeSortieCubique, 0, 90, 0.45, 1.2, T);
+        const hauteurBarre = anime(courbe.rebond, 0, 1, SYMBOLE + 0.05, SYMBOLE + 0.6, T);
+        const lueur = anime(courbe.sortieCubique, 0, 1, 0.4, 1.2, T) * (1 - anime(courbe.sortieCubique, 0, 1, SIGNATURE, SIGNATURE + 0.8, T));
+        const trajet = anime(courbe.entreeSortieCubique, 0, 1, SIGNATURE, SIGNATURE + 0.8, T);
 
         // le symbole glisse du centre vers sa place dans le logo
         const dx = (1 - trajet) * ((960 - (BOX_L + 368.5 * K)) / K);
@@ -84,27 +82,19 @@
 
         // les lettres montent l'une après l'autre
         lettres.forEach((l, i) => {
-            const t0 = SIGNATURE + 0.55 + i * 0.12;
-            const p = anime(courbe.sortieCubique, 0, 1, t0, t0 + 0.7, T);
+            const t0 = SIGNATURE + 0.4 + i * 0.09;
+            const p = anime(courbe.sortieCubique, 0, 1, t0, t0 + 0.55, T);
             l.img.style.transform = `translate(0,${(1 - p) * 420}px)`;
         });
 
-        // le slogan apparaît mot par mot
-        mots.forEach((m, i) => {
-            const t0 = SLOGAN + 0.2 + i * 0.35;
-            const p = anime(courbe.sortieCubique, 0, 1, t0, t0 + 0.9, T);
-            m.fenetre.style.opacity = p;
-            m.img.style.left = `${-MOTS[i][0] + (1 - p) * -24}px`;
-        });
-
-        piece.style.transform = `scale(${1 + 0.035 * (T / 9.4)})`;    // très léger zoom pendant tout le film
+        piece.style.transform = `scale(${1 + 0.035 * (T / DUREE_FILM)})`;    // très léger zoom pendant tout le film
     }
 
     // --- Mise à l'échelle de la scène dans la fenêtre ---
     function ajuster() {
         const s = Math.min(window.innerWidth / 1500, window.innerHeight / 900, 1);
         stage.style.transform = `translate(-50%,-50%) scale(${s})`;
-        choix.style.top = `calc(50% + ${330 * s}px)`;
+        choix.style.top = `calc(50% + ${250 * s}px)`;
     }
     window.addEventListener("resize", ajuster);
     ajuster();
