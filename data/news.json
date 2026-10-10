@@ -9,6 +9,139 @@
     },
     {
       "source": "OilPrice",
+      "titre": "Why Record Crude Output Can’t Solve America’s Diesel Crisis",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
+      "date": "2026-10-09T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_loogzxbsqf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia, Germany Add Diesel Supply as Fuel Market Scrambles for Barrels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
+      "date": "2026-10-09T21:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-09_9x8texhnj0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hurricane Isaias Shuts In 71% of U.S. Gulf Oil Production",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html",
+      "date": "2026-10-09T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-09_8w4gial1bh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Advances Amid War and Hurricane Risks",
+      "lien": "https://www.rigzone.com/news/wire/oil_advances_amid_war_and_hurricane_risks-09-oct-2026-184819-article/?rss=true",
+      "date": "2026-10-09T20:28:05+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Advances-Amid-War-and-Hurricane-Risks-184819-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Stocks Cashing In as $100 Oil Pushes Drivers Toward Electric",
+      "lien": "https://oilprice.com/Energy/Energy-General/5-Stocks-Cashing-In-as-100-Oil-Pushes-Drivers-Toward-Electric.html",
+      "date": "2026-10-09T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_sc2m7zaz06.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Australia to Release Final Plan to Keep More LNG at Home",
+      "lien": "https://www.rigzone.com/news/wire/australia_to_release_final_plan_to_keep_more_lng_at_home-09-oct-2026-184815-article/?rss=true",
+      "date": "2026-10-09T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Australia-to-Release-Final-Plan-to-Keep-More-LNG-at-Home-184815-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil Drilling Continues to Inch Upward",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Continues-to-Inch-Upward.html",
+      "date": "2026-10-09T17:31:16+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_37wawm6okx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "States Bet on Virtual Power Plants to Cut Grid Costs",
+      "lien": "https://oilprice.com/Energy/Energy-General/States-Bet-on-Virtual-Power-Plants-to-Cut-Grid-Costs.html",
+      "date": "2026-10-09T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_6agq4jprht.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Puts Iran Strikes on Hold as Hurricane Threatens Oil Supply",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
+      "date": "2026-10-09T16:35:22+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_efw1ua2bz0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pashinyan’s Nuclear U-Turn Gives Moscow an Opening in Armenia",
+      "lien": "https://oilprice.com/Geopolitics/International/Pashinyans-Nuclear-U-Turn-Gives-Moscow-an-Opening-in-Armenia.html",
+      "date": "2026-10-09T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_utipag2byg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can Lasers Beat Drone Swarms? The Pentagon Is About to Find Out",
+      "lien": "https://oilprice.com/Geopolitics/International/Can-Lasers-Beat-Drone-Swarms-The-Pentagon-Is-About-to-Find-Out.html",
+      "date": "2026-10-09T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_m1rntgleda.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Crescent Buys Devon Eagle Ford Business for $4.2B",
+      "lien": "https://www.rigzone.com/news/crescent_buys_devon_eagle_ford_business_for_42b-09-oct-2026-184818-article/?rss=true",
+      "date": "2026-10-09T14:40:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Crescent-Buys-Devon-Eagle-Ford-Business-for-42B-184818-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Canada’s New Oil Pipeline Challenged by Cold Lake First Nations",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-New-Oil-Pipeline-Challenged-by-Cold-Lake-First-Nations.html",
+      "date": "2026-10-09T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-09_q9xezfcvvi.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Pacific Coast Energy Secures Agreements with PdVSA to Revive Oilfields",
+      "lien": "https://www.rigzone.com/news/pacific_coast_energy_secures_agreements_with_pdvsa_to_revive_oilfields-09-oct-2026-184817-article/?rss=true",
+      "date": "2026-10-09T14:16:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Pacific-Coast-Energy-Secures-Agreements-with-PdVSA-to-Revive-Oilfields-184817-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Drop Over 3MM Barrels Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_over_3mm_barrels_week_on_week-09-oct-2026-184816-article/?rss=true",
+      "date": "2026-10-09T14:04:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Drop-Over-3MM-Barrels-Week-on-Week-184816-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rubio Warns Ukraine Stalemate Could Turn Into Wider Conflict",
+      "lien": "https://oilprice.com/Geopolitics/International/Rubio-Warns-Ukraine-Stalemate-Could-Turn-Into-Wider-Conflict.html",
+      "date": "2026-10-09T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_rjw2ilzzqd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ukraine Says It Attacked 4th Russian Refinery This Week",
+      "lien": "https://www.rigzone.com/news/wire/ukraine_says_it_attacked_4th_russian_refinery_this_week-09-oct-2026-184814-article/?rss=true",
+      "date": "2026-10-09T13:42:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ukraine-Says-It-Attacked-4th-Russian-Refinery-This-Week-184814-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Petronas to Raise Malaysia Dividend 19% to $7.8 Billion for 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Petronas-to-Raise-Malaysia-Dividend-19-to-78-Billion-for-2027.html",
+      "date": "2026-10-09T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-09_l4kcyusto9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Crude Oil is Underpriced, Energy Aspects Says",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Crude-Oil-is-Underpriced-Energy-Aspects-Says.html",
+      "date": "2026-10-09T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-09_8j3jy60mnd.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Asian Refiners Ditch U.S. Oil as Supertanker Rates Hit $82 Million",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Ditch-US-Oil-as-Supertanker-Rates-Hit-82-Million.html",
       "date": "2026-10-09T11:30:00+00:00",
@@ -41,6 +174,13 @@
       "lien": "https://www.rigzone.com/news/121_gulf_platforms_evacuated_as_isaias_gets_stronger-09-oct-2026-184809-article/?rss=true",
       "date": "2026-10-09T09:36:14+00:00",
       "image": "https://images.rigzone.com/images/news/articles/121-Gulf-Platforms-Evacuated-as-Isaias-Gets-Stronger-184809-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "129 Gulf Platforms Evacuated as Isaias Gets Stronger",
+      "lien": "https://www.rigzone.com/news/129_gulf_platforms_evacuated_as_isaias_gets_stronger-09-oct-2026-184809-article/?rss=true",
+      "date": "2026-10-09T09:36:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/129-Gulf-Platforms-Evacuated-as-Isaias-Gets-Stronger-184809-1200x628.png"
     },
     {
       "source": "OilPrice",
@@ -3470,6 +3610,13 @@
       "titre": "Journées scientifiques de l’éolien 2027",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/journees-scientifiques-leolien-2027",
       "date": "2026-07-15T12:30:33+00:00",
+      "image": null
+    },
+    {
+      "source": "EIA",
+      "titre": "Category 2 Hurricane Isaias nears landfall, leading to production shut-ins",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+      "date": null,
       "image": null
     }
   ]
