@@ -8,6 +8,55 @@
       "image": null
     },
     {
+      "source": "Rigzone",
+      "titre": "Eni Completes Landmark Installation for Liverpool Bay CCS",
+      "lien": "https://www.rigzone.com/news/eni_completes_landmark_installation_for_liverpool_bay_ccs-11-oct-2026-184811-article/?rss=true",
+      "date": "2026-10-11T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Completes-Landmark-Installation-for-Liverpool-Bay-CCS-184811-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Tanker Rates Soar to Record as Oil Crisis Becomes Shipping Crisis",
+      "lien": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html",
+      "date": "2026-10-10T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-10_at9zh17zer.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Emergency Oil Releases Risk Draining the World’s Last Supply Cushion",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
+      "date": "2026-10-10T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-10_a6q7atcfgv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pemex Needs Nearly $110 Billion to Hit Mexico's Output Targets",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Pemex-Needs-Nearly-110-Billion-to-Hit-Mexicos-Output-Targets.html",
+      "date": "2026-10-10T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_asvgik380w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Southeast Asia Needs More Power, But Its Weak Grid Could Be a Problem",
+      "lien": "https://oilprice.com/Energy/Energy-General/Southeast-Asia-Needs-More-Power-But-Its-Weak-Grid-Could-Be-a-Problem.html",
+      "date": "2026-10-10T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_ya3qm90uo1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Iran War Is Fueling a Boom in Clean Energy",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Is-Fueling-a-Boom-in-Clean-Energy.html",
+      "date": "2026-10-10T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-09_dwjy0trpki.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Russia's Oil Product Exports Rise",
+      "lien": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+      "date": "2026-10-10T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Russias-Oil-Product-Exports-Rise-184813-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "Why Record Crude Output Can’t Solve America’s Diesel Crisis",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
