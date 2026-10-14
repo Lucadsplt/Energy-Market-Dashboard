@@ -9,10 +9,255 @@
     },
     {
       "source": "OilPrice",
+      "titre": "Trump Announces “Massive” Greenland Oil Exploration Plans",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
+      "date": "2026-10-14T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_9ymqf5je7x.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Aramco Headquarters Hit as Houthi Attacks Escalate",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Headquarters-Hit-as-Houthi-Attacks-Escalate.html",
+      "date": "2026-10-14T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_31bctfzkio.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Taiwan Commits Up to $4.4 Billion to Alaska LNG Megaproject",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Taiwan-Commits-Up-to-44-Billion-to-Alaska-LNG-Megaproject.html",
+      "date": "2026-10-14T08:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_cl713ksroa.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco HQ Hit as Houthis Escalate Attacks",
+      "lien": "https://www.rigzone.com/news/wire/aramco_hq_hit_as_houthis_escalate_attacks-14-oct-2026-184842-article/?rss=true",
+      "date": "2026-10-14T07:44:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-HQ-Hit-as-Houthis-Escalate-Attacks-184842-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rising Gasoline Prices Fuel Fresh Inflation Fears in the U.S.",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
+      "date": "2026-10-14T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_fncxrd5kfm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Climb Above $106 as Iran Threatens More Tanker Attacks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
+      "date": "2026-10-14T05:31:31+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_uzhtyve1f9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+      "lien": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+      "date": "2026-10-14T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_tfxobfs2rh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Record Tanker Rates Leave Heavy Crude Stranded in the Americas",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
+      "date": "2026-10-13T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_xfsrlt4apv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Stranded Middle East LNG Supply Upends Gas Markets",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Stranded-Middle-East-LNG-Supply-Upends-Gas-Markets.html",
+      "date": "2026-10-13T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_phowyprbjg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
+      "date": "2026-10-13T21:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-13_knphca1mjs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Five Shale Stocks to Watch Before Third-Quarter Earnings",
+      "lien": "https://oilprice.com/Energy/Energy-General/Five-Shale-Stocks-to-Watch-Before-Third-Quarter-Earnings.html",
+      "date": "2026-10-13T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_ctij8zran7.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudis Tell OPEC That Oil Output Recovered from 3 Decade Low",
+      "lien": "https://www.rigzone.com/news/wire/saudis_tell_opec_that_oil_output_recovered_from_3_decade_low-13-oct-2026-184837-article/?rss=true",
+      "date": "2026-10-13T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudis-Tell-OPEC-That-Oil-Output-Recovered-from-3-Decade-Low-184837-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Brent Steady Amid Middle East Tensions",
+      "lien": "https://www.rigzone.com/news/wire/brent_steady_amid_middle_east_tensions-13-oct-2026-184841-article/?rss=true",
+      "date": "2026-10-13T20:41:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Brent-Steady-Amid-Middle-East-Tensions-184841-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US EPA plans further rollback of oil, gas methane rules",
+      "lien": "https://www.ogj.com/general-interest/government/news/55411684/us-epa-plans-further-rollback-of-oil-gas-methane-rules",
+      "date": "2026-10-13T20:38:28+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ace96b9aa393382b65d60a4-240401epa113230993__paul_brady_dreamstime_11323099.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Interior streamlines Arctic NEPA reviews, outlines upcoming offshore and onshore lease sales",
+      "lien": "https://www.ogj.com/general-interest/government/news/55411670/interior-streamlines-arctic-nepa-reviews-outlines-upcoming-offshore-and-onshore-lease-sales",
+      "date": "2026-10-13T20:14:56+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ace8fe5fed5a00f38284379-250207171785927__mark_gomez_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Princeton Researchers Find a Lower-Energy Route to Fusion Ignition",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Princeton-Researchers-Find-a-Lower-Energy-Route-to-Fusion-Ignition.html",
+      "date": "2026-10-13T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_uwgai2vkqo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Guyana Oil Exports Set to Surpass 1 Million Barrels per Day for First Time",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
+      "date": "2026-10-13T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_tsxtjicvh0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump's Middle Corridor Plans Face Russian and Iranian Roadblocks",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
+      "date": "2026-10-13T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-12_youpd40nmr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Argentina Takes Falklands Oil Fight to International Tribunal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Takes-Falklands-Oil-Fight-to-International-Tribunal.html",
+      "date": "2026-10-13T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-13_n6d1y5ffmv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s $3 Billion Qatar LNG Deal Raises an Awkward Question",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Chinas-3-Billion-Qatar-LNG-Deal-Raises-an-Awkward-Question.html",
+      "date": "2026-10-13T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-13_xstnlh9k8d.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Primavera expands leadership team ahead of Venezuela operation activities",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55411553/primavera-expands-leadership-team-ahead-of-venezuela-operation-activities",
+      "date": "2026-10-13T16:40:31+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Woodside appoints Drouaud managing director, Mexico",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55411527/woodside-appoints-drouaud-managing-director-mexico",
+      "date": "2026-10-13T16:37:10+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Bags New Contract to Supply Dutch with Norwegian Gas",
+      "lien": "https://www.rigzone.com/news/equinor_bags_new_contract_to_supply_dutch_with_norwegian_gas-13-oct-2026-184840-article/?rss=true",
+      "date": "2026-10-13T15:42:08+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Bags-New-Contract-to-Supply-Dutch-with-Norwegian-Gas-184840-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "OPEC+ warns soaring shipping, insurance costs impede oil flows",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55411460/opec-warns-soaring-shipping-insurance-costs-impede-oil-flows",
+      "date": "2026-10-13T15:23:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ace45be3853613963c926a3-6a70b675d773f2f768d246b5opec.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Uniper Seals $3.4B in New Financing",
+      "lien": "https://www.rigzone.com/news/uniper_seals_34b_in_new_financing-13-oct-2026-184839-article/?rss=true",
+      "date": "2026-10-13T15:03:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Uniper-Seals-34B-in-New-Financing-184839-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Slashes Debt",
+      "lien": "https://www.rigzone.com/news/bp_slashes_debt-13-oct-2026-184833-article/?rss=true",
+      "date": "2026-10-13T14:56:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Slashes-Debt-184833-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US LNG exports",
+      "lien": "https://www.ogj.com/general-interest/document/55267969/us-lng-exports",
+      "date": "2026-10-13T14:48:33+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US Degree Days",
+      "lien": "https://www.ogj.com/general-interest/document/17298982/us-degree-days",
+      "date": "2026-10-13T14:47:57+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Renewables",
+      "lien": "https://www.ogj.com/renewable-energy/document/17298970/renewables",
+      "date": "2026-10-13T14:47:20+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US Natural Gas Balance",
+      "lien": "https://www.ogj.com/general-interest/document/17298983/us-natural-gas-balance",
+      "date": "2026-10-13T14:46:45+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Worley Consulting-Pace Refining Margins",
+      "lien": "https://www.ogj.com/refining-processing/document/17299011/pace-refining-margins",
+      "date": "2026-10-13T14:46:03+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Dallas Fed Examines Theft in the Oil Field",
+      "lien": "https://www.rigzone.com/news/dallas_fed_examines_theft_in_the_oil_field-13-oct-2026-184838-article/?rss=true",
+      "date": "2026-10-13T14:37:16+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Dallas-Fed-Examines-Theft-in-the-Oil-Field-184838-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Murphy Announces New Startups, Exploration Success",
+      "lien": "https://www.rigzone.com/news/murphy_announces_new_startups_exploration_success-13-oct-2026-184835-article/?rss=true",
+      "date": "2026-10-13T13:57:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Murphy-Announces-New-Startups-Exploration-Success-184835-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Chinese Refiners to Slow Inventory Drawdowns",
+      "lien": "https://www.rigzone.com/news/wire/chinese_refiners_to_slow_inventory_drawdowns-13-oct-2026-184836-article/?rss=true",
+      "date": "2026-10-13T13:55:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Chinese-Refiners-to-Slow-Inventory-Drawdowns-184836-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Pakistan Faces $1 Billion LNG Bill This Winter",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-1-Billion-LNG-Bill-This-Winter.html",
       "date": "2026-10-13T12:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-13_b9qardpc0x.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "GasBuddy Flags Fragile Calm at the Pump",
+      "lien": "https://www.rigzone.com/news/gasbuddy_flags_fragile_calm_at_the_pump-13-oct-2026-184834-article/?rss=true",
+      "date": "2026-10-13T12:03:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/GasBuddy-Flags-Fragile-Calm-at-the-Pump-184834-1200x628.png"
     },
     {
       "source": "Rigzone",
