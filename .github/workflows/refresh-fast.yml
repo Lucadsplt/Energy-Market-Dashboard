@@ -1,0 +1,55 @@
+name: Rafraichir les donnees rapides
+
+# Gaz, electricite et news : toutes les heures en semaine (de 07h05 a 20h05 UTC).
+# Le petrole (FRED), les analyses et le risque restent dans le robot quotidien : ils changent une fois par jour.
+on:
+  schedule:
+    - cron: "5 7-20 * * 1-5"
+  workflow_dispatch: {}    # lancement manuel possible depuis l'onglet Actions
+
+permissions:
+  contents: write          # autorise le robot a committer/pousser
+
+# Un seul robot a la fois : evite deux pushes simultanes (robot rapide / robot quotidien)
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh-rapide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt
+
+      - name: Regenerer les donnees rapides
+        env:
+          ENTSOE_API_KEY: ${{ secrets.ENTSOE_API_KEY }}
+        run: |
+          python pipeline/sources/gas_source.py
+          python pipeline/sources/oil_live.py
+          python pipeline/sources/electricity_source.py
+          python pipeline/sources/news_source.py
+
+      - name: Committer seulement si quelque chose a change
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "{\"maj\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > data/meta.json
+            git config user.name "Luca Desplat"
+            git config user.email "desplatluca@gmail.com"
+            git add data/*.json
+            git commit -m "Mise a jour automatique des donnees"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Aucun changement a publier."
+          fi

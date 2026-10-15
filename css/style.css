@@ -268,3 +268,61 @@ body {
 .legende-heatmap { display: flex; align-items: center; gap: 10px; margin-top: 16px; font-size: 12px; color: var(--texte-doux); }
 .degrade { width: 260px; max-width: 50%; height: 10px; border-radius: 5px; background: linear-gradient(90deg, #12B981, #f6f4ee, #d6453d); }
 @media (max-width: 900px) { .heatmap .cellule:not(.entete):not(.jour) { font-size: 0; } }
+/* ---------- Bandeau « Prix du jour » (contrats à terme) ---------- */
+.bandeau-live {
+    background: var(--vert-fonce);
+    color: #f0f9f5;
+    border-radius: 8px;
+    padding: 16px 22px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--ambre);
+}
+.live-tete { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 12px; }
+.live-badge {
+    font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 999px; background: var(--ambre); color: #3a2a00;
+}
+.live-titre { font-family: var(--titre); font-size: 20px; }
+.live-heure { font-size: 12px; color: #a9c2b6; margin-left: auto; }
+.live-prix-liste { display: flex; flex-wrap: wrap; gap: 14px 44px; }
+.live-prix { display: flex; flex-direction: column; gap: 2px; }
+.live-nom { font-size: 13px; color: #a9c2b6; }
+.live-valeur { font-family: var(--titre); font-size: 30px; font-weight: 500; letter-spacing: -.02em; }
+.live-valeur small { font-family: "DM Sans", sans-serif; font-size: 12px; color: #a9c2b6; letter-spacing: 0; }
+.live-var { font-size: 13px; font-weight: 600; color: #a9c2b6; }
+.live-var.up { color: #4ade9f; }
+.live-var.down { color: #ff8a80; }
+.live-compare {
+    margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(240, 249, 245, .15);
+    font-size: 13px; line-height: 1.55; color: #d3e4dc; max-width: 900px;
+}
+.live-compare b { color: #fff; }
+
+/* ---------- Actualités : menus déroulants ---------- */
+.filtres-news { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 18px; margin-bottom: 20px; }
+.filtre { display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 600; color: var(--texte-doux); letter-spacing: .04em; text-transform: uppercase; }
+.menu {
+    appearance: none;
+    -webkit-appearance: none;
+    min-width: 200px;
+    padding: 10px 40px 10px 14px;
+    border: 1px solid var(--bordure);
+    border-radius: 8px;
+    background: var(--carte) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%230F2A22' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 14px center;
+    color: var(--texte);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    cursor: pointer;
+    transition: border-color .15s, box-shadow .15s;
+}
+.menu:hover { border-color: var(--emeraude); }
+.menu:focus-visible { outline: none; border-color: var(--emeraude); box-shadow: 0 0 0 3px rgba(18, 185, 129, .2); }
+.compte-news { margin-left: auto; padding-bottom: 10px; font-size: 13px; color: var(--texte-doux); }
+
+@media (max-width: 560px) {
+    .filtre, .menu { width: 100%; }
+    .live-heure { margin-left: 0; }
+}

@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write          # autorise le robot a committer/pousser
 
+# Un seul robot a la fois : evite deux pushes simultanes (robot quotidien / robot rapide)
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -30,6 +35,7 @@ jobs:
         run: |
           python pipeline/sources/gas_source.py
           python pipeline/sources/oil_sources.py
+          python pipeline/sources/oil_live.py
           python pipeline/sources/electricity_source.py
           python pipeline/analysis/risk_report.py
           python pipeline/analysis/oil_analysis.py
@@ -37,10 +43,16 @@ jobs:
           python pipeline/analysis/elec_analysis.py
           python pipeline/sources/news_source.py
 
-      - name: Committer les donnees mises a jour
+      - name: Committer seulement si quelque chose a change
         run: |
-          git config user.name "Luca Desplat"
-          git config user.email "desplatluca@gmail.com"
-          git add data/*.json
-          git diff --staged --quiet || git commit -m "Mise a jour automatique des donnees"
-          git push
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "{\"maj\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > data/meta.json
+            git config user.name "Luca Desplat"
+            git config user.email "desplatluca@gmail.com"
+            git add data/*.json
+            git commit -m "Mise a jour automatique des donnees"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Aucun changement a publier."
+          fi

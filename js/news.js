@@ -1,4 +1,4 @@
-// Mots-cles pour reconnaitre la commodite dans un titre
+// Mots-cles pour reconnaitre le marche dans un titre
 const MOTS = {
     petrole: ["oil", "crude", "brent", "wti", "petrol", "pétrole", "opec", "opep",
               "baril", "barrel", "refin", "raffin", "shale", "drill", "offshore", "upstream"],
@@ -8,40 +8,34 @@ const MOTS = {
                   "utility", "utilities"],
 };
 
-const ICONES = { petrole: "🛢️", gaz: "🔥", electricite: "⚡" };
+const NOMS_MARCHES = { petrole: "Pétrole", gaz: "Gaz", electricite: "Électricité" };
 const JOURS = { jour: 1, semaine: 7, mois: 30, tout: 100000 };
 
 let tousLesArticles = [];
-let periodeActive = "tout";
-const filtresCommodite = new Set();
 
-function commoditesDe(titre) {
+function marchesDe(titre) {
     const t = (titre || "").toLowerCase();
-    const trouvees = [];
-    for (const [com, mots] of Object.entries(MOTS)) {
-        if (mots.some(m => t.includes(m))) trouvees.push(com);
-    }
-    return trouvees;
+    return Object.keys(MOTS).filter(m => MOTS[m].some(mot => t.includes(mot)));
 }
 
+// Lit l'état des trois menus déroulants et affiche les articles correspondants
 function afficher() {
+    const periode = document.getElementById("filtre-periode").value;
+    const marche = document.getElementById("filtre-marche").value;
+    const source = document.getElementById("filtre-source").value;
     const conteneur = document.getElementById("liste-news");
-    conteneur.innerHTML = "";
-
-    const limite = Date.now() - JOURS[periodeActive] * 24 * 3600 * 1000;
+    const limite = Date.now() - JOURS[periode] * 24 * 3600 * 1000;
 
     const articles = tousLesArticles.filter(a => {
-        // Filtre periode
-        if (periodeActive !== "tout") {
-            const d = a.date ? new Date(a.date).getTime() : 0;
-            if (d < limite) return false;
-        }
-        // Filtre commodite (aucun = tout)
-        if (filtresCommodite.size > 0 && !a.commodites.some(c => filtresCommodite.has(c))) {
-            return false;
-        }
+        if (periode !== "tout" && (a.date ? new Date(a.date).getTime() : 0) < limite) return false;
+        if (marche && !a.marches.includes(marche)) return false;
+        if (source && a.source !== source) return false;
         return true;
     });
+
+    document.getElementById("compte-news").textContent =
+        articles.length + (articles.length > 1 ? " articles" : " article");
+    conteneur.innerHTML = "";
 
     if (articles.length === 0) {
         conteneur.textContent = "Aucun article pour ces filtres.";
@@ -74,8 +68,8 @@ function afficher() {
         const meta = document.createElement("div");
         meta.className = "news-meta";
         const date = article.date ? new Date(article.date).toLocaleDateString("fr-FR") : "";
-        const icones = article.commodites.map(c => ICONES[c]).join(" ");
-        meta.textContent = article.source + (date ? " · " + date : "") + (icones ? " · " + icones : "");
+        const marches = article.marches.map(m => NOMS_MARCHES[m]).join(", ");
+        meta.textContent = [article.source, date, marches].filter(Boolean).join(" · ");
 
         corps.appendChild(lien);
         corps.appendChild(meta);
@@ -84,40 +78,20 @@ function afficher() {
     }
 }
 
-// Filtre PERIODE (un seul actif a la fois)
-document.querySelectorAll("#filtres-periode .news-filtre").forEach(bouton => {
-    bouton.addEventListener("click", () => {
-        periodeActive = bouton.dataset.periode;
-        document.querySelectorAll("#filtres-periode .news-filtre")
-            .forEach(b => b.classList.remove("actif"));
-        bouton.classList.add("actif");
-        afficher();
-    });
-});
-
-// Filtre COMMODITE (plusieurs cumulables)
-document.querySelectorAll("#filtres-commodite .news-filtre").forEach(bouton => {
-    bouton.addEventListener("click", () => {
-        const com = bouton.dataset.com;
-        if (filtresCommodite.has(com)) {
-            filtresCommodite.delete(com);
-            bouton.classList.remove("actif");
-        } else {
-            filtresCommodite.add(com);
-            bouton.classList.add("actif");
-        }
-        afficher();
-    });
-});
-
 window.addEventListener("load", () => {
+    ["filtre-periode", "filtre-marche", "filtre-source"].forEach(id =>
+        document.getElementById(id).addEventListener("change", afficher));
+
     fetch("data/news.json")
         .then(reponse => reponse.json())
         .then(donnees => {
-            tousLesArticles = (donnees.articles || []).map(a => ({
-                ...a,
-                commodites: commoditesDe(a.titre),
-            }));
+            tousLesArticles = (donnees.articles || []).map(a => ({ ...a, marches: marchesDe(a.titre) }));
+
+            // Les sources proposées dans le menu viennent des données elles-mêmes
+            const sources = [...new Set(tousLesArticles.map(a => a.source))].sort();
+            const menu = document.getElementById("filtre-source");
+            sources.forEach(nom => menu.add(new Option(nom, nom)));
+
             afficher();
         })
         .catch(erreur => {
