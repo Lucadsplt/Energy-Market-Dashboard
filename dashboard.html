@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/style.css?v=3">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
@@ -63,6 +63,34 @@
                 <article class="carte kpi"><span class="kpi-label">Volatilité TTF <i>% annualisée</i></span>
                     <span class="kpi-value" id="kpi-vol-ttf">—</span>
                     <div class="spark"><canvas id="spark-vol"></canvas></div></article>
+            </div>
+
+            <h3 class="titre-section">Signaux à retenir</h3>
+            <div class="signal-grid">
+                <a href="#" class="carte signal" data-aller="petrole">
+                    <span class="signal-sur">Pétrole</span>
+                    <span class="signal-label">Écart Brent − WTI (spot)</span>
+                    <span class="signal-valeur" id="sig-zscore">—</span>
+                    <span class="signal-texte" id="sig-zscore-txt"></span>
+                </a>
+                <a href="#" class="carte signal" data-aller="petrole">
+                    <span class="signal-sur">Pétrole</span>
+                    <span class="signal-label">Risque à 30 jours (VaR 95 %)</span>
+                    <span class="signal-valeur" id="sig-var">—</span>
+                    <span class="signal-texte" id="sig-var-txt"></span>
+                </a>
+                <a href="#" class="carte signal" data-aller="gaz">
+                    <span class="signal-sur">Gaz</span>
+                    <span class="signal-label">Écart TTF − Henry Hub</span>
+                    <span class="signal-valeur" id="sig-gaz">—</span>
+                    <span class="signal-texte" id="sig-gaz-txt"></span>
+                </a>
+                <a href="#" class="carte signal" data-aller="electricite">
+                    <span class="signal-sur">Électricité</span>
+                    <span class="signal-label">Prix négatifs</span>
+                    <span class="signal-valeur" id="sig-elec">—</span>
+                    <span class="signal-texte" id="sig-elec-txt"></span>
+                </a>
             </div>
 
             <div class="grille-2">
@@ -227,5 +255,6 @@
     <script src="js/news.js?v=11"></script>
     <script src="js/maj.js?v=1"></script>
     <script src="js/oil_live.js?v=3"></script>
+    <script src="js/overview.js?v=1"></script>
 </body>
 </html>
