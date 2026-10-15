@@ -42,6 +42,7 @@ jobs:
           python pipeline/analysis/gas_analysis.py
           python pipeline/analysis/elec_analysis.py
           python pipeline/sources/news_source.py
+          python pipeline/analysis/maritime_analysis.py
 
       - name: Committer seulement si quelque chose a change
         run: |
