@@ -8,7 +8,7 @@ const TITRES = {
     copilot:     ["Bientôt", "Assistant"],
 };
 // Le sélecteur de période ne concerne que les pages avec des prix journaliers
-const AVEC_PERIODE = ["general", "petrole", "gaz"];
+const AVEC_PERIODE = ["petrole", "gaz"];
 
 // Navigation par onglets (barre du haut + tags de la synthèse)
 function afficherOnglet(cible) {

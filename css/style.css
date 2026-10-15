@@ -341,3 +341,50 @@ body {
 .signal-texte { font-size: 13px; line-height: 1.45; color: var(--texte-doux); }
 @media (max-width: 1100px) { .signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .signal-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Vue d'ensemble : un bloc par énergie ---------- */
+.energie {
+    --e: var(--emeraude); --e-clair: #f1f7f3; --e-bord: #cfe3d8;
+    margin-bottom: 28px;
+    padding: 22px 24px 24px;
+    background: var(--e-clair);
+    border: 1px solid var(--e-bord);
+    border-top: 4px solid var(--e);
+    border-radius: 12px;
+}
+.energie-petrole { --e: #c2621f; --e-clair: #fbf1e9; --e-bord: #efd3bd; }
+.energie-gaz { --e: #3b6fb6; --e-clair: #edf3fb; --e-bord: #c9d9ee; }
+.energie-electricite { --e: #d99a0b; --e-clair: #fdf6e2; --e-bord: #f0dda4; }
+
+.energie-tete { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.energie-icone {
+    flex: none; width: 46px; height: 46px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: var(--e); color: #fff;
+}
+.energie-icone svg { width: 24px; height: 24px; }
+.energie-titre { font-family: var(--titre); font-size: 28px; font-weight: 500; color: var(--vert-fonce); line-height: 1.1; }
+.energie-sous { margin-top: 3px; font-size: 13px; color: var(--texte-doux); }
+.energie-lien { margin-left: auto; font-size: 14px; font-weight: 600; color: var(--e); text-decoration: none; white-space: nowrap; }
+.energie-lien:hover { text-decoration: underline; }
+
+.energie-grille { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.energie .bandeau-live { border-left-color: var(--e); }
+
+/* cartes de prix : liseré à la couleur de l'énergie */
+.energie .kpi { border-left: 4px solid var(--e); }
+.kpi-date { font-size: 12px; color: var(--texte-doux); min-height: 16px; }
+
+/* cartes indicateur clé : cadre plein de la couleur de l'énergie */
+.energie .signal { border: 1.5px solid var(--e); background: #fff; }
+.energie .signal:hover { background: var(--e-clair); }
+.energie .signal-sur { color: var(--e); }
+
+@media (max-width: 1100px) { .energie-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+    .topbar { position: static; }
+    .energie { padding: 18px 14px 18px; }
+    .energie-grille { grid-template-columns: 1fr; }
+    .energie-titre { font-size: 24px; }
+    .energie-lien { display: none; }
+}

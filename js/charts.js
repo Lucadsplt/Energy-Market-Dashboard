@@ -1,5 +1,8 @@
 // Tous les graphes du dashboard : un seul fichier, un seul style.
 
+// Une couleur par énergie (cartes, mini-courbes, blocs de la vue d'ensemble)
+const ENERGIE = { petrole: "#c2621f", gaz: "#3b6fb6", electricite: "#d99a0b" };
+
 const COULEURS = {
     vert: "#12B981",
     bleu: "#3b6fb6",
@@ -135,13 +138,30 @@ function dernierEtVariation(valeurs) {
     return { dernier, variation: precedent !== undefined ? dernier - precedent : null };
 }
 
-function afficherKpi(id, valeurs, { variation = true } = {}) {
+const MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
+
+// "2026-10-06" -> "6 oct." ; "2026-10-15 12:30" -> "15 oct., 12h30"
+function dateCourte(texte) {
+    const jour = `${parseInt(texte.slice(8, 10), 10)} ${MOIS_COURTS[parseInt(texte.slice(5, 7), 10) - 1]}`;
+    return texte.length > 10 ? `${jour}, ${texte.slice(11, 13)}h${texte.slice(14, 16)}` : jour;
+}
+
+// Remplit une carte indicateur : valeur, variation, date de la dernière donnée
+function afficherKpi(id, valeurs, { variation = true, dates = null } = {}) {
+    const el = document.getElementById(id);
+    if (!el) return;
     const { dernier, variation: v } = dernierEtVariation(valeurs);
-    document.getElementById(id).textContent = dernier.toFixed(1);
+    el.textContent = dernier.toFixed(1);
+
+    if (dates) {
+        const dernierIndex = valeurs.map(x => x !== null).lastIndexOf(true);
+        const elDate = document.getElementById(id + "-date");
+        if (elDate) elDate.textContent = "au " + dateCourte(dates[dernierIndex]);
+    }
     if (!variation || v === null) return;
-    const el = document.getElementById(id + "-var");
-    el.textContent = (v >= 0 ? "▲ +" : "▼ ") + v.toFixed(1);
-    el.classList.add(v >= 0 ? "up" : "down");
+    const elVar = document.getElementById(id + "-var");
+    elVar.textContent = (v >= 0 ? "▲ +" : "▼ ") + v.toFixed(1);
+    elVar.classList.add(v >= 0 ? "up" : "down");
 }
 
 function afficherMaj(id, dates) {
@@ -157,10 +177,10 @@ window.addEventListener("load", () => {
     const { vert, bleu, ambre, gris } = COULEURS;
 
     charger("oil").then(d => {
-        afficherKpi("kpi-brent", d.series.brent);
-        afficherKpi("kpi-spread-oil", d.series.spread, { variation: false });
-        creerSparkline("spark-brent", d.dates, d.series.brent, vert);
-        creerSparkline("spark-spread-oil", d.dates, d.series.spread, gris);
+        afficherKpi("kpi-brent", d.series.brent, { dates: d.dates });
+        afficherKpi("kpi-wti", d.series.wti, { dates: d.dates });
+        creerSparkline("spark-brent", d.dates, d.series.brent, ENERGIE.petrole);
+        creerSparkline("spark-wti", d.dates, d.series.wti, ENERGIE.petrole);
         afficherMaj("maj-oil", d.dates);
 
         const prix = [
@@ -175,10 +195,12 @@ window.addEventListener("load", () => {
     }).catch(e => console.error("Pétrole :", e));
 
     charger("gas").then(d => {
-        afficherKpi("kpi-ttf", d.series.ttf);
-        afficherKpi("kpi-vol-ttf", d.series.ttf_vol, { variation: false });
-        creerSparkline("spark-ttf", d.dates, d.series.ttf, vert);
-        creerSparkline("spark-vol", d.dates, d.series.ttf_vol, ambre);
+        afficherKpi("kpi-ttf", d.series.ttf, { dates: d.dates });
+        afficherKpi("kpi-hh", d.series.henry_hub, { dates: d.dates });
+        afficherKpi("kpi-vol-ttf", d.series.ttf_vol, { variation: false, dates: d.dates });
+        creerSparkline("spark-ttf", d.dates, d.series.ttf, ENERGIE.gaz);
+        creerSparkline("spark-hh", d.dates, d.series.henry_hub, ENERGIE.gaz);
+        creerSparkline("spark-vol", d.dates, d.series.ttf_vol, ENERGIE.gaz);
         afficherMaj("maj-gas", d.dates);
 
         const prix = [
@@ -194,10 +216,12 @@ window.addEventListener("load", () => {
     }).catch(e => console.error("Gaz :", e));
 
     charger("electricity").then(d => {
-        afficherKpi("kpi-elec-fr", d.series.fr);
-        afficherKpi("kpi-spread-elec", d.series.spread_fr_de, { variation: false });
-        creerSparkline("spark-elec", d.dates, d.series.fr, vert);
-        creerSparkline("spark-spread-elec", d.dates, d.series.spread_fr_de, gris);
+        afficherKpi("kpi-elec-fr", d.series.fr, { dates: d.dates });
+        afficherKpi("kpi-elec-de", d.series.de_lu, { dates: d.dates });
+        afficherKpi("kpi-spread-elec", d.series.spread_fr_de, { variation: false, dates: d.dates });
+        creerSparkline("spark-elec", d.dates, d.series.fr, ENERGIE.electricite);
+        creerSparkline("spark-elec-de", d.dates, d.series.de_lu, ENERGIE.electricite);
+        creerSparkline("spark-spread-elec", d.dates, d.series.spread_fr_de, ENERGIE.electricite);
 
         creerGraphe("graphique-electricite", d, [
             { cle: "fr", label: "France", couleur: vert, unite: "€/MWh" },
