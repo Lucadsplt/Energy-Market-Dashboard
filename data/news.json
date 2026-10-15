@@ -2,6 +2,153 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "U.S. Targets Central Asia's Energy and Critical Minerals in Major Trade Push",
+      "lien": "https://oilprice.com/Geopolitics/Asia/US-Targets-Central-Asias-Energy-and-Critical-Minerals-in-Major-Trade-Push.html",
+      "date": "2026-10-15T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_95tlouf2dh.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories down 8.6 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55412235/eia-us-crude-oil-inventories-down-86-million-bbl",
+      "date": "2026-10-15T18:18:17+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad118d9eafa6ed851c2daec-ogjrecapoctober92026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Britain’s Biggest Business Lobby Calls for Tax Cuts and Lower Energy Bills",
+      "lien": "https://oilprice.com/Energy/Energy-General/Britains-Biggest-Business-Lobby-Calls-for-Tax-Cuts-and-Lower-Energy-Bills.html",
+      "date": "2026-10-15T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_ihmsppgkuf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela's Oil Recovery Gains Momentum as New Drilling Rigs Arrive",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
+      "date": "2026-10-15T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_bwvmcwf1go.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Shell, HYDRA SUBSEA sign agreement for subsea tie-in pipeline installation",
+      "lien": "https://www.ogj.com/general-interest/news/55412196/shell-hydra-subsea-sign-agreement-for-subsea-tie-in-pipeline-installation",
+      "date": "2026-10-15T16:46:47+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad1032f56574314623784d5-appomattox_platform_gulf_of_america.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EIA Says US Crude Inventories Down Nearly 9 Million Barrels",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
+      "date": "2026-10-15T16:09:12+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_ikbn8jchux.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Shell to sell Nigeria domestic gas business to Vaaris Energy",
+      "lien": "https://www.ogj.com/general-interest/news/55412182/shell-to-sell-nigeria-domestic-gas-business-to-vaaris-energy",
+      "date": "2026-10-15T16:04:13+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Denies Cutting Ukraine Intelligence Amid Satellite Restrictions",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Trump-Denies-Cutting-Ukraine-Intelligence-Amid-Satellite-Restrictions.html",
+      "date": "2026-10-15T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_gcks742iwj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pakistan Faces Winter Gas Shortages if Hormuz LNG Remains Choked",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html",
+      "date": "2026-10-15T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_i9nzrwuptv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Bulgaria Breaks Ranks With EU Over Trump-Putin Diesel Deal",
+      "lien": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
+      "date": "2026-10-15T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_yswultpnq6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Gas Prices Close to 2022 High as Hormuz LNG Flows Remain Limited",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
+      "date": "2026-10-15T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_lxju67ywdn.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco CEO Warns Oil Squeeze is Serious",
+      "lien": "https://www.rigzone.com/news/aramco_ceo_warns_oil_squeeze_is_serious-15-oct-2026-184859-article/?rss=true",
+      "date": "2026-10-15T14:02:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-CEO-Warns-Oil-Squeeze-is-Serious-184859-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "PJM, ERCOT, and SWPP all set peak load records this summer",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+      "date": "2026-10-15T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iranian Ship Attacks Threaten Middle East Oil Exports as Tanker Traffic Slows",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
+      "date": "2026-10-15T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_igjvs1fqxe.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Angola Seeks to Keep Oil Output Above 1MM Barrels a Day",
+      "lien": "https://www.rigzone.com/news/wire/angola_seeks_to_keep_oil_output_above_1mm_barrels_a_day-15-oct-2026-184858-article/?rss=true",
+      "date": "2026-10-15T13:41:31+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Angola-Seeks-to-Keep-Oil-Output-Above-1MM-Barrels-a-Day-184858-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Wants World Bank to Drop Ban on Upstream Oil and Gas Funding",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Wants-World-Bank-to-Drop-Ban-on-Upstream-Oil-and-Gas-Funding.html",
+      "date": "2026-10-15T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_nngzl17kam.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ship-to-Ship Oil Transfers Surge Off India’s West Coast",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ship-to-Ship-Oil-Transfers-Surge-Off-Indias-West-Coast.html",
+      "date": "2026-10-15T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_ekhs4cjfyd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Annual Wind Power Installations to Double by 2030",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Annual-Wind-Power-Installations-to-Double-by-2030.html",
+      "date": "2026-10-15T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_ubtmf18o64.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA to Use Cold War Era Law to Expand Texas Refinery",
+      "lien": "https://www.rigzone.com/news/wire/usa_to_use_cold_war_era_law_to_expand_texas_refinery-15-oct-2026-184857-article/?rss=true",
+      "date": "2026-10-15T11:27:31+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-to-Use-Cold-War-Era-Law-to-Expand-Texas-Refinery-184857-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "IEA Says UAE Oil Output Surged to Records in September",
+      "lien": "https://www.rigzone.com/news/wire/iea_says_uae_oil_output_surged_to_records_in_september-15-oct-2026-184856-article/?rss=true",
+      "date": "2026-10-15T11:18:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/IEA-Says-UAE-Oil-Output-Surged-to-Records-in-September-184856-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Touts 'Massive' Oil, Gas Exploration in Greenland",
+      "lien": "https://www.rigzone.com/news/trump_touts_massive_oil_gas_exploration_in_greenland-15-oct-2026-184855-article/?rss=true",
+      "date": "2026-10-15T11:13:25+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "TotalEnergies Eyes Massive Profit Windfall as Refining Margins Soar",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Eyes-Massive-Profit-Windfall-as-Refining-Margins-Soar.html",
       "date": "2026-10-15T10:30:00+00:00",
@@ -188,6 +335,13 @@
       "lien": "https://www.rigzone.com/news/wire/russia_hits_ukraine_energy_plants-14-oct-2026-184847-article/?rss=true",
       "date": "2026-10-14T13:55:20+00:00",
       "image": "https://images.rigzone.com/images/news/articles/Russia-Hits-Ukraine-Energy-Plants-184847-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Zelenskyy Accuses Trump, Musk of Throttling Satellite Usage",
+      "lien": "https://www.rigzone.com/news/wire/zelenskyy_accuses_trump_musk_of_throttling_satellite_usage-14-oct-2026-184847-article/?rss=true",
+      "date": "2026-10-14T13:55:20+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Zelenskyy-Accuses-Trump-Musk-of-Throttling-Satellite-Usage-184847-1200x628.png"
     },
     {
       "source": "Rigzone",
