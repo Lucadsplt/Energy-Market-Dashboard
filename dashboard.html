@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=5">
+    <link rel="stylesheet" href="css/style.css?v=6">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
@@ -22,7 +22,7 @@
                 <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
                 <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
                 <a href="#" class="nav-link" data-cible="news">News</a>
-                <a href="#" class="nav-link" data-cible="copilot">Assistant</a>
+                <a href="#" class="nav-link" data-cible="maritime">Trafic maritime</a>
             </nav>
             <a href="portfolio.html" class="auteur">Portfolio</a>
         </div>
@@ -72,6 +72,7 @@
                         <span class="signal-texte" id="sig-var-txt"></span>
                     </a>
                 </div>
+                <a href="#" class="alerte-trafic" id="alerte-maritime" data-aller="maritime" hidden></a>
             </div>
 
             <div class="energie energie-gaz">
@@ -265,18 +266,37 @@
             <div id="liste-news" class="liste-news">Chargement des actualités…</div>
         </section>
 
-        <!-- ========== COPILOT ========== -->
-        <section id="copilot" class="onglet">
-            <article class="carte vide">
-                <h2>Assistant</h2>
-                <p>Un assistant qui commente les graphiques arrive bientôt.</p>
+        <!-- ========== TRAFIC MARITIME ========== -->
+        <section id="maritime" class="onglet">
+            <div class="kpi-grid">
+                <article class="carte kpi"><span class="kpi-label">Détroit d'Ormuz <i>pétroliers/jour · moyenne 7 jours</i></span>
+                    <span class="kpi-value" id="mar-ormuz">—</span>
+                    <span class="kpi-change" id="mar-ormuz-var"></span></article>
+                <article class="carte kpi"><span class="kpi-label">Détroits en rupture <i>z-score ≤ −2 par rapport à 2025</i></span>
+                    <span class="kpi-value" id="mar-rupture">—</span>
+                    <span class="kpi-date" id="mar-rupture-txt"></span></article>
+                <article class="carte kpi"><span class="kpi-label">Dernière donnée <i>IMF PortWatch</i></span>
+                    <span class="kpi-value" id="mar-date">—</span>
+                    <span class="kpi-date">mise à jour chaque semaine par le FMI</span></article>
+            </div>
+
+            <article class="carte">
+                <h2>Ormuz et prix du Brent <small>pétroliers par jour (moyenne 7 jours) et Brent spot FRED</small></h2>
+                <div class="chart-box grand"><canvas id="graphique-ormuz"></canvas></div>
+                <p class="note" id="lecture-ormuz"></p>
+            </article>
+
+            <article class="carte" style="margin-top:20px">
+                <h2>Pétroliers par détroit <small>moyenne 7 jours, comparée à l'année 2025</small></h2>
+                <div class="defile"><table class="table-detroits" id="table-detroits"></table></div>
+                <p class="note">Source : IMF PortWatch (FMI), passages quotidiens de navires estimés à partir de signaux AIS. Ce sont des estimations, pas des chiffres douaniers : dans une zone de conflit, des navires peuvent couper leur AIS, ce qui sous-estime le trafic. Le z-score mesure l'écart à la moyenne de 2025 en écarts-types : en dessous de −2, le trafic est anormalement bas.</p>
             </article>
         </section>
     </main>
 
     <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · <span id="maj-site">mises à jour automatiques</span></footer>
 
-    <script src="js/nav.js?v=12"></script>
+    <script src="js/nav.js?v=13"></script>
     <script src="js/charts.js?v=11"></script>
     <script src="js/risk.js?v=11"></script>
     <script src="js/oil_analysis.js?v=1"></script>
@@ -285,6 +305,7 @@
     <script src="js/news.js?v=11"></script>
     <script src="js/maj.js?v=1"></script>
     <script src="js/oil_live.js?v=3"></script>
-    <script src="js/overview.js?v=1"></script>
+    <script src="js/overview.js?v=2"></script>
+    <script src="js/maritime.js?v=2"></script>
 </body>
 </html>

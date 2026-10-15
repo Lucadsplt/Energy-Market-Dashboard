@@ -5,7 +5,7 @@ const TITRES = {
     gaz:         ["TTF et Henry Hub", "Gaz"],
     electricite: ["France et Allemagne", "Électricité"],
     news:        ["Pétrole · Gaz · Électricité", "Actualités"],
-    copilot:     ["Bientôt", "Assistant"],
+    maritime:    ["Pétroliers · détroits stratégiques", "Trafic maritime"],
 };
 // Le sélecteur de période ne concerne que les pages avec des prix journaliers
 const AVEC_PERIODE = ["petrole", "gaz"];

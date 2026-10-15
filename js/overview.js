@@ -34,3 +34,24 @@ window.addEventListener("load", () => {
         })
         .catch(e => console.error("Vue d'ensemble :", e));
 });
+
+// Alerte « trafic maritime » dans le bloc Pétrole : affichée seulement si un détroit sort de sa zone normale
+window.addEventListener("load", () => {
+    const alerte = document.getElementById("alerte-maritime");
+    if (!alerte) return;
+
+    fetch("data/maritime.json")
+        .then(r => r.json())
+        .then(m => {
+            const ruptures = m.detroits.filter(d => d.zscore <= -2);
+            if (ruptures.length === 0) return;                       // rien d'anormal : on n'affiche rien
+
+            const pire = ruptures.reduce((a, b) => (b.zscore < a.zscore ? b : a));
+            const fr = x => String(x).replace(".", ",");
+            alerte.innerHTML = `<span><b>Trafic maritime :</b> ${pire.nom} à ${fr(pire.actuel_7j)} pétrolier/jour contre
+                ${fr(pire.reference)} en 2025 (${pire.variation_pct} %). ${ruptures.length} détroit${ruptures.length > 1 ? "s" : ""} sur ${m.detroits.length} en rupture.</span>
+                <span class="alerte-lien">Voir le trafic →</span>`;
+            alerte.hidden = false;
+        })
+        .catch(() => { /* pas de données maritimes : l'alerte reste masquée */ });
+});
