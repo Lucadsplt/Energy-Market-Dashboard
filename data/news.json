@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "TotalEnergies Eyes Massive Profit Windfall as Refining Margins Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Eyes-Massive-Profit-Windfall-as-Refining-Margins-Soar.html",
+      "date": "2026-10-15T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_kogqodrzyi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+      "date": "2026-10-15T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_kxiusogbmo.jpg"
+    },
+    {
       "source": "IFPEN",
       "titre": "Séminaire “E-fuels Made in Europe: Challenges for a Successful Deployment.”",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/seminaire-e-fuels-made-europe-challenges-successful-deployment",
@@ -8,11 +22,207 @@
       "image": null
     },
     {
+      "source": "Rigzone",
+      "titre": "North Sea Production Emissions Fall for 6th Straight Year",
+      "lien": "https://www.rigzone.com/news/north_sea_production_emissions_fall_for_6th_straight_year-15-oct-2026-184854-article/?rss=true",
+      "date": "2026-10-15T08:55:12+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-Sea-Production-Emissions-Fall-for-6th-Straight-Year-184854-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Container Ship Sinks in Strait of Hormuz",
+      "lien": "https://www.rigzone.com/news/wire/container_ship_sinks_in_strait_of_hormuz-15-oct-2026-184853-article/?rss=true",
+      "date": "2026-10-15T08:34:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Container-Ship-Sinks-in-Strait-of-Hormuz-184853-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IMF Warns of Worldwide Fallout as Attacks on Saudi Arabia Escalate",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Warns-of-Worldwide-Fallout-as-Attacks-on-Saudi-Arabia-Escalate.html",
+      "date": "2026-10-15T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_fmabhiuyqd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Lithium-Prices-Plunge-as-EU-China-Trade-Deal-Sparks-Demand-Fears.html",
+      "date": "2026-10-15T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_1j8luscrpt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
+      "date": "2026-10-15T05:19:07+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_ktwh96nipk.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "The handover opportunity: What decides whether energy investment performs",
+      "lien": "https://www.ogj.com/sponsored/article/55410731/the-handover-opportunity-what-decides-whether-energy-investment-performs",
+      "date": "2026-10-15T05:00:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ac811b4a580cb80303914ac-1240210503305280___the_handover_opportunity_octave.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brookfield, NextEra to Build $100 Billion AI Hub on Cold War Nuclear Site",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brookfield-NextEra-to-Build-100-Billion-AI-Hub-on-Cold-War-Nuclear-Site.html",
+      "date": "2026-10-15T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_ezxg1b7rwm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Market Tightens as Tanker Attacks and Inventory Draws Mount",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Tightens-as-Tanker-Attacks-and-Inventory-Draws-Mount.html",
+      "date": "2026-10-14T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_iycqvlh9ns.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "White House Turns to Korean War-Era Law as Diesel Prices Stay Above $6",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
+      "date": "2026-10-14T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_ai3ikujlbp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Crude Oil Inventories See Massive Drop Off",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
+      "date": "2026-10-14T21:43:47+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_kxb26fdmwa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Announces $80 Billion Taiwan LNG Deal",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Trump-Announces-80-Billion-Taiwan-LNG-Deal.html",
+      "date": "2026-10-14T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_x5pdejaiza.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco's New China Refinery Venture Gets 1st Crude Cargo",
+      "lien": "https://www.rigzone.com/news/wire/aramcos_new_china_refinery_venture_gets_1st_crude_cargo-14-oct-2026-184848-article/?rss=true",
+      "date": "2026-10-14T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramcos-New-China-Refinery-Venture-Gets-1st-Crude-Cargo-184848-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Gains as Global Supply Risks Mount",
+      "lien": "https://www.rigzone.com/news/wire/oil_gains_as_global_supply_risks_mount-14-oct-2026-184852-article/?rss=true",
+      "date": "2026-10-14T20:23:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Gains-as-Global-Supply-Risks-Mount-184852-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Britain's $47 Billion North Sea Oil Decision Hangs in the Balance",
+      "lien": "https://oilprice.com/Energy/Energy-General/Britains-47-Billion-North-Sea-Oil-Decision-Hangs-in-the-Balance.html",
+      "date": "2026-10-14T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_blf9gfskwr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ship Sinks in Strait of Hormuz as Iran Escalates Maritime Attacks",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
+      "date": "2026-10-14T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_upqp1zlvw2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Putin Fights to Preserve Russia’s Fading Influence in Central Asia",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Putin-Fights-to-Preserve-Russias-Fading-Influence-in-Central-Asia.html",
+      "date": "2026-10-14T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_fvesy4zlti.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Houthis Vow More Attacks After Strike on Aramco Headquarters",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Vow-More-Attacks-After-Strike-on-Aramco-Headquarters.html",
+      "date": "2026-10-14T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_oh1g2ah4ve.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Challenges Facing South America’s Copper Boom",
+      "lien": "https://oilprice.com/Metals/Commodities/5-Challenges-Facing-South-Americas-Copper-Boom.html",
+      "date": "2026-10-14T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-14_gtirrqgclo.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "IEA: Oil supply rebound remains fragile; diesel tightness persists",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55411809/iea-oil-supply-rebound-remains-fragile-diesel-tightness-persists",
+      "date": "2026-10-14T16:00:44+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6acfa6d9565743146235088c-250911oil_market__217698835__daniil_peshkov_dreams.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Hallador Bags $700MM Contract to Supply MISO Utility",
+      "lien": "https://www.rigzone.com/news/hallador_bags_700mm_contract_to_supply_miso_utility-14-oct-2026-184851-article/?rss=true",
+      "date": "2026-10-14T15:10:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Hallador-Bags-700MM-Contract-to-Supply-MISO-Utility-184851-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "KPC Committed to Meeting Obligations 'Despite Challenges'",
+      "lien": "https://www.rigzone.com/news/kpc_committed_to_meeting_obligations_despite_challenges-14-oct-2026-184849-article/?rss=true",
+      "date": "2026-10-14T14:41:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/KPC-Committed-to-Meeting-Obligations-Despite-Challenges-184849-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Centalion Boosts Haynesville Presence with Silver Hill Acquisition",
+      "lien": "https://www.rigzone.com/news/centalion_boosts_haynesville_presence_with_silver_hill_acquisition-14-oct-2026-184850-article/?rss=true",
+      "date": "2026-10-14T14:40:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Centalion-Boosts-Haynesville-Presence-with-Silver-Hill-Acquisition-184850-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "Monthly wind generation in ISO-NE is about 68% higher than last year",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+      "date": "2026-10-14T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Russia Hits Ukraine Energy Plants",
+      "lien": "https://www.rigzone.com/news/wire/russia_hits_ukraine_energy_plants-14-oct-2026-184847-article/?rss=true",
+      "date": "2026-10-14T13:55:20+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Russia-Hits-Ukraine-Energy-Plants-184847-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Power LNG Secures Agreement with Port of Galveston",
+      "lien": "https://www.rigzone.com/news/power_lng_secures_agreement_with_port_of_galveston-14-oct-2026-184846-article/?rss=true",
+      "date": "2026-10-14T13:49:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Power-LNG-Secures-Agreement-with-Port-of-Galveston-184846-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "MMA Proposes 2nd Alaska Oil, Gas Lease Sale",
+      "lien": "https://www.rigzone.com/news/mma_proposes_2nd_alaska_oil_gas_lease_sale-14-oct-2026-184845-article/?rss=true",
+      "date": "2026-10-14T12:01:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/MMA-Proposes-2nd-Alaska-Oil-Gas-Lease-Sale-184845-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Makes New Discovery Near Oseberg",
+      "lien": "https://www.rigzone.com/news/equinor_makes_new_discovery_near_oseberg-14-oct-2026-184844-article/?rss=true",
+      "date": "2026-10-14T11:16:02+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Makes-New-Discovery-Near-Oseberg-184844-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "Trump Announces “Massive” Greenland Oil Exploration Plans",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
       "date": "2026-10-14T10:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-14_9ymqf5je7x.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "QatarEnergy CEO Says 'We Need to Keep Energy Above Politics'",
+      "lien": "https://www.rigzone.com/news/qatarenergy_ceo_says_we_need_to_keep_energy_above_politics-14-oct-2026-184843-article/?rss=true",
+      "date": "2026-10-14T10:09:51+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/QatarEnergy-CEO-Says-We-Need-to-Keep-Energy-Above-Politics-184843-1200x628.png"
     },
     {
       "source": "OilPrice",
