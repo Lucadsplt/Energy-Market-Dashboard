@@ -2,10 +2,52 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Exxon’s Oil Boom Could Keep Guyana’s Gas at Home",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Exxons-Oil-Boom-Could-Keep-Guyanas-Gas-at-Home.html",
+      "date": "2026-10-15T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_giphle3vor.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Nuclear Fuel Independence Edges Closer as Urenco Expansion Hits 75%",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/US-Nuclear-Fuel-Independence-Edges-Closer-as-Urenco-Expansion-Hits-75.html",
+      "date": "2026-10-15T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_ceslamdujw.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Diverge as Supply Risks Mount",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_diverge_as_supply_risks_mount-15-oct-2026-184860-article/?rss=true",
+      "date": "2026-10-15T20:22:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Diverge-as-Supply-Risks-Mount-184860-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "6 Countries Pledge Faster Cargo Transfers on Eurasia-Europe Land Bridge",
+      "lien": "https://oilprice.com/Geopolitics/International/6-Countries-Pledge-Faster-Cargo-Transfers-on-Eurasia-Europe-Land-Bridge.html",
+      "date": "2026-10-15T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_uigrjc9tot.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Strikes Major Russian Oil Refinery",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
+      "date": "2026-10-15T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_g0iujdtawz.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "U.S. Targets Central Asia's Energy and Critical Minerals in Major Trade Push",
       "lien": "https://oilprice.com/Geopolitics/Asia/US-Targets-Central-Asias-Energy-and-Critical-Minerals-in-Major-Trade-Push.html",
       "date": "2026-10-15T19:00:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_95tlouf2dh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA Speeds Emergency Oil Release",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
+      "date": "2026-10-15T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-15_tddkkpw56u.jpg"
     },
     {
       "source": "Oil & Gas Journal",
