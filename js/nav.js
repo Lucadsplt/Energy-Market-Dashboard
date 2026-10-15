@@ -27,6 +27,7 @@ function afficherOnglet(cible) {
     document.getElementById("intro-sur").textContent = TITRES[cible][0];
     document.getElementById("intro-titre").textContent = TITRES[cible][1];
     document.getElementById("plage").style.display = AVEC_PERIODE.includes(cible) ? "" : "none";
+    document.dispatchEvent(new CustomEvent("onglet-affiche", { detail: cible }));
     window.scrollTo({ top: 0 });
 }
 

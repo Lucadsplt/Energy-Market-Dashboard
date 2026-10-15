@@ -420,3 +420,42 @@ body {
 .alerte-trafic:hover { background: #fff6f5; }
 .alerte-trafic b { color: #b3261e; }
 .alerte-trafic .alerte-lien { margin-left: auto; font-weight: 600; color: var(--e, var(--emeraude-fonce)); white-space: nowrap; }
+
+/* ---------- Carte des pétroliers et des détroits ---------- */
+.carte-maritime { height: 560px; border: 1px solid var(--bordure); border-radius: 8px; background: #eef1ee; z-index: 0; }
+.carte-outils { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.carte-outils button {
+    font-family: inherit; font-size: 13px; font-weight: 500; padding: 6px 14px;
+    border: 1px solid var(--bordure); border-radius: 999px; background: #fff; color: var(--texte-doux);
+    cursor: pointer; transition: border-color .15s, color .15s;
+}
+.carte-outils button:hover { border-color: var(--emeraude); color: var(--vert-fonce); }
+.legende-carte { margin-left: auto; display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--texte-doux); }
+.legende-carte span { display: inline-flex; align-items: center; gap: 6px; }
+.legende-carte i { display: inline-block; border-radius: 50%; }
+
+.etiquette-detroit {
+    background: transparent; border: 0; box-shadow: none; padding: 0;
+    font: 600 12px "DM Sans", sans-serif; color: var(--vert-fonce);
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+}
+.leaflet-tooltip.etiquette-detroit::before { display: none; }
+.fleche-navire { background: none; border: 0; }
+.leaflet-container { font-family: "DM Sans", system-ui, sans-serif; }
+
+.zones-live { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.zone-live { border: 1px solid var(--bordure); border-radius: 8px; padding: 12px 14px; font-size: 13px; background: #fff; }
+.zone-tete { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; margin-bottom: 8px; }
+.zone-tete b { color: var(--vert-fonce); font-size: 14px; }
+.zone-chiffres { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 14px; }
+.zone-detail { margin-top: 6px; color: var(--texte-doux); font-size: 12px; }
+
+.badge.test { background: #fdf1dc; color: #9a6500; }
+.badge.excellente { background: #e3f4ec; color: var(--emeraude-fonce); }
+.badge.moyenne { background: #fdf1dc; color: #9a6500; }
+.badge.faible { background: #fde8e6; color: #b3261e; }
+
+@media (max-width: 900px) { .zones-live { grid-template-columns: 1fr; } .legende-carte { margin-left: 0; } .carte-maritime { height: 440px; } }
+
+/* fond de carte désaturé : les marqueurs et les cercles ressortent mieux */
+.carte-maritime .leaflet-tile-pane { filter: grayscale(.85) brightness(1.06) contrast(.92); }
