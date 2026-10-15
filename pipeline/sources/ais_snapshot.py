@@ -1,0 +1,155 @@
+import asyncio
+import json
+import os
+import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+import websockets
+from dotenv import load_dotenv
+
+load_dotenv()
+
+URL = "wss://stream.aisstream.io/v0/stream"
+DUREE = int(os.getenv("AIS_DUREE_S", "120"))   # secondes d'ecoute du flux (120 par defaut)
+RACINE = Path(__file__).resolve().parents[2]
+CACHE = RACINE / ".cache" / "ais_static.json"      # memoire des navires deja identifies (hors git)
+SORTIE = RACINE / "live" / "tankers.json"          # releve publie sur la branche live-data (hors main)
+
+# Zones suivies : [[lat_min, lon_min], [lat_max, lon_max]], d'apres le test de couverture
+ZONES = {
+    "mer_du_nord": {"nom": "Mer du Nord · Manche", "bbox": [[48.8, -5.5], [60.5, 9.0]], "couverture": "excellente"},
+    "golfe_mexique": {"nom": "Golfe du Mexique · Houston", "bbox": [[26.0, -97.5], [30.5, -88.0]], "couverture": "moyenne"},
+    "gibraltar": {"nom": "Gibraltar", "bbox": [[35.6, -6.5], [36.4, -4.8]], "couverture": "faible"},
+}
+VIEUX = 30 * 24 * 3600          # on oublie les navires non vus depuis 30 jours
+A_L_ANCRE = 0.5                 # noeuds : en dessous, le navire est considere a l'arret
+
+
+def zone_de(lat, lon):
+    for cle, z in ZONES.items():
+        (a, b), (c, d) = z["bbox"]
+        if a <= lat <= c and b <= lon <= d:
+            return cle
+    return None
+
+
+def propre(texte):
+    """Les champs texte AIS sont completes par des '@' et des espaces."""
+    return (texte or "").replace("@", " ").strip()
+
+
+def charger_cache():
+    try:
+        memoire = json.loads(CACHE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    limite = time.time() - VIEUX
+    return {k: v for k, v in memoire.items() if v.get("vu", 0) > limite}
+
+
+async def ecouter(cle_api):
+    positions, statiques = {}, {}
+    debut = time.time()
+
+    async with websockets.connect(URL, max_size=None) as ws:
+        await ws.send(json.dumps({
+            "APIKey": cle_api,
+            "BoundingBoxes": [z["bbox"] for z in ZONES.values()],
+            "FilterMessageTypes": ["PositionReport", "ShipStaticData"],
+        }))
+        while time.time() - debut < DUREE:
+            try:
+                brut = await asyncio.wait_for(ws.recv(), timeout=DUREE - (time.time() - debut) + 1)
+            except asyncio.TimeoutError:
+                break
+            m = json.loads(brut)
+            if "error" in m or "Error" in m:
+                raise RuntimeError("Erreur du serveur AISStream : " + str(m)[:200])
+
+            meta = m.get("MetaData", {})
+            mmsi = str(meta.get("MMSI"))
+            if m.get("MessageType") == "PositionReport":
+                p = m["Message"]["PositionReport"]
+                positions[mmsi] = {
+                    "lat": meta["latitude"], "lon": meta["longitude"],
+                    "sog": p.get("Sog"), "cog": p.get("Cog"),
+                    "nom": propre(meta.get("ShipName")),
+                }
+            elif m.get("MessageType") == "ShipStaticData":
+                s = m["Message"]["ShipStaticData"]
+                d = s.get("Dimension") or {}
+                statiques[mmsi] = {
+                    "type": s.get("Type"), "nom": propre(s.get("Name")) or propre(meta.get("ShipName")),
+                    "destination": propre(s.get("Destination")),
+                    "tirant_eau": s.get("MaximumStaticDraught"),
+                    "longueur": (d.get("A") or 0) + (d.get("B") or 0),
+                    "vu": time.time(),
+                }
+    return positions, statiques
+
+
+def construire(positions, memoire):
+    """Croise les positions recues avec ce que l'on sait de chaque navire (type, destination...)."""
+    zones = {cle: {"navires": 0, "petroliers": 0, "a_l_ancre": 0, "identifies": 0} for cle in ZONES}
+    petroliers = []
+
+    for mmsi, p in positions.items():
+        cle = zone_de(p["lat"], p["lon"])
+        if cle is None:
+            continue
+        z = zones[cle]
+        z["navires"] += 1
+        info = memoire.get(mmsi)
+        if not info or info.get("type") is None:
+            continue
+        z["identifies"] += 1
+        if not 80 <= info["type"] <= 89:                  # codes 80 a 89 = navires-citernes (tankers)
+            continue
+        z["petroliers"] += 1
+        arret = (p["sog"] or 0) < A_L_ANCRE
+        z["a_l_ancre"] += arret
+        petroliers.append({
+            "mmsi": mmsi, "nom": info.get("nom") or p["nom"] or "Inconnu",
+            "lat": round(p["lat"], 4), "lon": round(p["lon"], 4),
+            "sog": p["sog"], "cog": p["cog"], "arret": arret,
+            "destination": info.get("destination", ""), "tirant_eau": info.get("tirant_eau"),
+            "longueur": info.get("longueur"), "zone": cle,
+        })
+    return zones, petroliers
+
+
+def main():
+    cle_api = os.getenv("AISSTREAM_API_KEY")
+    if not cle_api:
+        sys.exit("AISSTREAM_API_KEY introuvable (fichier .env ou secret GitHub).")
+
+    positions, statiques = asyncio.run(ecouter(cle_api))
+
+    memoire = charger_cache()
+    memoire.update(statiques)                              # on enrichit la memoire avec les nouveaux navires
+    CACHE.parent.mkdir(exist_ok=True)
+    CACHE.write_text(json.dumps(memoire), encoding="utf-8")
+
+    zones, petroliers = construire(positions, memoire)
+    resultat = {
+        "releve_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "duree_ecoute_s": DUREE,
+        "zones": [{"cle": cle, "nom": ZONES[cle]["nom"], "bbox": ZONES[cle]["bbox"],
+                   "couverture": ZONES[cle]["couverture"], **zones[cle]} for cle in ZONES],
+        "petroliers": petroliers,
+    }
+    SORTIE.parent.mkdir(exist_ok=True)
+    SORTIE.write_text(json.dumps(resultat, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    print(f"Releve de {DUREE} s : {len(positions)} navires, {len(statiques)} fiches statiques recues, "
+          f"{len(memoire)} navires en memoire")
+    for z in resultat["zones"]:
+        print(f'  {z["nom"]:30s} navires {z["navires"]:5d} | identifies {z["identifies"]:4d} | '
+              f'petroliers {z["petroliers"]:4d} (a l\'arret : {z["a_l_ancre"]})')
+    print(f"Ecrit : {SORTIE} ({SORTIE.stat().st_size / 1024:.0f} Ko)")
+
+
+if __name__ == "__main__":
+    main()

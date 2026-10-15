@@ -1,0 +1,67 @@
+name: Releve AIS des petroliers
+
+# Toutes les heures (a H+20, pour eviter les heures pleines tres chargees chez GitHub)
+on:
+  schedule:
+    - cron: "20 * * * *"
+  workflow_dispatch:
+    inputs:
+      duree:
+        description: "Duree d'ecoute en secondes (300 pour remplir plus vite la memoire des navires)"
+        default: "120"
+
+permissions:
+  contents: write
+
+# Groupe distinct des autres robots : ce releve ne les bloque pas
+concurrency:
+  group: refresh-ais
+  cancel-in-progress: false
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt
+
+      - name: Restaurer la memoire des navires
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: ais-static-${{ github.run_id }}
+          restore-keys: ais-static-
+
+      - name: Ecouter AISStream
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+          AIS_DUREE_S: ${{ inputs.duree || '120' }}
+        run: python pipeline/sources/ais_snapshot.py
+
+      - name: Sauvegarder la memoire des navires
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: ais-static-${{ github.run_id }}
+
+      - name: Publier le releve sur la branche live-data
+        run: |
+          mkdir /tmp/publication
+          cp live/tankers.json /tmp/publication/
+          cd /tmp/publication
+          git init -q -b live-data
+          git config user.name "Luca Desplat"
+          git config user.email "desplatluca@gmail.com"
+          git add tankers.json
+          git commit -q -m "Releve AIS $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -f origin live-data
