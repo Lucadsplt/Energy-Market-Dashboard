@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
+      "date": "2026-10-16T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_1owfjv5e7c.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Offers Another 17 Million SPR Barrels as Fuel Crisis Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html",
+      "date": "2026-10-16T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_cilxzfy0ad.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wind Farm Approved in Victoria, Australia Would Be Largest in Southern Hemispher",
+      "lien": "https://oilprice.com/Alternative-Energy/Wind-Power/Wind-Farm-Approved-in-Victoria-Australia-Would-Be-Largest-in-Southern-Hemispher.html",
+      "date": "2026-10-16T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_pzgc3eecdj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil Drillers Back Off Even As Prices Soar",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+      "date": "2026-10-16T17:29:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_vbq8mdyivp.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "IEA: Middle East war weighs on emerging-market oil demand",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55412477/iea-middle-east-war-weighs-on-emerging-market-oil-demand",
+      "date": "2026-10-16T17:07:04+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad2640c2b0190e551dec0e3-iea.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Equatorial Guinea Rewrites Oil Law After Production Collapses 85%",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equatorial-Guinea-Rewrites-Oil-Law-After-Production-Collapses-85.html",
       "date": "2026-10-16T16:30:00+00:00",
