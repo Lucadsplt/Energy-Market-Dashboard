@@ -2,6 +2,69 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "India Slashes Diesel Export Tax as Global Fuel Crunch Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
+      "date": "2026-10-16T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_hrocjj45nf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Currie Calls Brent 'Vibe Contract' Out of Step with Energy",
+      "lien": "https://www.rigzone.com/news/wire/currie_calls_brent_vibe_contract_out_of_step_with_energy-16-oct-2026-184862-article/?rss=true",
+      "date": "2026-10-16T08:31:01+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Currie-Calls-Brent-Vibe-Contract-Out-of-Step-with-Energy-184862-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "China Builds Gas Buffer for Winter",
+      "lien": "https://www.rigzone.com/news/wire/china_builds_gas_buffer_for_winter-16-oct-2026-184861-article/?rss=true",
+      "date": "2026-10-16T08:22:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/China-Builds-Gas-Buffer-for-Winter-184861-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Condemns Ukraine’s Russian Refinery Strikes as a “Disgrace”",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Condemns-Ukraines-Russian-Refinery-Strikes-as-a-Disgrace.html",
+      "date": "2026-10-16T08:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_4rdzypxzvj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Fuel Oil Shortage Deepens as Middle East and Russia Supplies Collapse",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
+      "date": "2026-10-16T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_76cblrcdva.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Head for Weekly Gain as Hormuz Attacks Rattle Markets",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
+      "date": "2026-10-16T05:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_5hfudkgprq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "WTI Outpaces Brent as U.S. Crude Draw Ignites Fresh Buying",
+      "lien": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
+      "date": "2026-10-16T03:10:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_uiwppk2jvl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Standard Chartered: Trump's Russian Diesel Won't Add New Supply",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Trumps-Russian-Diesel-Wont-Add-New-Supply.html",
+      "date": "2026-10-16T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_23xnprz9sf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Diesel Crunch Will Persist Well into 2027",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
+      "date": "2026-10-15T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_3lzy0fagcp.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Exxon’s Oil Boom Could Keep Guyana’s Gas at Home",
       "lien": "https://oilprice.com/Energy/Natural-Gas/Exxons-Oil-Boom-Could-Keep-Guyanas-Gas-at-Home.html",
       "date": "2026-10-15T22:00:00+00:00",
