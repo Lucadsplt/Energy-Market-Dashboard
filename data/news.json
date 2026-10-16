@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Carney Rallies Remain Vote in Alberta",
+      "lien": "https://www.rigzone.com/news/wire/carney_rallies_remain_vote_in_alberta-16-oct-2026-184866-article/?rss=true",
+      "date": "2026-10-16T11:31:51+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Carney-Rallies-Remain-Vote-in-Alberta-184866-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Sufficient Gas Stocks Could Ease Winter Supply Concerns",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Sufficient-Gas-Stocks-Could-Ease-Winter-Supply-Concerns.html",
+      "date": "2026-10-16T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_ksviihsaea.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "IEA Agrees to Release of Outstanding 100MM Oil Barrels",
+      "lien": "https://www.rigzone.com/news/wire/iea_agrees_to_release_of_outstanding_100mm_oil_barrels-16-oct-2026-184865-article/?rss=true",
+      "date": "2026-10-16T11:23:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/IEA-Agrees-to-Release-of-Outstanding-100MM-Oil-Barrels-184865-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "When Will Global Gas Demand Peak?",
+      "lien": "https://www.rigzone.com/news/when_will_global_gas_demand_peak-16-oct-2026-184864-article/?rss=true",
+      "date": "2026-10-16T11:15:12+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/When-Will-Global-Gas-Demand-Peak-184864-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Korea Turns Back to Coal as LNG Crisis Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Turns-Back-to-Coal-as-LNG-Crisis-Deepens.html",
+      "date": "2026-10-16T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_royeuqytbs.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC+ Meets on Sidelines of Saudi Conference",
+      "lien": "https://www.rigzone.com/news/opec_meets_on_sidelines_of_saudi_conference-16-oct-2026-184863-article/?rss=true",
+      "date": "2026-10-16T10:23:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-Meets-on-Sidelines-of-Saudi-Conference-184863-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "India Slashes Diesel Export Tax as Global Fuel Crunch Deepens",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
