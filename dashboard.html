@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
-    <link rel="stylesheet" href="css/style.css?v=9">
+    <link rel="stylesheet" href="css/style.css?v=10">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
@@ -300,6 +300,8 @@
                     <div class="legende-carte">
                         <span><svg width="14" height="14" viewBox="0 0 16 16"><path d="M8 1 L13 14 L8 11 L3 14 Z" fill="#0F2A22" stroke="#fff" stroke-width="1.2"/></svg>pétrolier en mouvement</span>
                         <span><i style="width:11px;height:11px;background:#d99a0b"></i>à l'arrêt</span>
+                        <span><svg width="14" height="14" viewBox="0 0 16 16"><path d="M8 1 L13 14 L8 11 L3 14 Z" fill="#3b6fb6" stroke="#fff" stroke-width="1.2"/></svg>méthanier (GNL)</span>
+                        <span><i class="terminal-gnl import operating" style="border-radius:2px"></i>terminal GNL (bleu : import, orange : export)</span>
                         <span><i style="width:8px;height:8px;background:#9aa49e"></i>type inconnu (couche optionnelle)</span>
                         <span><i style="width:13px;height:13px;background:rgba(214,69,61,.45);border:2px solid #d6453d"></i>détroit (couleur = état)</span>
                     </div>
@@ -307,7 +309,7 @@
                 <div id="carte-maritime" class="carte-maritime"></div>
                 <div class="zones-live" id="zones-live">Chargement du relevé AIS…</div>
                 <p class="bilan-carte" id="carte-bilan"></p>
-                <p class="note">Les positions viennent d'AISStream (stations AIS côtières, couverture très inégale : excellente en mer du Nord, nulle à Ormuz, en mer Rouge, à Suez ou au Bosphore). Seuls les navires dont le type est connu (codes 80 à 89, navires-citernes) sont affichés : le nombre de pétroliers est donc un minimum, et il augmente à mesure que la mémoire des navires se remplit. L'AIS ne distingue pas le pétrole brut du GNL ou des produits chimiques. Les cercles des détroits viennent d'IMF PortWatch (moyenne 7 jours).</p>
+                <p class="note">Les positions viennent d'AISStream (stations AIS côtières, couverture très inégale : excellente en mer du Nord, nulle à Ormuz, en mer Rouge, à Suez ou au Bosphore). Seuls les navires dont le type est connu (codes 80 à 89, navires-citernes) sont affichés : le nombre de pétroliers est donc un minimum, et il augmente à mesure que la mémoire des navires se remplit. Les méthaniers sont reconnus par leur MMSI ou leur IMO dans la flotte LNG-T3 (jusqu'en 2024-2025 : un navire très récent peut échapper à la reconnaissance), les autres navires-citernes restent regroupés comme « pétroliers » (brut, produits raffinés, produits chimiques). Terminaux et flotte GNL : Zhou et al., LNG-T3, <em>Scientific Data</em> (2026), licence CC BY 4.0. Les cercles des détroits viennent d'IMF PortWatch (moyenne 7 jours).</p>
             </article>
 
             <article class="carte" style="margin-top:20px">
@@ -337,6 +339,6 @@
     <script src="js/oil_live.js?v=3"></script>
     <script src="js/overview.js?v=2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-    <script src="js/maritime.js?v=6"></script>
+    <script src="js/maritime.js?v=7"></script>
 </body>
 </html>

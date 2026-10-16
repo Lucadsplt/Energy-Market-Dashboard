@@ -143,13 +143,39 @@ const VUES = {
     danemark: [[56.3, 11.2], 7], egee: [[37.8, 23.7], 9], norvege: [[60.4, 5.1], 8], sicile: [[37.6, 15.2], 8],
 };
 
-function iconeFleche(cap) {
+function iconeFleche(cap, couleur = "#0F2A22") {
     const angle = cap === null || cap === undefined || cap >= 360 ? 0 : cap;     // 360 = cap non disponible
     return L.divIcon({
         className: "fleche-navire", iconSize: [16, 16], iconAnchor: [8, 8],
         html: `<svg width="16" height="16" viewBox="0 0 16 16" style="transform:rotate(${angle}deg)">
-            <path d="M8 1 L13 14 L8 11 L3 14 Z" fill="#0F2A22" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/></svg>`,
+            <path d="M8 1 L13 14 L8 11 L3 14 Z" fill="${couleur}" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/></svg>`,
     });
+}
+
+const COULEUR_GNL = "#3b6fb6";
+
+function ficheMethanier(p) {
+    const lignes = [`<b>${p.nom}</b> <span class="badge gnl">Méthanier</span>`];
+    lignes.push(`${p.classe} · ${Number(p.capacite_m3).toLocaleString("fr-FR")} m³ · construit en ${p.annee}`);
+    if (p.destination) lignes.push(`Destination : ${p.destination}`);
+    lignes.push(p.arret ? "À l'arrêt (ancre ou quai)" : `Vitesse : ${virgule(p.sog || 0)} nœuds`);
+    if (p.tirant_eau) lignes.push(`Tirant d'eau : ${virgule(p.tirant_eau)} m`);
+    return lignes.join("<br>");
+}
+
+// Terminaux GNL : carré plein = import, carré orange = export, contour seul = en construction
+function iconeTerminal(t) {
+    const classes = `terminal-gnl ${t.type} ${t.statut}`;
+    return L.divIcon({ className: "", iconSize: [11, 11], iconAnchor: [5, 5], html: `<div class="${classes}"></div>` });
+}
+
+function ficheTerminal(t) {
+    const statut = { operating: "en exploitation", construction: "en construction", idle: "à l'arrêt" }[t.statut] || t.statut;
+    const lignes = [`<b>${t.nom}</b> <span class="badge gnl">Terminal GNL</span>`];
+    lignes.push(`${t.type === "export" ? "Exportation (liquéfaction)" : "Importation (regazéification)"} · ${statut}`);
+    lignes.push(`${t.pays}${t.annee ? " · depuis " + t.annee : ""}`);
+    if (t.capacite_mtpa) lignes.push(`Capacité : ${virgule(t.capacite_mtpa)} millions de tonnes par an`);
+    return lignes.join("<br>");
 }
 
 function fichePetrolier(p) {
@@ -195,6 +221,8 @@ function dessinerCarte(detroits) {
     const calqueZones = L.layerGroup().addTo(carte);
     const calqueMouvement = L.layerGroup().addTo(carte);
     const calqueArret = L.layerGroup().addTo(carte);
+    const calqueMethaniers = L.layerGroup().addTo(carte);
+    const calqueTerminaux = L.layerGroup().addTo(carte);
     const calqueInconnus = L.layerGroup();                 // masquée par défaut : plusieurs milliers de points
 
     // Détroits : un cercle par détroit, taille = trafic de référence, couleur = état
@@ -216,10 +244,20 @@ function dessinerCarte(detroits) {
         "Zones suivies (AIS)": calqueZones,
         "Pétroliers en mouvement": calqueMouvement,
         "Pétroliers à l'arrêt": calqueArret,
+        "Méthaniers (GNL)": calqueMethaniers,
+        "Terminaux GNL": calqueTerminaux,
     }, { collapsed: false, position: "topright" }).addTo(carte);
 
     // Boutons de zoom rapide
     document.getElementById("carte-vue").addEventListener("change", e => carte.setView(...VUES[e.target.value]));
+
+    fetch("data/lng_terminaux.json")
+        .then(rep => rep.json())
+        .then(d => d.terminaux.forEach(t => {
+            L.marker([t.lat, t.lon], { icon: iconeTerminal(t), zIndexOffset: -500 })
+                .bindTooltip(ficheTerminal(t)).addTo(calqueTerminaux);
+        }))
+        .catch(e => console.error("Terminaux GNL :", e));
 
     chargerReleve().then(r => {
         r.zones.forEach(z => {
@@ -235,6 +273,12 @@ function dessinerCarte(detroits) {
                 L.marker([p.lat, p.lon], { icon: iconeFleche(p.cog) })
                     .bindTooltip(fichePetrolier(p)).addTo(calqueMouvement);
             }
+        });
+        (r.methaniers || []).forEach(p => {
+            const marqueur = p.arret
+                ? L.circleMarker([p.lat, p.lon], { radius: 6, color: "#fff", weight: 1.5, fillColor: COULEUR_GNL, fillOpacity: 0.95 })
+                : L.marker([p.lat, p.lon], { icon: iconeFleche(p.cog, COULEUR_GNL), zIndexOffset: 400 });
+            marqueur.bindTooltip(ficheMethanier(p)).addTo(calqueMethaniers);
         });
         // navires entendus mais dont le type n'est pas connu : points gris, couche optionnelle
         (r.inconnus || []).forEach(([lat, lon, arret]) => {
@@ -263,8 +307,9 @@ function remplirZones(r) {
     document.getElementById("zones-live").innerHTML = r.zones.map(z => `
         <div class="zone-live">
             <div class="zone-tete"><b>${z.nom}</b><span class="badge ${z.couverture}">Couverture ${z.couverture}</span></div>
-            <div class="zone-chiffres"><span><b>${nb(z.petroliers)}</b> pétroliers identifiés</span>
-                <span>dont <b>${nb(z.a_l_ancre)}</b> à l'arrêt</span></div>
+            <div class="zone-chiffres"><span><b>${nb(z.petroliers)}</b> pétroliers</span>
+                <span>dont <b>${nb(z.a_l_ancre)}</b> à l'arrêt</span>
+                <span><b>${nb(z.methaniers || 0)}</b> méthaniers</span></div>
             <div class="zone-detail">${nb(z.navires)} navires entendus · ${nb(z.identifies)} identifiés
                 (<b>${z.navires ? Math.round(100 * z.identifies / z.navires) : 0} %</b>)</div>
         </div>`).join("");
@@ -273,8 +318,9 @@ function remplirZones(r) {
     const total = r.zones.reduce((a, z) => a + z.navires, 0);
     const identifies = r.zones.reduce((a, z) => a + z.identifies, 0);
     const petroliers = r.zones.reduce((a, z) => a + z.petroliers, 0);
+    const methaniers = r.zones.reduce((a, z) => a + (z.methaniers || 0), 0);
     document.getElementById("carte-bilan").innerHTML =
-        `Sur <b>${nb(total)}</b> navires entendus, <b>${nb(identifies)}</b> (${total ? Math.round(100 * identifies / total) : 0} %) ont un type connu, dont <b>${nb(petroliers)}</b> pétroliers affichés. ` +
+        `Sur <b>${nb(total)}</b> navires entendus, <b>${nb(identifies)}</b> (${total ? Math.round(100 * identifies / total) : 0} %) ont un type connu, dont <b>${nb(petroliers)}</b> pétroliers et <b>${nb(methaniers)}</b> méthaniers affichés. ` +
         `Les autres navires sont peut-être des pétroliers : activez la couche « Navires non identifiés » pour voir tout le trafic entendu.`;
 }
 

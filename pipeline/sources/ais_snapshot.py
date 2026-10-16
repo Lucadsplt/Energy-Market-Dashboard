@@ -16,6 +16,7 @@ DUREE = int(os.getenv("AIS_DUREE_S", "120"))   # secondes d'ecoute du flux (120 
 RACINE = Path(__file__).resolve().parents[2]
 CACHE = RACINE / ".cache" / "ais_static.json"      # memoire des navires deja identifies (hors git)
 SORTIE = RACINE / "live" / "tankers.json"          # releve publie sur la branche live-data (hors main)
+REF_FLOTTE = RACINE / "pipeline" / "reference" / "lng_flotte.json"   # flotte de methaniers (LNG-T3, CC BY 4.0)
 
 # Zones suivies : [[lat_min, lon_min], [lat_max, lon_max]], d'apres le test de couverture
 ZONES = {
@@ -42,6 +43,15 @@ def zone_de(lat, lon):
 def propre(texte):
     """Les champs texte AIS sont completes par des '@' et des espaces."""
     return (texte or "").replace("@", " ").strip()
+
+
+def charger_flotte():
+    """Flotte de methaniers connue : permet de reconnaitre un methanier par son MMSI ou son IMO."""
+    try:
+        f = json.loads(REF_FLOTTE.read_text(encoding="utf-8"))
+        return f["par_imo"], f["mmsi_vers_imo"]
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}, {}
 
 
 def charger_cache():
@@ -89,7 +99,8 @@ async def ecouter(cle_api):
                 s = m["Message"]["ShipStaticData"]
                 d = s.get("Dimension") or {}
                 statiques[mmsi] = {
-                    "type": s.get("Type"), "nom": propre(s.get("Name")) or propre(meta.get("ShipName")),
+                    "type": s.get("Type"), "imo": s.get("ImoNumber"),
+                    "nom": propre(s.get("Name")) or propre(meta.get("ShipName")),
                     "destination": propre(s.get("Destination")),
                     "tirant_eau": s.get("MaximumStaticDraught"),
                     "longueur": (d.get("A") or 0) + (d.get("B") or 0),
@@ -100,10 +111,12 @@ async def ecouter(cle_api):
     return positions, statiques
 
 
-def construire(positions, memoire):
-    """Croise les positions recues avec ce que l'on sait de chaque navire (type, destination...)."""
-    zones = {cle: {"navires": 0, "petroliers": 0, "a_l_ancre": 0, "identifies": 0} for cle in ZONES}
-    petroliers, inconnus = [], []
+def construire(positions, memoire, flotte):
+    """Croise les positions recues avec ce que l'on sait de chaque navire (flotte GNL, type, destination...)."""
+    par_imo, mmsi_vers_imo = flotte
+    zones = {cle: {"navires": 0, "petroliers": 0, "methaniers": 0, "a_l_ancre": 0, "methaniers_arret": 0,
+                   "identifies": 0} for cle in ZONES}
+    petroliers, methaniers, inconnus = [], [], []
 
     for mmsi, p in positions.items():
         cle = zone_de(p["lat"], p["lon"])
@@ -111,15 +124,34 @@ def construire(positions, memoire):
             continue
         z = zones[cle]
         z["navires"] += 1
-        info = memoire.get(mmsi)
-        if not info or info.get("type") is None:
-            inconnus.append([round(p["lat"], 3), round(p["lon"], 3), int((p["sog"] or 0) < A_L_ANCRE)])
+        info = memoire.get(mmsi) or {}
+        arret = (p["sog"] or 0) < A_L_ANCRE
+
+        # 1. methanier : son MMSI (ou son IMO, s'il est connu) figure dans la flotte GNL
+        imo = mmsi_vers_imo.get(mmsi) or (str(info["imo"]) if info.get("imo") else None)
+        fiche = par_imo.get(imo) if imo else None
+        if fiche:
+            z["identifies"] += 1
+            z["methaniers"] += 1
+            z["methaniers_arret"] += arret
+            methaniers.append({
+                "mmsi": mmsi, "nom": fiche[0], "capacite_m3": fiche[1], "annee": fiche[2], "classe": fiche[3],
+                "lat": round(p["lat"], 4), "lon": round(p["lon"], 4), "sog": p["sog"], "cog": p["cog"],
+                "arret": arret, "destination": info.get("destination", ""), "tirant_eau": info.get("tirant_eau"),
+                "zone": cle,
+            })
             continue
+
+        # 2. type inconnu : on garde seulement la position (couche grise)
+        if info.get("type") is None:
+            inconnus.append([round(p["lat"], 3), round(p["lon"], 3), int(arret)])
+            continue
+
+        # 3. navire identifie : les codes 80 a 89 sont des navires-citernes
         z["identifies"] += 1
-        if not 80 <= info["type"] <= 89:                  # codes 80 a 89 = navires-citernes (tankers)
+        if not 80 <= info["type"] <= 89:
             continue
         z["petroliers"] += 1
-        arret = (p["sog"] or 0) < A_L_ANCRE
         z["a_l_ancre"] += arret
         petroliers.append({
             "mmsi": mmsi, "nom": info.get("nom") or p["nom"] or "Inconnu",
@@ -128,7 +160,7 @@ def construire(positions, memoire):
             "destination": info.get("destination", ""), "tirant_eau": info.get("tirant_eau"),
             "longueur": info.get("longueur"), "zone": cle,
         })
-    return zones, petroliers, inconnus
+    return zones, petroliers, methaniers, inconnus
 
 
 def main():
@@ -143,13 +175,14 @@ def main():
     CACHE.parent.mkdir(exist_ok=True)
     CACHE.write_text(json.dumps(memoire), encoding="utf-8")
 
-    zones, petroliers, inconnus = construire(positions, memoire)
+    zones, petroliers, methaniers, inconnus = construire(positions, memoire, charger_flotte())
     resultat = {
         "releve_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "duree_ecoute_s": DUREE,
         "zones": [{"cle": cle, "nom": ZONES[cle]["nom"], "bbox": ZONES[cle]["bbox"],
                    "couverture": ZONES[cle]["couverture"], **zones[cle]} for cle in ZONES],
         "petroliers": petroliers,
+        "methaniers": methaniers,       # navires de la flotte GNL (LNG-T3) reconnus par MMSI ou IMO
         "inconnus": inconnus,           # [lat, lon, a_l_arret] : navires entendus dont le type est inconnu
     }
     SORTIE.parent.mkdir(exist_ok=True)
@@ -159,7 +192,7 @@ def main():
           f"{len(memoire)} navires en memoire")
     for z in resultat["zones"]:
         print(f'  {z["nom"]:30s} navires {z["navires"]:5d} | identifies {z["identifies"]:4d} | '
-              f'petroliers {z["petroliers"]:4d} (a l\'arret : {z["a_l_ancre"]})')
+              f'petroliers {z["petroliers"]:4d} (a l\'arret : {z["a_l_ancre"]}) | methaniers {z["methaniers"]:3d}')
     print(f"Ecrit : {SORTIE} ({SORTIE.stat().st_size / 1024:.0f} Ko)")
 
 

@@ -465,3 +465,13 @@ body {
 .bilan-carte { margin-top: 14px; padding: 12px 16px; background: var(--fond); border-radius: 8px; font-size: 13px; line-height: 1.55; color: var(--texte); }
 .carte-outils .filtre { flex-direction: row; align-items: center; gap: 10px; text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 600; }
 .carte-outils .menu { min-width: 230px; padding-top: 7px; padding-bottom: 7px; }
+
+/* ---------- Terminaux GNL et méthaniers ---------- */
+.terminal-gnl { width: 11px; height: 11px; box-sizing: border-box; border-radius: 2px; border: 1.5px solid #fff; box-shadow: 0 0 0 1px rgba(15,42,34,.35); }
+.terminal-gnl.import { background: #3b6fb6; }
+.terminal-gnl.export { background: #e8a317; }
+.terminal-gnl.construction { background: #fff; border-color: #3b6fb6; box-shadow: none; }
+.terminal-gnl.export.construction { background: #fff; border-color: #e8a317; }
+.terminal-gnl.idle { opacity: .55; }
+.legende-carte .terminal-gnl { display: inline-block; vertical-align: middle; }
+.badge.gnl { background: #e7eef8; color: #2c5a9a; }
