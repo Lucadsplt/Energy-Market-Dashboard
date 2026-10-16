@@ -459,3 +459,9 @@ body {
 
 /* fond de carte désaturé : les marqueurs et les cercles ressortent mieux */
 .carte-maritime .leaflet-tile-pane { filter: grayscale(.85) brightness(1.06) contrast(.92); }
+
+.badge.bonne { background: #eaf6ee; color: #2f7d5c; }
+.zones-live { grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+.bilan-carte { margin-top: 14px; padding: 12px 16px; background: var(--fond); border-radius: 8px; font-size: 13px; line-height: 1.55; color: var(--texte); }
+.carte-outils .filtre { flex-direction: row; align-items: center; gap: 10px; text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 600; }
+.carte-outils .menu { min-width: 230px; padding-top: 7px; padding-bottom: 7px; }

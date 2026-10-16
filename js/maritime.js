@@ -135,11 +135,12 @@ const POSITIONS_DETROITS = [
     ["Malacca", [2.5, 101.2]], ["Cap", [-34.35, 18.5]], ["Bosphore", [41.12, 29.05]],
 ];
 const COULEUR_ETAT = { rupture: "#d6453d", baisse: "#d99a0b", normal: "#6f7a73", hausse: "#12B981" };
-const COULEUR_COUVERTURE = { excellente: "#12B981", moyenne: "#d99a0b", faible: "#d6453d" };
+const COULEUR_COUVERTURE = { excellente: "#12B981", bonne: "#5fb48a", moyenne: "#d99a0b", faible: "#d6453d" };
 
 const VUES = {
     monde: [[25, 25], 2], nord: [[54.5, 2], 5], mexique: [[28.4, -93], 6],
     gibraltar: [[36, -5.6], 8], ormuz: [[26.5, 56.5], 6],
+    danemark: [[56.3, 11.2], 7], egee: [[37.8, 23.7], 9], norvege: [[60.4, 5.1], 8], sicile: [[37.6, 15.2], 8],
 };
 
 function iconeFleche(cap) {
@@ -180,7 +181,7 @@ async function chargerReleve() {
 
 function dessinerCarte(detroits) {
     if (typeof L === "undefined") return;
-    const carte = L.map("carte-maritime", { minZoom: 2, worldCopyJump: true, scrollWheelZoom: false }).setView(...VUES.monde);
+    const carte = L.map("carte-maritime", { minZoom: 2, worldCopyJump: true, scrollWheelZoom: false, preferCanvas: true }).setView(...VUES.monde);
     window.carteMaritime = carte;
     carte.on("click", () => carte.scrollWheelZoom.enable());       // la molette ne zoome qu'après un clic sur la carte
 
@@ -194,6 +195,7 @@ function dessinerCarte(detroits) {
     const calqueZones = L.layerGroup().addTo(carte);
     const calqueMouvement = L.layerGroup().addTo(carte);
     const calqueArret = L.layerGroup().addTo(carte);
+    const calqueInconnus = L.layerGroup();                 // masquée par défaut : plusieurs milliers de points
 
     // Détroits : un cercle par détroit, taille = trafic de référence, couleur = état
     detroits.forEach(d => {
@@ -209,7 +211,7 @@ function dessinerCarte(detroits) {
           .addTo(calqueDetroits);
     });
 
-    L.control.layers(null, {
+    const controle = L.control.layers(null, {
         "Détroits (PortWatch)": calqueDetroits,
         "Zones suivies (AIS)": calqueZones,
         "Pétroliers en mouvement": calqueMouvement,
@@ -217,8 +219,7 @@ function dessinerCarte(detroits) {
     }, { collapsed: false, position: "topright" }).addTo(carte);
 
     // Boutons de zoom rapide
-    document.querySelectorAll("#carte-outils [data-vue]").forEach(b =>
-        b.addEventListener("click", () => carte.setView(...VUES[b.dataset.vue])));
+    document.getElementById("carte-vue").addEventListener("change", e => carte.setView(...VUES[e.target.value]));
 
     chargerReleve().then(r => {
         r.zones.forEach(z => {
@@ -235,6 +236,12 @@ function dessinerCarte(detroits) {
                     .bindTooltip(fichePetrolier(p)).addTo(calqueMouvement);
             }
         });
+        // navires entendus mais dont le type n'est pas connu : points gris, couche optionnelle
+        (r.inconnus || []).forEach(([lat, lon, arret]) => {
+            L.circleMarker([lat, lon], { radius: 2.2, stroke: false, fillColor: "#8a948e", fillOpacity: arret ? 0.35 : 0.6 })
+                .addTo(calqueInconnus);
+        });
+        controle.addOverlay(calqueInconnus, `Navires non identifiés (${(r.inconnus || []).length.toLocaleString("fr-FR")})`);
         remplirZones(r);
     }).catch(e => {
         console.error("Relevé AIS :", e);
@@ -258,8 +265,17 @@ function remplirZones(r) {
             <div class="zone-tete"><b>${z.nom}</b><span class="badge ${z.couverture}">Couverture ${z.couverture}</span></div>
             <div class="zone-chiffres"><span><b>${nb(z.petroliers)}</b> pétroliers identifiés</span>
                 <span>dont <b>${nb(z.a_l_ancre)}</b> à l'arrêt</span></div>
-            <div class="zone-detail">${nb(z.navires)} navires entendus · ${nb(z.identifies)} dont le type est connu</div>
+            <div class="zone-detail">${nb(z.navires)} navires entendus · ${nb(z.identifies)} identifiés
+                (<b>${z.navires ? Math.round(100 * z.identifies / z.navires) : 0} %</b>)</div>
         </div>`).join("");
+
+    // bilan global : le taux d'identification explique pourquoi le nombre de pétroliers est un minimum
+    const total = r.zones.reduce((a, z) => a + z.navires, 0);
+    const identifies = r.zones.reduce((a, z) => a + z.identifies, 0);
+    const petroliers = r.zones.reduce((a, z) => a + z.petroliers, 0);
+    document.getElementById("carte-bilan").innerHTML =
+        `Sur <b>${nb(total)}</b> navires entendus, <b>${nb(identifies)}</b> (${total ? Math.round(100 * identifies / total) : 0} %) ont un type connu, dont <b>${nb(petroliers)}</b> pétroliers affichés. ` +
+        `Les autres navires sont peut-être des pétroliers : activez la couche « Navires non identifiés » pour voir tout le trafic entendu.`;
 }
 
 // La carte est créée dans un onglet masqué : elle doit recalculer sa taille quand l'onglet s'affiche
