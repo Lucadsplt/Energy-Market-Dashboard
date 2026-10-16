@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Equatorial Guinea Rewrites Oil Law After Production Collapses 85%",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equatorial-Guinea-Rewrites-Oil-Law-After-Production-Collapses-85.html",
+      "date": "2026-10-16T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_lw7ybunogx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Are Stuck at $105 as Geopolitical Risks Mount",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
+      "date": "2026-10-16T16:13:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_2cujaeispu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IMF Sounds Alarm Over AI’s Threat to Government Tax Bases",
+      "lien": "https://oilprice.com/Energy/Energy-General/IMF-Sounds-Alarm-Over-AIs-Threat-to-Government-Tax-Bases.html",
+      "date": "2026-10-16T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_o9p4ytqvjm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "German Power Supply Startups Exit Market as Wholesale Prices Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/German-Power-Supply-Startups-Exit-Market-as-Wholesale-Prices-Soar.html",
+      "date": "2026-10-16T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_mdt2ywnyv6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Gas Crunch Makes Europe’s Remaining Coal Plants Profitable",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Global-Gas-Crunch-Makes-Europes-Remaining-Coal-Plants-Profitable.html",
+      "date": "2026-10-16T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_omasmxnq7h.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Drop Almost 9MM Barrels WoW",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_almost_9mm_barrels_wow-16-oct-2026-184869-article/?rss=true",
+      "date": "2026-10-16T14:09:23+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Drop-Almost-9MM-Barrels-WoW-184869-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. small-scale solar generation has quadrupled in the last decade",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+      "date": "2026-10-16T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Defies Trump With Renewed Attacks on Russian Oil Infrastructure",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
+      "date": "2026-10-16T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_c3jzt02gnb.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Set To Push PetroChina’s Trading Profit to Record $3 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-To-Push-PetroChinas-Trading-Profit-to-Record-3-Billion.html",
+      "date": "2026-10-16T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_rjzokwcpdo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Deadly Airstrikes Expose Growing Battle Over Sudan’s Gold",
+      "lien": "https://oilprice.com/Energy/Energy-General/Deadly-Airstrikes-Expose-Growing-Battle-Over-Sudans-Gold.html",
+      "date": "2026-10-16T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_almoa7n8ru.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump's Oil Price Strategy Faces Two Major Tests This Weekend",
+      "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
+      "date": "2026-10-16T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_ql21gbge8t.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Data Centers Drive Surge in India’s Renewable Power Demand",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Data-Centers-Drive-Surge-in-Indias-Renewable-Power-Demand.html",
+      "date": "2026-10-16T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-16_k6ujqivkrb.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Rendez-vous Carnot 2026 : venez rencontrer les chercheurs d’IFPEN !",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/rendez-vous-carnot-2026-venez-rencontrer-les-chercheurs-difpen",
+      "date": "2026-10-16T12:11:32+00:00",
+      "image": null
+    },
+    {
       "source": "Rigzone",
       "titre": "Carney Rallies Remain Vote in Alberta",
       "lien": "https://www.rigzone.com/news/wire/carney_rallies_remain_vote_in_alberta-16-oct-2026-184866-article/?rss=true",
