@@ -2,6 +2,27 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Global Energy Import Dependence Set to Peak by 2034, Rystad Says",
+      "lien": "https://oilprice.com/Energy/Energy-General/Global-Energy-Import-Dependence-Set-to-Peak-by-2034-Rystad-Says.html",
+      "date": "2026-10-16T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_scrtuhpljm.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices rise as Iran, proxies lash out",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55412601/oil-prices-rise-as-iran-proxies-lash-out",
+      "date": "2026-10-16T21:25:43+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Brent Oil Hits $110 as Supply Risks Mount",
+      "lien": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/?rss=true",
+      "date": "2026-10-16T20:31:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Brent-Oil-Hits-110-as-Supply-Risks-Mount-184870-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
       "date": "2026-10-16T19:00:00+00:00",
