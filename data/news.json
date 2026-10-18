@@ -2,6 +2,48 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Oil Prices Stay High as War Keeps Supply Tight Into 2027",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
+      "date": "2026-10-17T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_2lw6yw3rjs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Middle East Chemicals Keep Their Cost Edge Despite Hormuz Crisis",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
+      "date": "2026-10-17T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_gvi2tm7b8b.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Texas Researchers Say Permian Wastewater Could Cool AI Data Centers",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Texas-Researchers-Say-Permian-Wastewater-Could-Cool-AI-Data-Centers.html",
+      "date": "2026-10-17T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_krijhd7sjg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe Braces for a Winter Energy Crisis as Gas Reserves Run Low",
+      "lien": "https://oilprice.com/Energy/Energy-General/Europe-Braces-for-a-Winter-Energy-Crisis-as-Gas-Reserves-Run-Low.html",
+      "date": "2026-10-17T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_swrf2ci4np.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry",
+      "lien": "https://oilprice.com/Energy/Energy-General/Bolivias-Energy-Crisis-Deepens-as-Natural-Gas-Reserves-Run-Dry.html",
+      "date": "2026-10-17T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_clsu0hjgh5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC's Smallest Member Rewrites Oil Law",
+      "lien": "https://www.rigzone.com/news/wire/opecs_smallest_member_rewrites_oil_law-17-oct-2026-184867-article/?rss=true",
+      "date": "2026-10-17T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPECs-Smallest-Member-Rewrites-Oil-Law-184867-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Global Energy Import Dependence Set to Peak by 2034, Rystad Says",
       "lien": "https://oilprice.com/Energy/Energy-General/Global-Energy-Import-Dependence-Set-to-Peak-by-2034-Rystad-Says.html",
       "date": "2026-10-16T22:00:00+00:00",
