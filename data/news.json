@@ -2,6 +2,174 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "New Oil Fields Should Have to Build the Carbon Storage Market",
+      "lien": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
+      "date": "2026-10-19T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_bb8hnt7rys.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Hover Near Five-Month High",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_hover_near_fivemonth_high-19-oct-2026-184878-article/?rss=true",
+      "date": "2026-10-19T19:43:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Hover-Near-FiveMonth-High-184878-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Colombia’s Critical Minerals Could Be a Game Changer for America",
+      "lien": "https://oilprice.com/Energy/Energy-General/Colombias-Critical-Minerals-Could-Be-a-Game-Changer-for-America.html",
+      "date": "2026-10-19T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_qb3bxrpmto.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Sulfur Crisis Threatening the World's Food Supply",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Sulfur-Crisis-Threatening-the-Worlds-Food-Supply.html",
+      "date": "2026-10-19T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_wcsbyppuie.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Qatar Offers Lebanon 2 Gas Plants and 20 Years of LNG Piped Through Syria",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Offers-Lebanon-2-Gas-Plants-and-20-Years-of-LNG-Piped-Through-Syria.html",
+      "date": "2026-10-19T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_yuqmfohjc9.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "National Fuel plans ’27 spinoff of Appalachian natural gas group",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55412801/national-fuel-plans-27-spinoff-of-appalachian-natural-gas-group",
+      "date": "2026-10-19T18:02:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad648410223eef0ea887b43-iug_map_2026_10.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US waives Russia sanctions as Gulf oil shipments face renewed disruption",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55412764/us-waives-russia-sanctions-as-gulf-oil-shipments-face-renewed-disruption",
+      "date": "2026-10-19T17:44:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad641362b0190e551e6ac9e-market3.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pakistan’s Growth Slows  as Hormuz Crisis Hits Industry",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
+      "date": "2026-10-19T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_d0bjgwckxa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Canadian Oil Is Lagging Even As Global Crude Soars",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Canadian-Oil-Is-Lagging-Even-As-Global-Crude-Soars.html",
+      "date": "2026-10-19T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_7ecznvyuhc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html",
+      "date": "2026-10-19T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_mww0mnui39.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "FERC proposes faster LNG approvals, changes pipeline air reviews",
+      "lien": "https://www.ogj.com/general-interest/government/news/55412751/ferc-proposes-faster-lng-approvals-changes-pipeline-air-reviews",
+      "date": "2026-10-19T16:02:49+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad637d294112ff669c7b610-250814id_252512254__timon_schneider_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "What’s Trump’s Thinking Behind The ‘Diesel Deal’ With Russia?",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
+      "date": "2026-10-19T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_dubbknpmov.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Chord Energy names Lou as president, CEO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55412734/chord-energy-names-lou-as-president-ceo",
+      "date": "2026-10-19T15:55:24+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad63266e70dc4afe9b870ce-michael_lou.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Expand Energy appoints Brown as president, CEO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55412726/expand-energy-appoints-brown-as-president-ceo",
+      "date": "2026-10-19T15:50:41+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq's October Oil Exports Top 3.4 Million Bpd, Nearing Pre-War Levels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
+      "date": "2026-10-19T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_mktfaczput.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wright Says Gas Prices Peaked As Brent Holds Above $108",
+      "lien": "https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.html",
+      "date": "2026-10-19T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_n6lp8umymv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Mozambique Pitches Sasol and ROMPCO on $250 Million Gas Project",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Pitches-Sasol-and-ROMPCO-on-250-Million-Gas-Project.html",
+      "date": "2026-10-19T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_ys10alpx5g.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iran's Main Oil Terminals Remain Empty",
+      "lien": "https://www.rigzone.com/news/wire/irans_main_oil_terminals_remain_empty-19-oct-2026-184877-article/?rss=true",
+      "date": "2026-10-19T14:28:30+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Irans-Main-Oil-Terminals-Remain-Empty-184877-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Breaks Rig Count Addition Streak, BH Shows",
+      "lien": "https://www.rigzone.com/news/north_america_breaks_rig_count_addition_streak_bh_shows-19-oct-2026-184876-article/?rss=true",
+      "date": "2026-10-19T14:21:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Breaks-Rig-Count-Addition-Streak-BH-Shows-184876-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+      "date": "2026-10-19T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Defends Russia Sanctions Waiver as Rift With Ukraine Deepens",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
+      "date": "2026-10-19T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_ni36dxq7av.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Qatari LNG Cargo Heads Through Red Sea to Europe in Rare Suez Run",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Qatari-LNG-Cargo-Heads-Through-Red-Sea-to-Europe-in-Rare-Suez-Run.html",
+      "date": "2026-10-19T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_mi0fg4oqwd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Philippines, USA Looking to Expand Cooperation on Energy Security",
+      "lien": "https://www.rigzone.com/news/wire/philippines_usa_looking_to_expand_cooperation_on_energy_security-19-oct-2026-184875-article/?rss=true",
+      "date": "2026-10-19T13:05:58+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Philippines-USA-Looking-to-Expand-Cooperation-on-Energy-Security-184875-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Solar Exports Keep Falling as Beijing Mulls Export Controls",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Solar-Exports-Keep-Falling-as-Beijing-Mulls-Export-Controls.html",
+      "date": "2026-10-19T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_eqycetm3rf.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Woodside Resumes Work at Australian LNG Project after Greenpeace Stunt",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Woodside-Resumes-Work-at-Australian-LNG-Project-after-Greenpeace-Stunt.html",
       "date": "2026-10-19T11:30:00+00:00",
