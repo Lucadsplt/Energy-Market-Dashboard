@@ -1,5 +1,5 @@
 // Analyses de la page Électricité
-const VERT = [18, 185, 129], CREME = [246, 244, 238], ROUGE = [214, 69, 61];
+const VERT = [58, 110, 168], CREME = [246, 244, 238], ROUGE = [214, 69, 61];
 
 window.addEventListener("load", () => {
     fetch("data/electricity_analysis.json")
@@ -59,7 +59,7 @@ const NOMS_MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "a
 function barres(id, labels, valeurs) {
     new Chart(document.getElementById(id), {
         type: "bar",
-        data: { labels, datasets: [{ data: valeurs, backgroundColor: "rgba(18,185,129,0.65)", borderRadius: 3 }] },
+        data: { labels, datasets: [{ data: valeurs, backgroundColor: "rgba(31,78,121,0.65)", borderRadius: 3 }] },
         options: {
             plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.y} %` } } },
             scales: {

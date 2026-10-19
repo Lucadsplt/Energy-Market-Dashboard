@@ -18,7 +18,7 @@ function dessinerRisque(b) {
     };
     const historique = hist.prix.concat(new Array(fut.dates.length).fill(null));
 
-    const vert = "#12B981";
+    const vert = "#1f4e79";
     const sansLigne = { borderWidth: 0, pointRadius: 0 };
 
     new Chart(document.getElementById("graphique-risque"), {
@@ -27,11 +27,11 @@ function dessinerRisque(b) {
             labels,
             datasets: [
                 { label: "5 %", data: bande("p5"), ...sansLigne },
-                { label: "90 % des cas", data: bande("p95"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.12)" },
+                { label: "90 % des cas", data: bande("p95"), ...sansLigne, fill: "-1", backgroundColor: "rgba(31,78,121,0.12)" },
                 { label: "25 %", data: bande("p25"), ...sansLigne },
-                { label: "50 % des cas", data: bande("p75"), ...sansLigne, fill: "-1", backgroundColor: "rgba(18,185,129,0.25)" },
+                { label: "50 % des cas", data: bande("p75"), ...sansLigne, fill: "-1", backgroundColor: "rgba(31,78,121,0.25)" },
                 { label: "Médiane simulée", data: bande("p50"), borderColor: vert, borderDash: [6, 4], borderWidth: 2, pointRadius: 0 },
-                { label: "Historique", data: historique, borderColor: "#0F2A22", borderWidth: 2, pointRadius: 0 },
+                { label: "Historique", data: historique, borderColor: "#1a1f1c", borderWidth: 2, pointRadius: 0 },
             ],
         },
         options: {
@@ -42,7 +42,7 @@ function dessinerRisque(b) {
                     labels: { usePointStyle: true, boxWidth: 10, filter: i => !["5 %", "25 %"].includes(i.text) },
                 },
                 tooltip: {
-                    backgroundColor: "#0F2A22", padding: 10, cornerRadius: 8,
+                    backgroundColor: "#1a1f1c", padding: 10, cornerRadius: 8,
                     filter: i => !["5 %", "25 %"].includes(i.dataset.label) && i.parsed.y !== null,
                     callbacks: { label: c => ` ${c.dataset.label} : ${c.parsed.y.toFixed(1)} $` },
                 },

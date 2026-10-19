@@ -1,12 +1,12 @@
 // Tous les graphes du dashboard : un seul fichier, un seul style.
 
 // Une couleur par énergie (cartes, mini-courbes, blocs de la vue d'ensemble)
-const ENERGIE = { petrole: "#c2621f", gaz: "#3b6fb6", electricite: "#d99a0b" };
+const ENERGIE = { petrole: "#c2621f", gaz: "#c26a1a", electricite: "#d99a0b" };
 
 const COULEURS = {
-    vert: "#12B981",
-    bleu: "#3b6fb6",
-    ambre: "#e8a317",
+    vert: "#1f4e79",
+    bleu: "#c26a1a",
+    ambre: "#b8861b",
     rouge: "#e03131",
     gris: "#6b7683",
 };
@@ -67,7 +67,7 @@ function creerGraphe(canvasId, donnees, courbes, { dailyOnly = true, escalier = 
             plugins: {
                 legend: { position: "bottom", labels: { boxWidth: 10, boxHeight: 10, usePointStyle: true } },
                 tooltip: {
-                    backgroundColor: "#0F2A22",
+                    backgroundColor: "#1a1f1c",
                     padding: 10,
                     cornerRadius: 8,
                     callbacks: {

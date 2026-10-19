@@ -13,18 +13,21 @@ from pipeline.analysis.volatility import rolling_volatility
 TICKERS = {
     "ttf": "TTF=F",        # Europe (front-month)
     "henry_hub": "NG=F",   # US Henry Hub
+    "jkm": "JKM=F",        # GNL Asie (Japan-Korea Marker, contrat a terme)
 }
 
 
 def fetch_gas(period="1mo"):
-    """Recupere les prix de cloture du gaz (TTF et Henry Hub).
+    """Recupere les prix de cloture du gaz (TTF, Henry Hub) et du GNL Asie (JKM).
 
     Renvoie un DataFrame : une colonne par marche, indexe par date.
     """
     prix = {}
     for nom, symbole in TICKERS.items():
-        df = yf.Ticker(symbole).history(period=period)
-        prix[nom] = df["Close"]
+        serie = yf.Ticker(symbole).history(period=period)["Close"]
+        # dates simples (sans heure ni fuseau) : les marches n'ont pas le meme fuseau horaire
+        serie.index = serie.index.tz_localize(None).normalize()
+        prix[nom] = serie[~serie.index.duplicated()]
     return pd.DataFrame(prix)
 
 

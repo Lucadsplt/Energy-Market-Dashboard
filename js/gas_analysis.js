@@ -19,7 +19,7 @@ function dessinerSaisonnalite(s) {
     }));
     const mediane = {
         label: "Médiane des années", data: s.mediane,
-        borderColor: "#12B981", borderWidth: 3.5, pointRadius: 3, tension: 0.3,
+        borderColor: "#1f4e79", borderWidth: 3.5, pointRadius: 3, tension: 0.3,
     };
 
     new Chart(document.getElementById("graphique-saison-gaz"), {
@@ -67,8 +67,8 @@ function dessinerEcart(e) {
     new Chart(document.getElementById("graphique-ecart-prix"), {
         type: "line",
         data: { labels: e.dates, datasets: [
-            ligne("TTF (Europe)", e.ttf, "#12B981"),
-            ligne("Henry Hub (États-Unis)", e.hh_eur, "#3b6fb6"),
+            ligne("TTF (Europe)", e.ttf, "#1f4e79"),
+            ligne("Henry Hub (États-Unis)", e.hh_eur, "#c26a1a"),
         ] },
         options,
     });
@@ -76,8 +76,8 @@ function dessinerEcart(e) {
     new Chart(document.getElementById("graphique-ecart"), {
         type: "line",
         data: { labels: e.dates, datasets: [
-            ligne("Écart TTF − Henry Hub", e.ecart, "#e8a317",
-                  { fill: true, backgroundColor: "rgba(232,163,23,0.15)" }),
+            ligne("Écart TTF − Henry Hub", e.ecart, "#b8861b",
+                  { fill: true, backgroundColor: "rgba(184,134,27,0.15)" }),
         ] },
         options: { ...options, plugins: { legend: { display: false } } },
     });

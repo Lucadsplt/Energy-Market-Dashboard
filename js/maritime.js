@@ -59,7 +59,7 @@ function remplirResume(d) {
 function remplirTableau(detroits) {
     const lignes = detroits.map(x => {
         const [classe, texte] = etiquette(x.zscore);
-        const couleur = classe === "rupture" ? "#d6453d" : classe === "baisse" ? "#d99a0b" : classe === "hausse" ? "#12B981" : "#6f7a73";
+        const couleur = classe === "rupture" ? "#d6453d" : classe === "baisse" ? "#d99a0b" : classe === "hausse" ? "#1a7f4b" : "#6f7a73";
         return `<tr>
             <td>${x.nom}</td>
             <td>${virgule(x.actuel_7j)}</td>
@@ -86,7 +86,7 @@ function dessinerOrmuz(o) {
             datasets: [
                 {
                     label: "Pétroliers à Ormuz (par jour, moyenne 7 jours)", data: o.ormuz_7j, yAxisID: "y",
-                    borderColor: "#0F2A22", backgroundColor: "rgba(15,42,34,0.10)", fill: true,
+                    borderColor: "#1a1f1c", backgroundColor: "rgba(15,42,34,0.10)", fill: true,
                     borderWidth: 2, pointRadius: 0, tension: 0.2,
                 },
                 {
@@ -99,7 +99,7 @@ function dessinerOrmuz(o) {
             interaction: { mode: "index", intersect: false },
             plugins: {
                 legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 10 } },
-                tooltip: { backgroundColor: "#0F2A22", padding: 10, cornerRadius: 8 },
+                tooltip: { backgroundColor: "#1a1f1c", padding: 10, cornerRadius: 8 },
             },
             scales: {
                 x: axeX,
@@ -134,8 +134,8 @@ const POSITIONS_DETROITS = [
     ["Ormuz", [26.57, 56.25]], ["Bab", [12.6, 43.35]], ["Suez", [30.45, 32.35]],
     ["Malacca", [2.5, 101.2]], ["Cap", [-34.35, 18.5]], ["Bosphore", [41.12, 29.05]],
 ];
-const COULEUR_ETAT = { rupture: "#d6453d", baisse: "#d99a0b", normal: "#6f7a73", hausse: "#12B981" };
-const COULEUR_COUVERTURE = { excellente: "#12B981", bonne: "#5fb48a", moyenne: "#d99a0b", faible: "#d6453d" };
+const COULEUR_ETAT = { rupture: "#d6453d", baisse: "#d99a0b", normal: "#6f7a73", hausse: "#1a7f4b" };
+const COULEUR_COUVERTURE = { excellente: "#1a7f4b", bonne: "#5fb48a", moyenne: "#d99a0b", faible: "#d6453d" };
 
 const VUES = {
     monde: [[25, 25], 2], nord: [[54.5, 2], 5], mexique: [[28.4, -93], 6],
@@ -143,7 +143,7 @@ const VUES = {
     danemark: [[56.3, 11.2], 7], egee: [[37.8, 23.7], 9], norvege: [[60.4, 5.1], 8], sicile: [[37.6, 15.2], 8],
 };
 
-function iconeFleche(cap, couleur = "#0F2A22") {
+function iconeFleche(cap, couleur = "#1a1f1c") {
     const angle = cap === null || cap === undefined || cap >= 360 ? 0 : cap;     // 360 = cap non disponible
     return L.divIcon({
         className: "fleche-navire", iconSize: [16, 16], iconAnchor: [8, 8],

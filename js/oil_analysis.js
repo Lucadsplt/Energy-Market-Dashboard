@@ -17,9 +17,9 @@ function dessinerDistribution(dist) {
             labels: dist.centres,
             datasets: [
                 { type: "bar", label: "Observé", data: dist.densite,
-                  backgroundColor: "rgba(18,185,129,0.55)", barPercentage: 1, categoryPercentage: 1 },
+                  backgroundColor: "rgba(31,78,121,0.55)", barPercentage: 1, categoryPercentage: 1 },
                 { type: "line", label: "Loi normale", data: dist.normale,
-                  borderColor: "#0F2A22", borderWidth: 2, pointRadius: 0, tension: 0.35 },
+                  borderColor: "#1a1f1c", borderWidth: 2, pointRadius: 0, tension: 0.35 },
             ],
         },
         options: {
@@ -55,9 +55,9 @@ function dessinerMonteCarlo(mc) {
             labels: g.histogramme.centres,
             datasets: [
                 { type: "bar", label: "Chocs gaussiens", data: g.histogramme.pourcent,
-                  backgroundColor: "rgba(18,185,129,0.5)", barPercentage: 1, categoryPercentage: 1 },
+                  backgroundColor: "rgba(31,78,121,0.5)", barPercentage: 1, categoryPercentage: 1 },
                 { type: "line", label: "Chocs à queues épaisses", data: q.histogramme.pourcent,
-                  borderColor: "#0F2A22", borderWidth: 2, pointRadius: 0, tension: 0.3 },
+                  borderColor: "#1a1f1c", borderWidth: 2, pointRadius: 0, tension: 0.3 },
             ],
         },
         options: {
@@ -104,7 +104,7 @@ function dessinerZscore(e) {
         data: { labels: e.dates, datasets: [
             { label: "Seuil +2", data: seuil(2), ...trait, borderColor: "#d6453d", borderDash: [5, 4], borderWidth: 1 },
             { label: "Seuil −2", data: seuil(-2), ...trait, borderColor: "#d6453d", borderDash: [5, 4], borderWidth: 1 },
-            { label: "Z-score", data: e.z, ...trait, borderColor: "#e8a317", borderWidth: 1.8 },
+            { label: "Z-score", data: e.z, ...trait, borderColor: "#b8861b", borderWidth: 1.8 },
         ] },
         options: {
             interaction: { mode: "index", intersect: false },

@@ -1,6 +1,6 @@
 // Titre affiché en haut de chaque page
 const TITRES = {
-    general:     ["Pétrole · Gaz · Électricité", "Tableau de bord des marchés de l'énergie"],
+    general:     ["Pétrole · gaz · GNL · électricité — données différées", "Marchés"],
     petrole:     ["Brent et WTI", "Pétrole"],
     gaz:         ["TTF et Henry Hub", "Gaz"],
     electricite: ["France et Allemagne", "Électricité"],

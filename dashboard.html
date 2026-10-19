@@ -8,17 +8,17 @@
     <link rel="icon" type="image/png" href="assets/luceo-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
-    <link rel="stylesheet" href="css/style.css?v=10">
+    <link rel="stylesheet" href="css/style.css?v=14">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
     <header class="topbar">
         <div class="topbar-inner">
-            <a href="index.html" class="logo-lien" aria-label="Accueil Luceo"><img src="assets/luceo-logo-light.png" alt="Luceo" class="logo-img"></a>
+            <a href="index.html" class="logo-lien" aria-label="Accueil Luceo"><img src="assets/luceo-logo.png" alt="Luceo" class="logo-img"></a>
             <nav class="topnav" id="topnav">
-                <a href="#" class="nav-link active" data-cible="general">Vue d'ensemble</a>
+                <a href="#" class="nav-link active" data-cible="general">Marchés</a>
                 <a href="#" class="nav-link" data-cible="petrole">Pétrole</a>
                 <a href="#" class="nav-link" data-cible="gaz">Gaz</a>
                 <a href="#" class="nav-link" data-cible="electricite">Électricité</a>
@@ -31,10 +31,10 @@
 
     <div class="intro">
         <div>
-            <p class="intro-sur" id="intro-sur">Pétrole · Gaz · Électricité</p>
-            <h1 id="intro-titre">Tableau de bord des marchés de l'énergie</h1>
+            <p class="intro-sur" id="intro-sur">Pétrole · gaz · GNL · électricité — données différées</p>
+            <h1 id="intro-titre">Marchés</h1>
         </div>
-        <div class="segment" id="plage" role="group" aria-label="Période affichée">
+        <div class="segment" id="plage" role="group" aria-label="Période affichée" style="display:none">
             <button class="segment-btn" data-jours="30">30 jours</button>
             <button class="segment-btn actif" data-jours="0">Tout</button>
         </div>
@@ -44,91 +44,23 @@
 
         <!-- ========== SYNTHÈSE ========== -->
         <section id="general" class="onglet active">
-            <div class="energie energie-petrole">
-                <div class="energie-tete">
-                    <span class="energie-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5c3.2 4.1 6 7.2 6 10.7a6 6 0 0 1-12 0c0-3.5 2.8-6.6 6-10.7z"/></svg></span>
-                    <div><h2 class="energie-titre">Pétrole</h2><p class="energie-sous">Brent · WTI · risque à 30 jours</p></div>
-                    <a href="#" class="energie-lien" data-aller="petrole">Voir le détail →</a>
-                </div>
-                <div class="bandeau-live" aria-live="polite">Chargement des prix du jour…</div>
-                <div class="energie-grille">
-                    <article class="carte kpi"><span class="kpi-label">Brent spot <i>$/baril · FRED</i></span>
-                        <span class="kpi-value" id="kpi-brent">—</span><span class="kpi-change" id="kpi-brent-var"></span>
-                        <span class="kpi-date" id="kpi-brent-date"></span>
-                        <div class="spark"><canvas id="spark-brent"></canvas></div></article>
-                    <article class="carte kpi"><span class="kpi-label">WTI spot <i>$/baril · FRED</i></span>
-                        <span class="kpi-value" id="kpi-wti">—</span><span class="kpi-change" id="kpi-wti-var"></span>
-                        <span class="kpi-date" id="kpi-wti-date"></span>
-                        <div class="spark"><canvas id="spark-wti"></canvas></div></article>
-                    <a href="#" class="carte signal" data-aller="petrole">
-                        <span class="signal-sur">Indicateur clé</span>
-                        <span class="signal-label">Écart Brent − WTI (spot)</span>
-                        <span class="signal-valeur" id="sig-zscore">—</span>
-                        <span class="signal-texte" id="sig-zscore-txt"></span>
-                    </a>
-                    <a href="#" class="carte signal" data-aller="petrole">
-                        <span class="signal-sur">Indicateur clé</span>
-                        <span class="signal-label">Risque à 30 jours (VaR 95 %)</span>
-                        <span class="signal-valeur" id="sig-var">—</span>
-                        <span class="signal-texte" id="sig-var-txt"></span>
-                    </a>
-                </div>
-                <a href="#" class="alerte-trafic" id="alerte-maritime" data-aller="maritime" hidden></a>
-            </div>
+            <div class="marche">
+                <div class="bandeau-cotations" id="bandeau-cotations" aria-label="Dernières cotations"></div>
 
-            <div class="energie energie-gaz">
-                <div class="energie-tete">
-                    <span class="energie-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.5 12.4c-1.6-4.1-7.2-4.3-5.8-10.2.1-.4-.4-.8-.8-.5C9.300 3.700 6.700 8 8.900 13.600c.2.5-.4.900-.8.600-1.800-1.400-2-3.300-1.800-4.800.1-.5-.6-.8-.9-.3C4.700 10.200 4 11.800 4 14.400c.4 5.600 5.100 7.300 6.800 7.500 2.400.3 5.100-.1 7-1.900 2.100-1.900 2.800-5 1.700-7.600z"/></svg></span>
-                    <div><h2 class="energie-titre">Gaz</h2><p class="energie-sous">TTF européen · Henry Hub américain</p></div>
-                    <a href="#" class="energie-lien" data-aller="gaz">Voir le détail →</a>
+                <div class="panneau-tableau">
+                    <table class="suivi" id="suivi"><tr><th>Chargement des cotations…</th></tr></table>
                 </div>
-                <div class="energie-grille">
-                    <article class="carte kpi"><span class="kpi-label">Gaz TTF <i>€/MWh</i></span>
-                        <span class="kpi-value" id="kpi-ttf">—</span><span class="kpi-change" id="kpi-ttf-var"></span>
-                        <span class="kpi-date" id="kpi-ttf-date"></span>
-                        <div class="spark"><canvas id="spark-ttf"></canvas></div></article>
-                    <article class="carte kpi"><span class="kpi-label">Henry Hub <i>$/MMBtu</i></span>
-                        <span class="kpi-value" id="kpi-hh">—</span><span class="kpi-change" id="kpi-hh-var"></span>
-                        <span class="kpi-date" id="kpi-hh-date"></span>
-                        <div class="spark"><canvas id="spark-hh"></canvas></div></article>
-                    <article class="carte kpi"><span class="kpi-label">Volatilité TTF <i>% annualisée</i></span>
-                        <span class="kpi-value" id="kpi-vol-ttf">—</span><span class="kpi-change" id="kpi-vol-ttf-var"></span>
-                        <span class="kpi-date" id="kpi-vol-ttf-date"></span>
-                        <div class="spark"><canvas id="spark-vol"></canvas></div></article>
-                    <a href="#" class="carte signal" data-aller="gaz">
-                        <span class="signal-sur">Indicateur clé</span>
-                        <span class="signal-label">Écart TTF − Henry Hub</span>
-                        <span class="signal-valeur" id="sig-gaz">—</span>
-                        <span class="signal-texte" id="sig-gaz-txt"></span>
-                    </a>
-                </div>
-            </div>
 
-            <div class="energie energie-electricite">
-                <div class="energie-tete">
-                    <span class="energie-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 2 5 13.5h5.8L9.8 22 19 10.2h-5.9L13.5 2z"/></svg></span>
-                    <div><h2 class="energie-titre">Électricité</h2><p class="energie-sous">Prix de marché France · Allemagne</p></div>
-                    <a href="#" class="energie-lien" data-aller="electricite">Voir le détail →</a>
-                </div>
-                <div class="energie-grille">
-                    <article class="carte kpi"><span class="kpi-label">Électricité France <i>€/MWh</i></span>
-                        <span class="kpi-value" id="kpi-elec-fr">—</span><span class="kpi-change" id="kpi-elec-fr-var"></span>
-                        <span class="kpi-date" id="kpi-elec-fr-date"></span>
-                        <div class="spark"><canvas id="spark-elec"></canvas></div></article>
-                    <article class="carte kpi"><span class="kpi-label">Électricité Allemagne <i>€/MWh</i></span>
-                        <span class="kpi-value" id="kpi-elec-de">—</span><span class="kpi-change" id="kpi-elec-de-var"></span>
-                        <span class="kpi-date" id="kpi-elec-de-date"></span>
-                        <div class="spark"><canvas id="spark-elec-de"></canvas></div></article>
-                    <article class="carte kpi"><span class="kpi-label">Écart France − Allemagne <i>€/MWh</i></span>
-                        <span class="kpi-value" id="kpi-spread-elec">—</span><span class="kpi-change" id="kpi-spread-elec-var"></span>
-                        <span class="kpi-date" id="kpi-spread-elec-date"></span>
-                        <div class="spark"><canvas id="spark-spread-elec"></canvas></div></article>
-                    <a href="#" class="carte signal" data-aller="electricite">
-                        <span class="signal-sur">Indicateur clé</span>
-                        <span class="signal-label">Prix négatifs (France)</span>
-                        <span class="signal-valeur" id="sig-elec">—</span>
-                        <span class="signal-texte" id="sig-elec-txt"></span>
-                    </a>
+                <div class="marche-bas">
+                    <div class="bloc-marche">
+                        <h2>Signaux</h2>
+                        <div id="signaux"></div>
+                    </div>
+                    <div class="bloc-marche">
+                        <h2>Fraîcheur des données</h2>
+                        <div id="fraicheur"></div>
+                        <p class="legende-marche">Contrat à terme : prix d'un baril ou d'une cargaison livrés dans environ un mois, coté en continu. Spot : prix du baril physique (FRED), publié avec environ une semaine de retard ; les analyses utilisent le spot.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -328,17 +260,17 @@
 
     <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · <span id="maj-site">mises à jour automatiques</span></footer>
 
-    <script src="js/nav.js?v=14"></script>
-    <script src="js/charts.js?v=11"></script>
-    <script src="js/risk.js?v=11"></script>
-    <script src="js/oil_analysis.js?v=1"></script>
-    <script src="js/gas_analysis.js?v=1"></script>
-    <script src="js/elec_analysis.js?v=2"></script>
+    <script src="js/nav.js?v=15"></script>
+    <script src="js/charts.js?v=12"></script>
+    <script src="js/risk.js?v=12"></script>
+    <script src="js/oil_analysis.js?v=2"></script>
+    <script src="js/gas_analysis.js?v=2"></script>
+    <script src="js/elec_analysis.js?v=3"></script>
     <script src="js/news.js?v=11"></script>
     <script src="js/maj.js?v=1"></script>
     <script src="js/oil_live.js?v=3"></script>
-    <script src="js/overview.js?v=2"></script>
+    <script src="js/marche.js?v=3"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-    <script src="js/maritime.js?v=7"></script>
+    <script src="js/maritime.js?v=8"></script>
 </body>
 </html>
