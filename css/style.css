@@ -678,3 +678,16 @@ body { background: var(--fond); color: var(--texte); font-size: 14px; }
     .suivi tr.groupe .voir, .suivi tr.groupe .sous { display: none; }
     .kpi-grid > .kpi { border-right: 0; border-bottom: 1px solid var(--bordure); }
 }
+
+/* ----- sous-onglets d'une page (volets) ----- */
+.sous-nav { display: flex; gap: 4px; margin: 2px 0 0; border-bottom: 1px solid var(--bordure); overflow-x: auto; overflow-y: hidden; }
+.sous-nav button {
+    flex: none; margin-bottom: -1px; padding: 11px 16px;
+    font-family: inherit; font-size: 13px; font-weight: 500; color: var(--texte-doux);
+    background: none; border: 0; border-bottom: 2px solid transparent; cursor: pointer;
+}
+.sous-nav button:hover { color: var(--texte); }
+.sous-nav button.actif { color: var(--texte); border-bottom-color: var(--texte); }
+.volet[hidden] { display: none; }
+.volet-intro { margin: 14px 0 16px; max-width: 920px; font-size: 13px; line-height: 1.55; color: var(--texte-doux); }
+.volet > .titre-section:first-of-type { margin-top: 6px; }

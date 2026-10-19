@@ -328,3 +328,10 @@ function remplirZones(r) {
 document.addEventListener("onglet-affiche", e => {
     if (e.detail === "maritime" && window.carteMaritime) setTimeout(() => window.carteMaritime.invalidateSize(), 60);
 });
+
+// La carte est dans un sous-onglet : elle recalcule aussi sa taille quand son volet s'affiche
+document.addEventListener("volet-affiche", e => {
+    if (e.detail.page === "maritime" && e.detail.volet === "carte" && window.carteMaritime) {
+        setTimeout(() => window.carteMaritime.invalidateSize(), 60);
+    }
+});

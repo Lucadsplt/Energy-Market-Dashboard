@@ -37,11 +37,27 @@ function appliquerPlage(entree) {
     chart.update("none");
 }
 
+// Axes verticaux de droite (y2, y3) : chacun porte l'unité et la couleur de sa courbe,
+// pour lire sans confusion deux séries d'ordres de grandeur très différents (ex. Henry Hub et JKM)
+function axesSupplementaires(courbes) {
+    const axes = {};
+    ["y2", "y3"].forEach(nom => {
+        const courbe = courbes.find(c => c.axe === nom);
+        if (!courbe) return;
+        axes[nom] = {
+            position: "right",
+            grid: { drawOnChartArea: false },
+            ticks: { color: courbe.couleur },
+            title: { display: true, text: courbe.unite || courbe.label, color: courbe.couleur },
+        };
+    });
+    return axes;
+}
+
 // Graphe en courbes complet (axes, légende, infobulle)
 function creerGraphe(canvasId, donnees, courbes, { dailyOnly = true, escalier = false } = {}) {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
-    const doubleAxe = courbes.some(c => c.axe === "y2");
 
     const chart = new Chart(canvas, {
         type: "line",
@@ -85,13 +101,7 @@ function creerGraphe(canvasId, donnees, courbes, { dailyOnly = true, escalier = 
                     grid: { color: "#eef1f4" },
                     title: { display: !!courbes[0].unite, text: courbes[0].unite },
                 },
-                ...(doubleAxe ? {
-                    y2: {
-                        position: "right",
-                        grid: { drawOnChartArea: false },
-                        title: { display: true, text: courbes.find(c => c.axe === "y2").unite },
-                    },
-                } : {}),
+                ...axesSupplementaires(courbes),
             },
         },
     });
@@ -206,6 +216,7 @@ window.addEventListener("load", () => {
         const prix = [
             { cle: "ttf", label: "TTF (€/MWh)", couleur: vert, unite: "TTF (€/MWh)" },
             { cle: "henry_hub", label: "Henry Hub ($/MMBtu)", couleur: bleu, axe: "y2", unite: "Henry Hub ($/MMBtu)" },
+            { cle: "jkm", label: "JKM, GNL Asie ($/MMBtu)", couleur: "#7a5c99", axe: "y3", unite: "JKM ($/MMBtu)" },
         ];
         creerGraphe("synth-gaz", d, prix);
         creerGraphe("graphique-gaz", d, prix);

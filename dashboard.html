@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
-    <link rel="stylesheet" href="css/style.css?v=14">
+    <link rel="stylesheet" href="css/style.css?v=17">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
@@ -66,7 +66,17 @@
         </section>
 
         <!-- ========== PÉTROLE ========== -->
-        <section id="petrole" class="onglet">
+        <section id="petrole" class="onglet" data-volets data-periode-volet="marche">
+            <nav class="sous-nav" aria-label="Sections de la page Pétrole">
+                <button type="button" data-volet="marche">Marché</button>
+                <button type="button" data-volet="rendements">Rendements</button>
+                <button type="button" data-volet="simulation">Simulation</button>
+                <button type="button" data-volet="backtest">Backtest</button>
+                <button type="button" data-volet="ecart">Écart Brent − WTI</button>
+            </nav>
+
+            <div class="volet" data-volet="marche">
+                <p class="volet-intro">Prix du Brent et du WTI, au comptant (spot) et à terme, et l'écart entre les deux.</p>
             <div class="bandeau-live" aria-live="polite">Chargement des prix du jour…</div>
             <div class="grille-2">
                 <article class="carte"><h2>Prix spot <small>Brent / WTI, $/baril, FRED</small></h2>
@@ -75,7 +85,10 @@
                     <div class="chart-box"><canvas id="graphique-spread"></canvas></div></article>
             </div>
             <p class="note">Prix spot : pétrole physique livré immédiatement (FRED, séries DCOILBRENTEU et DCOILWTICO), publié avec environ une semaine de retard. C'est la référence de qualité utilisée pour toutes les analyses de cette page. Le bandeau « Prix du jour » affiche en revanche le contrat à terme (Yahoo Finance) : plus récent, mais ce n'est pas le même prix.</p>
-            <h3 class="titre-section">Analyses</h3>
+            </div>
+
+            <div class="volet" data-volet="rendements" hidden>
+                <p class="volet-intro">Comment le prix varie-t-il d'un jour à l'autre ? Distribution des variations quotidiennes du Brent sur 5 ans, comparée à une loi normale.</p>
             <div class="grille-2">
                 <article class="carte"><h2>Distribution des rendements <small>Brent, variation quotidienne en %</small></h2>
                     <div class="chart-box"><canvas id="graphique-distribution"></canvas></div></article>
@@ -83,7 +96,11 @@
                     <dl class="stats" id="stats-distribution"></dl>
                     <p class="note" id="lecture-distribution"></p></article>
             </div>
-            <div class="grille-2" style="margin-top:20px">
+            </div>
+
+            <div class="volet" data-volet="simulation" hidden>
+                <p class="volet-intro">Où peut se trouver le Brent dans 30 jours ? 10 000 trajectoires simulées avec un modèle à retour à la moyenne, et le risque qui en découle.</p>
+            <div class="grille-2">
                 <article class="carte"><h2>Cône de projection du Brent <small id="risk-sous-titre"></small></h2>
                     <div class="chart-box"><canvas id="graphique-risque"></canvas></div></article>
                 <article class="carte"><h2>Paramètres du modèle</h2>
@@ -98,30 +115,49 @@
                     <table class="table-proba" id="table-proba"></table>
                     <p class="note" id="lecture-mc"></p></article>
             </div>
-            <article class="carte" style="margin-top:20px">
+            </div>
+
+            <div class="volet" data-volet="backtest" hidden>
+                <p class="volet-intro">Le modèle est-il fiable ? On rejoue le passé et on compte les fois où la perte réelle a dépassé la perte maximale probable annoncée.</p>
+            <article class="carte">
                 <h2>Backtest de la VaR 95 % <small>2008-2026, horizon 30 jours</small></h2>
                 <table class="table-proba" id="table-backtest"></table>
                 <p class="note" id="lecture-backtest"></p>
             </article>
-            
-            <article class="carte" style="margin-top:20px">
+            </div>
+
+            <div class="volet" data-volet="ecart" hidden>
+                <p class="volet-intro">Cet écart est-il normal ? Le z-score mesure à combien d'écarts-types il se situe de sa moyenne des 12 derniers mois.</p>
+            <article class="carte">
                 <h2>Écart Brent − WTI <small>z-score sur 1 an glissant</small></h2>
                 <div class="chart-box" style="height:260px"><canvas id="graphique-zscore"></canvas></div>
                 <dl class="stats" id="stats-zscore" style="margin-top:16px"></dl>
                 <p class="note" id="lecture-zscore"></p>
             </article>
+            </div>
         </section>
 
         <!-- ========== GAZ ========== -->
-        <section id="gaz" class="onglet">
+        <section id="gaz" class="onglet" data-volets data-periode-volet="marche">
+            <nav class="sous-nav" aria-label="Sections de la page Gaz">
+                <button type="button" data-volet="marche">Marché</button>
+                <button type="button" data-volet="saison">Saisonnalité</button>
+                <button type="button" data-volet="ecarts">Écarts et arbitrage</button>
+            </nav>
+
+            <div class="volet" data-volet="marche">
+                <p class="volet-intro">Prix du gaz européen (TTF), du gaz américain (Henry Hub) et du GNL asiatique (JKM), et leur volatilité.</p>
             <div class="grille-2">
-                <article class="carte"><h2>Prix <small>TTF (€/MWh) / Henry Hub ($/MMBtu)</small></h2>
+                <article class="carte"><h2>Prix <small>TTF (€/MWh) · Henry Hub et JKM ($/MMBtu)</small></h2>
                     <div class="chart-box"><canvas id="graphique-gaz"></canvas></div></article>
                 <article class="carte"><h2>Volatilité <small>glissante annualisée, %</small></h2>
                     <div class="chart-box"><canvas id="graphique-gaz-vol"></canvas></div></article>
             </div>
-            <p class="note">Source : Yahoo Finance (TTF=F, NG=F).</p>
-            <h3 class="titre-section">Analyses</h3>
+            <p class="note">Source : Yahoo Finance (TTF=F, NG=F, JKM=F). Le JKM (Japan-Korea Marker) est le prix de référence du GNL en Asie, coté en contrat à terme. La volatilité du JKM n'est pas affichée : à chaque changement de contrat, la série saute et fausserait le calcul.</p>
+            </div>
+
+            <div class="volet" data-volet="saison" hidden>
+                <p class="volet-intro">À quels mois le TTF est-il habituellement cher ou bon marché ? Indice par rapport à la moyenne de chaque année, 2018 à 2025.</p>
             <div class="grille-2">
                 <article class="carte"><h2>Saisonnalité du TTF <small>indice, 100 = moyenne de l'année</small></h2>
                     <div class="chart-box"><canvas id="graphique-saison-gaz"></canvas></div></article>
@@ -129,7 +165,13 @@
                     <dl class="stats" id="stats-saison-gaz"></dl>
                     <p class="note" id="lecture-saison-gaz"></p></article>
             </div>
-            <div class="grille-2" style="margin-top:20px">
+
+            </div>
+
+            <div class="volet" data-volet="ecarts" hidden>
+                <p class="volet-intro">Comparer les marchés entre eux : ce que l'Europe paie de plus que les États-Unis, et vers où part le GNL, Asie ou Europe.</p>
+                <h3 class="titre-section" style="margin-top:6px">Europe et États-Unis</h3>
+            <div class="grille-2">
                 <article class="carte"><h2>TTF et Henry Hub <small>même unité, €/MWh</small></h2>
                     <div class="chart-box"><canvas id="graphique-ecart-prix"></canvas></div></article>
                 <article class="carte"><h2>Écart TTF − Henry Hub <small>€/MWh</small></h2>
@@ -137,10 +179,30 @@
                     <dl class="stats" id="stats-ecart" style="margin-top:16px"></dl>
                     <p class="note" id="lecture-ecart"></p></article>
             </div>
+
+                <h3 class="titre-section">Asie et Europe (GNL)</h3>
+            <div class="grille-2">
+                <article class="carte"><h2>GNL : Asie et Europe <small>JKM et TTF converti en $/MMBtu</small></h2>
+                    <div class="chart-box"><canvas id="graphique-gnl"></canvas></div></article>
+                <article class="carte"><h2>Arbitrage Asie / Europe <small>écart JKM − TTF, $/MMBtu</small></h2>
+                    <div class="chart-box" style="height:210px"><canvas id="graphique-gnl-ecart"></canvas></div>
+                    <dl class="stats" id="stats-gnl" style="margin-top:14px"></dl>
+                    <p class="note" id="lecture-gnl"></p></article>
+            </div>
+
+            </div>
         </section>
 
         <!-- ========== ÉLECTRICITÉ ========== -->
-        <section id="electricite" class="onglet">
+        <section id="electricite" class="onglet" data-volets>
+            <nav class="sous-nav" aria-label="Sections de la page Électricité">
+                <button type="button" data-volet="marche">Marché</button>
+                <button type="button" data-volet="profil">Profil de prix</button>
+                <button type="button" data-volet="negatifs">Prix négatifs</button>
+            </nav>
+
+            <div class="volet" data-volet="marche">
+                <p class="volet-intro">Prix de marché de l'électricité en France et en Allemagne (veille pour le lendemain), et l'écart entre les deux pays.</p>
             <div class="grille-2">
                 <article class="carte"><h2>Prix de marché <small>veille pour le lendemain, €/MWh</small></h2>
                     <div class="chart-box"><canvas id="graphique-electricite"></canvas></div></article>
@@ -148,23 +210,29 @@
                     <div class="chart-box"><canvas id="graphique-elec-spread"></canvas></div></article>
             </div>
             <p class="note">Source : ENTSO-E Transparency Platform, résolution 15 minutes.</p>
-            <h3 class="titre-section">Analyses</h3>
+            </div>
+
+            <div class="volet" data-volet="profil" hidden>
+                <p class="volet-intro">À quelle heure et quel jour l'électricité est-elle chère ? Prix moyen par heure et par jour de la semaine, sur 12 mois, en France.</p>
             <article class="carte">
                 <h2>Profil de prix <small>France, moyenne par heure et jour de la semaine, €/MWh</small></h2>
                 <div class="heatmap" id="heatmap-elec"></div>
                 <div class="legende-heatmap"><span id="legende-min"></span><div class="degrade"></div><span id="legende-max"></span></div>
             </article>
-            <div class="grille-2" style="margin-top:20px">
+            <article class="carte" style="margin-top:20px"><h2>Ce que montre le profil de prix</h2>
+                    <dl class="stats" id="stats-profil"></dl>
+                    <p class="note" id="lecture-profil"></p></article>
+            </div>
+
+            <div class="volet" data-volet="negatifs" hidden>
+                <p class="volet-intro">Quand les prix deviennent-ils négatifs ? Part des quarts d'heure à prix négatif, par mois et par heure, sur 12 mois.</p>
+            <div class="grille-2">
                 <article class="carte"><h2>Prix négatifs par mois <small>% des quarts d'heure</small></h2>
                     <div class="chart-box"><canvas id="graphique-neg-mois"></canvas></div></article>
                 <article class="carte"><h2>Prix négatifs par heure <small>% des quarts d'heure</small></h2>
                     <div class="chart-box"><canvas id="graphique-neg-heure"></canvas></div></article>
             </div>
-            <div class="grille-2" style="margin-top:20px">
-                <article class="carte"><h2>Ce que montre le profil de prix</h2>
-                    <dl class="stats" id="stats-profil"></dl>
-                    <p class="note" id="lecture-profil"></p></article>
-                <article class="carte"><h2>Ce que montrent les prix négatifs</h2>
+            <article class="carte" style="margin-top:20px"><h2>Ce que montrent les prix négatifs</h2>
                     <dl class="stats" id="stats-neg"></dl>
                     <p class="note" id="lecture-neg"></p></article>
             </div>
@@ -200,7 +268,7 @@
         </section>
 
         <!-- ========== TRAFIC MARITIME ========== -->
-        <section id="maritime" class="onglet">
+        <section id="maritime" class="onglet" data-volets>
             <div class="kpi-grid">
                 <article class="carte kpi"><span class="kpi-label">Détroit d'Ormuz <i>pétroliers/jour · moyenne 7 jours</i></span>
                     <span class="kpi-value" id="mar-ormuz">—</span>
@@ -213,6 +281,14 @@
                     <span class="kpi-date">mise à jour chaque semaine par le FMI</span></article>
             </div>
 
+            <nav class="sous-nav" aria-label="Sections de la page Trafic maritime">
+                <button type="button" data-volet="carte">Carte</button>
+                <button type="button" data-volet="ormuz">Ormuz et prix</button>
+                <button type="button" data-volet="detroits">Détroits</button>
+            </nav>
+
+            <div class="volet" data-volet="carte">
+                <p class="volet-intro">Où sont les pétroliers et les méthaniers ? Positions AIS relevées environ toutes les heures, et état des six détroits stratégiques.</p>
             <article class="carte">
                 <h2>Carte des pétroliers et des détroits <small id="carte-releve"></small></h2>
                 <div class="carte-outils" id="carte-outils">
@@ -243,34 +319,42 @@
                 <p class="bilan-carte" id="carte-bilan"></p>
                 <p class="note">Les positions viennent d'AISStream (stations AIS côtières, couverture très inégale : excellente en mer du Nord, nulle à Ormuz, en mer Rouge, à Suez ou au Bosphore). Seuls les navires dont le type est connu (codes 80 à 89, navires-citernes) sont affichés : le nombre de pétroliers est donc un minimum, et il augmente à mesure que la mémoire des navires se remplit. Les méthaniers sont reconnus par leur MMSI ou leur IMO dans la flotte LNG-T3 (jusqu'en 2024-2025 : un navire très récent peut échapper à la reconnaissance), les autres navires-citernes restent regroupés comme « pétroliers » (brut, produits raffinés, produits chimiques). Terminaux et flotte GNL : Zhou et al., LNG-T3, <em>Scientific Data</em> (2026), licence CC BY 4.0. Les cercles des détroits viennent d'IMF PortWatch (moyenne 7 jours).</p>
             </article>
+            </div>
 
-            <article class="carte" style="margin-top:20px">
+            <div class="volet" data-volet="ormuz" hidden>
+                <p class="volet-intro">Le trafic dans le détroit d'Ormuz et le prix du Brent spot, sur la même période.</p>
+            <article class="carte">
                 <h2>Ormuz et prix du Brent <small>pétroliers par jour (moyenne 7 jours) et Brent spot FRED</small></h2>
                 <div class="chart-box grand"><canvas id="graphique-ormuz"></canvas></div>
                 <p class="note" id="lecture-ormuz"></p>
             </article>
+            </div>
 
-            <article class="carte" style="margin-top:20px">
+            <div class="volet" data-volet="detroits" hidden>
+                <p class="volet-intro">Comparaison du trafic de pétroliers de chaque détroit avec la moyenne de 2025.</p>
+            <article class="carte">
                 <h2>Pétroliers par détroit <small>moyenne 7 jours, comparée à l'année 2025</small></h2>
                 <div class="defile"><table class="table-detroits" id="table-detroits"></table></div>
                 <p class="note">Source : IMF PortWatch (FMI), passages quotidiens de navires estimés à partir de signaux AIS. Ce sont des estimations, pas des chiffres douaniers : dans une zone de conflit, des navires peuvent couper leur AIS, ce qui sous-estime le trafic. Le z-score mesure l'écart à la moyenne de 2025 en écarts-types : en dessous de −2, le trafic est anormalement bas.</p>
             </article>
+            </div>
         </section>
     </main>
 
     <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · <span id="maj-site">mises à jour automatiques</span></footer>
 
     <script src="js/nav.js?v=15"></script>
-    <script src="js/charts.js?v=12"></script>
+    <script src="js/charts.js?v=14"></script>
     <script src="js/risk.js?v=12"></script>
     <script src="js/oil_analysis.js?v=2"></script>
-    <script src="js/gas_analysis.js?v=2"></script>
+    <script src="js/gas_analysis.js?v=3"></script>
     <script src="js/elec_analysis.js?v=3"></script>
     <script src="js/news.js?v=11"></script>
     <script src="js/maj.js?v=1"></script>
     <script src="js/oil_live.js?v=3"></script>
     <script src="js/marche.js?v=3"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-    <script src="js/maritime.js?v=8"></script>
+    <script src="js/maritime.js?v=9"></script>
+    <script src="js/volets.js?v=2"></script>
 </body>
 </html>
