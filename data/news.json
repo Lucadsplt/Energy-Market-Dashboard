@@ -2,6 +2,125 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Woodside Resumes Work at Australian LNG Project after Greenpeace Stunt",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Woodside-Resumes-Work-at-Australian-LNG-Project-after-Greenpeace-Stunt.html",
+      "date": "2026-10-19T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_rsx91cqkw3.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Sees Smaller Oil Crunch in 2026",
+      "lien": "https://www.rigzone.com/news/eia_sees_smaller_oil_crunch_in_2026-19-oct-2026-184874-article/?rss=true",
+      "date": "2026-10-19T10:51:37+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan’s Electricity Prices Surge 25% as LNG and Coal Costs Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-25-as-LNG-and-Coal-Costs-Soar.html",
+      "date": "2026-10-19T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_ivqojtg71t.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Says Diesel Deal Aims to Keep Russia Talks Going",
+      "lien": "https://www.rigzone.com/news/wire/trump_says_diesel_deal_aims_to_keep_russia_talks_going-19-oct-2026-184873-article/?rss=true",
+      "date": "2026-10-19T10:07:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Says-Diesel-Deal-Aims-to-Keep-Russia-Talks-Going-184873-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Venezuela Sees Nearly $76B Oil Investment Over 5 Years",
+      "lien": "https://www.rigzone.com/news/wire/venezuela_sees_nearly_76b_oil_investment_over_5_years-19-oct-2026-184872-article/?rss=true",
+      "date": "2026-10-19T09:54:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Venezuela-Sees-Nearly-76B-Oil-Investment-Over-5-Years-184872-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China's Coal Production Slumps 6.8% as Winter Supply Fears Grow",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Production-Slumps-68-as-Winter-Supply-Fears-Grow.html",
+      "date": "2026-10-19T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_fhm5hvog2d.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "What Will Happen to the Oil Price Over the Next Few Quarters?",
+      "lien": "https://www.rigzone.com/news/what_will_happen_to_the_oil_price_over_the_next_few_quarters-19-oct-2026-184871-article/?rss=true",
+      "date": "2026-10-19T09:10:05+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/What-Will-Happen-to-the-Oil-Price-Over-the-Next-Few-Quarters-184871-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India's Crude Oil Import Bill Soars 46% as Middle East Crisis Drives Up Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-46-as-Middle-East-Crisis-Drives-Up-Prices.html",
+      "date": "2026-10-19T08:35:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_fed3fscghe.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Greenpeace Protest Forces Shutdown at Woodside’s $12.5 Billion Gas Project",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Greenpeace-Protest-Forces-Shutdown-at-Woodsides-125-Billion-Gas-Project.html",
+      "date": "2026-10-19T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_btegvk6nn9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Slip as Trump-Putin Diesel Deal Raises Supply Hopes",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
+      "date": "2026-10-19T05:25:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_fletuhrm32.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America Needs 48,000 Tons of Rare Earth Magnets. It Only Makes 300",
+      "lien": "https://oilprice.com/Energy/Energy-General/America-Needs-48000-Tons-of-Rare-Earth-Magnets-It-Only-Makes-300.html",
+      "date": "2026-10-19T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_e76uzovovf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Record Shipping Costs Force Oil Producers to Slash Prices",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html",
+      "date": "2026-10-18T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-18_2rjrlwsvz3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Is Turning Shipping’s Fuel Bill Into a Supply Crisis",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
+      "date": "2026-10-18T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-18_mfeknzuvt0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Nuclear Power Shortcut That Could Add Gigawatts to the U.S. Grid",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Nuclear-Power-Shortcut-That-Could-Add-Gigawatts-to-the-US-Grid.html",
+      "date": "2026-10-18T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_ma73qxcz0w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Faces Rising Threat From Within as Baluch Insurgency Escalates",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
+      "date": "2026-10-18T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-16_utal8rkide.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Electric Supercars Are Getting Faster, Smarter, and Harder to Ignore",
+      "lien": "https://oilprice.com/Energy/Energy-General/Electric-Supercars-Are-Getting-Faster-Smarter-and-Harder-to-Ignore.html",
+      "date": "2026-10-18T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-15_eajin1egvc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OE Says India May Raise Fuel Prices in November",
+      "lien": "https://www.rigzone.com/news/wire/oe_says_india_may_raise_fuel_prices_in_november-18-oct-2026-184868-article/?rss=true",
+      "date": "2026-10-18T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OE-Says-India-May-Raise-Fuel-Prices-in-November-184868-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Oil Prices Stay High as War Keeps Supply Tight Into 2027",
       "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
       "date": "2026-10-17T23:00:00+00:00",
