@@ -2,6 +2,62 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Energy Costs Are Driving U.S. Inflation, and Wages Aren't Keeping Up",
+      "lien": "https://oilprice.com/Energy/Energy-General/Energy-Costs-Are-Driving-US-Inflation-and-Wages-Arent-Keeping-Up.html",
+      "date": "2026-10-20T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_d0y3fnx8fa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "API: Crude, Product Inventories Continue to Draw",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
+      "date": "2026-10-20T20:56:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_wgkyfll5q2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Slips as Iran Talks Fuel Volatility",
+      "lien": "https://www.rigzone.com/news/wire/oil_slips_as_iran_talks_fuel_volatility-20-oct-2026-184889-article/?rss=true",
+      "date": "2026-10-20T20:47:41+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Slips-as-Iran-Talks-Fuel-Volatility-184889-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Middle East's Next Energy Boom Has Nothing to Do With Oil",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Middle-Easts-Next-Energy-Boom-Has-Nothing-to-Do-With-Oil.html",
+      "date": "2026-10-20T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_aegjnfzlpp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Halliburton Sees Years of Growth as Mideast Rebuilds",
+      "lien": "https://www.rigzone.com/news/wire/halliburton_sees_years_of_growth_as_mideast_rebuilds-20-oct-2026-184885-article/?rss=true",
+      "date": "2026-10-20T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Halliburton-Sees-Years-of-Growth-as-Mideast-Rebuilds-184885-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "One Kurdish Peace Deal Could Ignite Another Middle Eastern Conflict",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/One-Kurdish-Peace-Deal-Could-Ignite-Another-Middle-Eastern-Conflict.html",
+      "date": "2026-10-20T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_tczxvdqouc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway's Gas Production Plunges 12.6% as Europe Heads into Winter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Gas-Production-Plunges-126-as-Europe-Heads-into-Winter.html",
+      "date": "2026-10-20T18:31:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_omau3b6l7y.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Geothermal Just Proved It Can Compete With Solar-Plus-Storage on Price",
+      "lien": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/Geothermal-Just-Proved-It-Can-Compete-With-Solar-Plus-Storage-on-Price.html",
+      "date": "2026-10-20T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_rmrciw6htq.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Stands-Firm-Against-Arctic-Oil-and-Gas-Drilling-Despite-Energy-Crisis.html",
       "date": "2026-10-20T17:45:00+00:00",
