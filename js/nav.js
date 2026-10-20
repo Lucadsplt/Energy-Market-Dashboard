@@ -6,6 +6,7 @@ const TITRES = {
     electricite: ["France et Allemagne", "Électricité"],
     news:        ["Pétrole · Gaz · Électricité", "Actualités"],
     maritime:    ["Pétroliers · détroits stratégiques", "Trafic maritime"],
+    strategies:  ["Règles testées sur le pétrole · outil d'étude, pas un conseil en investissement", "Stratégies"],
 };
 // Le sélecteur de période ne concerne que les pages avec des prix journaliers
 const AVEC_PERIODE = ["petrole", "gaz"];
