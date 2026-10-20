@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Stands-Firm-Against-Arctic-Oil-and-Gas-Drilling-Despite-Energy-Crisis.html",
+      "date": "2026-10-20T17:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_36wron8sgt.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Global LNG market faces demand cuts as Hormuz disruptions strain supply",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55413101/global-lng-market-faces-demand-cuts-as-hormuz-disruptions-strain-supply",
+      "date": "2026-10-20T17:08:12+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad796b42ae58a0201360525-lng_tanker_at_a_snowy_terminal.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Chevron Moves to Take Over Russia's Most Prized Iraqi Oil Field",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Chevron-Moves-to-Take-Over-Russias-Most-Prized-Iraqi-Oil-Field.html",
+      "date": "2026-10-20T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_5acg8rbupf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia’s Oil Export Revenue Slides as Production Declines",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Revenue-Slides-as-Production-Declines.html",
+      "date": "2026-10-20T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_i7azyyrwht.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Next Major Oil Supply Shock Could Come From Saudi Arabia",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Next-Major-Oil-Supply-Shock-Could-Come-From-Saudi-Arabia.html",
+      "date": "2026-10-20T16:11:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_fpsaiwnc1r.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US and China Battle for Influence in Central Asia as Rubio Seals $12 Billion in",
+      "lien": "https://oilprice.com/Geopolitics/Asia/US-and-China-Battle-for-Influence-in-Central-Asia-as-Rubio-Seals-12-Billion-in.html",
+      "date": "2026-10-20T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_kzz0o6dmw2.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Gulf Keystone, ShaMaran agree to merge",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55413045/gulf-keystone-shamaran-agree-to-merge",
+      "date": "2026-10-20T15:43:26+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia and Asia Locked In Dispute Over 2027 Term Oil Deals",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-and-Asia-Locked-In-Dispute-Over-2027-Term-Oil-Deals.html",
+      "date": "2026-10-20T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_rjur2escd3.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Scales Down Troll Electrification Program",
+      "lien": "https://www.rigzone.com/news/equinor_scales_down_troll_electrification_program-20-oct-2026-184888-article/?rss=true",
+      "date": "2026-10-20T15:06:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Scales-Down-Troll-Electrification-Program-184888-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Shipping Crisis Forces Asian Crude Buyers to Use Smaller Tankers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+      "date": "2026-10-20T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_wxhyzfpkev.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "How Much Additional Diesel Could Reach the Market?",
+      "lien": "https://www.rigzone.com/news/how_much_additional_diesel_could_reach_the_market-20-oct-2026-184887-article/?rss=true",
+      "date": "2026-10-20T14:11:30+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/How-Much-Additional-Diesel-Could-Reach-the-Market-184887-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Lewis to Remain Uniper CEO for 5 More Years",
+      "lien": "https://www.rigzone.com/news/lewis_to_remain_uniper_ceo_for_5_more_years-20-oct-2026-184886-article/?rss=true",
+      "date": "2026-10-20T14:03:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Lewis-to-Remain-Uniper-CEO-for-5-More-Years-184886-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia’s Shadow Role in Iran War Comes Under Fresh Scrutiny",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
+      "date": "2026-10-20T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_dqop8vyk7z.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "HSBC Sees Hormuz Becoming Redundant in Five Years",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/HSBC-Sees-Hormuz-Becoming-Redundant-in-Five-Years.html",
+      "date": "2026-10-20T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_yq7i4t0bdp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Citgo Raises Profit Outlook by $2B",
+      "lien": "https://www.rigzone.com/news/wire/citgo_raises_profit_outlook_by_2b-20-oct-2026-184884-article/?rss=true",
+      "date": "2026-10-20T13:18:51+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Citgo-Raises-Profit-Outlook-by-2B-184884-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Petronas, Petrovietnam Expand Partnership across Energy Value Chain",
+      "lien": "https://www.rigzone.com/news/petronas_petrovietnam_expand_partnership_across_energy_value_chain-20-oct-2026-184883-article/?rss=true",
+      "date": "2026-10-20T12:40:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Petronas-Petrovietnam-Expand-Partnership-across-Energy-Value-Chain-184883-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Asia’s Coal Prices To Stay High as Supply Drops and Demand Firms",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Coal-Prices-To-Stay-High-as-Supply-Drops-and-Demand-Firms.html",
       "date": "2026-10-20T12:30:00+00:00",
