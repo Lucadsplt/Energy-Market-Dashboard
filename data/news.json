@@ -2,6 +2,83 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "China Moves to Rein In Its Booming Hydrogen Industry",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Moves-to-Rein-In-Its-Booming-Hydrogen-Industry.html",
+      "date": "2026-10-20T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_80j3lwrvme.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Nears Production at Meleiha Phase 2 in Egypt",
+      "lien": "https://www.rigzone.com/news/eni_nears_production_at_meleiha_phase_2_in_egypt-20-oct-2026-184881-article/?rss=true",
+      "date": "2026-10-20T10:06:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Nears-Production-at-Meleiha-Phase-2-in-Egypt-184881-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil-Rich Alberta Votes to Stay in Canada in Historic Referendum",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
+      "date": "2026-10-20T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_dzlorb15v2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ithaca Energy Looking for New CEO",
+      "lien": "https://www.rigzone.com/news/ithaca_energy_looking_for_new_ceo-20-oct-2026-184880-article/?rss=true",
+      "date": "2026-10-20T08:28:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ithaca-Energy-Looking-for-New-CEO-184880-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Announces $8 Billion in Emergency Diesel Relief for U.S. Farmers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
+      "date": "2026-10-20T08:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_gdad5ibjr3.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EU Policy Draft Softens Language on Arctic Drilling",
+      "lien": "https://www.rigzone.com/news/wire/eu_policy_draft_softens_language_on_arctic_drilling-20-oct-2026-184879-article/?rss=true",
+      "date": "2026-10-20T07:26:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EU-Policy-Draft-Softens-Language-on-Arctic-Drilling-184879-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asian LNG Prices Surge Past $30 as Middle East Shipping Risks Escalate",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asian-LNG-Prices-Surge-Past-30-as-Middle-East-Shipping-Risks-Escalate.html",
+      "date": "2026-10-20T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_uorundjypt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+      "date": "2026-10-20T04:56:06+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-19_hycomp1gl2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Robot Wars – How China Has the Robotics Industry in Its Grip",
+      "lien": "https://oilprice.com/Energy/Energy-General/Robot-Wars-How-China-Has-the-Robotics-Industry-in-Its-Grip.html",
+      "date": "2026-10-20T00:41:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_sy5ye14dxg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Pays Record Sums to Balance Grid as Transmission Falls Behind",
+      "lien": "https://oilprice.com/Energy/Energy-General/UK-Pays-Record-Sums-to-Balance-Grid-as-Transmission-Falls-Behind.html",
+      "date": "2026-10-19T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_qsj7n0cs2q.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Invading Iran Could Become America's Biggest Military Mistake",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+      "date": "2026-10-19T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-19_8cbfgvrw6t.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "New Oil Fields Should Have to Build the Carbon Storage Market",
       "lien": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
       "date": "2026-10-19T20:00:00+00:00",
@@ -5199,13 +5276,6 @@
       "titre": "Fin de Elether 2 : bilan de quatre années de travaux de recherche en thermodynamique des électrolytes",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/fin-elether-2-bilan-quatre-annees-travaux-recherche-en-thermodynamique-des-electrolytes",
       "date": "2026-07-28T08:08:12+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "IFPEN au H2 & CCT World Expo",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifpen-au-h2-cct-world-expo",
-      "date": "2026-07-22T08:36:53+00:00",
       "image": null
     },
     {
