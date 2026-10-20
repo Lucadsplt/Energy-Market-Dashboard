@@ -2,6 +2,27 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Asia’s Coal Prices To Stay High as Supply Drops and Demand Firms",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Coal-Prices-To-Stay-High-as-Supply-Drops-and-Demand-Firms.html",
+      "date": "2026-10-20T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_p9irobpydt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Why Is the WTI Oil Price Rising More than Brent Intraday?",
+      "lien": "https://www.rigzone.com/news/why_is_the_wti_oil_price_rising_more_than_brent_intraday-20-oct-2026-184882-article/?rss=true",
+      "date": "2026-10-20T11:41:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Why-Is-the-WTI-Oil-Price-Rising-More-than-Brent-Intraday-184882-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Copper Needs $332 Billion in New Mines to Avoid Deficit, BloombergNEF Says",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Copper-Needs-332-Billion-in-New-Mines-to-Avoid-Deficit-BloombergNEF-Says.html",
+      "date": "2026-10-20T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_rtq4uklhma.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "China Moves to Rein In Its Booming Hydrogen Industry",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Moves-to-Rein-In-Its-Booming-Hydrogen-Industry.html",
       "date": "2026-10-20T10:30:00+00:00",
