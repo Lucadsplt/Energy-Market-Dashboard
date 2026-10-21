@@ -2,6 +2,97 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "S&P Global Warns Hormuz Energy Shock Could Become a Global Food Crisis",
+      "lien": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
+      "date": "2026-10-21T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_h7k9w40skc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "As BP Leaves the North Sea, These Independents Are Buying In",
+      "lien": "https://oilprice.com/Energy/Energy-General/As-BP-Leaves-the-North-Sea-These-Independents-Are-Buying-In.html",
+      "date": "2026-10-21T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_1qus6u8rhs.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Macron Says France to Get LNG Supplies from Qatar in Winter",
+      "lien": "https://www.rigzone.com/news/wire/macron_says_france_to_get_lng_supplies_from_qatar_in_winter-21-oct-2026-184899-article/?rss=true",
+      "date": "2026-10-21T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Macron-Says-France-to-Get-LNG-Supplies-from-Qatar-in-Winter-184899-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Gains After Saudi Oil Field Attack",
+      "lien": "https://www.rigzone.com/news/wire/oil_gains_after_saudi_oil_field_attack-21-oct-2026-184901-article/?rss=true",
+      "date": "2026-10-21T19:46:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Gains-After-Saudi-Oil-Field-Attack-184901-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories down 3.1 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55413538/eia-us-crude-oil-inventories-down-31-million-bbl",
+      "date": "2026-10-21T19:05:57+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad90d0c24e4ec8850e5589d-ogjrecapoctober162026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia’s Northern Sea Route Workaround Supplying Asian Buyers",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Russias-Northern-Sea-Route-Workaround-Supplying-Asian-Buyers.html",
+      "date": "2026-10-21T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_zs6aipqq5x.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "World biofuels production",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/14203650/world-biofuels-production",
+      "date": "2026-10-21T18:47:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Muse, Stancil and Co Refining Margins",
+      "lien": "https://www.ogj.com/refining-processing/document/17298986/muse-stancil-and-co-refining-margins",
+      "date": "2026-10-21T18:47:17+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Propane Prices",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17299009/propane-prices",
+      "date": "2026-10-21T18:46:39+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Production by Shale and Tight Formations",
+      "lien": "https://www.ogj.com/drilling-production/document/17298992/production-by-region",
+      "date": "2026-10-21T18:45:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Drilling Productivity Metrics",
+      "lien": "https://www.ogj.com/drilling-production/document/17298980/drilling-productivity-report",
+      "date": "2026-10-21T18:45:18+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "International Rig Count",
+      "lien": "https://www.ogj.com/drilling-production/document/17298981/international-rig-count",
+      "date": "2026-10-21T18:44:39+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Washington’s Central Asia Charm Offensive Yields $12 Billion in Deals",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Washingtons-Central-Asia-Charm-Offensive-Yields-12-Billion-in-Deals.html",
+      "date": "2026-10-21T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_djdwpcobn5.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
       "date": "2026-10-21T17:30:00+00:00",
