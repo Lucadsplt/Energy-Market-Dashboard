@@ -2,6 +2,90 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "UK Approves Jackdaw Gas Field as Energy Crisis Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Approves-Jackdaw-Gas-Field-as-Energy-Crisis-Deepens.html",
+      "date": "2026-10-21T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_bj2t5ztnqd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Woodside Posts Higher Quarterly Revenue",
+      "lien": "https://www.rigzone.com/news/woodside_posts_higher_quarterly_revenue-21-oct-2026-184893-article/?rss=true",
+      "date": "2026-10-21T10:01:32+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UK Greenlights $3B Jackdaw Gas Project",
+      "lien": "https://www.rigzone.com/news/uk_greenlights_3b_jackdaw_gas_project-21-oct-2026-184892-article/?rss=true",
+      "date": "2026-10-21T09:58:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/UK-Greenlights-3B-Jackdaw-Gas-Project-184892-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Goldman Sachs Warns of New Oil Price Shock as Tanker Rates Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
+      "date": "2026-10-21T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_e5tabasirt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iran Intensifies Strikes on Ships",
+      "lien": "https://www.rigzone.com/news/wire/iran_intensifies_strikes_on_ships-21-oct-2026-184891-article/?rss=true",
+      "date": "2026-10-21T08:52:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iran-Intensifies-Strikes-on-Ships-184891-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Coal Crisis Deepens as Power Demand Surges",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Crisis-Deepens-as-Power-Demand-Surges.html",
+      "date": "2026-10-21T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_rci49ezgpa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Administration Pushes Refiners to Boost Diesel Output as Prices Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
+      "date": "2026-10-21T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_1dso8viztd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Climb Above $110 as Middle East Supply Fears Persist",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
+      "date": "2026-10-21T05:11:27+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_vnl78ebvsq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How Bad Would It Get If China Blocks Rare Earths to America?",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-Bad-Would-It-Get-If-China-Blocks-Rare-Earths-to-America.html",
+      "date": "2026-10-21T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_jbveewhps7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Petrobras' Deepwater Push Sets Off a Race for Offshore Vessels",
+      "lien": "https://oilprice.com/Energy/Energy-General/Petrobras-Deepwater-Push-Sets-Off-a-Race-for-Offshore-Vessels.html",
+      "date": "2026-10-20T23:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_q9on3rtwpz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Mexico Poised to Approve $12.5 Billion in Renewable Energy Projects",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/Mexico-Poised-to-Approve-125-Billion-in-Renewable-Energy-Projects.html",
+      "date": "2026-10-20T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_klyg7sqeam.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Power Demand Returns to Growth",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Europes-Power-Demand-Returns-to-Growth.html",
+      "date": "2026-10-20T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-20_0w6t5ndmdt.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Energy Costs Are Driving U.S. Inflation, and Wages Aren't Keeping Up",
       "lien": "https://oilprice.com/Energy/Energy-General/Energy-Costs-Are-Driving-US-Inflation-and-Wages-Arent-Keeping-Up.html",
       "date": "2026-10-20T21:00:00+00:00",
