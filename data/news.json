@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
+      "date": "2026-10-21T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_tkmaigogks.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Are Rare Earth Stocks Falling When Prices Keep Rising?",
+      "lien": "https://oilprice.com/Metals/Commodities/Why-Are-Rare-Earth-Stocks-Falling-When-Prices-Keep-Rising.html",
+      "date": "2026-10-21T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_watvlg3mcq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Adura gets NSTA consent to develop Jackdaw North Sea gas field",
+      "lien": "https://www.ogj.com/drilling-production/production-operations/news/55413467/adura-gets-nsta-consent-to-develop-jackdaw-north-sea-gas-field",
+      "date": "2026-10-21T16:38:28+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad8ebf98ef71bebd0ba8e58-jackdawhighres3scaled.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "GM to Add Hybrids as U.S. Gasoline Holds Above $4",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/GM-to-Add-Hybrids-as-US-Gasoline-Holds-Above-4.html",
+      "date": "2026-10-21T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_0dgvqhonoc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Greenlights Major North Sea Gas Field After Years of Legal Battles",
+      "lien": "https://oilprice.com/Energy/Energy-General/UK-Greenlights-Major-North-Sea-Gas-Field-After-Years-of-Legal-Battles.html",
+      "date": "2026-10-21T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_ctmms23an5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Top State Refiner to Reduce Middle East Term Oil Purchases",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Top-State-Refiner-to-Reduce-Middle-East-Term-Oil-Purchases.html",
+      "date": "2026-10-21T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_syeq9vtjuf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EIA Says US Crude Inventories Sink Further",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Sink-Further.html",
+      "date": "2026-10-21T14:39:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_8dymjrqtfe.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "What Direction Will the Henry Hub Gas Price Take in 2026, 2027?",
+      "lien": "https://www.rigzone.com/news/what_direction_will_the_henry_hub_gas_price_take_in_2026_2027-21-oct-2026-184900-article/?rss=true",
+      "date": "2026-10-21T14:38:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/What-Direction-Will-the-Henry-Hub-Gas-Price-Take-in-2026-2027-184900-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Higher Oil Availability Pressures Middle East Crude Benchmarks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.html",
+      "date": "2026-10-21T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_iy9hg0xeun.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Buru Files for Rafael Gas Production License",
+      "lien": "https://www.rigzone.com/news/buru_files_for_rafael_gas_production_license-21-oct-2026-184898-article/?rss=true",
+      "date": "2026-10-21T14:29:39+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Buru-Files-for-Rafael-Gas-Production-License-184898-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA to Tap National Diesel Reserve",
+      "lien": "https://www.rigzone.com/news/wire/usa_to_tap_national_diesel_reserve-21-oct-2026-184897-article/?rss=true",
+      "date": "2026-10-21T14:28:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-to-Tap-National-Diesel-Reserve-184897-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Texas Upstream Jobs Down Month on Month",
+      "lien": "https://www.rigzone.com/news/texas_upstream_jobs_down_month_on_month-21-oct-2026-184896-article/?rss=true",
+      "date": "2026-10-21T14:05:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Texas-Upstream-Jobs-Down-Month-on-Month-184896-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan’s Trade Deficit Doubles as Hormuz Crisis Hikes Energy Import Costs",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
+      "date": "2026-10-21T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_6afodrcvlp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "SAFE Workers Strike at Reach Subsea",
+      "lien": "https://www.rigzone.com/news/safe_workers_strike_at_reach_subsea-21-oct-2026-184895-article/?rss=true",
+      "date": "2026-10-21T13:09:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/SAFE-Workers-Strike-at-Reach-Subsea-184895-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Saturn Oil & Gas adds light, oil-weighted assets of Corex Resources",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55413244/saturn-oil-gas-adds-light-oil-weighted-assets-of-corex-resources",
+      "date": "2026-10-21T13:08:32+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ad7c17069a4882a63e6d966-saturn_canada.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Welcomes Restored U.S. Intelligence Amid Russian Attacks",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Ukraine-Welcomes-Restored-US-Intelligence-Amid-Russian-Attacks.html",
+      "date": "2026-10-21T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_imvzh03j6y.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Russia to Send First Diesel Tanker to U.S. on Thursday",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
       "date": "2026-10-21T12:30:00+00:00",
@@ -118,6 +230,13 @@
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
       "date": "2026-10-20T20:56:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-20_wgkyfll5q2.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "bp signs MoU with TechnipFMC for subsea production systems earmarked for Paleogene projects",
+      "lien": "https://www.ogj.com/general-interest/news/55413292/bp-signs-mou-with-technipfmc-for-subsea-production-systems-earmarked-for-paleogene-projects",
+      "date": "2026-10-20T20:51:38+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
     },
     {
       "source": "Rigzone",
