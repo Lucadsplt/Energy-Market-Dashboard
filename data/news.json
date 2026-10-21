@@ -2,6 +2,27 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Russia to Send First Diesel Tanker to U.S. on Thursday",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+      "date": "2026-10-21T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_zl9wbzjgga.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Midterms Could Swing on Diesel",
+      "lien": "https://www.rigzone.com/news/midterms_could_swing_on_diesel-21-oct-2026-184894-article/?rss=true",
+      "date": "2026-10-21T11:56:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Midterms-Could-Swing-on-Diesel-184894-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Morgan Stanley: Global Fuel Market Will Stay Tight Through Mid-2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Global-Fuel-Market-Will-Stay-Tight-Through-Mid-2027.html",
+      "date": "2026-10-21T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-21_ubbmefd8li.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "UK Approves Jackdaw Gas Field as Energy Crisis Deepens",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Approves-Jackdaw-Gas-Field-as-Energy-Crisis-Deepens.html",
       "date": "2026-10-21T10:30:00+00:00",
