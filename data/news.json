@@ -2,6 +2,55 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Electric Giants Say They Already Have the Tools to Fix the AI Power Crunch",
+      "lien": "https://oilprice.com/Energy/Energy-General/Electric-Giants-Say-They-Already-Have-the-Tools-to-Fix-the-AI-Power-Crunch.html",
+      "date": "2026-10-22T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_salhcg0pge.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Fossil Fuel Demand Can Rise Even as Clean Energy Wins Terrain",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Fossil-Fuel-Demand-Can-Rise-Even-as-Clean-Energy-Wins-Terrain.html",
+      "date": "2026-10-22T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_fnobrojxwi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asia Needs $1 Trillion a Year to Secure Energy Supplies",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asia-Needs-1-Trillion-a-Year-to-Secure-Energy-Supplies.html",
+      "date": "2026-10-22T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_jq7qysldu6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "China's Petrochemicals Glut Turns to Crunch",
+      "lien": "https://www.rigzone.com/news/wire/chinas_petrochemicals_glut_turns_to_crunch-22-oct-2026-184910-article/?rss=true",
+      "date": "2026-10-22T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Chinas-Petrochemicals-Glut-Turns-to-Crunch-184910-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Surges 4% After Deadly Saudi Attacks",
+      "lien": "https://www.rigzone.com/news/wire/oil_surges_4_after_deadly_saudi_attacks-22-oct-2026-184912-article/?rss=true",
+      "date": "2026-10-22T19:55:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Surges-4-After-Deadly-Saudi-Attacks-184912-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Strathcona Pitches 250,000-Bpd Oil Export Route to Asia",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Strathcona-Pitches-250000-Bpd-Oil-Export-Route-to-Asia.html",
+      "date": "2026-10-22T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_l8ipcan7fl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU’s Proposed Shipping Subsidies Could Make BioLNG Cheaper Than Fuel Oil",
+      "lien": "https://oilprice.com/Energy/Energy-General/EUs-Proposed-Shipping-Subsidies-Could-Make-BioLNG-Cheaper-Than-Fuel-Oil.html",
+      "date": "2026-10-22T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_uqhtpi5pgd.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Citi’s $60 Oil Call Meets $112 Brent",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
       "date": "2026-10-22T17:30:00+00:00",
