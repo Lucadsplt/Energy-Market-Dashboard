@@ -2,6 +2,132 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Citi’s $60 Oil Call Meets $112 Brent",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
+      "date": "2026-10-22T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_d9hgptc8lm.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "GeoPark awarded Corralera Noreste block in Vaca Muerta bid round",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55413802/geopark-awarded-corralera-noreste-block-in-vaca-muerta-bid-round",
+      "date": "2026-10-22T17:13:05+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ada44c0eb410bdb6b7030a7-2682449__elultimodeseo__dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Tehran Turns to Central Asia for Trade as Conflict With U.S. Simmers",
+      "lien": "https://oilprice.com/Geopolitics/International/Tehran-Turns-to-Central-Asia-for-Trade-as-Conflict-With-US-Simmers.html",
+      "date": "2026-10-22T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_zvr52pfcs3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway's $2.3 Trillion Oil Fund Loses $30 Billion in Third Quarter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Norways-23-Trillion-Oil-Fund-Loses-30-Billion-in-Third-Quarter.html",
+      "date": "2026-10-22T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_mfbuokyglf.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Valero wraps St. Charles FCC project, reports record earnings",
+      "lien": "https://www.ogj.com/refining-processing/news/55413762/valero-wraps-st-charles-fcc-project-reports-record-earnings",
+      "date": "2026-10-22T16:23:55+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ada315e5a898dcc7c9100b3-valero_energy_corp.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Britain Finally Creates an Oil Wealth Fund—50 Years Too Late",
+      "lien": "https://oilprice.com/Energy/Energy-General/Britain-Finally-Creates-an-Oil-Wealth-Fund50-Years-Too-Late.html",
+      "date": "2026-10-22T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_zlnks5n8by.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Tight product supplies lift US summer refinery utilization to highest level since 1998",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55413722/tight-product-supplies-lift-us-summer-refinery-utilization-to-highest-since-1998",
+      "date": "2026-10-22T15:43:31+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ada23d8a9b0d4a10899c460-main_1.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ofgem Approves Deal to Keep UK Gas Import Capacity From Europe",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ofgem-Approves-Deal-to-Keep-UK-Gas-Import-Capacity-From-Europe.html",
+      "date": "2026-10-22T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_65rujdeipt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
+      "date": "2026-10-22T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_awqbq3u0jw.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Drop 3MM Barrels WoW",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_3mm_barrels_wow-22-oct-2026-184911-article/?rss=true",
+      "date": "2026-10-22T14:36:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Drop-3MM-Barrels-WoW-184911-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "European Natural Gas Prices Rise on Middle East Escalation",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Rise-on-Middle-East-Escalation.html",
+      "date": "2026-10-22T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_zoumrgciqk.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi Aramco Evacuates HQ",
+      "lien": "https://www.rigzone.com/news/wire/saudi_aramco_evacuates_hq-22-oct-2026-184909-article/?rss=true",
+      "date": "2026-10-22T14:17:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Aramco-Evacuates-HQ-184909-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Tamboran CEO Abbott Takes on Dual Role as Managing Director",
+      "lien": "https://www.rigzone.com/news/tamboran_ceo_abbott_takes_on_dual_role_as_managing_director-22-oct-2026-184908-article/?rss=true",
+      "date": "2026-10-22T14:11:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Tamboran-CEO-Abbott-Takes-on-Dual-Role-as-Managing-Director-184908-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. refineries have been running at very high rates in 2026",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+      "date": "2026-10-22T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.10.22/main.png?1792691847"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "What Jackdaw’s Approval Means for the Future of North Sea Drilling",
+      "lien": "https://oilprice.com/Energy/Energy-General/What-Jackdaws-Approval-Means-for-the-Future-of-North-Sea-Drilling.html",
+      "date": "2026-10-22T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_aucjwq9i8e.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni CCS Project in Italy Wins EU Funding",
+      "lien": "https://www.rigzone.com/news/eni_ccs_project_in_italy_wins_eu_funding-22-oct-2026-184907-article/?rss=true",
+      "date": "2026-10-22T13:35:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-CCS-Project-in-Italy-Wins-EU-Funding-184907-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Santos Logs 49 Percent Quarter on Quarter Increase in Revenue",
+      "lien": "https://www.rigzone.com/news/santos_logs_49_percent_quarter_on_quarter_increase_in_revenue-22-oct-2026-184906-article/?rss=true",
+      "date": "2026-10-22T13:22:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Santos-Logs-49-Percent-Quarter-on-Quarter-Increase-in-Revenue-184906-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Grid Constraints Curtailed 119 GW of Renewables in India in September",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Grid-Constraints-Curtailed-119-GW-of-Renewables-in-India-in-September.html",
+      "date": "2026-10-22T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_ny0rlwdbhk.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Record Fuel Prices Accelerate Europe’s EV Sales",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Record-Fuel-Prices-Accelerate-Europes-EV-Sales.html",
       "date": "2026-10-22T12:00:00+00:00",
