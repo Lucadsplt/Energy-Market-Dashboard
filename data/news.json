@@ -2,6 +2,34 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Record Fuel Prices Accelerate Europe’s EV Sales",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Record-Fuel-Prices-Accelerate-Europes-EV-Sales.html",
+      "date": "2026-10-22T12:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_xvtxw2qp6q.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Rises Intraday Amid Escalating Tensions",
+      "lien": "https://www.rigzone.com/news/oil_rises_intraday_amid_escalating_tensions-22-oct-2026-184905-article/?rss=true",
+      "date": "2026-10-22T11:56:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Rises-Intraday-Amid-Escalating-Tensions-184905-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India's Middle East Oil Imports Jumped 32% in September",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
+      "date": "2026-10-22T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_vznowly08a.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iberdrola Raises Dividend by Nearly 9 Percent",
+      "lien": "https://www.rigzone.com/news/iberdrola_raises_dividend_by_nearly_9_percent-22-oct-2026-184904-article/?rss=true",
+      "date": "2026-10-22T10:45:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iberdrola-Raises-Dividend-by-Nearly-9-Percent-184904-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Iran Claims Seven Ships Hit in Persian Gulf as Oil Prices Surge",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
       "date": "2026-10-22T09:30:00+00:00",
