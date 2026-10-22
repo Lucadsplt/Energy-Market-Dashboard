@@ -1,6 +1,6 @@
 {
   "meta": {
-    "periode": "2000-01-04 \u2192 2026-10-14",
+    "periode": "2000-01-04 \u2192 2026-10-20",
     "cout_pb_par_jambe": 5.0,
     "retard_reference_jours": 1,
     "nb_tests": 4,
@@ -8,13 +8,13 @@
     "donnees": "Prix spot Brent et WTI (FRED) ; positions des fonds (CFTC, rapports COT)"
   },
   "reference": {
-    "annualise_pct": 6.7,
+    "annualise_pct": 6.3,
     "volatilite_pct": 43.0,
-    "sharpe": 0.37,
+    "sharpe": 0.36,
     "max_drawdown_pct": -93.7,
     "trades": 0,
     "jours_en_position_pct": 100,
-    "p_valeur": 0.034
+    "p_valeur": 0.042
   },
   "signaux": [
     {
@@ -23,17 +23,17 @@
       "actif": "Brent",
       "regle": "Si le prix est plus haut qu'il y a trois mois, on est acheteur ; sinon vendeur. Position invers\u00e9e chaque fois que la tendance change.",
       "metriques": {
-        "annualise_pct": -14.6,
+        "annualise_pct": -14.9,
         "volatilite_pct": 42.8,
-        "sharpe": -0.15,
+        "sharpe": -0.16,
         "max_drawdown_pct": -98.6,
         "trades": 359,
         "jours_en_position_pct": 99
       },
       "metriques_sans_retard": {
-        "annualise_pct": -11.5,
+        "annualise_pct": -11.8,
         "volatilite_pct": 42.8,
-        "sharpe": -0.06,
+        "sharpe": -0.07,
         "max_drawdown_pct": -96.9,
         "trades": 359,
         "jours_en_position_pct": 99
@@ -41,23 +41,23 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": -0.06
+          "sharpe": -0.07
         },
         {
           "jours": 1,
-          "sharpe": -0.15
-        },
-        {
-          "jours": 2,
           "sharpe": -0.16
         },
         {
+          "jours": 2,
+          "sharpe": -0.17
+        },
+        {
           "jours": 3,
-          "sharpe": -0.13
+          "sharpe": -0.14
         },
         {
           "jours": 5,
-          "sharpe": -0.15
+          "sharpe": -0.16
         }
       ],
       "sous_periodes": [
@@ -67,12 +67,12 @@
         },
         {
           "nom": "2013\u20132026",
-          "sharpe": -0.22
+          "sharpe": -0.23
         }
       ],
-      "p_valeur": 0.757,
+      "p_valeur": 0.786,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.76 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.79 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -720,7 +720,7 @@
           1.5,
           1.6,
           1.6,
-          1.7
+          1.6
         ],
         "reference": [
           114.2,
@@ -1044,7 +1044,7 @@
           408.7,
           378.4,
           488.7,
-          533.5
+          485.8
         ]
       },
       "etat": {
@@ -1059,17 +1059,17 @@
       "actif": "Brent",
       "regle": "Acheteur quand la moyenne des 50 derniers jours passe au-dessus de celle des 200 derniers jours, vendeur dans le cas contraire.",
       "metriques": {
-        "annualise_pct": -5.3,
+        "annualise_pct": -5.7,
         "volatilite_pct": 42.0,
-        "sharpe": 0.09,
+        "sharpe": 0.08,
         "max_drawdown_pct": -96.5,
         "trades": 43,
         "jours_en_position_pct": 97
       },
       "metriques_sans_retard": {
-        "annualise_pct": -2.9,
+        "annualise_pct": -3.2,
         "volatilite_pct": 42.0,
-        "sharpe": 0.15,
+        "sharpe": 0.14,
         "max_drawdown_pct": -96.1,
         "trades": 43,
         "jours_en_position_pct": 97
@@ -1077,11 +1077,11 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": 0.15
+          "sharpe": 0.14
         },
         {
           "jours": 1,
-          "sharpe": 0.09
+          "sharpe": 0.08
         },
         {
           "jours": 2,
@@ -1089,11 +1089,11 @@
         },
         {
           "jours": 3,
-          "sharpe": 0.07
+          "sharpe": 0.06
         },
         {
           "jours": 5,
-          "sharpe": -0.02
+          "sharpe": -0.03
         }
       ],
       "sous_periodes": [
@@ -1103,10 +1103,10 @@
         },
         {
           "nom": "2013\u20132026",
-          "sharpe": -0.02
+          "sharpe": -0.03
         }
       ],
-      "p_valeur": 0.341,
+      "p_valeur": 0.342,
       "verdict": "non_demontre",
       "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.34 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode.",
       "courbe": {
@@ -1756,7 +1756,7 @@
           23.3,
           22.6,
           22.4,
-          24.4
+          22.2
         ],
         "reference": [
           114.2,
@@ -2080,7 +2080,7 @@
           408.7,
           378.4,
           488.7,
-          533.5
+          485.8
         ]
       },
       "etat": {
@@ -2095,41 +2095,41 @@
       "actif": "\u00c9cart Brent \u2212 WTI",
       "regle": "Quand l'\u00e9cart s'\u00e9loigne de plus de 2 \u00e9carts-types de sa moyenne sur un an, on parie sur son retour ; on sort sous 0,5 \u00e9cart-type.",
       "metriques": {
-        "annualise_pct": 7.6,
-        "volatilite_pct": 23.3,
-        "sharpe": 0.43,
+        "annualise_pct": 8.2,
+        "volatilite_pct": 23.5,
+        "sharpe": 0.46,
         "max_drawdown_pct": -29.1,
-        "trades": 157,
+        "trades": 158,
         "jours_en_position_pct": 26
       },
       "metriques_sans_retard": {
-        "annualise_pct": 17.7,
-        "volatilite_pct": 23.1,
-        "sharpe": 0.82,
+        "annualise_pct": 18.3,
+        "volatilite_pct": 23.2,
+        "sharpe": 0.84,
         "max_drawdown_pct": -28.9,
-        "trades": 157,
+        "trades": 158,
         "jours_en_position_pct": 26
       },
       "retard": [
         {
           "jours": 0,
-          "sharpe": 0.82
+          "sharpe": 0.84
         },
         {
           "jours": 1,
-          "sharpe": 0.43
+          "sharpe": 0.46
         },
         {
           "jours": 2,
-          "sharpe": 0.39
+          "sharpe": 0.42
         },
         {
           "jours": 3,
-          "sharpe": 0.17
+          "sharpe": 0.19
         },
         {
           "jours": 5,
-          "sharpe": 0.16
+          "sharpe": 0.18
         }
       ],
       "sous_periodes": [
@@ -2139,12 +2139,12 @@
         },
         {
           "nom": "2013\u20132026",
-          "sharpe": 0.32
+          "sharpe": 0.36
         }
       ],
       "p_valeur": 0.002,
       "verdict": "artefact",
-      "explication": "Le ratio de Sharpe passe de +0.82 sans retard \u00e0 +0.43 avec 1 jour de retard, puis +0.17 avec 3 jours : une grande partie du gain dispara\u00eet d\u00e8s qu'on n'ex\u00e9cute plus exactement \u00e0 la cl\u00f4ture. C'est le signe d'un artefact de mesure (par exemple deux prix relev\u00e9s \u00e0 des heures diff\u00e9rentes), pas d'un gain exploitable. Un \u00e9ventuel petit effet r\u00e9siduel resterait \u00e0 v\u00e9rifier sur des prix \u00e0 terme relev\u00e9s \u00e0 la m\u00eame heure, avec les vrais co\u00fbts.",
+      "explication": "Le ratio de Sharpe passe de +0.84 sans retard \u00e0 +0.46 avec 1 jour de retard, puis +0.19 avec 3 jours : une grande partie du gain dispara\u00eet d\u00e8s qu'on n'ex\u00e9cute plus exactement \u00e0 la cl\u00f4ture. C'est le signe d'un artefact de mesure (par exemple deux prix relev\u00e9s \u00e0 des heures diff\u00e9rentes), pas d'un gain exploitable. Un \u00e9ventuel petit effet r\u00e9siduel resterait \u00e0 v\u00e9rifier sur des prix \u00e0 terme relev\u00e9s \u00e0 la m\u00eame heure, avec les vrais co\u00fbts.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -2792,13 +2792,13 @@
           648.7,
           648.7,
           634.5,
-          577.8
+          669.2
         ]
       },
       "etat": {
-        "libelle": "Vendeur d'\u00e9cart : z-score de +2.2, on parie sur sa baisse",
-        "depuis": "2026-09-10",
-        "position": -1.0
+        "libelle": "Hors march\u00e9 : z-score de -0.2 (seuil d'entr\u00e9e \u00b12)",
+        "depuis": "2026-10-16",
+        "position": 0.0
       }
     },
     {
@@ -2815,7 +2815,7 @@
         "jours_en_position_pct": 19
       },
       "metriques_sans_retard": {
-        "annualise_pct": -1.9,
+        "annualise_pct": -1.8,
         "volatilite_pct": 15.7,
         "sharpe": -0.04,
         "max_drawdown_pct": -52.1,
@@ -2854,9 +2854,9 @@
           "sharpe": -0.05
         }
       ],
-      "p_valeur": 0.658,
+      "p_valeur": 0.65,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.66 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.65 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -3828,7 +3828,7 @@
           349.5,
           343.1,
           394.2,
-          413.4
+          437.7
         ]
       },
       "etat": {

@@ -2,6 +2,69 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Iran Claims Seven Ships Hit in Persian Gulf as Oil Prices Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
+      "date": "2026-10-22T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_ea4mpvypxh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Libyan Deal Paves Way for Broader Turkish Drilling in Mediterranean",
+      "lien": "https://www.rigzone.com/news/wire/libyan_deal_paves_way_for_broader_turkish_drilling_in_mediterranean-22-oct-2026-184902-article/?rss=true",
+      "date": "2026-10-22T09:21:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Libyan-Deal-Paves-Way-for-Broader-Turkish-Drilling-in-Mediterranean-184902-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UK Union Welcomes Jackdaw Decision",
+      "lien": "https://www.rigzone.com/news/uk_union_welcomes_jackdaw_decision-22-oct-2026-184903-article/?rss=true",
+      "date": "2026-10-22T09:18:37+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/UK-Union-Welcomes-Jackdaw-Decision-184903-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Ramps Up Coal Supplies to Record High as Power Crisis Looms",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Ramps-Up-Coal-Supplies-to-Record-High-as-Power-Crisis-Looms.html",
+      "date": "2026-10-22T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_mrcebxcfnk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran’s Oil Reserves Run Dry as U.S. Naval Blockade Tightens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Reserves-Run-Dry-as-US-Naval-Blockade-Tightens.html",
+      "date": "2026-10-22T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_ji3dcnzmqu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Surge Above $111 as Houthis Strike Saudi Targets",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-Above-111-as-Houthis-Strike-Saudi-Targets.html",
+      "date": "2026-10-22T05:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-22_t2bfk1g8hk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Aluminium Gives Up Its War Premium, Copper Stays Elevated",
+      "lien": "https://oilprice.com/Metals/Commodities/Aluminium-Gives-Up-Its-War-Premium-Copper-Stays-Elevated.html",
+      "date": "2026-10-22T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_5akz0dulvg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Big Oil Eyes Record Profits but Keeps Spending in Check",
+      "lien": "https://oilprice.com/Energy/Energy-General/Big-Oil-Eyes-Record-Profits-but-Keeps-Spending-in-Check.html",
+      "date": "2026-10-21T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_winjemfl3g.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Energy Red Tape Gives China an Edge",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Energy-Red-Tape-Gives-China-an-Edge.html",
+      "date": "2026-10-21T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-21_v5iwdwpthe.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "S&P Global Warns Hormuz Energy Shock Could Become a Global Food Crisis",
       "lien": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
       "date": "2026-10-21T21:00:00+00:00",
