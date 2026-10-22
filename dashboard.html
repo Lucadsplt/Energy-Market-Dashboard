@@ -343,6 +343,12 @@
 
         <!-- ========== STRATÉGIES ========== -->
         <section id="strategies" class="onglet" data-volets>
+            <div class="filtres-news" style="margin:0 0 12px">
+                <label class="filtre">Marché <select id="strat-marche" class="menu">
+                    <option value="petrole">Pétrole</option>
+                    <option value="gaz">Gaz</option>
+                </select></label>
+            </div>
             <nav class="sous-nav" aria-label="Sections de la page Stratégies">
                 <button type="button" data-volet="synthese">Synthèse</button>
                 <button type="button" data-volet="detail">Détail d'une règle</button>
@@ -350,8 +356,8 @@
             </nav>
 
             <div class="volet" data-volet="synthese">
-                <p class="volet-intro">Quatre règles de trading classiques testées sur le pétrole depuis 2000, avec des garde-fous pour ne pas se laisser tromper par un bon résultat passé.</p>
-                <div class="avertissement"><b>Outil d'étude, pas un conseil en investissement.</b> Ces règles sont des hypothèses testées sur des prix passés. Un résultat passé ne garantit rien, et les prix utilisés (spot) ne sont pas directement négociables.</div>
+                <p class="volet-intro" id="strat-intro"></p>
+                <div class="avertissement" id="strat-avertissement"></div>
                 <article class="carte">
                     <h2>Résultats des quatre règles <small id="strat-periode"></small></h2>
                     <div class="defile"><table class="table-strat" id="table-strat"><tr><th>Chargement…</th></tr></table></div>
@@ -388,22 +394,16 @@
                     <ol>
                         <li><b>Aucun regard dans le futur.</b> La position décidée à la clôture du jour s'applique à partir du lendemain.</li>
                         <li><b>Retard d'exécution.</b> On ne peut pas trader exactement au prix qui a produit le signal. Chaque règle est mesurée avec 0, 1, 2, 3 et 5 jours de retard : un gain qui disparaît dès le premier jour n'était pas exploitable.</li>
-                        <li><b>Coûts.</b> 5 points de base à chaque changement de position (frais et glissement), doublés pour les règles à deux jambes.</li>
-                        <li><b>Stabilité.</b> Une règle doit être positive sur deux sous-périodes (jusqu'en 2012, puis depuis 2013), pas seulement sur l'ensemble.</li>
+                        <li><b>Coûts.</b> 5 points de base par jambe négociée à chaque changement de position (frais et glissement) ; pour une règle sur un écart, les deux jambes sont facturées.</li>
+                        <li><b>Stabilité.</b> Une règle doit être positive sur deux sous-périodes (la coupure est indiquée dans le détail de chaque règle), pas seulement sur l'ensemble.</li>
                         <li><b>Hasard.</b> Un bootstrap par blocs donne la probabilité d'obtenir un résultat aussi bon sans aucun talent. Comme quatre règles ont été essayées, le seuil est divisé par quatre (correction de Bonferroni).</li>
                         <li><b>Règles fixées à l'avance.</b> Les quatre règles et leurs paramètres ont été choisis avant de voir les résultats, et non ajustés ensuite.</li>
                     </ol>
                     <h2>Les trois verdicts</h2>
                     <p><b>Démontré</b> : probabilité de hasard sous le seuil corrigé, positif sur les deux sous-périodes et qui tient avec 3 jours de retard. <b>Probable artefact</b> : bon résultat sans retard qui s'effondre dès 1 jour de retard. <b>Non démontré</b> : tout le reste.</p>
                     <h2>Limites</h2>
-                    <ul>
-                        <li>Les prix sont des <b>prix spot</b> (FRED), qui ne se négocient pas directement : un vrai trader passerait par des contrats à terme, avec leur roulement et leurs frais propres.</li>
-                        <li>Le <b>Brent et le WTI spot</b> ne sont pas relevés à la même heure, ce qui fausse les règles fondées sur leur écart.</li>
-                        <li>Les <b>positions des fonds (COT)</b> sont hebdomadaires et publiées avec trois jours de décalage.</li>
-                        <li>Quatre règles seulement ont été testées. Ne pas en trouver de démontrée n'est pas un échec : c'est un résultat attendu sur des marchés très suivis.</li>
-                        <li>Un backtest ne remplace pas un <b>suivi en conditions réelles</b>, que l'on peut faire dans un simulateur de trading.</li>
-                    </ul>
-                    <p class="note">Données : prix spot du Brent et du WTI (FRED), positions des fonds spéculatifs (rapports COT de la CFTC).</p>
+                    <ul id="strat-limites"></ul>
+                    <p class="note" id="strat-donnees"></p>
                 </article>
             </div>
         </section>
@@ -412,7 +412,7 @@
 
     <footer class="pied">Luceo · données ENTSO-E, FRED, Yahoo Finance · <span id="maj-site">mises à jour automatiques</span></footer>
 
-    <script src="js/nav.js?v=16"></script>
+    <script src="js/nav.js?v=17"></script>
     <script src="js/charts.js?v=14"></script>
     <script src="js/risk.js?v=12"></script>
     <script src="js/oil_analysis.js?v=2"></script>
@@ -424,7 +424,7 @@
     <script src="js/marche.js?v=3"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
     <script src="js/maritime.js?v=9"></script>
-    <script src="js/strategies.js?v=1"></script>
+    <script src="js/strategies.js?v=2"></script>
     <script src="js/volets.js?v=2"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// Onglet Stratégies : règles de trading testées sur le pétrole (résultats produits par le pipeline, data/strategies.json)
+// Onglet Stratégies : règles de trading testées sur le pétrole et le gaz (résultats produits par le pipeline)
 (() => {
     const NOMS_VERDICT = {
         demontre: ["demontre", "Démontré"],
@@ -6,10 +6,45 @@
         artefact: ["artefact", "Probable artefact"],
     };
 
+    // Textes propres à chaque marché : le reste de la page est commun
+    const MARCHES = {
+        petrole: {
+            fichier: "data/strategies.json",
+            intro: "Quatre règles de trading classiques testées sur le pétrole depuis 2000, avec des garde-fous pour ne pas se laisser tromper par un bon résultat passé.",
+            avertissement: "<b>Outil d'étude, pas un conseil en investissement.</b> Ces règles sont des hypothèses testées sur des prix passés. Un résultat passé ne garantit rien, et les prix utilisés (spot) ne sont pas directement négociables.",
+            reference: "Acheter et garder le Brent",
+            donnees: "Données : prix spot du Brent et du WTI (FRED), positions des fonds spéculatifs (rapports COT de la CFTC).",
+            limites: [
+                "Les prix sont des <b>prix spot</b> (FRED), qui ne se négocient pas directement : un vrai trader passerait par des contrats à terme, avec leur roulement et leurs frais propres.",
+                "Le <b>Brent et le WTI spot</b> ne sont pas relevés à la même heure, ce qui fausse les règles fondées sur leur écart.",
+                "Les <b>positions des fonds (COT)</b> sont hebdomadaires et publiées avec trois jours de décalage.",
+                "Quatre règles seulement ont été testées. Ne pas en trouver de démontrée n'est pas un échec : c'est un résultat attendu sur des marchés très suivis.",
+                "Un backtest ne remplace pas un <b>suivi en conditions réelles</b>, que l'on peut faire dans un simulateur de trading.",
+            ],
+        },
+        gaz: {
+            fichier: "data/strategies_gaz.json",
+            intro: "Quatre règles testées sur le gaz (Henry Hub, TTF, JKM), avec les mêmes garde-fous que pour le pétrole.",
+            avertissement: "<b>Outil d'étude, pas un conseil en investissement.</b> Ces règles sont des hypothèses testées sur des prix passés. Un résultat passé ne garantit rien, et les séries utilisées sont des contrats à terme « continus » qui ne se négocient pas tels quels.",
+            reference: "Acheter et garder le Henry Hub",
+            donnees: "Données : contrats à terme continus Henry Hub (NG=F), TTF (TTF=F), JKM (JKM=F) et taux EUR/USD (Yahoo Finance).",
+            limites: [
+                "Les prix sont des <b>contrats à terme continus</b> non ajustés : à chaque changement de contrat, la série saute. Ces sauts contaminent les gains des règles sur le Henry Hub, qui sont donc à lire avec prudence.",
+                "Le <b>TTF, le Henry Hub et le JKM</b> ne sont pas relevés à la même heure (Europe, États-Unis, Asie). Les règles sur un écart sont exposées à un artefact de mesure, d'où le test de retard d'exécution.",
+                "Le <b>JKM</b> est peu liquide et ses prix sont parfois figés, ce qui peut fabriquer un faux retour à la moyenne.",
+                "L'historique du <b>TTF ne commence qu'en 2017</b> : les règles sur écarts sont comparées avant et après 2022 (crise gazière), sur peu d'années.",
+                "Une règle proche du seuil, comme l'écart JKM − TTF, reste <b>fragile</b> : un simple changement de convention de calcul suffit à déplacer sa probabilité de hasard.",
+                "Un backtest ne remplace pas un <b>suivi en conditions réelles</b>, que l'on peut faire dans un simulateur de trading.",
+            ],
+        },
+    };
+
     const fr = (x, d = 2) => Number(x).toFixed(d).replace(".", ",");
     const signe = (x, d = 2) => (x > 0 ? "+" : x < 0 ? "−" : "") + fr(Math.abs(x), d);
     const badge = cle => `<span class="badge ${NOMS_VERDICT[cle][0]}">${NOMS_VERDICT[cle][1]}</span>`;
 
+    const resultats = {};          // données chargées, par marché
+    let marche = "petrole";
     let donnees = null;
     let grapheCourbe = null, grapheRetard = null;
 
@@ -27,7 +62,7 @@
             <td class="etat">${s.etat.libelle}</td></tr>`).join("");
 
         const r = d.reference;
-        const reference = `<tr class="reference"><td><b>Acheter et garder le Brent</b><span class="sous-ligne">pour comparaison</span></td>
+        const reference = `<tr class="reference"><td><b>${MARCHES[marche].reference}</b><span class="sous-ligne">pour comparaison</span></td>
             <td>${signe(r.annualise_pct, 1)} %</td><td>${signe(r.sharpe)}</td><td>${signe(r.sharpe)}</td><td>${fr(r.p_valeur, 3)}</td><td></td><td class="etat">Position permanente</td></tr>`;
 
         document.getElementById("table-strat").innerHTML =
@@ -51,8 +86,8 @@
     // ---------------------------------------------------------------- détail d'une règle
     function remplirChoix(d) {
         const menu = document.getElementById("strat-choix");
+        menu.innerHTML = "";
         d.signaux.forEach(s => menu.add(new Option(s.nom, s.cle)));
-        menu.addEventListener("change", () => afficherDetail(menu.value));
     }
 
     function afficherDetail(cle) {
@@ -109,15 +144,38 @@
             `<b>${s.etat.libelle}</b><br><span class="sous-ligne">depuis le ${s.etat.depuis.split("-").reverse().join("/")}</span>`;
     }
 
+    // ---------------------------------------------------------------- changement de marché
+    function choisirMarche(cle) {
+        if (!resultats[cle]) return;
+        marche = cle;
+        donnees = resultats[cle];
+        const t = MARCHES[cle];
+        document.getElementById("strat-intro").textContent = t.intro;
+        document.getElementById("strat-avertissement").innerHTML = t.avertissement;
+        document.getElementById("strat-limites").innerHTML = t.limites.map(l => `<li>${l}</li>`).join("");
+        document.getElementById("strat-donnees").textContent = t.donnees;
+        dessinerSynthese(donnees);
+        remplirChoix(donnees);
+        afficherDetail(donnees.signaux[0].cle);
+    }
+
+    function charger(cle) {
+        return fetch(MARCHES[cle].fichier, { cache: "no-cache" })
+            .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(d => { resultats[cle] = d; })
+            .catch(e => {
+                console.error("Stratégies (" + cle + ") :", e);
+                const option = document.querySelector(`#strat-marche option[value="${cle}"]`);
+                if (option) option.remove();
+            });
+    }
+
     window.addEventListener("load", () => {
-        fetch("data/strategies.json", { cache: "no-cache" })
-            .then(r => r.json())
-            .then(d => {
-                donnees = d;
-                dessinerSynthese(d);
-                remplirChoix(d);
-                afficherDetail(d.signaux[0].cle);
-            })
-            .catch(e => console.error("Stratégies :", e));
+        Promise.all(Object.keys(MARCHES).map(charger)).then(() => {
+            if (!resultats.petrole && !resultats.gaz) return;
+            choisirMarche(resultats.petrole ? "petrole" : "gaz");
+            document.getElementById("strat-marche").addEventListener("change", e => choisirMarche(e.target.value));
+            document.getElementById("strat-choix").addEventListener("change", e => afficherDetail(e.target.value));
+        });
     });
 })();

@@ -107,7 +107,7 @@ def verdict(evaluation, seuil):
     s = {r["jours"]: r["sharpe"] for r in evaluation["retard"]}
     s0, s1, s3 = s[0], s[1], s[3]
     if s0 >= 0.4 and s1 <= 0.6 * s0:
-        return "artefact", (f"Le ratio de Sharpe passe de {s0:+.2f} sans retard à {s1:+.2f} avec 1 jour de retard, puis {s3:+.2f} avec 3 jours : "
+        return "artefact", (f"Le ratio de Sharpe passe de {s0:+.2f} sans retard à {s1:+.2f} avec 1 jour de retard, puis {s3:+.2f} avec 3 jours : ".replace(".", ",") +
                             "une grande partie du gain disparaît dès qu'on n'exécute plus exactement à la clôture. "
                             "C'est le signe d'un artefact de mesure (par exemple deux prix relevés à des heures différentes), pas d'un gain exploitable. "
                             "Un éventuel petit effet résiduel resterait à vérifier sur des prix à terme relevés à la même heure, avec les vrais coûts.")
@@ -118,7 +118,7 @@ def verdict(evaluation, seuil):
                             "et qui tient avec 3 jours de retard.")
     raisons = []
     if evaluation["p_valeur"] > seuil:
-        raisons.append(f"probabilité de hasard de {evaluation['p_valeur']:.2f} (seuil corrigé {seuil:.3f})")
+        raisons.append(f"probabilité de hasard de {evaluation['p_valeur']:.3f} (seuil corrigé {seuil:.4f})".replace(".", ","))
     if not stable:
         raisons.append("résultat négatif sur au moins une sous-période")
     if not tient:

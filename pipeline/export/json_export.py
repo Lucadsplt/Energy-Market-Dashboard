@@ -20,10 +20,21 @@ def to_chart_json(df, date_format="%Y-%m-%d"):
     }
 
 
+def sans_nan(valeur):
+    """Remplace recursivement les NaN et infinis par None : le JSON n'accepte pas NaN, le navigateur refuserait le fichier."""
+    if isinstance(valeur, dict):
+        return {k: sans_nan(v) for k, v in valeur.items()}
+    if isinstance(valeur, (list, tuple)):
+        return [sans_nan(v) for v in valeur]
+    if isinstance(valeur, float) and (valeur != valeur or valeur in (float("inf"), float("-inf"))):
+        return None
+    return valeur
+
+
 def save_json(data, filename):
     """Ecrit le dictionnaire dans data/<filename> a la racine du projet."""
     project_root = Path(__file__).resolve().parents[2]
     output_path = project_root / "data" / filename
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+        json.dump(sans_nan(data), f, indent=2, allow_nan=False)
     print(f"Ecrit : {output_path}")
