@@ -34,7 +34,7 @@ def rendements_nets(rend_actif, position, retard=RETARD_REFERENCE, cout=COUT_PAR
 def sharpe(rend, jours_an=JOURS_AN):
     """Rendement moyen rapporte a la volatilite, annualise (le ratio de Sharpe, sans taux sans risque)."""
     r = rend.dropna()
-    if len(r) < 30 or r.std() == 0:
+    if len(r) < 30 or r.std() < 1e-12:          # volatilite nulle (a l'arrondi pres) : le ratio n'a pas de sens
         return float("nan")
     return float(r.mean() / r.std() * np.sqrt(jours_an))
 

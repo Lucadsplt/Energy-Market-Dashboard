@@ -1,0 +1,32 @@
+name: Tests automatiques
+
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+  workflow_dispatch: {}    # lancement manuel possible depuis l'onglet Actions
+
+permissions:
+  contents: read           # ce workflow ne fait que lire le code
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      # Valeur factice : les modules importent fredapi, qui exige une cle a la creation du client.
+      # Les tests n'appellent jamais FRED, aucun vrai secret n'est utilise ici.
+      FRED_API_KEY: cle-factice-pour-les-tests
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Lancer les tests
+        run: python -m pytest tests -q

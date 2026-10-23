@@ -4,3 +4,4 @@ __pycache__/
 .env
 .cache/
 live/
+.pytest_cache/
