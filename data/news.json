@@ -2,6 +2,55 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "U.S. Partner in Venezuela Oil Deal Looks to Hike Crude Production",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
+      "date": "2026-10-23T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_podmavgfj9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Hold Near $100 as Middle East Risks Offset Peace Hopes",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Hold-Near-100-as-Middle-East-Risks-Offset-Peace-Hopes.html",
+      "date": "2026-10-23T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_65ervypzhq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Smart Investors Are Selling Oil Stocks and Buying MLPs",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Smart-Investors-Are-Selling-Oil-Stocks-and-Buying-MLPs.html",
+      "date": "2026-10-23T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_aqwsbu8pfi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Egypt Moves to Defend Saudi Arabia as Iran War Threatens to Widen",
+      "lien": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
+      "date": "2026-10-23T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_kdvstfgzci.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Renewables Boom Pushes Australia’s Gas Power to Quarter-Century Low",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Renewables-Boom-Pushes-Australias-Gas-Power-to-Quarter-Century-Low.html",
+      "date": "2026-10-23T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_zw052q3tyf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EU Diesel, Jet Supplies Remain Tight",
+      "lien": "https://www.rigzone.com/news/eu_diesel_jet_supplies_remain_tight-23-oct-2026-184915-article/?rss=true",
+      "date": "2026-10-23T11:08:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EU-Diesel-Jet-Supplies-Remain-Tight-184915-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How Elon Musk’s SpaceX Became a Gatekeeper of Modern Warfare",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-Elon-Musks-SpaceX-Became-a-Gatekeeper-of-Modern-Warfare.html",
+      "date": "2026-10-23T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_i7k5fvbvu4.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "European Natural Gas Prices Surge to Highest Level Since 2022",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-to-Highest-Level-Since-2022.html",
       "date": "2026-10-23T10:30:00+00:00",
