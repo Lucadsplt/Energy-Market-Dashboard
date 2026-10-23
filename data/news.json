@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "Oil & Gas Journal",
+      "titre": "Oil rallies on dual-front war",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55414186/oil-rallies-on-dual-front-war",
+      "date": "2026-10-23T20:16:19+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Brent Tops $116 as Middle East Risks Grow",
+      "lien": "https://www.rigzone.com/news/wire/brent_tops_116_as_middle_east_risks_grow-23-oct-2026-184925-article/?rss=true",
+      "date": "2026-10-23T20:06:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Brent-Tops-116-as-Middle-East-Risks-Grow-184925-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "NASA's Freeze-Resistant Moon Battery Could Eventually Reach EVs",
+      "lien": "https://oilprice.com/Energy/Energy-General/NASAs-Freeze-Resistant-Moon-Battery-Could-Eventually-Reach-EVs.html",
+      "date": "2026-10-23T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_as2ldrmbpy.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Physical Oil Prices Drop in Mideast",
+      "lien": "https://www.rigzone.com/news/wire/physical_oil_prices_drop_in_mideast-23-oct-2026-184922-article/?rss=true",
+      "date": "2026-10-23T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Physical-Oil-Prices-Drop-in-Mideast-184922-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices climb as Saudi attacks heighten supply concerns",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55414142/oil-prices-climb-as-saudi-attacks-heighten-supply-concerns",
+      "date": "2026-10-23T18:20:55+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6adba55a8ae4dcd2080cc959-261023360709436__libin_jose_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
       "titre": "Equinor lets Wisting FPSO topsides FEED contract to Aibel",
       "lien": "https://www.ogj.com/general-interest/news/55414124/equinor-lets-wisting-fpso-topsides-feed-contract-to-aibel",
       "date": "2026-10-23T17:33:02+00:00",
