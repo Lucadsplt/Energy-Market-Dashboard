@@ -2,6 +2,83 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "European Natural Gas Prices Surge to Highest Level Since 2022",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-to-Highest-Level-Since-2022.html",
+      "date": "2026-10-23T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_k1norvipwa.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shell, ExxonMobil Said to Put Chemicals JV Up for Sale",
+      "lien": "https://www.rigzone.com/news/wire/shell_exxonmobil_said_to_put_chemicals_jv_up_for_sale-23-oct-2026-184914-article/?rss=true",
+      "date": "2026-10-23T10:09:40+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shell-ExxonMobil-Said-to-Put-Chemicals-JV-Up-for-Sale-184914-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Hits $114 Intraday",
+      "lien": "https://www.rigzone.com/news/oil_hits_114_intraday-23-oct-2026-184913-article/?rss=true",
+      "date": "2026-10-23T09:45:20+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Hits-114-Intraday-184913-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Eni's Profits Soar 125% as Refining Boom Fuels Massive Investor Payouts",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Enis-Profits-Soar-125-as-Refining-Boom-Fuels-Massive-Investor-Payouts.html",
+      "date": "2026-10-23T09:29:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_snbqhwji2z.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Rules Out Winter Energy Shortages as Gas Prices Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Rules-Out-Winter-Energy-Shortages-as-Gas-Prices-Soar.html",
+      "date": "2026-10-23T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_pwm17rz8km.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan Weighs Gasoline Subsidy Cuts as Energy Costs Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html",
+      "date": "2026-10-23T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_dtesxrv3n7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+      "date": "2026-10-23T05:33:50+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_mgm2lkdadh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Trump Can't Afford to Lose The Rare Earth Race",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Trump-Cant-Afford-to-Lose-The-Rare-Earth-Race.html",
+      "date": "2026-10-23T02:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_0ydpejoyua.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "LNG Canada Doubles Capacity as Asia Looks Beyond the Gulf",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/LNG-Canada-Doubles-Capacity-as-Asia-Looks-Beyond-the-Gulf.html",
+      "date": "2026-10-23T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_6g9rpiwzq1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rising Crude Oil Imports Reduce China’s Need to Draw from Stocks",
+      "lien": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html",
+      "date": "2026-10-22T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_1i5jc0m47r.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU’s Arctic Strategy Excludes Oil and Gas",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/EUs-Arctic-Strategy-Excludes-Oil-and-Gas.html",
+      "date": "2026-10-22T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-22_xojmhzskeq.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Electric Giants Say They Already Have the Tools to Fix the AI Power Crunch",
       "lien": "https://oilprice.com/Energy/Energy-General/Electric-Giants-Say-They-Already-Have-the-Tools-to-Fix-the-AI-Power-Crunch.html",
       "date": "2026-10-22T21:00:00+00:00",

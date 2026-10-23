@@ -72,7 +72,7 @@
       ],
       "p_valeur": 0.786,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.79 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,786 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -1108,7 +1108,7 @@
       ],
       "p_valeur": 0.342,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.34 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,342 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -2144,7 +2144,7 @@
       ],
       "p_valeur": 0.002,
       "verdict": "artefact",
-      "explication": "Le ratio de Sharpe passe de +0.84 sans retard \u00e0 +0.46 avec 1 jour de retard, puis +0.19 avec 3 jours : une grande partie du gain dispara\u00eet d\u00e8s qu'on n'ex\u00e9cute plus exactement \u00e0 la cl\u00f4ture. C'est le signe d'un artefact de mesure (par exemple deux prix relev\u00e9s \u00e0 des heures diff\u00e9rentes), pas d'un gain exploitable. Un \u00e9ventuel petit effet r\u00e9siduel resterait \u00e0 v\u00e9rifier sur des prix \u00e0 terme relev\u00e9s \u00e0 la m\u00eame heure, avec les vrais co\u00fbts.",
+      "explication": "Le ratio de Sharpe passe de +0,84 sans retard \u00e0 +0,46 avec 1 jour de retard, puis +0,19 avec 3 jours : une grande partie du gain dispara\u00eet d\u00e8s qu'on n'ex\u00e9cute plus exactement \u00e0 la cl\u00f4ture. C'est le signe d'un artefact de mesure (par exemple deux prix relev\u00e9s \u00e0 des heures diff\u00e9rentes), pas d'un gain exploitable. Un \u00e9ventuel petit effet r\u00e9siduel resterait \u00e0 v\u00e9rifier sur des prix \u00e0 terme relev\u00e9s \u00e0 la m\u00eame heure, avec les vrais co\u00fbts.",
       "courbe": {
         "dates": [
           "2000-01",
@@ -2856,7 +2856,7 @@
       ],
       "p_valeur": 0.65,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0.65 (seuil corrig\u00e9 0.013) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,650 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-01",
