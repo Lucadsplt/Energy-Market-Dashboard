@@ -8,13 +8,13 @@
     "donnees": "Contrats \u00e0 terme continus Henry Hub (NG=F), TTF (TTF=F), JKM (JKM=F) et EUR/USD, Yahoo Finance"
   },
   "reference": {
-    "annualise_pct": -1.6,
-    "volatilite_pct": 61.2,
-    "sharpe": 0.28,
+    "annualise_pct": -2.3,
+    "volatilite_pct": 61.1,
+    "sharpe": 0.27,
     "max_drawdown_pct": -90.4,
     "trades": 0,
     "jours_en_position_pct": 100,
-    "p_valeur": 0.064
+    "p_valeur": 0.074
   },
   "signaux": [
     {
@@ -23,17 +23,17 @@
       "actif": "Henry Hub",
       "regle": "Si le prix est plus haut qu'il y a trois mois, on est acheteur ; sinon vendeur.",
       "metriques": {
-        "annualise_pct": -24.3,
-        "volatilite_pct": 61.0,
-        "sharpe": -0.14,
+        "annualise_pct": -23.8,
+        "volatilite_pct": 60.9,
+        "sharpe": -0.13,
         "max_drawdown_pct": -100.0,
         "trades": 406,
         "jours_en_position_pct": 99
       },
       "metriques_sans_retard": {
-        "annualise_pct": -28.6,
+        "annualise_pct": -28.1,
         "volatilite_pct": 61.0,
-        "sharpe": -0.24,
+        "sharpe": -0.23,
         "max_drawdown_pct": -100.0,
         "trades": 406,
         "jours_en_position_pct": 99
@@ -41,23 +41,23 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": -0.24
+          "sharpe": -0.23
         },
         {
           "jours": 1,
-          "sharpe": -0.14
+          "sharpe": -0.13
         },
         {
           "jours": 2,
-          "sharpe": -0.08
+          "sharpe": -0.1
         },
         {
           "jours": 3,
-          "sharpe": -0.08
+          "sharpe": -0.09
         },
         {
           "jours": 5,
-          "sharpe": -0.13
+          "sharpe": -0.14
         }
       ],
       "sous_periodes": [
@@ -67,12 +67,12 @@
         },
         {
           "nom": "2013\u20132026",
-          "sharpe": -0.25
+          "sharpe": -0.23
         }
       ],
-      "p_valeur": 0.789,
+      "p_valeur": 0.77,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,789 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,770 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-08",
@@ -1023,13 +1023,13 @@
           57.5,
           61.4,
           63.3,
-          65.4
+          55.2
         ]
       },
       "etat": {
-        "libelle": "Acheteur : le Henry Hub est plus haut qu'il y a 63 jours",
-        "depuis": "2026-10-23",
-        "position": 1.0
+        "libelle": "Vendeur : le Henry Hub est plus bas qu'il y a 63 jours",
+        "depuis": "2026-10-21",
+        "position": -1.0
       }
     },
     {
@@ -1038,17 +1038,17 @@
       "actif": "Henry Hub",
       "regle": "Chaque mois, on suit ce qu'a fait ce m\u00eame mois sur les ann\u00e9es pass\u00e9es : acheteur s'il a plut\u00f4t mont\u00e9, vendeur sinon (au moins 5 ans d'historique).",
       "metriques": {
-        "annualise_pct": -4.8,
-        "volatilite_pct": 54.6,
-        "sharpe": 0.18,
+        "annualise_pct": -5.4,
+        "volatilite_pct": 54.5,
+        "sharpe": 0.17,
         "max_drawdown_pct": -93.0,
         "trades": 103,
         "jours_en_position_pct": 81
       },
       "metriques_sans_retard": {
-        "annualise_pct": -2.4,
-        "volatilite_pct": 54.6,
-        "sharpe": 0.23,
+        "annualise_pct": -3.0,
+        "volatilite_pct": 54.5,
+        "sharpe": 0.22,
         "max_drawdown_pct": -93.3,
         "trades": 103,
         "jours_en_position_pct": 81
@@ -1056,23 +1056,23 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": 0.23
+          "sharpe": 0.22
         },
         {
           "jours": 1,
-          "sharpe": 0.18
+          "sharpe": 0.17
         },
         {
           "jours": 2,
-          "sharpe": 0.13
+          "sharpe": 0.12
         },
         {
           "jours": 3,
-          "sharpe": 0.23
+          "sharpe": 0.22
         },
         {
           "jours": 5,
-          "sharpe": 0.15
+          "sharpe": 0.14
         }
       ],
       "sous_periodes": [
@@ -1082,12 +1082,12 @@
         },
         {
           "nom": "2013\u20132026",
-          "sharpe": 0.17
+          "sharpe": 0.15
         }
       ],
-      "p_valeur": 0.141,
+      "p_valeur": 0.154,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,141 (seuil corrig\u00e9 0,0125).",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,154 (seuil corrig\u00e9 0,0125).",
       "courbe": {
         "dates": [
           "2000-08",
@@ -1721,7 +1721,7 @@
           28.8,
           26.7,
           27.1,
-          28.0
+          23.6
         ],
         "reference": [
           100.0,
@@ -2038,7 +2038,7 @@
           57.5,
           61.4,
           63.3,
-          65.4
+          55.2
         ]
       },
       "etat": {
@@ -2053,7 +2053,7 @@
       "actif": "\u00c9cart TTF \u2212 Henry Hub",
       "regle": "Quand l'\u00e9cart s'\u00e9loigne de plus de 2 \u00e9carts-types de sa moyenne sur un an, on parie sur son retour ; on sort sous 0,5 \u00e9cart-type.",
       "metriques": {
-        "annualise_pct": -22.1,
+        "annualise_pct": -22.2,
         "volatilite_pct": 44.9,
         "sharpe": -0.33,
         "max_drawdown_pct": -93.9,
@@ -2061,7 +2061,7 @@
         "jours_en_position_pct": 38
       },
       "metriques_sans_retard": {
-        "annualise_pct": -22.1,
+        "annualise_pct": -22.2,
         "volatilite_pct": 46.0,
         "sharpe": -0.31,
         "max_drawdown_pct": -91.8,
@@ -2087,7 +2087,7 @@
         },
         {
           "jours": 5,
-          "sharpe": -0.15
+          "sharpe": -0.16
         }
       ],
       "sous_periodes": [
@@ -2097,12 +2097,12 @@
         },
         {
           "nom": "2022\u20132026",
-          "sharpe": -0.01
+          "sharpe": -0.02
         }
       ],
-      "p_valeur": 0.87,
+      "p_valeur": 0.874,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,870 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,874 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2017-10",
@@ -2324,11 +2324,11 @@
           16.7,
           14.2,
           13.5,
-          10.7
+          10.5
         ]
       },
       "etat": {
-        "libelle": "Vendeur d'\u00e9cart : z-score de +2.5, on parie sur sa baisse",
+        "libelle": "Vendeur d'\u00e9cart : z-score de +2.6, on parie sur sa baisse",
         "depuis": "2026-07-17",
         "position": -1.0
       }
@@ -2386,9 +2386,9 @@
           "sharpe": 0.74
         }
       ],
-      "p_valeur": 0.02,
+      "p_valeur": 0.021,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,020 (seuil corrig\u00e9 0,0125).",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,021 (seuil corrig\u00e9 0,0125).",
       "courbe": {
         "dates": [
           "2017-10",
@@ -2614,7 +2614,7 @@
         ]
       },
       "etat": {
-        "libelle": "Hors march\u00e9 : z-score de +0.2 (seuil d'entr\u00e9e \u00b12)",
+        "libelle": "Hors march\u00e9 : z-score de -0.1 (seuil d'entr\u00e9e \u00b12)",
         "depuis": "2026-10-16",
         "position": 0.0
       }

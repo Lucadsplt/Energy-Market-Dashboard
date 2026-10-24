@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Trump's Reverse Nixon Strategy: Bring Russia In, Shut China Out",
+      "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Reverse-Nixon-Strategy-Bring-Russia-In-Shut-China-Out.html",
+      "date": "2026-10-23T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_uf6xnkd2cr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
+      "date": "2026-10-23T22:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-23_hedvqyg1ec.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Trump and Carney Haven’t Touched Energy in Their Tariff War",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Trump-and-Carney-Havent-Touched-Energy-in-Their-Tariff-War.html",
+      "date": "2026-10-23T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_pdcs9b2lza.jpg"
+    },
+    {
       "source": "Oil & Gas Journal",
       "titre": "Oil rallies on dual-front war",
       "lien": "https://www.ogj.com/general-interest/economics-markets/article/55414186/oil-rallies-on-dual-front-war",
