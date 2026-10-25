@@ -2,6 +2,48 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Record Tanker Rates Cripple U.S. Crude Oil Flows to Asia",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Cripple-US-Crude-Oil-Flows-to-Asia.html",
+      "date": "2026-10-24T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_pkz2hacvuf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Fuel Oil Becomes Asia’s Next Cost Shock",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Fuel-Oil-Becomes-Asias-Next-Cost-Shock.html",
+      "date": "2026-10-24T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_fbqmsxlojz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Syria's Energy Comeback Could Reshape Middle East Oil and Gas",
+      "lien": "https://oilprice.com/Energy/Energy-General/Syrias-Energy-Comeback-Could-Reshape-Middle-East-Oil-and-Gas.html",
+      "date": "2026-10-24T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_drwlqvha5d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can Undersea Volcanoes Power Cities? A Seattle Startup Just Took the First Step",
+      "lien": "https://oilprice.com/Energy/Energy-General/Can-Undersea-Volcanoes-Power-Cities-A-Seattle-Startup-Just-Took-the-First-Step.html",
+      "date": "2026-10-24T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_9vx4ijmkfn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Targets $6.2 Billion Offshore Wind Project Nearing Completion",
+      "lien": "https://oilprice.com/Alternative-Energy/Wind-Power/Trump-Targets-62-Billion-Offshore-Wind-Project-Nearing-Completion.html",
+      "date": "2026-10-24T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_izandgfjnu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Germany Wants to Stop More Oil Refinery Closures",
+      "lien": "https://www.rigzone.com/news/wire/germany_wants_to_stop_more_oil_refinery_closures-24-oct-2026-184919-article/?rss=true",
+      "date": "2026-10-24T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Germany-Wants-to-Stop-More-Oil-Refinery-Closures-184919-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Trump's Reverse Nixon Strategy: Bring Russia In, Shut China Out",
       "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Reverse-Nixon-Strategy-Bring-Russia-In-Shut-China-Out.html",
       "date": "2026-10-23T23:00:00+00:00",
