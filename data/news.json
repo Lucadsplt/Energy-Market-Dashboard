@@ -2,6 +2,167 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Iran War Pushes Trump's Average Gasoline Prices Above Biden's",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Pushes-Trumps-Average-Gasoline-Prices-Above-Bidens.html",
+      "date": "2026-10-26T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_ntu7qbbg3i.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Pentagon's Venezuelan Oil Partner Boosts Output",
+      "lien": "https://www.rigzone.com/news/wire/pentagons_venezuelan_oil_partner_boosts_output-26-oct-2026-184932-article/?rss=true",
+      "date": "2026-10-26T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Pentagons-Venezuelan-Oil-Partner-Boosts-Output-184932-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brussels Takes Aim at Chinese Imports as Europe's Industrial Crisis Deepens",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brussels-Takes-Aim-at-Chinese-Imports-as-Europes-Industrial-Crisis-Deepens.html",
+      "date": "2026-10-26T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_mc8avf9ouk.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EQT plans to buy Range and create gas giant with 9+ bcfed of production",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55414392/eqt-plans-to-buy-range-and-create-gas-giant-with-9-bcfed-of-production",
+      "date": "2026-10-26T18:19:59+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6adf7c1f73508399abd4cc65-rrc_eqt_map_2026_10.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Ovintiv adds to Montney position with $890-million deal for Logan Energy",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55414410/ovintiv-adds-to-montney-position-with-890-million-deal-for-logan-energy",
+      "date": "2026-10-26T18:11:01+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6adf826092351946a8e9a58d-ovintiv_proforma_logan.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Iran War Just Added $39 Billion to the World's LNG Bill",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/The-Iran-War-Just-Added-39-Billion-to-the-Worlds-LNG-Bill.html",
+      "date": "2026-10-26T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_cnab4nyelv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Egypt Votes to Defend Saudi Arabia, Risking Houthi Fire",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-Votes-to-Defend-Saudi-Arabia-Risking-Houthi-Fire.html",
+      "date": "2026-10-26T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_hop2t6rjmg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Kazakhstan Faces $12 Billion Oil Setback as New Investment Plans Take Shape",
+      "lien": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Faces-12-Billion-Oil-Setback-as-New-Investment-Plans-Take-Shape.html",
+      "date": "2026-10-26T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_7v6jcjoyp2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EQT Bets on Record U.S. Gas Demand With $50 Billion Range Takeover",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EQT-Bets-on-Record-US-Gas-Demand-With-50-Billion-Range-Takeover.html",
+      "date": "2026-10-26T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_5exn1uz7cg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Saudi Just Abandoned Its Core Oil Rule",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Saudi-Just-Abandoned-Its-Core-Oil-Rule.html",
+      "date": "2026-10-26T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_px2bi75wvo.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US Petroleum Imports From Source Country",
+      "lien": "https://www.ogj.com/general-interest/document/17298994/us-petroleum-imports-from-source-country",
+      "date": "2026-10-26T15:56:18+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Total Stocks In OECD Countries",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298974/oil-stocks-in-oecd-countries",
+      "date": "2026-10-26T15:55:40+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "OECD Total Gross Imports from OPEC",
+      "lien": "https://www.ogj.com/industry-statistics/oil-gas-journal/document/17298978/oecd-total-gross-imports-from-opec",
+      "date": "2026-10-26T15:55:03+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "World Oil Balance",
+      "lien": "https://www.ogj.com/general-interest/document/17298993/world-oil-balance",
+      "date": "2026-10-26T15:40:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Transgaz, Kawasaki Ink Hydrogen Cooperation Agreement",
+      "lien": "https://www.rigzone.com/news/transgaz_kawasaki_ink_hydrogen_cooperation_agreement-26-oct-2026-184935-article/?rss=true",
+      "date": "2026-10-26T15:33:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Transgaz-Kawasaki-Ink-Hydrogen-Cooperation-Agreement-184935-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russian Refiners Ramp Up Diesel Output to Supply Trump Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
+      "date": "2026-10-26T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_mncaxp8qfi.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil eases on diplomacy hopes; European gas rises on winter supply concerns",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55414324/oil-eases-on-diplomacy-hopes-european-gas-rises-on-winter-supply-concerns",
+      "date": "2026-10-26T15:29:24+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6adf64ca80181c6da36791f8-oil_market_3.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Adds Rigs Week on Week, BH Count Shows",
+      "lien": "https://www.rigzone.com/news/north_america_adds_rigs_week_on_week_bh_count_shows-26-oct-2026-184934-article/?rss=true",
+      "date": "2026-10-26T15:23:21+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Adds-Rigs-Week-on-Week-BH-Count-Shows-184934-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Gets New Settlement with Louisiana over Deepwater Horizon Disaster",
+      "lien": "https://www.rigzone.com/news/bp_gets_new_settlement_with_louisiana_over_deepwater_horizon_disaster-26-oct-2026-184933-article/?rss=true",
+      "date": "2026-10-26T15:04:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Gets-New-Settlement-with-Louisiana-over-Deepwater-Horizon-Disaster-184933-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Is Wall Street Getting It All Wrong About AI, Oil, and Bonds?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Is-Wall-Street-Getting-It-All-Wrong-About-AI-Oil-and-Bonds.html",
+      "date": "2026-10-26T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_ojxhpzvlu9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s BPCL to Cut Russian Oil Imports Due to Higher Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-BPCL-to-Cut-Russian-Oil-Imports-Due-to-Higher-Prices.html",
+      "date": "2026-10-26T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_ypqoehrluj.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Gulf Oil Bargains Lure India Away from Russia",
+      "lien": "https://www.rigzone.com/news/wire/gulf_oil_bargains_lure_india_away_from_russia-26-oct-2026-184931-article/?rss=true",
+      "date": "2026-10-26T14:22:58+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Gulf-Oil-Bargains-Lure-India-Away-from-Russia-184931-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Sembcorp Gets Conditional Approval to Import 1.3GW of Power into Singapore",
+      "lien": "https://www.rigzone.com/news/sembcorp_gets_conditional_approval_to_import_13gw_of_power_into_singapore-26-oct-2026-184930-article/?rss=true",
+      "date": "2026-10-26T14:19:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Sembcorp-Gets-Conditional-Approval-to-Import-13GW-of-Power-into-Singapore-184930-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Super El Niño May Soften Winter Energy Squeeze",
       "lien": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-May-Soften-Winter-Energy-Squeeze.html",
       "date": "2026-10-26T14:00:00+00:00",
@@ -13,6 +174,13 @@
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEAs-Birol-Energy-Prices-Wont-Return-to-Pre-War-Levels-in-2027.html",
       "date": "2026-10-26T13:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_sbxfyk4x21.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Edges 2026 USA Oil Output Forecast Closer to 14MM Bpd",
+      "lien": "https://www.rigzone.com/news/eia_edges_2026_usa_oil_output_forecast_closer_to_14mm_bpd-26-oct-2026-184929-article/?rss=true",
+      "date": "2026-10-26T13:03:40+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EIA-Edges-2026-USA-Oil-Output-Forecast-Closer-to-14MM-Bpd-184929-1200x628.png"
     },
     {
       "source": "OilPrice",
