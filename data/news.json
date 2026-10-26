@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Super El Niño May Soften Winter Energy Squeeze",
+      "lien": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-May-Soften-Winter-Energy-Squeeze.html",
+      "date": "2026-10-26T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_pelgx3ay8k.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA’s Birol: Energy Prices Won’t Return to Pre-War Levels in 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEAs-Birol-Energy-Prices-Wont-Return-to-Pre-War-Levels-in-2027.html",
+      "date": "2026-10-26T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_sbxfyk4x21.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia's Arctic Oil Shortcut Runs Into a Wall of Ice",
+      "lien": "https://oilprice.com/Energy/Energy-General/Russias-Arctic-Oil-Shortcut-Runs-Into-a-Wall-of-Ice.html",
+      "date": "2026-10-26T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_oaq3qrkwwf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Oil Output Jumps 12.2% to 8 Million Bpd in September",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
+      "date": "2026-10-26T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_oij4q5b0am.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi, Singapore Announce Oil Storage Deal",
+      "lien": "https://www.rigzone.com/news/saudi_singapore_announce_oil_storage_deal-26-oct-2026-184928-article/?rss=true",
+      "date": "2026-10-26T11:32:52+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Singapore-Announce-Oil-Storage-Deal-184928-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
       "date": "2026-10-26T11:30:00+00:00",
