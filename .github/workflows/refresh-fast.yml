@@ -38,8 +38,7 @@ jobs:
           python pipeline/sources/gas_source.py
           python pipeline/sources/oil_live.py
           python pipeline/sources/electricity_source.py
-          python pipeline/sources/news_source.py
-          python pipeline/analysis/idees.py
+          python pipeline/sources/news_source.py
 
       - name: Committer seulement si quelque chose a change
         run: |

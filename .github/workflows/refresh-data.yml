@@ -46,7 +46,6 @@ jobs:
           python pipeline/analysis/strategies_oil.py
           python pipeline/analysis/strategies_gas.py
           python pipeline/analysis/agenda.py
-          python pipeline/analysis/idees.py
 
       - name: Committer seulement si quelque chose a change
         run: |
