@@ -713,3 +713,27 @@ body { background: var(--fond); color: var(--texte); font-size: 14px; }
 .methode ol, .methode ul { margin: 6px 0 18px 20px; line-height: 1.65; font-size: 14px; }
 .methode li { margin-bottom: 6px; }
 .methode p { margin: 6px 0 18px; font-size: 14px; line-height: 1.65; }
+
+/* ---------- Idées ---------- */
+.kpi-idees { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--bordure); border: 1px solid var(--bordure); margin: 4px 0 14px; }
+.kpi-idee { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; background: #fff; }
+.kpi-idee .chiffre { font-family: var(--mono); font-size: 28px; font-weight: 500; line-height: 1; }
+.kpi-idee .chiffre.haut { color: #1a7f4b; }
+.kpi-idee .chiffre.bas { color: #b03a2e; }
+.kpi-idee .legende { font-size: 12px; color: var(--texte-doux); }
+.table-idees { min-width: 900px; }
+.table-idees td, .table-idees th { text-align: left; }
+.table-idees td.etat { min-width: 200px; max-width: 360px; }
+.badge.lecture.haussier { background: #e3f1e9; color: #1a7f4b; }
+.badge.lecture.baissier { background: #f6e3e0; color: #a93226; }
+.badge.lecture.neutre { background: #eceeec; color: #5f6a64; }
+.badge.lecture.contexte { background: #e8eef4; color: #1f4e79; }
+.badge.non-teste { background: #fff; color: #7a847e; border: 1px dashed #b9c4cf; }
+.actu-idee { padding: 9px 0; border-bottom: 1px solid #ecebe6; font-size: 13px; line-height: 1.45; }
+.actu-idee a { color: var(--texte); text-decoration: none; font-weight: 500; }
+.actu-idee a:hover { text-decoration: underline; }
+.calc { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; margin-bottom: 14px; }
+.calc label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--texte-doux); }
+.calc input, .calc select { padding: 7px 9px; border: 1px solid var(--bordure); border-radius: 3px; font: inherit; font-size: 13px; color: var(--texte); background: #fff; }
+.calc label:first-child { grid-column: 1 / -1; }
+@media (max-width: 700px) { .kpi-idees { grid-template-columns: 1fr 1fr; } .calc { grid-template-columns: 1fr; } }

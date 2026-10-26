@@ -1,0 +1,361 @@
+{
+  "genere": "2026-10-23T12:18:25Z",
+  "marches": {
+    "petrole": {
+      "indicateurs": [
+        {
+          "cle": "momentum",
+          "nom": "Tendance sur 63 jours (Brent)",
+          "valeur": "Acheteur : le Brent est plus haut qu'il y a 63 jours",
+          "lecture": "haussier",
+          "detail": "Le prix est compar\u00e9 \u00e0 celui d'il y a 63 jours. Depuis le 03/09/2026.",
+          "fiabilite": "non_demontre",
+          "compte": true
+        },
+        {
+          "cle": "moyennes",
+          "nom": "Moyennes mobiles 50 / 200 jours (Brent)",
+          "valeur": "Acheteur : la moyenne 50 jours est au-dessus de la moyenne 200 jours",
+          "lecture": "haussier",
+          "detail": "Croisement de la moyenne 50 jours et de la moyenne 200 jours. Depuis le 03/09/2026.",
+          "fiabilite": "non_demontre",
+          "compte": true
+        },
+        {
+          "cle": "cot",
+          "nom": "Positionnement des fonds (COT, WTI)",
+          "valeur": "Hors march\u00e9 : positionnement des fonds banal (centile 14)",
+          "lecture": "neutre",
+          "detail": "Lecture \u00e0 contre-courant : les fonds tr\u00e8s acheteurs sont vus comme un signal vendeur. Depuis le 16/01/2026.",
+          "fiabilite": "non_demontre",
+          "compte": true
+        },
+        {
+          "cle": "ecart",
+          "nom": "\u00c9cart Brent \u2212 WTI (spot)",
+          "valeur": "7,3 $ (moyenne 1 an : 8,5 $), z = \u22120,15",
+          "lecture": "contexte",
+          "detail": "Un \u00e9cart de plus de 2 \u00e9carts-types serait notable. La r\u00e8gle de retour \u00e0 la moyenne s'est r\u00e9v\u00e9l\u00e9e un artefact de mesure.",
+          "fiabilite": "artefact",
+          "compte": false
+        },
+        {
+          "cle": "maritime",
+          "nom": "Trafic de p\u00e9troliers (Ormuz)",
+          "valeur": "0,6 p\u00e9troliers/jour contre 48,4 en 2025 (z = \u22124,8)",
+          "lecture": "contexte",
+          "detail": "3 d\u00e9troit(s) sur 6 en rupture (D\u00e9troit d'Ormuz, Malacca, Bosphore). Contexte d'offre, jamais test\u00e9 comme signal d'achat ou de vente.",
+          "fiabilite": "non_teste",
+          "compte": false
+        },
+        {
+          "cle": "risque",
+          "nom": "Risque du Brent \u00e0 30 jours",
+          "valeur": "VaR 95 % : 28,3 %",
+          "lecture": "contexte",
+          "detail": "Perte qu'on ne d\u00e9passe pas 95 % du temps sur 30 jours, selon le mod\u00e8le. Sert \u00e0 dimensionner une position, pas \u00e0 choisir un sens.",
+          "fiabilite": "non_teste",
+          "compte": false
+        }
+      ],
+      "synthese": {
+        "haussiers": 2,
+        "baissiers": 0,
+        "neutres": 1,
+        "regles_comptees": 3,
+        "regles_demontrees": 0
+      },
+      "phrase": "Les r\u00e8gles test\u00e9es penchent du c\u00f4t\u00e9 acheteur (2 contre 0). Aucune n'a d\u00e9montr\u00e9 un pouvoir de pr\u00e9vision : ce sont des hypoth\u00e8ses \u00e0 tester en simulation, pas des signaux.",
+      "actualites": {
+        "nb_24h": 15,
+        "nb_7j": 77,
+        "nb_30j": 325,
+        "rythme_hebdo_30j": 75.8,
+        "ratio_vs_rythme": 1.02,
+        "derniers": [
+          {
+            "titre": "Oil Hits $114 Intraday",
+            "source": "Rigzone",
+            "date": "2026-10-23T09:45:20+00:00",
+            "lien": "https://www.rigzone.com/news/oil_hits_114_intraday-23-oct-2026-184913-article/?rss=true"
+          },
+          {
+            "titre": "Eni's Profits Soar 125% as Refining Boom Fuels Massive Investor Payouts",
+            "source": "OilPrice",
+            "date": "2026-10-23T09:29:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/Enis-Profits-Soar-125-as-Refining-Boom-Fuels-Massive-Investor-Payouts.html"
+          },
+          {
+            "titre": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+            "source": "OilPrice",
+            "date": "2026-10-23T05:33:50+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
+          },
+          {
+            "titre": "Rising Crude Oil Imports Reduce China\u2019s Need to Draw from Stocks",
+            "source": "OilPrice",
+            "date": "2026-10-22T23:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html"
+          },
+          {
+            "titre": "EU\u2019s Arctic Strategy Excludes Oil and Gas",
+            "source": "OilPrice",
+            "date": "2026-10-22T22:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Natural-Gas/EUs-Arctic-Strategy-Excludes-Oil-and-Gas.html"
+          },
+          {
+            "titre": "Oil Surges 4% After Deadly Saudi Attacks",
+            "source": "Rigzone",
+            "date": "2026-10-22T19:55:03+00:00",
+            "lien": "https://www.rigzone.com/news/wire/oil_surges_4_after_deadly_saudi_attacks-22-oct-2026-184912-article/?rss=true"
+          }
+        ]
+      },
+      "instruments": [
+        {
+          "nom": "WTI Crude Oil",
+          "code": "CL",
+          "multiplicateur": 1000,
+          "unite": "$/baril",
+          "source_prix": "wti",
+          "prix": 101.01,
+          "sigma_quotidien_pct": 3.22
+        },
+        {
+          "nom": "Micro WTI Crude Oil",
+          "code": "MCL",
+          "multiplicateur": 100,
+          "unite": "$/baril",
+          "source_prix": "wti",
+          "prix": 101.01,
+          "sigma_quotidien_pct": 3.22
+        },
+        {
+          "nom": "Brent Crude",
+          "code": "BZ",
+          "multiplicateur": 1000,
+          "unite": "$/baril",
+          "source_prix": "brent",
+          "prix": 109.99,
+          "sigma_quotidien_pct": 3.22
+        }
+      ]
+    },
+    "gaz": {
+      "indicateurs": [
+        {
+          "cle": "momentum",
+          "nom": "Tendance sur 63 jours (Henry Hub)",
+          "valeur": "Acheteur : le Henry Hub est plus haut qu'il y a 63 jours",
+          "lecture": "haussier",
+          "detail": "Le prix est compar\u00e9 \u00e0 celui d'il y a 63 jours. Depuis le 23/10/2026.",
+          "fiabilite": "non_demontre",
+          "compte": true
+        },
+        {
+          "cle": "saison",
+          "nom": "Saisonnalit\u00e9 du Henry Hub",
+          "valeur": "Acheteur : en octobre, le Henry Hub a mont\u00e9 de 6.1 % en moyenne sur 26 ans",
+          "lecture": "haussier",
+          "detail": "Sens moyen du m\u00eame mois sur les ann\u00e9es pass\u00e9es. Depuis le 01/09/2026.",
+          "fiabilite": "non_demontre",
+          "compte": true
+        },
+        {
+          "cle": "ecart_ttf_hh",
+          "nom": "\u00c9cart TTF \u2212 Henry Hub",
+          "valeur": "84,5 \u20ac/MWh (m\u00e9diane : 23,1), centile 92 %, z = +2,55",
+          "lecture": "contexte",
+          "detail": "\u00c9cart de prix entre l'Europe et les \u00c9tats-Unis. La r\u00e8gle de retour \u00e0 la moyenne n'est pas d\u00e9montr\u00e9e.",
+          "fiabilite": "non_demontre",
+          "compte": false
+        },
+        {
+          "cle": "ecart_jkm_ttf",
+          "nom": "\u00c9cart JKM \u2212 TTF (GNL Asie / Europe)",
+          "valeur": "+0,98 $/MMBtu (m\u00e9diane : 0,78), centile 56 %",
+          "lecture": "contexte",
+          "detail": "Positif : le GNL vaut plus cher en Asie. La r\u00e8gle de retour \u00e0 la moyenne n'est pas d\u00e9montr\u00e9e.",
+          "fiabilite": "non_demontre",
+          "compte": false
+        },
+        {
+          "cle": "cot_hh",
+          "nom": "Positionnement des fonds (COT, Henry Hub)",
+          "valeur": "Centile 13 % ; position nette \u22127,3 % de l'int\u00e9r\u00eat ouvert",
+          "lecture": "contexte",
+          "detail": "Rapport du 13/10/2026. Lecture \u00e0 contre-courant jamais test\u00e9e sur le gaz : affich\u00e9 pour information.",
+          "fiabilite": "non_teste",
+          "compte": false
+        },
+        {
+          "cle": "vol_ttf",
+          "nom": "Volatilit\u00e9 du TTF",
+          "valeur": "41,7 % annualis\u00e9e (7 jours)",
+          "lecture": "contexte",
+          "detail": "Un march\u00e9 plus nerveux demande des positions plus petites.",
+          "fiabilite": "non_teste",
+          "compte": false
+        }
+      ],
+      "synthese": {
+        "haussiers": 2,
+        "baissiers": 0,
+        "neutres": 0,
+        "regles_comptees": 2,
+        "regles_demontrees": 0
+      },
+      "phrase": "Les r\u00e8gles test\u00e9es penchent du c\u00f4t\u00e9 acheteur (2 contre 0). Aucune n'a d\u00e9montr\u00e9 un pouvoir de pr\u00e9vision : ce sont des hypoth\u00e8ses \u00e0 tester en simulation, pas des signaux.",
+      "actualites": {
+        "nb_24h": 8,
+        "nb_7j": 34,
+        "nb_30j": 143,
+        "rythme_hebdo_30j": 33.4,
+        "ratio_vs_rythme": 1.02,
+        "derniers": [
+          {
+            "titre": "European Natural Gas Prices Surge to Highest Level Since 2022",
+            "source": "OilPrice",
+            "date": "2026-10-23T10:30:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-to-Highest-Level-Since-2022.html"
+          },
+          {
+            "titre": "UK Rules Out Winter Energy Shortages as Gas Prices Soar",
+            "source": "OilPrice",
+            "date": "2026-10-23T08:30:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Rules-Out-Winter-Energy-Shortages-as-Gas-Prices-Soar.html"
+          },
+          {
+            "titre": "Japan Weighs Gasoline Subsidy Cuts as Energy Costs Soar",
+            "source": "OilPrice",
+            "date": "2026-10-23T07:00:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html"
+          },
+          {
+            "titre": "LNG Canada Doubles Capacity as Asia Looks Beyond the Gulf",
+            "source": "OilPrice",
+            "date": "2026-10-23T00:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Natural-Gas/LNG-Canada-Doubles-Capacity-as-Asia-Looks-Beyond-the-Gulf.html"
+          },
+          {
+            "titre": "EU\u2019s Arctic Strategy Excludes Oil and Gas",
+            "source": "OilPrice",
+            "date": "2026-10-22T22:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Natural-Gas/EUs-Arctic-Strategy-Excludes-Oil-and-Gas.html"
+          },
+          {
+            "titre": "EU\u2019s Proposed Shipping Subsidies Could Make BioLNG Cheaper Than Fuel Oil",
+            "source": "OilPrice",
+            "date": "2026-10-22T18:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Energy-General/EUs-Proposed-Shipping-Subsidies-Could-Make-BioLNG-Cheaper-Than-Fuel-Oil.html"
+          }
+        ]
+      },
+      "instruments": [
+        {
+          "nom": "Natural Gas (Henry Hub)",
+          "code": "NG",
+          "multiplicateur": 10000,
+          "unite": "$/MMBtu",
+          "source_prix": "hh",
+          "prix": 3.125,
+          "sigma_quotidien_pct": 3.81
+        },
+        {
+          "nom": "Micro Henry Hub Natural Gas",
+          "code": "MHNG",
+          "multiplicateur": 1000,
+          "unite": "$/MMBtu",
+          "source_prix": "hh",
+          "prix": 3.125,
+          "sigma_quotidien_pct": 3.81
+        }
+      ]
+    },
+    "electricite": {
+      "indicateurs": [
+        {
+          "cle": "prix_fr",
+          "nom": "Prix de march\u00e9 de la France (moyenne du jour)",
+          "valeur": "74,5 \u20ac/MWh le 23/10 (moyenne 12 mois : 82,6)",
+          "lecture": "contexte",
+          "detail": "Prix day-ahead : ce n'est pas un prix auquel on peut acheter ou vendre dans le simulateur.",
+          "fiabilite": "non_teste",
+          "compte": false
+        },
+        {
+          "cle": "negatifs",
+          "nom": "Prix n\u00e9gatifs (12 mois)",
+          "valeur": "6,1 % des quarts d'heure, 54 % le week-end",
+          "lecture": "contexte",
+          "detail": "Surproduction renouvelable face \u00e0 une demande faible : un fait de march\u00e9, pas un signal.",
+          "fiabilite": "non_teste",
+          "compte": false
+        },
+        {
+          "cle": "couplage",
+          "nom": "\u00c9cart France \u2212 Allemagne",
+          "valeur": "\u221287,9 \u20ac/MWh en moyenne le jour affich\u00e9",
+          "lecture": "contexte",
+          "detail": "Positif : l'\u00e9lectricit\u00e9 vaut plus cher en France qu'en Allemagne.",
+          "fiabilite": "non_teste",
+          "compte": false
+        }
+      ],
+      "synthese": {
+        "haussiers": 0,
+        "baissiers": 0,
+        "neutres": 0,
+        "regles_comptees": 0,
+        "regles_demontrees": 0
+      },
+      "phrase": "Aucune r\u00e8gle test\u00e9e n'est disponible pour ce march\u00e9.",
+      "actualites": {
+        "nb_24h": 3,
+        "nb_7j": 18,
+        "nb_30j": 65,
+        "rythme_hebdo_30j": 15.2,
+        "ratio_vs_rythme": 1.19,
+        "derniers": [
+          {
+            "titre": "Electric Giants Say They Already Have the Tools to Fix the AI Power Crunch",
+            "source": "OilPrice",
+            "date": "2026-10-22T21:00:00+00:00",
+            "lien": "https://oilprice.com/Energy/Energy-General/Electric-Giants-Say-They-Already-Have-the-Tools-to-Fix-the-AI-Power-Crunch.html"
+          },
+          {
+            "titre": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
+            "source": "OilPrice",
+            "date": "2026-10-22T15:00:00+00:00",
+            "lien": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html"
+          },
+          {
+            "titre": "Grid Constraints Curtailed 119 GW of Renewables in India in September",
+            "source": "OilPrice",
+            "date": "2026-10-22T13:00:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/Grid-Constraints-Curtailed-119-GW-of-Renewables-in-India-in-September.html"
+          },
+          {
+            "titre": "India Ramps Up Coal Supplies to Record High as Power Crisis Looms",
+            "source": "OilPrice",
+            "date": "2026-10-22T08:30:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Ramps-Up-Coal-Supplies-to-Record-High-as-Power-Crisis-Looms.html"
+          },
+          {
+            "titre": "India\u2019s Coal Crisis Deepens as Power Demand Surges",
+            "source": "OilPrice",
+            "date": "2026-10-21T08:30:00+00:00",
+            "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Crisis-Deepens-as-Power-Demand-Surges.html"
+          },
+          {
+            "titre": "Mexico Poised to Approve $12.5 Billion in Renewable Energy Projects",
+            "source": "OilPrice",
+            "date": "2026-10-20T23:00:00+00:00",
+            "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/Mexico-Poised-to-Approve-125-Billion-in-Renewable-Energy-Projects.html"
+          }
+        ]
+      },
+      "instruments": []
+    }
+  }
+}
