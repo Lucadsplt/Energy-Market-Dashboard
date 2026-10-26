@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
+      "date": "2026-10-26T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_sd8ozoyc2x.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Army Says It Has Helped 1.5 Billion Barrels of Oil Out of Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Army-Says-It-Has-Helped-15-Billion-Barrels-of-Oil-Out-of-Hormuz.html",
+      "date": "2026-10-26T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_j1zadydcqu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Israeli Power Producer Launches Arbitration vs Chevron's Leviathan Partners",
+      "lien": "https://www.rigzone.com/news/israeli_power_producer_launches_arbitration_vs_chevrons_leviathan_partners-26-oct-2026-184927-article/?rss=true",
+      "date": "2026-10-26T10:14:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Israeli-Power-Producer-Launches-Arbitration-vs-Chevrons-Leviathan-Partners-184927-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe's Natural Gas Prices Soar to Four-Year High as Winter Looms",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Natural-Gas-Prices-Soar-to-Four-Year-High-as-Winter-Looms.html",
+      "date": "2026-10-26T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_tg0oxm5hgq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi, Turkish Officials Travel to Iran to Cool Tensions",
+      "lien": "https://www.rigzone.com/news/wire/saudi_turkish_officials_travel_to_iran_to_cool_tensions-26-oct-2026-184926-article/?rss=true",
+      "date": "2026-10-26T08:33:01+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Turkish-Officials-Travel-to-Iran-to-Cool-Tensions-184926-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India's Stock Market Feels the Heat From High Oil Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Stock-Market-Feels-the-Heat-From-High-Oil-Prices.html",
+      "date": "2026-10-26T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_htz06enjl3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia Turns to Singapore for Oil Storage",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Turns-to-Singapore-for-Oil-Storage.html",
+      "date": "2026-10-26T07:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_nl5rmupaqk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Dip but Hold Above $100 as Middle East Supply Threats Mount",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Dip-but-Hold-Above-100-as-Middle-East-Supply-Threats-Mount.html",
+      "date": "2026-10-26T06:03:45+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-26_0r1pquwgy7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Pentagon's Rare Earth Deadline Is Almost Here. Is Anyone Ready?",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Pentagons-Rare-Earth-Deadline-Is-Almost-Here-Is-Anyone-Ready.html",
+      "date": "2026-10-26T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_1x9pzmsien.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asia Is Building the World’s Next $15 Trillion Energy Market",
+      "lien": "https://oilprice.com/Energy/Energy-General/Asia-Is-Building-the-Worlds-Next-15-Trillion-Energy-Market.html",
+      "date": "2026-10-25T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-25_hpvonyzk0u.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rise Despite Middle East Export Recovery",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Rise-Despite-Middle-East-Export-Recovery.html",
+      "date": "2026-10-25T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_xf7iqezcbx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Britain's Renewable Energy Boom Is Hitting a Grid Bottleneck",
+      "lien": "https://oilprice.com/Energy/Energy-General/Britains-Renewable-Energy-Boom-Is-Hitting-a-Grid-Bottleneck.html",
+      "date": "2026-10-25T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_k1cwmfa57d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "World Is on Track for Up to 2.8 Degrees of Warming Despite Clean Energy Boom",
+      "lien": "https://oilprice.com/Energy/Energy-General/World-Is-on-Track-for-Up-to-28-Degrees-of-Warming-Despite-Clean-Energy-Boom.html",
+      "date": "2026-10-25T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_qsm4gdl6hu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "COP31 Host Urges NATO Nations to Spend More on Climate Than Defense",
+      "lien": "https://oilprice.com/Energy/Energy-General/COP31-Host-Urges-NATO-Nations-to-Spend-More-on-Climate-Than-Defense.html",
+      "date": "2026-10-25T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-23_gntuxi2ynm.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UK Seen More Reliant on Gas Imports This Winter",
+      "lien": "https://www.rigzone.com/news/wire/uk_seen_more_reliant_on_gas_imports_this_winter-25-oct-2026-184923-article/?rss=true",
+      "date": "2026-10-25T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/UK-Seen-More-Reliant-on-Gas-Imports-This-Winter-184923-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iberdrola Secures New EIB Loan for Brazil Grid Upgrades",
+      "lien": "https://www.rigzone.com/news/iberdrola_secures_new_eib_loan_for_brazil_grid_upgrades-25-oct-2026-184924-article/?rss=true",
+      "date": "2026-10-25T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iberdrola-Secures-New-EIB-Loan-for-Brazil-Grid-Upgrades-184924-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Record Tanker Rates Cripple U.S. Crude Oil Flows to Asia",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Cripple-US-Crude-Oil-Flows-to-Asia.html",
       "date": "2026-10-24T23:00:00+00:00",
@@ -6375,13 +6487,6 @@
       "titre": "Battery storage capacity averaged 70% growth over the last three years",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
       "date": "2026-08-07T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "Fin de Elether 2 : bilan de quatre années de travaux de recherche en thermodynamique des électrolytes",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/fin-elether-2-bilan-quatre-annees-travaux-recherche-en-thermodynamique-des-electrolytes",
-      "date": "2026-07-28T08:08:12+00:00",
       "image": null
     },
     {
