@@ -1,0 +1,95 @@
+{
+  "verifie_le": "2026-10-26",
+  "consigne": "Fichier tenu à la main. Pour chaque événement : date vérifiée sur la source indiquée. Les heures sont en UTC (champ quand) ; un événement sans heure connue n'a qu'un jour. Mettre statut a_confirmer tant qu'une date ne vient pas d'une source officielle.",
+  "evenements": [
+    {
+      "quand": "2026-10-28T18:00:00Z",
+      "titre": "Fed (FOMC) : décision sur les taux, conférence de presse à 14 h 30 (New York)",
+      "type": "banque_centrale",
+      "marches": ["petrole", "gaz"],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Réunion des 27 et 28 octobre. Effet indirect sur les prix de l'énergie : dollar, croissance, demande.",
+      "source": "Réserve fédérale américaine",
+      "lien": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "quand": "2026-10-29T13:15:00Z",
+      "titre": "BCE : décision sur les taux (14 h 15 Paris), conférence de presse à 14 h 45",
+      "type": "banque_centrale",
+      "marches": ["petrole", "gaz"],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Réunion des 28 et 29 octobre. Effet indirect : euro, croissance européenne, coût du financement.",
+      "source": "Banque centrale européenne",
+      "lien": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    },
+    {
+      "jour": "2026-11-01",
+      "titre": "OPEP+ : réunion mensuelle des sept pays qui fixent les quotas de production",
+      "type": "opep",
+      "marches": ["petrole"],
+      "importance": "haute",
+      "statut": "confirme",
+      "note": "Date annoncée dans le communiqué du 4 octobre. Les quotas de novembre avaient été laissés inchangés.",
+      "source": "OPEP, communiqué du 4 octobre 2026",
+      "lien": "https://www.opec.org/pr-detail/616-4-october-2026.html"
+    },
+    {
+      "jour": "2026-11-03",
+      "titre": "États-Unis : élections de mi-mandat",
+      "type": "politique",
+      "marches": ["petrole", "gaz"],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Peut changer l'équilibre du Congrès, donc la politique énergétique et fiscale américaine. Date fixée par la loi : premier mardi après le premier lundi de novembre.",
+      "source": "Calendrier électoral fédéral américain",
+      "lien": null
+    },
+    {
+      "jour": "2026-11-09",
+      "fin_jour": "2026-11-20",
+      "titre": "COP31 à Antalya (Turquie) : conférence des Nations unies sur le climat",
+      "type": "climat",
+      "marches": ["petrole", "gaz", "electricite"],
+      "importance": "faible",
+      "statut": "confirme",
+      "note": "Annonces possibles sur le charbon, le gaz, le nucléaire et les renouvelables. Les décisions ont rarement un effet immédiat sur les prix.",
+      "source": "Gouvernements de la Turquie et de l'Australie, Wikipédia",
+      "lien": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+    },
+    {
+      "jour": "2026-11-29",
+      "titre": "OPEP+ : réunion ministérielle complète (date à confirmer)",
+      "type": "opep",
+      "marches": ["petrole"],
+      "importance": "haute",
+      "statut": "a_confirmer",
+      "note": "Date relevée sur un calendrier tiers, d'après un communiqué de juin, et non confirmée par une seconde source. À vérifier sur le site de l'OPEP avant de s'y fier.",
+      "source": "crudesignal.io (calendrier tiers)",
+      "lien": "https://crudesignal.io/is-there-an-opec-meeting-today"
+    },
+    {
+      "quand": "2026-12-09T19:00:00Z",
+      "titre": "Fed (FOMC) : décision sur les taux et nouvelles projections",
+      "type": "banque_centrale",
+      "marches": ["petrole", "gaz"],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Réunion des 8 et 9 décembre, avec les projections économiques des membres.",
+      "source": "Réserve fédérale américaine",
+      "lien": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "quand": "2026-12-17T13:15:00Z",
+      "titre": "BCE : décision sur les taux et projections macroéconomiques",
+      "type": "banque_centrale",
+      "marches": ["petrole", "gaz"],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Réunion des 16 et 17 décembre, avec les projections des équipes de la BCE.",
+      "source": "Banque centrale européenne",
+      "lien": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    }
+  ]
+}

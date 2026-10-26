@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
-    <link rel="stylesheet" href="css/style.css?v=19">
+    <link rel="stylesheet" href="css/style.css?v=21">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
 </head>
 <body>
@@ -241,7 +241,13 @@
         </section>
 
         <!-- ========== NEWS ========== -->
-        <section id="news" class="onglet">
+        <section id="news" class="onglet" data-volets>
+            <nav class="sous-nav" aria-label="Sections de la page News">
+                <button type="button" data-volet="actualites">Actualités</button>
+                <button type="button" data-volet="agenda">Agenda</button>
+            </nav>
+
+            <div class="volet" data-volet="actualites">
             <div class="filtres-news">
                 <label class="filtre">Période
                     <select id="filtre-periode" class="menu">
@@ -267,6 +273,39 @@
                 <span class="compte-news" id="compte-news"></span>
             </div>
             <div id="liste-news" class="liste-news">Chargement des actualités…</div>
+            </div>
+
+            <div class="volet" data-volet="agenda" hidden>
+                <p class="volet-intro">Rendez-vous à venir susceptibles de faire bouger les prix de l'énergie : décisions de banques centrales, réunions de l'OPEP+, échéances politiques.</p>
+                <div class="avertissement"><b>Ce que cet agenda ne contient pas.</b> Les discours non annoncés (déclarations d'un chef d'État, d'un ministre ou d'un dirigeant de banque centrale) ne figurent pas ici : aucune source gratuite et fiable ne les publie à l'avance. Un événement peut aussi être déplacé : vérifie la source avant de t'y fier. L'importance est une estimation indicative, pas une mesure. <span id="agenda-verif"></span></div>
+                <div class="filtres-news" style="margin:0 0 12px">
+                    <label class="filtre">Marché
+                        <select id="agenda-marche" class="menu">
+                            <option value="">Tous les marchés</option>
+                            <option value="petrole">Pétrole</option>
+                            <option value="gaz">Gaz</option>
+                            <option value="electricite">Électricité</option>
+                        </select>
+                    </label>
+                    <label class="filtre">Type
+                        <select id="agenda-type" class="menu">
+                            <option value="">Tous les types</option>
+                            <option value="banque_centrale">Banque centrale</option>
+                            <option value="opep">OPEP+</option>
+                            <option value="politique">Politique</option>
+                            <option value="climat">Climat</option>
+                        </select>
+                    </label>
+                </div>
+                <article class="carte">
+                    <h2>Événements à venir <small>heure de Paris</small></h2>
+                    <div class="defile"><table class="table-strat table-idees table-agenda" id="agenda-table"><tr><td>Chargement…</td></tr></table></div>
+                </article>
+                <article class="carte" style="margin-top:20px">
+                    <h2>Publications hebdomadaires <small>dates calculées, un jour férié américain peut les décaler d'un jour</small></h2>
+                    <div class="defile"><table class="table-strat table-idees table-agenda" id="agenda-hebdo"></table></div>
+                </article>
+            </div>
         </section>
 
         <!-- ========== TRAFIC MARITIME ========== -->
@@ -455,6 +494,7 @@
     <script src="js/maritime.js?v=9"></script>
     <script src="js/strategies.js?v=2"></script>
     <script src="js/idees.js?v=2"></script>
+    <script src="js/agenda.js?v=2"></script>
     <script src="js/volets.js?v=2"></script>
 </body>
 </html>

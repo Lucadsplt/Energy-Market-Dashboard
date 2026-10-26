@@ -737,3 +737,13 @@ body { background: var(--fond); color: var(--texte); font-size: 14px; }
 .calc input, .calc select { padding: 7px 9px; border: 1px solid var(--bordure); border-radius: 3px; font: inherit; font-size: 13px; color: var(--texte); background: #fff; }
 .calc label:first-child { grid-column: 1 / -1; }
 @media (max-width: 700px) { .kpi-idees { grid-template-columns: 1fr 1fr; } .calc { grid-template-columns: 1fr; } }
+
+/* ---------- Agenda ---------- */
+.table-agenda td.quand { min-width: 120px; font-size: 12.5px; line-height: 1.5; }
+.table-agenda td.dans { white-space: nowrap; color: var(--texte-doux); font-size: 12px; }
+.table-agenda { min-width: 0; }
+.table-agenda a { color: var(--texte); }
+.tag-marche { display: inline-block; padding: 1px 7px; margin: 1px 2px 1px 0; border: 1px solid var(--bordure); border-radius: 3px; font-size: 11px; color: var(--texte-doux); background: #fff; }
+.badge.imp-haute { background: #f6e3e0; color: #a93226; }
+.badge.imp-moyenne { background: #fbeed3; color: #946200; }
+.badge.imp-faible { background: #eceeec; color: #5f6a64; }

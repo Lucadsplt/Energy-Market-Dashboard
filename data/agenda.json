@@ -1,0 +1,174 @@
+{
+  "genere": "2026-10-26T17:42:56Z",
+  "verifie_le": "2026-10-26",
+  "evenements": [
+    {
+      "quand": "2026-10-28T18:00:00Z",
+      "titre": "Fed (FOMC) : d\u00e9cision sur les taux, conf\u00e9rence de presse \u00e0 14 h 30 (New York)",
+      "type": "banque_centrale",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "R\u00e9union des 27 et 28 octobre. Effet indirect sur les prix de l'\u00e9nergie : dollar, croissance, demande.",
+      "source": "R\u00e9serve f\u00e9d\u00e9rale am\u00e9ricaine",
+      "lien": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "quand": "2026-10-29T13:15:00Z",
+      "titre": "BCE : d\u00e9cision sur les taux (14 h 15 Paris), conf\u00e9rence de presse \u00e0 14 h 45",
+      "type": "banque_centrale",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "R\u00e9union des 28 et 29 octobre. Effet indirect : euro, croissance europ\u00e9enne, co\u00fbt du financement.",
+      "source": "Banque centrale europ\u00e9enne",
+      "lien": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    },
+    {
+      "jour": "2026-11-01",
+      "titre": "OPEP+ : r\u00e9union mensuelle des sept pays qui fixent les quotas de production",
+      "type": "opep",
+      "marches": [
+        "petrole"
+      ],
+      "importance": "haute",
+      "statut": "confirme",
+      "note": "Date annonc\u00e9e dans le communiqu\u00e9 du 4 octobre. Les quotas de novembre avaient \u00e9t\u00e9 laiss\u00e9s inchang\u00e9s.",
+      "source": "OPEP, communiqu\u00e9 du 4 octobre 2026",
+      "lien": "https://www.opec.org/pr-detail/616-4-october-2026.html"
+    },
+    {
+      "jour": "2026-11-03",
+      "titre": "\u00c9tats-Unis : \u00e9lections de mi-mandat",
+      "type": "politique",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "Peut changer l'\u00e9quilibre du Congr\u00e8s, donc la politique \u00e9nerg\u00e9tique et fiscale am\u00e9ricaine. Date fix\u00e9e par la loi : premier mardi apr\u00e8s le premier lundi de novembre.",
+      "source": "Calendrier \u00e9lectoral f\u00e9d\u00e9ral am\u00e9ricain",
+      "lien": null
+    },
+    {
+      "jour": "2026-11-09",
+      "fin_jour": "2026-11-20",
+      "titre": "COP31 \u00e0 Antalya (Turquie) : conf\u00e9rence des Nations unies sur le climat",
+      "type": "climat",
+      "marches": [
+        "petrole",
+        "gaz",
+        "electricite"
+      ],
+      "importance": "faible",
+      "statut": "confirme",
+      "note": "Annonces possibles sur le charbon, le gaz, le nucl\u00e9aire et les renouvelables. Les d\u00e9cisions ont rarement un effet imm\u00e9diat sur les prix.",
+      "source": "Gouvernements de la Turquie et de l'Australie, Wikip\u00e9dia",
+      "lien": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+    },
+    {
+      "jour": "2026-11-29",
+      "titre": "OPEP+ : r\u00e9union minist\u00e9rielle compl\u00e8te (date \u00e0 confirmer)",
+      "type": "opep",
+      "marches": [
+        "petrole"
+      ],
+      "importance": "haute",
+      "statut": "a_confirmer",
+      "note": "Date relev\u00e9e sur un calendrier tiers, d'apr\u00e8s un communiqu\u00e9 de juin, et non confirm\u00e9e par une seconde source. \u00c0 v\u00e9rifier sur le site de l'OPEP avant de s'y fier.",
+      "source": "crudesignal.io (calendrier tiers)",
+      "lien": "https://crudesignal.io/is-there-an-opec-meeting-today"
+    },
+    {
+      "quand": "2026-12-09T19:00:00Z",
+      "titre": "Fed (FOMC) : d\u00e9cision sur les taux et nouvelles projections",
+      "type": "banque_centrale",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "R\u00e9union des 8 et 9 d\u00e9cembre, avec les projections \u00e9conomiques des membres.",
+      "source": "R\u00e9serve f\u00e9d\u00e9rale am\u00e9ricaine",
+      "lien": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "quand": "2026-12-17T13:15:00Z",
+      "titre": "BCE : d\u00e9cision sur les taux et projections macro\u00e9conomiques",
+      "type": "banque_centrale",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "importance": "moyenne",
+      "statut": "confirme",
+      "note": "R\u00e9union des 16 et 17 d\u00e9cembre, avec les projections des \u00e9quipes de la BCE.",
+      "source": "Banque centrale europ\u00e9enne",
+      "lien": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    }
+  ],
+  "hebdomadaires": [
+    {
+      "cle": "eia_petrole",
+      "titre": "Stocks de p\u00e9trole aux \u00c9tats-Unis (EIA)",
+      "marches": [
+        "petrole"
+      ],
+      "note": "Stocks de brut, d'essence et de distillats : l'un des chiffres les plus suivis du march\u00e9 p\u00e9trolier.",
+      "lien": "https://www.eia.gov/petroleum/supply/weekly/",
+      "prochaines": [
+        "2026-10-28T14:30:00Z",
+        "2026-11-04T15:30:00Z"
+      ]
+    },
+    {
+      "cle": "eia_gaz",
+      "titre": "Stocks de gaz naturel aux \u00c9tats-Unis (EIA)",
+      "marches": [
+        "gaz"
+      ],
+      "note": "Variation hebdomadaire des stocks, compar\u00e9e \u00e0 la moyenne des ann\u00e9es pass\u00e9es.",
+      "lien": "https://ir.eia.gov/ngs/ngs.html",
+      "prochaines": [
+        "2026-10-29T14:30:00Z",
+        "2026-11-05T15:30:00Z"
+      ]
+    },
+    {
+      "cle": "baker_hughes",
+      "titre": "Forages en activit\u00e9 aux \u00c9tats-Unis (Baker Hughes)",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "note": "Indicateur avanc\u00e9 de la production am\u00e9ricaine.",
+      "lien": "https://rigcount.bakerhughes.com/",
+      "prochaines": [
+        "2026-10-30T17:00:00Z",
+        "2026-11-06T18:00:00Z"
+      ]
+    },
+    {
+      "cle": "cot",
+      "titre": "Positions des fonds sp\u00e9culatifs (CFTC, rapport COT)",
+      "marches": [
+        "petrole",
+        "gaz"
+      ],
+      "note": "Les donn\u00e9es datent du mardi pr\u00e9c\u00e9dent. Elles alimentent la r\u00e8gle \u00ab positionnement des fonds \u00bb de l'onglet Strat\u00e9gies.",
+      "lien": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "prochaines": [
+        "2026-10-30T19:30:00Z",
+        "2026-11-06T20:30:00Z"
+      ]
+    }
+  ]
+}
