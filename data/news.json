@@ -2,6 +2,167 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "The Diesel Crisis Is Here To Stay",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crisis-Is-Here-To-Stay.html",
+      "date": "2026-10-27T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_fafutwreyg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia’s Crude Exports Set to Fall as Diesel Production Rises",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html",
+      "date": "2026-10-27T18:30:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "What Happens When America's Power Grid Becomes a Last Resort?",
+      "lien": "https://oilprice.com/Energy/Energy-General/What-Happens-When-Americas-Power-Grid-Becomes-a-Last-Resort.html",
+      "date": "2026-10-27T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_hawnmonrds.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Aramco Offers Discounted Oil to Europe as Exports Recover",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html",
+      "date": "2026-10-27T17:40:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_a7yprem305.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Neuquén awards eight blocks to expand Vaca Muerta exploration",
+      "lien": "https://www.ogj.com/exploration-development/news/55414743/neuquen-awards-eight-blocks-to-expand-vaca-muerta-exploration",
+      "date": "2026-10-27T17:28:10+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae0dd7e1f26314b68c619fb-251201id_104676876__argentina__wollertz_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center",
+      "lien": "https://oilprice.com/Energy/Energy-General/45000-Nvidia-Blackwell-GPUs-Cleared-for-Kazakhstan-Data-Center.html",
+      "date": "2026-10-27T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_umamfebvcq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Howard Energy Partners expands Anadarko position with Iron Horse Midstream acquisition",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55414692/howard-energy-partners-expands-anadarko-position-with-iron-horse-midstream-acquisition",
+      "date": "2026-10-27T16:56:07+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae0c2657f85748f0cd0d40a-hep.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Brace-for-a-New-Iran-Escalation-After-US-Midterms.html",
+      "date": "2026-10-27T16:37:35+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_xrtw8hbccw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Military Eyes Nuclear Reactors to Survive 90 Days Without the Grid",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/US-Military-Eyes-Nuclear-Reactors-to-Survive-90-Days-Without-the-Grid.html",
+      "date": "2026-10-27T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_1ehxwefvo5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC 'Unlocks' $16B in UAE Manufacturing Opportunities",
+      "lien": "https://www.rigzone.com/news/adnoc_unlocks_16b_in_uae_manufacturing_opportunities-27-oct-2026-184946-article/?rss=true",
+      "date": "2026-10-27T15:49:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-Unlocks-16B-in-UAE-Manufacturing-Opportunities-184946-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ovintiv Acquires Montney Neighbor Logan",
+      "lien": "https://www.rigzone.com/news/ovintiv_acquires_montney_neighbor_logan-27-oct-2026-184945-article/?rss=true",
+      "date": "2026-10-27T15:46:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ovintiv-Acquires-Montney-Neighbor-Logan-184945-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "18.4 TW by 2035: IRENA Raises Renewables Goal as Power Demand Climbs",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/184-TW-by-2035-IRENA-Raises-Renewables-Goal-as-Power-Demand-Climbs.html",
+      "date": "2026-10-27T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_wkgakqvo4q.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Contains Fire Near Ras Tanura Oil Hub",
+      "lien": "https://www.rigzone.com/news/wire/aramco_contains_fire_near_ras_tanura_oil_hub-27-oct-2026-184944-article/?rss=true",
+      "date": "2026-10-27T15:28:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Contains-Fire-Near-Ras-Tanura-Oil-Hub-184944-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "India Diesel Export Boom Set to Ease Global Crunch",
+      "lien": "https://www.rigzone.com/news/wire/india_diesel_export_boom_set_to_ease_global_crunch-27-oct-2026-184943-article/?rss=true",
+      "date": "2026-10-27T15:22:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/India-Diesel-Export-Boom-Set-to-Ease-Global-Crunch-184943-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Exits Nigeria's Onshore Upstream Sector",
+      "lien": "https://www.rigzone.com/news/eni_exits_nigerias_onshore_upstream_sector-27-oct-2026-184942-article/?rss=true",
+      "date": "2026-10-27T15:13:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Exits-Nigerias-Onshore-Upstream-Sector-184942-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "OPEC+ Set to Keep Oil Quotas Unchanged",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Set-to-Keep-Oil-Quotas-Unchanged.html",
+      "date": "2026-10-27T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_q9xjafb5qh.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFP School : newsletter de la rentrée 2026",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-newsletter-rentree-2026",
+      "date": "2026-10-27T14:24:23+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Turns to Russia for Nuclear Power as IAEA Oversight Falters",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Iran-Turns-to-Russia-for-Nuclear-Power-as-IAEA-Oversight-Falters.html",
+      "date": "2026-10-27T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_jub2gyi7pb.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Timor GAP to acquire Woodside stake in Greater Sunrise project",
+      "lien": "https://www.ogj.com/general-interest/news/55414603/timor-gap-to-acquire-woodside-stake-in-greater-sunrise-project",
+      "date": "2026-10-27T13:59:46+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae09d427f012fd41175b9a5-timor_gap.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Agrees Further Helicopter Measures amid Noise Complaints",
+      "lien": "https://www.rigzone.com/news/equinor_agrees_further_helicopter_measures_amid_noise_complaints-27-oct-2026-184941-article/?rss=true",
+      "date": "2026-10-27T13:55:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Agrees-Further-Helicopter-Measures-amid-Noise-Complaints-184941-1200x628.png"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "L’Energy Innovation Bulletin d'IFP School publie son 100e numéro",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/lenergy-innovation-bulletin-difp-school-publie-son-100e-numero",
+      "date": "2026-10-27T13:36:26+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Investors From 119 Countries Pile Into Dangote’s Record Refinery IPO",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Investors-From-119-Countries-Pile-Into-Dangotes-Record-Refinery-IPO.html",
+      "date": "2026-10-27T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_6ngihwopeu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Is Something Else Influencing the Value of Oil?",
+      "lien": "https://www.rigzone.com/news/is_something_else_influencing_the_value_of_oil-27-oct-2026-184940-article/?rss=true",
+      "date": "2026-10-27T12:42:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Is-Something-Else-Influencing-the-Value-of-Oil-184940-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Ras Tanura Fire Follows Attacks on Aramco Offices and Near Shaybah Field",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ras-Tanura-Fire-Follows-Attacks-on-Aramco-Offices-and-Near-Shaybah-Field.html",
       "date": "2026-10-27T12:30:00+00:00",
