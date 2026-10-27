@@ -2,6 +2,48 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Americans Hit Hardest by War-Driven Oil Price Surge",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Americans-Hit-Hardest-by-War-Driven-Oil-Price-Surge.html",
+      "date": "2026-10-27T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_lpwbm7l1nj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Will Rubio’s Jamnagar Move Permanently Break The Russia-India Oil Axis?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Will-Rubios-Jamnagar-Move-Permanently-Break-The-Russia-India-Oil-Axis.html",
+      "date": "2026-10-27T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_f7bzvo0ukp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Slips as Iran Diplomacy Picks Up",
+      "lien": "https://www.rigzone.com/news/wire/oil_slips_as_iran_diplomacy_picks_up-27-oct-2026-184947-article/?rss=true",
+      "date": "2026-10-27T21:07:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Slips-as-Iran-Diplomacy-Picks-Up-184947-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Turkey’s Libya Deal Puts Oil Majors in a Bind",
+      "lien": "https://oilprice.com/Energy/Energy-General/Turkeys-Libya-Deal-Puts-Oil-Majors-in-a-Bind.html",
+      "date": "2026-10-27T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_fykomriqfj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Crude Oil Inventories Buck Analyst Expectations",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Buck-Analyst-Expectations.html",
+      "date": "2026-10-27T20:56:11+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_sani84wzbe.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Data Center Power Stocks to Watch Before Earnings",
+      "lien": "https://oilprice.com/Energy/Energy-General/5-Data-Center-Power-Stocks-to-Watch-Before-Earnings.html",
+      "date": "2026-10-27T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_v6ig4nrbup.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "The Diesel Crisis Is Here To Stay",
       "lien": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crisis-Is-Here-To-Stay.html",
       "date": "2026-10-27T19:00:00+00:00",
