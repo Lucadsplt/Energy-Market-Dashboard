@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Ras Tanura Fire Follows Attacks on Aramco Offices and Near Shaybah Field",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ras-Tanura-Fire-Follows-Attacks-on-Aramco-Offices-and-Near-Shaybah-Field.html",
+      "date": "2026-10-27T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_mvndvt3efh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Diesel Drives India's Fuel Export Windfall as Earnings Reach $12.6 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Drives-Indias-Fuel-Export-Windfall-as-Earnings-Reach-126-Billion.html",
+      "date": "2026-10-27T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_w98e0jocla.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Rig Sinks Offshore Gabon",
+      "lien": "https://www.rigzone.com/news/rig_sinks_offshore_gabon-27-oct-2026-184939-article/?rss=true",
+      "date": "2026-10-27T10:41:46+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Rejects Claims of U.S. Pressure Over Russian Oil Purchases",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Rejects-Claims-of-US-Pressure-Over-Russian-Oil-Purchases.html",
+      "date": "2026-10-27T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_ch8lqo92a7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Moves to Ease Methane Regulations for U.S. Oil Producers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Moves-to-Ease-Methane-Regulations-for-US-Oil-Producers.html",
+      "date": "2026-10-27T09:35:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_ql1qzydeti.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Insights: What agentic AI means for the future of oil and gas operations",
+      "lien": "https://www.ogj.com/general-interest/podcast/55414447/insights-moving-beyond-copilots-as-agentic-ai-connects-workflows-accelerates-decisions",
+      "date": "2026-10-27T09:00:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6adf98ade36a7fc2b634159e-261026id_398858554__prakitta_lapphatthranan__dream.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA Warns of Dangerous Concentration in Global Clean Energy Supply Chains",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-of-Dangerous-Concentration-in-Global-Clean-Energy-Supply-Chains.html",
+      "date": "2026-10-27T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_c10bjphynt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Egypt Agrees Tax Relief for Project to Import Cyprus Gas",
+      "lien": "https://www.rigzone.com/news/egypt_agrees_tax_relief_for_project_to_import_cyprus_gas-27-oct-2026-184937-article/?rss=true",
+      "date": "2026-10-27T07:57:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Egypt-Agrees-Tax-Relief-for-Project-to-Import-Cyprus-Gas-184937-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Oil Buyers Squeezed by $123 Crude and Weak Rupee",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Buyers-Squeezed-by-123-Crude-and-Weak-Rupee.html",
+      "date": "2026-10-27T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_x6uywc8grq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Closes In on $10B Loan",
+      "lien": "https://www.rigzone.com/news/wire/aramco_closes_in_on_10b_loan-27-oct-2026-184938-article/?rss=true",
+      "date": "2026-10-27T07:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Closes-In-on-10B-Loan-184938-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Drop Despite Threat of New U.S. Strikes on Iran",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Threat-of-New-US-Strikes-on-Iran.html",
+      "date": "2026-10-27T06:15:57+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_2pxnz9hkwj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Weighs Scrapping Its Largest Untapped Oilfield With Oil Over $100",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/UK-Weighs-Scrapping-Its-Largest-Untapped-Oilfield-With-Oil-Over-100.html",
+      "date": "2026-10-27T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_h2bhu9f4xn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Beijing Pushes Domestic Oil Production as Iranian Supply Dries Up",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
+      "date": "2026-10-26T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_gwf4wirpg8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Alleged Russian Funding Prompts Executive Exodus at U.S. LNG Firm",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Alleged-Russian-Funding-Prompts-Executive-Exodus-at-US-LNG-Firm.html",
+      "date": "2026-10-26T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_zl1gtdtonv.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Dips from 6 Month High as Officials Meet in Tehran",
+      "lien": "https://www.rigzone.com/news/wire/oil_dips_from_6_month_high_as_officials_meet_in_tehran-26-oct-2026-184936-article/?rss=true",
+      "date": "2026-10-26T21:02:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Dips-from-6-Month-High-as-Officials-Meet-in-Tehran-184936-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asia Needs $1 Trillion a Year to Avoid the Next Energy Shock",
+      "lien": "https://oilprice.com/Energy/Energy-General/Asia-Needs-1-Trillion-a-Year-to-Avoid-the-Next-Energy-Shock.html",
+      "date": "2026-10-26T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-26_uyqlxnaxn1.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Iran War Pushes Trump's Average Gasoline Prices Above Biden's",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Pushes-Trumps-Average-Gasoline-Prices-Above-Bidens.html",
       "date": "2026-10-26T20:00:00+00:00",
