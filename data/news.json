@@ -2,10 +2,66 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "QatarEnergy Extends LNG Force Majeure to End of 2026",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
+      "date": "2026-10-28T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_qx2qzj4ihr.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Chevron adds operated Gulf of Mexico positions in interest swap with TotalEnergies",
+      "lien": "https://www.ogj.com/general-interest/news/55414931/chevron-adds-operated-gulf-of-mexico-positions-in-interest-swap-with-totalenergies",
+      "date": "2026-10-28T13:12:15+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae1f41a8d19141f77630001-chevrontotalenergies.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Woodside Exits Planned Greater Sunrise Project",
+      "lien": "https://www.rigzone.com/news/woodside_exits_planned_greater_sunrise_project-28-oct-2026-184952-article/?rss=true",
+      "date": "2026-10-28T13:07:26+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Woodside-Exits-Planned-Greater-Sunrise-Project-184952-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Lawmakers Warn Banks Against Trump's Russian Diesel Deal",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Lawmakers-Warn-Banks-Against-Trumps-Russian-Diesel-Deal.html",
+      "date": "2026-10-28T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_z4h168oa2r.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EQT-Range Deal Will Create $50B Gas 'Champion'",
+      "lien": "https://www.rigzone.com/news/eqtrange_deal_will_create_50b_gas_champion-28-oct-2026-184951-article/?rss=true",
+      "date": "2026-10-28T12:34:12+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EQTRange-Deal-Will-Create-50B-Gas-Champion-184951-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Bahri Profit Hits $1.36 Billion as the World Scrambles for Tankers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Bahri-Profit-Hits-136-Billion-as-the-World-Scrambles-for-Tankers.html",
+      "date": "2026-10-28T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_qygvkaudun.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "India's Gasoline Demand Could Peak by 2035 as EVs Gain Ground",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gasoline-Demand-Could-Peak-by-2035-as-EVs-Gain-Ground.html",
       "date": "2026-10-28T11:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_ukmsm5lvfj.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Energy on Edge Ahead of USA Midterms",
+      "lien": "https://www.rigzone.com/news/energy_on_edge_ahead_of_usa_midterms-28-oct-2026-184950-article/?rss=true",
+      "date": "2026-10-28T11:02:58+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Energy-on-Edge-Ahead-of-USA-Midterms-184950-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Awards Key Contracts for Cronos Gas Project",
+      "lien": "https://www.rigzone.com/news/eni_awards_key_contracts_for_cronos_gas_project-28-oct-2026-184949-article/?rss=true",
+      "date": "2026-10-28T10:37:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Awards-Key-Contracts-for-Cronos-Gas-Project-184949-1200x628.png"
     },
     {
       "source": "OilPrice",
