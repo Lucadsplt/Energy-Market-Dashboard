@@ -2,6 +2,62 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "India's Gasoline Demand Could Peak by 2035 as EVs Gain Ground",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gasoline-Demand-Could-Peak-by-2035-as-EVs-Gain-Ground.html",
+      "date": "2026-10-28T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_ukmsm5lvfj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Wind and Solar Power Capacity Surpasses 2 Terawatts",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Wind-and-Solar-Power-Capacity-Surpasses-2-Terawatts.html",
+      "date": "2026-10-28T10:20:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_arl018yx4i.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iran Cracks Down on Sinokor Tankers",
+      "lien": "https://www.rigzone.com/news/wire/iran_cracks_down_on_sinokor_tankers-28-oct-2026-184948-article/?rss=true",
+      "date": "2026-10-28T09:31:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iran-Cracks-Down-on-Sinokor-Tankers-184948-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Equinor Profits Triple as Oil and Gas Prices Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Profits-Triple-as-Oil-and-Gas-Prices-Surge.html",
+      "date": "2026-10-28T09:20:33+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_tbrwfez7ec.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Traders Brace for Iran Escalation After U.S. Elections",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Traders-Brace-for-Iran-Escalation-After-US-Elections.html",
+      "date": "2026-10-28T07:50:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_r8oqmc7igh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Sanctioned Oil Tankers Find a Lucrative New Trade in the Persian Gulf",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Sanctioned-Oil-Tankers-Find-a-Lucrative-New-Trade-in-the-Persian-Gulf.html",
+      "date": "2026-10-28T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_gpuatkrvfv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Houthi-Attacks-Reignite-Saudi-Supply-Fears.html",
+      "date": "2026-10-28T03:53:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-27_anuwmnlpks.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America Produces Less Than 1% of the Rare Earth Magnets It Needs",
+      "lien": "https://oilprice.com/Energy/Energy-General/America-Produces-Less-Than-1-of-the-Rare-Earth-Magnets-It-Needs.html",
+      "date": "2026-10-28T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_9hs5olcqyl.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Americans Hit Hardest by War-Driven Oil Price Surge",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Americans-Hit-Hardest-by-War-Driven-Oil-Price-Surge.html",
       "date": "2026-10-27T23:00:00+00:00",
