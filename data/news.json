@@ -2,6 +2,76 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Oil Refineries Become Prime Targets as Global Fuel Shortage Worsens",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Refineries-Become-Prime-Targets-as-Global-Fuel-Shortage-Worsens.html",
+      "date": "2026-10-28T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_3qdltmx2un.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How Trump’s Russian Diesel Could End Up in Cuba Instead",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/How-Trumps-Russian-Diesel-Could-End-Up-in-Cuba-Instead.html",
+      "date": "2026-10-28T22:28:57+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_2gif09lvhd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Natural Gas Production Hits New Records as Demand Surges",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Production-Hits-New-Records-as-Demand-Surges.html",
+      "date": "2026-10-28T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_m27hxxzem6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Solar Has Overtaken Nuclear in the Global Power Mix",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/Solar-Has-Overtaken-Nuclear-in-the-Global-Power-Mix.html",
+      "date": "2026-10-28T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_w16gednbrk.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Rises with Iran Attack Report, Israeli Election in Focus",
+      "lien": "https://www.rigzone.com/news/wire/oil_rises_with_iran_attack_report_israeli_election_in_focus-28-oct-2026-184958-article/?rss=true",
+      "date": "2026-10-28T20:50:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Rises-with-Iran-Attack-Report-Israeli-Election-in-Focus-184958-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "GE Vernova Expands in High-Voltage Grid Gear With Trench Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/GE-Vernova-Expands-in-High-Voltage-Grid-Gear-With-Trench-Deal.html",
+      "date": "2026-10-28T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_pbjexlygva.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "HF Sinclair appoints COO Ledbetter to serve as CEO, president",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55415145/hf-sinclair-appoints-coo-ledbetter-to-serve-as-ceo-president",
+      "date": "2026-10-28T20:18:51+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Record LNG Buying Meets Record-High Prices",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Indias-Record-LNG-Buying-Meets-Record-High-Prices.html",
+      "date": "2026-10-28T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_r034tjfvl5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Says High Gas Price a 'Short-Term Pain'",
+      "lien": "https://www.rigzone.com/news/wire/trump_says_high_gas_price_a_shortterm_pain-28-oct-2026-184955-article/?rss=true",
+      "date": "2026-10-28T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Says-High-Gas-Price-a-ShortTerm-Pain-184955-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Expand curtailing some production ‘in direct acknowledgement that the market is weakening’",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415086/expand-curtailing-some-production-in-direct-acknowledgement-that-the-market-is-weakening",
+      "date": "2026-10-28T19:39:20+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae2363ff84cc9f0c4fe946a-exe_well_1.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Why the Shipping Industry Is Turning Its Attention to Nuclear Power",
       "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-the-Shipping-Industry-Is-Turning-Its-Attention-to-Nuclear-Power.html",
       "date": "2026-10-28T19:00:00+00:00",
