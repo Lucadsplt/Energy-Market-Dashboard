@@ -2,6 +2,125 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Why the Shipping Industry Is Turning Its Attention to Nuclear Power",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-the-Shipping-Industry-Is-Turning-Its-Attention-to-Nuclear-Power.html",
+      "date": "2026-10-28T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_ws7vq3gb0u.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Secures Massive Discount on Russian Gas as Moscow’s Leverage Weakens",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/China-Secures-Massive-Discount-on-Russian-Gas-as-Moscows-Leverage-Weakens.html",
+      "date": "2026-10-28T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-27_0o2aqghrhw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UBS Sees $110 Brent by Year-End as Gulf Flows Stay Below Prewar Levels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html",
+      "date": "2026-10-28T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_1shlt5pw6v.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Eni lets drilling contracts for work offshore Cyprus, Ghana",
+      "lien": "https://www.ogj.com/general-interest/news/55415074/eni-lets-drilling-contracts-for-cyprus-ghana",
+      "date": "2026-10-28T17:16:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Energy Crisis Shapes UK Budget as Chancellor Faces Pressure Over Defence Spendin",
+      "lien": "https://oilprice.com/Energy/Energy-General/Energy-Crisis-Shapes-UK-Budget-as-Chancellor-Faces-Pressure-Over-Defence-Spendin.html",
+      "date": "2026-10-28T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_8yjtgouzf4.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories down 1.9 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55415055/eia-us-crude-oil-inventories-down-19-million-bbl",
+      "date": "2026-10-28T16:30:59+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae22320d16bea854f65c340-ogjrecapoctober232026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Equinor Raises Oil and Gas Output Forecast as Operating Profit Doubles",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Raises-Oil-and-Gas-Output-Forecast-as-Operating-Profit-Doubles.html",
+      "date": "2026-10-28T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_7nogbc1pob.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UBS Data Shows Russian Oil Exports Only 10% Below Pre-War Levels",
+      "lien": "https://oilprice.com/Energy/Energy-General/UBS-Data-Shows-Russian-Oil-Exports-Only-10-Below-Pre-War-Levels.html",
+      "date": "2026-10-28T16:00:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Equinor nearly doubles third-quarter earnings on higher commodity prices, production gains",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415015/equinor-nearly-doubles-third-quarter-earnings-on-higher-commodity-prices-production-gains",
+      "date": "2026-10-28T15:55:32+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae21a6f588662eebb9ef796-mongstad_refinery_equinor_espen_rnnevik_roar_linde.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "PetroChina Q3 Profit Jumps to $7.78 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/PetroChina-Q3-Profit-Jumps-to-778-Billion.html",
+      "date": "2026-10-28T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_y6gldo7eka.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Baker Hughes Profit Beats Estimates",
+      "lien": "https://www.rigzone.com/news/baker_hughes_profit_beats_estimates-28-oct-2026-184957-article/?rss=true",
+      "date": "2026-10-28T15:18:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Baker-Hughes-Profit-Beats-Estimates-184957-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EI Launches Program 'to Tackle Barriers to AI Adoption'",
+      "lien": "https://www.rigzone.com/news/ei_launches_program_to_tackle_barriers_to_ai_adoption-28-oct-2026-184956-article/?rss=true",
+      "date": "2026-10-28T15:12:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EI-Launches-Program-to-Tackle-Barriers-to-AI-Adoption-184956-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi Oil Exports Booming Despite Attacks",
+      "lien": "https://www.rigzone.com/news/wire/saudi_oil_exports_booming_despite_attacks-28-oct-2026-184954-article/?rss=true",
+      "date": "2026-10-28T14:55:23+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Oil-Exports-Booming-Despite-Attacks-184954-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Oil Inventories Fall Again As Prices Rise",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Again-As-Prices-Rise.html",
+      "date": "2026-10-28T14:44:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_qvlsfooas5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Refiners Turn to Africa and Brazil Crude as Freight Rates Ease",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refiners-Turn-to-Africa-and-Brazil-Crude-as-Freight-Rates-Ease.html",
+      "date": "2026-10-28T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-28_rexgdzsibp.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Boosts Annual Output Projection",
+      "lien": "https://www.rigzone.com/news/equinor_boosts_annual_output_projection-28-oct-2026-184953-article/?rss=true",
+      "date": "2026-10-28T14:13:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Boosts-Annual-Output-Projection-184953-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Eyes $130 Oil While at Least 50 Tankers Sit Stuck in the Gulf",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iran-Eyes-130-Oil-While-at-Least-50-Tankers-Sit-Stuck-in-the-Gulf.html",
+      "date": "2026-10-28T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_y5cbelgnyw.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "QatarEnergy Extends LNG Force Majeure to End of 2026",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Extends-LNG-Force-Majeure-to-End-of-2026.html",
       "date": "2026-10-28T13:30:00+00:00",
