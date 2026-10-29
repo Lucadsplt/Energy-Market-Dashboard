@@ -1,6 +1,118 @@
 {
   "articles": [
     {
+      "source": "EIA",
+      "titre": "LNG imports make up increasing share of Colombia's natural gas supply",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+      "date": "2026-10-29T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.10.29/main.png?1793282941"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Fragile Ukraine Truce Faces Critical Test Amid Fears of Forced Deportations",
+      "lien": "https://oilprice.com/Energy/Energy-General/Fragile-Ukraine-Truce-Faces-Critical-Test-Amid-Fears-of-Forced-Deportations.html",
+      "date": "2026-10-29T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_kjwqtoqlfa.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFPEN et Mapea renforcent leur collaboration pour accélérer le recyclage du polyester",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifpen-et-mapea-renforcent-leur-collaboration-accelerer-recyclage-du-polyester-0",
+      "date": "2026-10-29T13:56:46+00:00",
+      "image": null
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Hikes EU’s Oil Import Bill By $11 Billion Per Month",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Hikes-EUs-Oil-Import-Bill-By-11-Billion-Per-Month.html",
+      "date": "2026-10-29T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_sfkahytjd8.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "France Says Europe Set to Release 42MM Barrels of Oil",
+      "lien": "https://www.rigzone.com/news/wire/france_says_europe_set_to_release_42mm_barrels_of_oil-29-oct-2026-184963-article/?rss=true",
+      "date": "2026-10-29T12:39:52+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/France-Says-Europe-Set-to-Release-42MM-Barrels-of-Oil-184963-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Shell Profits Nearly Double to $10.8 Billion as Refining Margins Hit Record",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Profits-Nearly-Double-to-108-Billion-as-Refining-Margins-Hit-Record.html",
+      "date": "2026-10-29T12:29:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_tzmdg9jlfw.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "What Would a Midterm Democrat Sweep Mean for USA Oil, Gas?",
+      "lien": "https://www.rigzone.com/news/what_would_a_midterm_democrat_sweep_mean_for_usa_oil_gas-29-oct-2026-184962-article/?rss=true",
+      "date": "2026-10-29T12:16:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/What-Would-a-Midterm-Democrat-Sweep-Mean-for-USA-Oil-Gas-184962-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "TotalEnergies Profit Doubles as War Boosts Refining and Trading",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Profit-Doubles-as-War-Boosts-Refining-and-Trading.html",
+      "date": "2026-10-29T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_qua3krboad.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies Expects to Sustain Tailwinds behind Blockbuster Q3",
+      "lien": "https://www.rigzone.com/news/totalenergies_expects_to_sustain_tailwinds_behind_blockbuster_q3-29-oct-2026-184961-article/?rss=true",
+      "date": "2026-10-29T10:59:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Expects-to-Sustain-Tailwinds-behind-Blockbuster-Q3-184961-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Equinor Doubles Estimate for Major North Sea Gas Discovery",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Doubles-Estimate-for-Major-North-Sea-Gas-Discovery.html",
+      "date": "2026-10-29T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_ukq7sozdry.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OEUK Says Budget 'Missed Bigger Opportunities'",
+      "lien": "https://www.rigzone.com/news/oeuk_says_budget_missed_bigger_opportunities-29-oct-2026-184960-article/?rss=true",
+      "date": "2026-10-29T09:31:38+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OEUK-Says-Budget-Missed-Bigger-Opportunities-184960-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Rules Out New Climate Finance Pledges at COP31",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Rules-Out-New-Climate-Finance-Pledges-at-COP31.html",
+      "date": "2026-10-29T09:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_ifzyp1mgwu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shell Approves $5B Buyback as Refining Boosts Profit",
+      "lien": "https://www.rigzone.com/news/wire/shell_approves_5b_buyback_as_refining_boosts_profit-29-oct-2026-184959-article/?rss=true",
+      "date": "2026-10-29T09:10:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shell-Approves-5B-Buyback-as-Refining-Boosts-Profit-184959-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Scrambles to Contain Energy Price Crisis Ahead of Winter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Scrambles-to-Contain-Energy-Price-Crisis-Ahead-of-Winter.html",
+      "date": "2026-10-29T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_ygr5o7kb1f.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Fall as Vance Moves to Restart Iran Peace Talks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html",
+      "date": "2026-10-29T06:05:36+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_ibqa1sow3c.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Peace-Talks-Wont-Save-Oil-Buyers-From-100-Plus-Oil.html",
+      "date": "2026-10-29T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-28_mrsupnfbg0.jpg"
+    },
+    {
       "source": "OilPrice",
       "titre": "Oil Refineries Become Prime Targets as Global Fuel Shortage Worsens",
       "lien": "https://oilprice.com/Energy/Energy-General/Oil-Refineries-Become-Prime-Targets-as-Global-Fuel-Shortage-Worsens.html",
