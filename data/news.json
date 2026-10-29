@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "World's First Permanent Nuclear Waste Site Wins License in Finland",
+      "lien": "https://oilprice.com/Energy/Energy-General/Worlds-First-Permanent-Nuclear-Waste-Site-Wins-License-in-Finland.html",
+      "date": "2026-10-29T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_vbfdl5ymoc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Sinopec's Q3 Profits Soar on Higher Oil Prices",
+      "lien": "https://www.rigzone.com/news/wire/sinopecs_q3_profits_soar_on_higher_oil_prices-29-oct-2026-184964-article/?rss=true",
+      "date": "2026-10-29T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Sinopecs-Q3-Profits-Soar-on-Higher-Oil-Prices-184964-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "BYD Earnings Miss Estimates as China's EV Price War Takes Its Toll",
+      "lien": "https://oilprice.com/Energy/Energy-General/BYD-Earnings-Miss-Estimates-as-Chinas-EV-Price-War-Takes-Its-Toll.html",
+      "date": "2026-10-29T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_up6v1sguq3.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "DOE data repository supports geothermal development",
+      "lien": "https://www.ogj.com/members/article/55414561/doe-data-repository-supports-geothermal-development",
+      "date": "2026-10-29T18:59:09+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae0e5335c31327c1739213f-261001ogjdap_z01.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Pushes Nuclear Energy Expansion in Central Asia and Caucasus",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/US-Pushes-Nuclear-Energy-Expansion-in-Central-Asia-and-Caucasus.html",
+      "date": "2026-10-29T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_xcuuphssne.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Mexico’s Richest Man Sells $1.15 Billion in Oil Stocks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Mexicos-Richest-Man-Sells-115-Billion-in-Oil-Stocks.html",
+      "date": "2026-10-29T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_znv2kcnbfj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe to Release 42 Million Barrels of Oil",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europe-to-Release-42-Million-Barrels-of-Oil.html",
+      "date": "2026-10-29T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_expsj85kum.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The CCS Project That Passed Every Test Except the Investment Test",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-CCS-Project-That-Passed-Every-Test-Except-the-Investment-Test.html",
+      "date": "2026-10-29T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_sp0rqynobv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Sinopec Third-Quarter Profit Jumps 64% as Oil Prices Climb",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Third-Quarter-Profit-Jumps-64-as-Oil-Prices-Climb.html",
+      "date": "2026-10-29T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_prqncitlmx.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Shell's third-quarter earnings rise on record refining margins, stronger gas results",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415305/shells-third-quarter-earnings-rise-on-record-refining-margins-stronger-gas-results",
+      "date": "2026-10-29T16:27:08+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae375f015d6d7fb361373fb-shellswhale_offshore_us.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Budget Signals Wave of New North Sea Oil and Gas Drilling",
+      "lien": "https://oilprice.com/Energy/Energy-General/UK-Budget-Signals-Wave-of-New-North-Sea-Oil-and-Gas-Drilling.html",
+      "date": "2026-10-29T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_lhvpyri7sd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies, Chevron Expand Exploration Partnership in US Gulf",
+      "lien": "https://www.rigzone.com/news/totalenergies_chevron_expand_exploration_partnership_in_us_gulf-29-oct-2026-184968-article/?rss=true",
+      "date": "2026-10-29T15:37:21+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Chevron-Expand-Exploration-Partnership-in-US-Gulf-184968-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trafigura Signs New Gas Supply Deal with German SEFE",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Signs-New-Gas-Supply-Deal-with-German-SEFE.html",
+      "date": "2026-10-29T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_rlb1munqqf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EQT-Range Company Will Stand 25Pct Clear of Nearest Rival",
+      "lien": "https://www.rigzone.com/news/eqtrange_company_will_stand_25pct_clear_of_nearest_rival-29-oct-2026-184967-article/?rss=true",
+      "date": "2026-10-29T15:00:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EQTRange-Company-Will-Stand-25Pct-Clear-of-Nearest-Rival-184967-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Investors Are Piling Into Dangote. But Is the Price Right?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Investors-Are-Piling-Into-Dangote-But-Is-the-Price-Right.html",
+      "date": "2026-10-29T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_wg9iyc1qig.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Phillips 66 Delivers Profit above Expectations",
+      "lien": "https://www.rigzone.com/news/phillips_66_delivers_profit_above_expectations-29-oct-2026-184966-article/?rss=true",
+      "date": "2026-10-29T14:59:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Phillips-66-Delivers-Profit-above-Expectations-184966-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Repsol Expects to Invest Nearly $13B in Spain through 2030",
+      "lien": "https://www.rigzone.com/news/repsol_expects_to_invest_nearly_13b_in_spain_through_2030-29-oct-2026-184965-article/?rss=true",
+      "date": "2026-10-29T14:43:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Repsol-Expects-to-Invest-Nearly-13B-in-Spain-through-2030-184965-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK National Grid to Extend France Power Link Operation to 2050",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-National-Grid-to-Extend-France-Power-Link-Operation-to-2050.html",
+      "date": "2026-10-29T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-29_o3ghq9aw4c.jpg"
+    },
+    {
       "source": "EIA",
       "titre": "LNG imports make up increasing share of Colombia's natural gas supply",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
