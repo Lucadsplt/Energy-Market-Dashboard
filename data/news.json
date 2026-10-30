@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "source": "Oil & Gas Journal",
+      "titre": "Chevron preps for big 2027 exploration capex ramp",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415712/chevron-preps-for-big-2027-exploration-capex-ramp",
+      "date": "2026-10-30T18:50:15+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae4de8ebb6ffc3e8b661b9b-cvx_exploration_map_2026_10.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Chevron Profits Nearly Triple to $9.9 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Profits-Nearly-Triple-to-99-Billion.html",
+      "date": "2026-10-30T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_vy2qiilbvl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Water Tank Rupture Triggers Safety Concerns at Tajikistan’s Rogun Dam",
+      "lien": "https://oilprice.com/Alternative-Energy/Hydroelectric/Water-Tank-Rupture-Triggers-Safety-Concerns-at-Tajikistans-Rogun-Dam.html",
+      "date": "2026-10-30T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_qa32inucsz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ExxonMobil Profits Double to $15.4 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ExxonMobil-Profits-Double-to-154-Billion.html",
+      "date": "2026-10-30T17:27:04+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_dlr2xg7s6j.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil, Gas Drillers Still on Hold",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Drillers-Still-on-Hold.html",
+      "date": "2026-10-30T17:09:57+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_sskxyhzter.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Traders Brace for a Wild Week as Brent Approaches $120",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Traders-Brace-for-a-Wild-Week-as-Brent-Approaches-120.html",
+      "date": "2026-10-30T16:51:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_vtzr31lr5q.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s LNG Boom Faces Its Biggest Test Yet",
+      "lien": "https://oilprice.com/Energy/Energy-General/Americas-LNG-Boom-Faces-Its-Biggest-Test-Yet.html",
+      "date": "2026-10-30T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_nzkqimyb2b.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan to Overtake China As World’s Top LNG Importer This Year",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Overtake-China-As-Worlds-Top-LNG-Importer-This-Year.html",
+      "date": "2026-10-30T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_inrtek9shl.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Drop Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_week_on_week-30-oct-2026-184983-article/?rss=true",
+      "date": "2026-10-30T15:13:40+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Drop-Week-on-Week-184983-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "TotalEnergies farms out partial interest in block offshore Nigeria ahead of appraisal",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415576/totalenergies-farms-out-partial-interest-in-operated-block-offshore-nigeria-ahead-of-appraisal",
+      "date": "2026-10-30T15:03:52+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae4ad0e8dc50031ae453ff5-engina_fpso.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "European Gas Tops 101 Euros for First Time Since 2022",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Tops-101-Euros-for-First-Time-Since-2022.html",
+      "date": "2026-10-30T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_lvicsnldty.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Makes New Discovery offshore Brazil",
+      "lien": "https://www.rigzone.com/news/bp_makes_new_discovery_offshore_brazil-30-oct-2026-184974-article/?rss=true",
+      "date": "2026-10-30T14:19:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Makes-New-Discovery-offshore-Brazil-184974-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Chevron Exceeds Forecasts",
+      "lien": "https://www.rigzone.com/news/wire/chevron_exceeds_forecasts-30-oct-2026-184979-article/?rss=true",
+      "date": "2026-10-30T14:15:39+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Chevron-Exceeds-Forecasts-184979-1200x628.png"
+    },
+    {
       "source": "EIA",
       "titre": "The share of solar generation with co-located battery storage is increasing",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
@@ -13,6 +104,20 @@
       "lien": "https://oilprice.com/Geopolitics/Europe/Trump-Considers-Lifting-Sanctions-on-Putins-Slush-Fund.html",
       "date": "2026-10-30T14:00:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_4xctsq8suh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Bodies Discovered After Rig Sinks Offshore Gabon",
+      "lien": "https://www.rigzone.com/news/bodies_discovered_after_rig_sinks_offshore_gabon-30-oct-2026-184978-article/?rss=true",
+      "date": "2026-10-30T13:50:01+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Bodies-Discovered-After-Rig-Sinks-Offshore-Gabon-184978-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Valero to acquire former LyondellBasell Houston oil refinery, restart 165,000 b/d by end-2027",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415528/valero-to-acquire-former-lyondellbasell-houston-oil-refinery-restart-165000-b-d-by-end-2027",
+      "date": "2026-10-30T13:33:09+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/10/6ae4950df2b8a0b937430d9e-valero2.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
     },
     {
       "source": "OilPrice",
