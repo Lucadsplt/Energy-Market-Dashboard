@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "source": "EIA",
+      "titre": "The share of solar generation with co-located battery storage is increasing",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+      "date": "2026-10-30T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.10.30/main.png?1793368891"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Considers Lifting Sanctions on Putin’s ‘Slush Fund’",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Trump-Considers-Lifting-Sanctions-on-Putins-Slush-Fund.html",
+      "date": "2026-10-30T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_4xctsq8suh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Tap-7-Billion-from-Government-Fund-to-Subsidize-Gasoline-Prices.html",
+      "date": "2026-10-30T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_2syp5qnw4t.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Reactivates 'Supergiant' Venezuelan Oilfield",
+      "lien": "https://www.rigzone.com/news/eni_reactivates_supergiant_venezuelan_oilfield-30-oct-2026-184973-article/?rss=true",
+      "date": "2026-10-30T12:34:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Reactivates-Supergiant-Venezuelan-Oilfield-184973-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Hits $117 as Tanker Catches Fire in Strait of Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-117-as-Tanker-Catches-Fire-in-Strait-of-Hormuz.html",
+      "date": "2026-10-30T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_vhbnjq6rv8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Markets-Caught-Between-Iran-War-Risks-and-Emergency-SPR-Releases.html",
+      "date": "2026-10-30T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_kqtbvje2zk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Bolsonaro’s Election Defeat Could Complicate U.S. Rare Earth Plans",
+      "lien": "https://oilprice.com/Energy/Energy-General/Bolsonaros-Election-Defeat-Could-Complicate-US-Rare-Earth-Plans.html",
+      "date": "2026-10-30T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_b0aeixsqsp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Israel’s Election Deadlock Opens the Door to Another Iran Offensive",
+      "lien": "https://oilprice.com/Energy/Energy-General/Israels-Election-Deadlock-Opens-the-Door-to-Another-Iran-Offensive.html",
+      "date": "2026-10-30T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_o5k0jqxua4.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "BP Quadruples Profit to Record as War Boosts Refining and Trading",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/BP-Quadruples-Profit-to-Record-as-War-Boosts-Refining-and-Trading.html",
+      "date": "2026-10-30T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_4vorfuthav.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ineos Responds to UK Budget",
+      "lien": "https://www.rigzone.com/news/ineos_responds_to_uk_budget-30-oct-2026-184972-article/?rss=true",
+      "date": "2026-10-30T10:06:43+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ineos-Responds-to-UK-Budget-184972-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Doubles Estimate for Afrodite Gas Discovery",
+      "lien": "https://www.rigzone.com/news/equinor_doubles_estimate_for_afrodite_gas_discovery-30-oct-2026-184971-article/?rss=true",
+      "date": "2026-10-30T10:05:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Doubles-Estimate-for-Afrodite-Gas-Discovery-184971-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wall Street Banks Raise Oil Price Forecasts as Supply Fears Deepen",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Wall-Street-Banks-Raise-Oil-Price-Forecasts-as-Supply-Fears-Deepen.html",
+      "date": "2026-10-30T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_fq84nujboc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "High Oil Prices Set to Trigger New Wave of North Sea Mergers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/High-Oil-Prices-Set-to-Trigger-New-Wave-of-North-Sea-Mergers.html",
+      "date": "2026-10-30T08:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_n7ymtjkoop.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Posts Highest Quarterly Profit in 18 Years",
+      "lien": "https://www.rigzone.com/news/wire/bp_posts_highest_quarterly_profit_in_18_years-30-oct-2026-184970-article/?rss=true",
+      "date": "2026-10-30T08:39:18+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Posts-Highest-Quarterly-Profit-in-18-Years-184970-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Houthis Claim Fresh Strikes on Saudi Oil Refineries and Aramco Facilities",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Fresh-Strikes-on-Saudi-Oil-Refineries-and-Aramco-Facilities.html",
+      "date": "2026-10-30T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_shy1rw74gl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Head for Fourth Monthly Gain as Middle East Tensions Escalate",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Fourth-Monthly-Gain-as-Middle-East-Tensions-Escalate.html",
+      "date": "2026-10-30T06:20:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-30_q6ugfxwlkh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Off-Grid Solar Is Now the Cheapest Power for Nearly 400 Million People",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/Off-Grid-Solar-Is-Now-the-Cheapest-Power-for-Nearly-400-Million-People.html",
+      "date": "2026-10-30T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_xnvawkipuc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "What’s Next for Global Natural Gas Demand?",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Whats-Next-for-Global-Natural-Gas-Demand.html",
+      "date": "2026-10-29T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_wdle9gpk0w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Battery Factories May Sit Atop Lithium Resources",
+      "lien": "https://oilprice.com/Energy/Energy-General/Chinas-Battery-Factories-May-Sit-Atop-Lithium-Resources.html",
+      "date": "2026-10-29T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_ye7k9niclj.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Wavers on Conflicting Reports of USA Military Moves",
+      "lien": "https://www.rigzone.com/news/wire/oil_wavers_on_conflicting_reports_of_usa_military_moves-29-oct-2026-184969-article/?rss=true",
+      "date": "2026-10-29T21:16:19+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Wavers-on-Conflicting-Reports-of-USA-Military-Moves-184969-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump's Russian Diesel Is a Legal Hot Potato With a Five-Year Fuse",
+      "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Russian-Diesel-Is-a-Legal-Hot-Potato-With-a-Five-Year-Fuse.html",
+      "date": "2026-10-29T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-29_39y0xhaxlf.jpg"
+    },
+    {
       "source": "OilPrice",
       "titre": "World's First Permanent Nuclear Waste Site Wins License in Finland",
       "lien": "https://oilprice.com/Energy/Energy-General/Worlds-First-Permanent-Nuclear-Waste-Site-Wins-License-in-Finland.html",
