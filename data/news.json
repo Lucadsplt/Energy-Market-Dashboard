@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
+      "date": "2026-10-30T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_3ahnqioufr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms",
+      "lien": "https://oilprice.com/Energy/Gas-Prices/Gasoline-Up-34-and-Heating-Oil-Up-74-as-Voters-Head-to-the-Midterms.html",
+      "date": "2026-10-30T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_bij7snhvsd.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil moves higher just before midterms",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55415795/oil-moves-higher-just-before-midterms",
+      "date": "2026-10-30T21:42:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Exxon Plans $100B in Capex Through 2030, CEO Tells CNBC",
+      "lien": "https://www.rigzone.com/news/wire/exxon_plans_100b_in_capex_through_2030_ceo_tells_cnbc-30-oct-2026-184981-article/?rss=true",
+      "date": "2026-10-30T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Exxon-Plans-100B-in-Capex-Through-2030-CEO-Tells-CNBC-184981-1200x628.png"
+    },
+    {
       "source": "Oil & Gas Journal",
       "titre": "Chevron preps for big 2027 exploration capex ramp",
       "lien": "https://www.ogj.com/general-interest/companies/news/55415712/chevron-preps-for-big-2027-exploration-capex-ramp",
@@ -41,6 +69,13 @@
       "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Traders-Brace-for-a-Wild-Week-as-Brent-Approaches-120.html",
       "date": "2026-10-30T16:51:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_vtzr31lr5q.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "ExxonMobil third-quarter profit doubles as refining margins surge",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55415606/exxonmobil-third-quarter-profit-doubles-as-refining-margins-surge",
+      "date": "2026-10-30T16:21:27+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
     },
     {
       "source": "OilPrice",
