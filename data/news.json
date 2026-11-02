@@ -2,6 +2,90 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Africa Launches Its Own Oil Bank as Western Lenders Retreat",
+      "lien": "https://oilprice.com/Energy/Energy-General/Africa-Launches-Its-Own-Oil-Bank-as-Western-Lenders-Retreat.html",
+      "date": "2026-11-02T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_jwfqnyfzuw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "4 Energy Stocks for Midterm Elections That Could Go Either Way",
+      "lien": "https://oilprice.com/Energy/Energy-General/4-Energy-Stocks-for-Midterm-Elections-That-Could-Go-Either-Way.html",
+      "date": "2026-11-02T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_golvcyxmnf.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "MARAD approves ST LNG’s deepwater port license application",
+      "lien": "https://www.ogj.com/pipelines-transportation/lng/news/55416093/marad-approves-st-lngs-82-billion-texas-offshore-lng-port",
+      "date": "2026-11-02T21:19:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6ae8ff6e6c04404e0a2df8a4-st_lng_rendering.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump’s Trillion-Dollar Oil Play: A Trap For Big Oil?",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Trumps-Trillion-Dollar-Oil-Play-A-Trap-For-Big-Oil.html",
+      "date": "2026-11-02T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_ujq70rm2bd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Sink as Iran Signals Talks",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article/?rss=true",
+      "date": "2026-11-02T20:39:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Sink-as-Iran-Signals-Talks-184993-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China",
+      "lien": "https://oilprice.com/Energy/Energy-General/Sanctioned-Iranian-Tanker-Slips-Past-US-Blockade-Delivers-Cargo-to-China.html",
+      "date": "2026-11-02T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_vjb4fcfxza.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "ADIPEC 2026: TotalEnergies to acquire operated interest in gas fields offshore Malaysia",
+      "lien": "https://www.ogj.com/general-interest/news/55416076/adipec-2026-totalenergies-to-acquire-operated-interest-in-gas-fields-offshore-malaysia",
+      "date": "2026-11-02T19:59:30+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6ae8ea419c584cba5b0e5a7b-totalenergies_malaysia.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "San Mateo to expand Delaware basin gas processing capacity under new producer agreements",
+      "lien": "https://www.ogj.com/refining-processing/gas-processing/capacities/news/55416039/san-mateo-midstream-to-expand-delaware-basin-gas-processing-capacity-under-new-producer-agreements",
+      "date": "2026-11-02T19:21:59+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6ae8e3c12d1e87f61f5de6e8-260521id_98977864__marko_bukorovic_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The 50-Year-Old Microplastics Warning That Has Come Back to Haunt the Industry",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-50-Year-Old-Microplastics-Warning-That-Has-Come-Back-to-Haunt-the-Industry.html",
+      "date": "2026-11-02T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-01_4nnba85mrd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz",
+      "lien": "https://oilprice.com/Energy/Energy-General/Rare-Iranian-Strike-On-Vessel-Hundreds-Of-Miles-From-Strait-Of-Hormuz.html",
+      "date": "2026-11-02T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_y0zvuf89ww.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "TotalEnergies Now Sees Oil Demand Peaking Between 2035 and 2040",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Now-Sees-Oil-Demand-Peaking-Between-2035-and-2040.html",
+      "date": "2026-11-02T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_asfkytpexu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Central Asia’s Power Grid Faces a Major Test as Winter Approaches",
+      "lien": "https://oilprice.com/Energy/Energy-General/Central-Asias-Power-Grid-Faces-a-Major-Test-as-Winter-Approaches.html",
+      "date": "2026-11-02T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-01_r9hmqx3pea.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
       "date": "2026-11-02T16:36:00+00:00",
