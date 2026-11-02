@@ -2,6 +2,188 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
+      "date": "2026-11-02T16:36:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S.-Backed Consortium Proposes $4.4 Billion LNG Terminal in Pakistan",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Proposes-44-Billion-LNG-Terminal-in-Pakistan.html",
+      "date": "2026-11-02T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_lstuwdoxj4.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Threatens Vetoes if Democrats Win",
+      "lien": "https://www.rigzone.com/news/wire/trump_threatens_vetoes_if_democrats_win-02-nov-2026-184992-article/?rss=true",
+      "date": "2026-11-02T16:05:43+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Threatens-Vetoes-if-Democrats-Win-184992-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How Iran Just Broke the U.S. Oil Shield In Saudi Arabia Yet Again",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-Iran-Just-Broke-the-US-Oil-Shield-In-Saudi-Arabia-Yet-Again.html",
+      "date": "2026-11-02T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_f1eadxvuqn.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies to Take Control of Upstream Projects for Malaysia LNG",
+      "lien": "https://www.rigzone.com/news/totalenergies_to_take_control_of_upstream_projects_for_malaysia_lng-02-nov-2026-184991-article/?rss=true",
+      "date": "2026-11-02T15:48:44+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-to-Take-Control-of-Upstream-Projects-for-Malaysia-LNG-184991-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Has Hit Three Russian Refineries Since Friday",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Has-Hit-Three-Russian-Refineries-Since-Friday.html",
+      "date": "2026-11-02T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_awu3oetrwc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Plunges as Iran Opens Door to Talks",
+      "lien": "https://www.rigzone.com/news/wire/oil_plunges_as_iran_opens_door_to_talks-02-nov-2026-184990-article/?rss=true",
+      "date": "2026-11-02T15:16:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Plunges-as-Iran-Opens-Door-to-Talks-184990-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Uniper, Lippstadt Utility Partner for Energy Storage Project",
+      "lien": "https://www.rigzone.com/news/uniper_lippstadt_utility_partner_for_energy_storage_project-02-nov-2026-184989-article/?rss=true",
+      "date": "2026-11-02T15:12:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Uniper-Lippstadt-Utility-Partner-for-Energy-Storage-Project-184989-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brazil's Data Center Boom Faces a 14-GW Reality Check",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brazils-Data-Center-Boom-Faces-a-14-GW-Reality-Check.html",
+      "date": "2026-11-02T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-01_hhy7xznjdv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html",
+      "date": "2026-11-02T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_tbjp4i10vr.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Kistos to Acquire 30 Percent in Abbey, Baker Gas Fields",
+      "lien": "https://www.rigzone.com/news/kistos_to_acquire_30_percent_in_abbey_baker_gas_fields-02-nov-2026-184988-article/?rss=true",
+      "date": "2026-11-02T13:48:04+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Kistos-to-Acquire-30-Percent-in-Abbey-Baker-Gas-Fields-184988-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ADNOC Chief Says World Has “Eroded Its Supply Buffers”",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Chief-Says-World-Has-Eroded-Its-Supply-Buffers.html",
+      "date": "2026-11-02T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_3gqomnrxlz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Blackstone-Led Investors Buy into LNG Canada for $3.1 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Blackstone-Led-Investors-Buy-into-LNG-Canada-for-31-Billion.html",
+      "date": "2026-11-02T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_9vuodj82py.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Starts Production at Maha Gas Field offshore Indonesia",
+      "lien": "https://www.rigzone.com/news/eni_starts_production_at_maha_gas_field_offshore_indonesia-02-nov-2026-184987-article/?rss=true",
+      "date": "2026-11-02T12:09:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Starts-Production-at-Maha-Gas-Field-offshore-Indonesia-184987-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "TotalEnergies to Acquire 30% Stake in Two Major Malaysian Gas Fields",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-to-Acquire-30-Stake-in-Two-Major-Malaysian-Gas-Fields.html",
+      "date": "2026-11-02T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_v71hqrst6i.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Completes $6B Sale of 65 Percent Stake in Castrol",
+      "lien": "https://www.rigzone.com/news/wire/bp_completes_6b_sale_of_65_percent_stake_in_castrol-02-nov-2026-184986-article/?rss=true",
+      "date": "2026-11-02T10:19:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Completes-6B-Sale-of-65-Percent-Stake-in-Castrol-184986-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq's Oil Exports via Turkey Surge to 500,000 Bpd",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Exports-via-Turkey-Surge-to-500000-Bpd.html",
+      "date": "2026-11-02T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_ejmhrqk7vw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Goldman Sachs Raises December Brent Oil Price Forecast to $105",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Raises-Brent-Oil-Price-Forecast-to-105.html",
+      "date": "2026-11-02T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_byuwmhempr.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC Keeps December Output Targets Unchanged",
+      "lien": "https://www.rigzone.com/news/wire/opec_keeps_december_output_targets_unchanged-02-nov-2026-184985-article/?rss=true",
+      "date": "2026-11-02T08:51:04+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-Keeps-December-Output-Targets-Unchanged-184985-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Pushes to Restore Russian Gas Flows to Europe",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Pushes-to-Restore-Russian-Gas-Flows-to-Europe.html",
+      "date": "2026-11-02T07:50:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_wngxyluqjv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Slide 3% as Hopes for Iran Peace Deal Grow",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-3-as-Hopes-for-Iran-Peace-Deal-Grow.html",
+      "date": "2026-11-02T06:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_yqy6suofw4.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Is This Rare Earth Metal 346 Times More Expensive In America Than in China?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Is-This-Rare-Earth-Metal-346-Times-More-Expensive-In-America-Than-in-China.html",
+      "date": "2026-11-02T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_nvvg93stps.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices No Longer Follow Headlines",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-No-Longer-Follow-Headlines.html",
+      "date": "2026-11-02T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-10-30_dxomyftqn6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies Farms Out Nigerian Exploration Block",
+      "lien": "https://www.rigzone.com/news/totalenergies_farms_out_nigerian_exploration_block-01-nov-2026-184982-article/?rss=true",
+      "date": "2026-11-01T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Farms-Out-Nigerian-Exploration-Block-184982-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Big Oil Scores $56B Windfall on Spiking Fuel Prices",
+      "lien": "https://www.rigzone.com/news/wire/big_oil_scores_56b_windfall_on_spiking_fuel_prices-31-oct-2026-184980-article/?rss=true",
+      "date": "2026-10-31T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Big-Oil-Scores-56B-Windfall-on-Spiking-Fuel-Prices-184980-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Creeps Higher Amid Uncertainty Over USA Strategy in Iran",
+      "lien": "https://www.rigzone.com/news/wire/oil_creeps_higher_amid_uncertainty_over_usa_strategy_in_iran-30-oct-2026-184984-article/?rss=true",
+      "date": "2026-10-30T23:10:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Creeps-Higher-Amid-Uncertainty-Over-USA-Strategy-in-Iran-184984-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html",
       "date": "2026-10-30T23:00:00+00:00",
