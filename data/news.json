@@ -2,6 +2,132 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "U.S. Launches Secret Strikes on Iran Ahead of Midterm Elections",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Launches-Secret-Strikes-on-Iran-Ahead-of-Midterm-Elections.html",
+      "date": "2026-11-03T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_m5vhacfgj0.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Le dernier webinaire de la saison des IFP School Voices approche !",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/dernier-webinaire-saison-des-ifp-school-voices-approche",
+      "date": "2026-11-03T14:37:24+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC to Become 1st Energy Firm to Deploy OpenAI Frontier",
+      "lien": "https://www.rigzone.com/news/adnoc_to_become_1st_energy_firm_to_deploy_openai_frontier-03-nov-2026-184998-article/?rss=true",
+      "date": "2026-11-03T14:24:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-to-Become-1st-Energy-Firm-to-Deploy-OpenAI-Frontier-184998-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "date": "2026-11-03T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.03/main.png?1793718008"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Indian Refiner BPCL Buys U.S. WTI Crude Oil Cargo",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiner-BPCL-Buys-US-WTI-Crude-Oil-Cargo.html",
+      "date": "2026-11-03T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_ptnmkwiskt.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "CVR Energy to acquire Midcontinent refineries from Marathon Petroleum in $4.2-billion deal",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55416182/cvr-energy-to-acquire-midcontinent-refineries-from-marathon-petroleum-in-42-billion-deal",
+      "date": "2026-11-03T13:20:06+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6ae9e09a23129fb9c9147ff9-st.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC Greenlights Abu Dhabi Upstream Gas Project",
+      "lien": "https://www.rigzone.com/news/adnoc_greenlights_abu_dhabi_upstream_gas_project-03-nov-2026-184997-article/?rss=true",
+      "date": "2026-11-03T13:16:36+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-Greenlights-Abu-Dhabi-Upstream-Gas-Project-184997-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ADNOC Gas to Supply LNG to TotalEnergies Under Five-Year Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Gas-to-Supply-LNG-to-TotalEnergies-Under-Five-Year-Deal.html",
+      "date": "2026-11-03T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_8hkh3r2vzp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Shell Sells North West Shelf LNG Stake to Abu Dhabi's XRG for $1.45 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Sells-North-West-Shelf-LNG-Stake-to-Abu-Dhabis-XRG-for-145-Billion.html",
+      "date": "2026-11-03T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_4kryztbk1i.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "US, Iran Study Proposals amid Limited Strikes",
+      "lien": "https://www.rigzone.com/news/wire/us_iran_study_proposals_amid_limited_strikes-03-nov-2026-184996-article/?rss=true",
+      "date": "2026-11-03T10:12:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/US-Iran-Study-Proposals-amid-Limited-Strikes-184996-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "XRG to Buy Shell Stake in Australian LNG Project",
+      "lien": "https://www.rigzone.com/news/xrg_to_buy_shell_stake_in_australian_lng_project-03-nov-2026-184995-article/?rss=true",
+      "date": "2026-11-03T09:45:21+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/XRG-to-Buy-Shell-Stake-in-Australian-LNG-Project-184995-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Aramco Profit Beats Expectations as Oil Prices Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Profit-Beats-Expectations-as-Oil-Prices-Soar.html",
+      "date": "2026-11-03T09:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_kvnepwjmgg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "CVR Energy Nears $4 Billion Refinery Deal With Marathon",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/CVR-Energy-Nears-4-Billion-Refinery-Deal-With-Marathon.html",
+      "date": "2026-11-03T08:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_clmivqjbpe.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Logs 9 Pct Higher Profit",
+      "lien": "https://www.rigzone.com/news/wire/aramco_logs_9_pct_higher_profit-03-nov-2026-184994-article/?rss=true",
+      "date": "2026-11-03T08:14:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Logs-9-Pct-Higher-Profit-184994-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. LNG Exports Near Record High as Europe Scrambles for Winter Supply",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-LNG-Exports-Near-Record-High-as-Europe-Scrambles-for-Winter-Supply.html",
+      "date": "2026-11-03T07:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_rco3qz7dtu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Bounce Back Following Reports of U.S. Strikes on Iran",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Bounce-Back-Following-Reports-of-US-Strikes-on-Iran.html",
+      "date": "2026-11-03T05:25:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-02_nahwzmjdbe.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Questions Mount Over Venezuela’s Biggest Oil Deal",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Questions-Mount-Over-Venezuelas-Biggest-Oil-Deal.html",
+      "date": "2026-11-03T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_salnqhzury.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Germany Misses Gas Storage Target as Prices Soar",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Germany-Misses-Gas-Storage-Target-as-Prices-Soar.html",
+      "date": "2026-11-03T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-02_kfn3xbxdqe.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Africa Launches Its Own Oil Bank as Western Lenders Retreat",
       "lien": "https://oilprice.com/Energy/Energy-General/Africa-Launches-Its-Own-Oil-Bank-as-Western-Lenders-Retreat.html",
       "date": "2026-11-02T23:00:00+00:00",
