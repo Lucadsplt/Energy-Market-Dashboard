@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Houthi Fighters Launch Ground Incursions Into Saudi Arabia",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Houthi-Fighters-Launch-Ground-Incursions-Into-Saudi-Arabia.html",
+      "date": "2026-11-03T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_3906vkxcpv.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Diamondback shifting to full-field development of Barnett holdings",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55416344/diamondback-shifting-to-full-field-development-of-barnett-holdings",
+      "date": "2026-11-03T19:27:38+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aea32233e0842fbefc4173c-oil_chart_76893729_3d_artem_egorov_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Higher Oil Prices Aren't Solving Saudi Aramco's Biggest Problems",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Why-Higher-Oil-Prices-Arent-Solving-Saudi-Aramcos-Biggest-Problems.html",
+      "date": "2026-11-03T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_bw9vhv1z6c.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Triples Logistics Costs for Oil Services Firms",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Triples-Logistics-Costs-for-Oil-Services-Firms.html",
+      "date": "2026-11-03T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_sauu4rzwvt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brazil's Data Center Push Hinges on Gas Rules, Grid Access and a New Congress",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brazils-Data-Center-Push-Hinges-on-Gas-Rules-Grid-Access-and-a-New-Congress.html",
+      "date": "2026-11-03T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_f5f2zgvbes.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Hormuz Oil Flows Unlikely to Return to Pre-War Levels, Rystad Says",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Oil-Flows-Unlikely-to-Return-to-Pre-War-Levels-Rystad-Says.html",
+      "date": "2026-11-03T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_qsqxhcge5f.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Drax Unveils £20 Billion AI Data Centre Plans at UK Biomass Plant",
+      "lien": "https://oilprice.com/Energy/Energy-General/Drax-Unveils-20-Billion-AI-Data-Centre-Plans-at-UK-Biomass-Plant.html",
+      "date": "2026-11-03T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_s3hecbz0av.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "ADNOC’s XRG expands into Australian LNG in $1.45-billion deal with Shell",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55416184/adnocs-xrg-expands-into-australian-lng-with-145-billion-deal-with-shell",
+      "date": "2026-11-03T16:59:19+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6ae9e4539c584cba5b12dbf8-xrg_shell.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Trump-Bombs-Iran-Talks-Peace-and-Sends-Oil-Prices-Tumbling.html",
+      "date": "2026-11-03T16:43:43+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_dwjquu5vop.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA Warns Global Gas Crunch Could Last Well into 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-Global-Gas-Crunch-Could-Last-Well-into-2027.html",
+      "date": "2026-11-03T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_rmow1dgbve.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "US, Iran Restore Diplomacy amid Limited Strikes",
+      "lien": "https://www.rigzone.com/news/wire/us_iran_restore_diplomacy_amid_limited_strikes-03-nov-2026-184996-article/?rss=true",
+      "date": "2026-11-03T15:57:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/US-Iran-Restore-Diplomacy-amid-Limited-Strikes-184996-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "NJ Governor Bars Entry of Russian Diesel Allowed by Trump",
+      "lien": "https://www.rigzone.com/news/wire/nj_governor_bars_entry_of_russian_diesel_allowed_by_trump-03-nov-2026-185000-article/?rss=true",
+      "date": "2026-11-03T15:50:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/NJ-Governor-Bars-Entry-of-Russian-Diesel-Allowed-by-Trump-185000-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "USGS estimates 96 tcf of undiscovered natural gas resources on Alaska North Slope",
+      "lien": "https://www.ogj.com/general-interest/government/news/55416243/usgs-estimates-96-tcf-of-undiscovered-natural-gas-resources-on-alaska-north-slope",
+      "date": "2026-11-03T15:49:57+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Flash Crashes $6 Before Rebounding Towards $104",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Flash-Crashes-6-Before-Rebounding-Towards-104.html",
+      "date": "2026-11-03T15:35:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_fwx1jmnzz4.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Diamondback Bets on Permian Becoming Biggest US Gas Play",
+      "lien": "https://www.rigzone.com/news/diamondback_bets_on_permian_becoming_biggest_us_gas_play-03-nov-2026-184999-article/?rss=true",
+      "date": "2026-11-03T15:31:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Diamondback-Bets-on-Permian-Becoming-Biggest-US-Gas-Play-184999-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dubai Benchmark Slips Into Contango for the First Time Since July",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Dubai-Benchmark-Slips-Into-Contango-for-the-First-Time-Since-July.html",
+      "date": "2026-11-03T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_wa0q7qwehx.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "U.S. Launches Secret Strikes on Iran Ahead of Midterm Elections",
       "lien": "https://oilprice.com/Energy/Energy-General/US-Launches-Secret-Strikes-on-Iran-Ahead-of-Midterm-Elections.html",
       "date": "2026-11-03T15:00:00+00:00",
