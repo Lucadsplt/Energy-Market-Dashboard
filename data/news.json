@@ -2,6 +2,153 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Russia and Ukraine Head to White House for Melania Trump-Led Talks",
+      "lien": "https://oilprice.com/Geopolitics/Africa/Russia-and-Ukraine-Head-to-White-House-for-Melania-Trump-Led-Talks.html",
+      "date": "2026-11-04T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_bmlwcqpk7t.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UAE-Controlled Moeve Sells Algerian Upstream Assets",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Controlled-Moeve-Sells-Algerian-Upstream-Assets.html",
+      "date": "2026-11-04T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_yduhqtfb7a.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Democrats Win Texas Oil Regulator Seat for First Time Since 1990",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Democrats-Win-Texas-Oil-Regulator-Seat-for-First-Time-Since-1990.html",
+      "date": "2026-11-04T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_v78ph9w3rb.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Woodside's Louisiana LNG to Supply QatarEnergy for 20 Years",
+      "lien": "https://www.rigzone.com/news/woodsides_louisiana_lng_to_supply_qatarenergy_for_20_years-04-nov-2026-185006-article/?rss=true",
+      "date": "2026-11-04T13:58:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Woodsides-Louisiana-LNG-to-Supply-QatarEnergy-for-20-Years-185006-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "European Gas Prices Fall 2% as Traders Wait on Trump’s Next Move in Iran",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Fall-2-as-Traders-Wait-on-Trumps-Next-Move-in-Iran.html",
+      "date": "2026-11-04T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_dtu6wjsefr.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Enters Rig Addition Streak, BH Shows",
+      "lien": "https://www.rigzone.com/news/north_america_enters_rig_addition_streak_bh_shows-04-nov-2026-185005-article/?rss=true",
+      "date": "2026-11-04T13:29:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Enters-Rig-Addition-Streak-BH-Shows-185005-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-and-Gas-Output-Rises-to-304-Million-Boepd.html",
+      "date": "2026-11-04T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_xszcqex6zh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Renewables Stocks Soar as Democrats Sweep U.S. Congress",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Renewables-Stocks-Soar-as-Democrats-Sweep-US-Congress.html",
+      "date": "2026-11-04T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_5qo0abj8kn.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Market Weighs Next Stage in Iran Conflict After Midterms",
+      "lien": "https://www.rigzone.com/news/oil_market_weighs_next_stage_in_iran_conflict_after_midterms-04-nov-2026-185004-article/?rss=true",
+      "date": "2026-11-04T11:07:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Market-Weighs-Next-Stage-in-Iran-Conflict-After-Midterms-185004-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies Bags 15-Year Deal to Supply LNG to China's Jiangsu",
+      "lien": "https://www.rigzone.com/news/totalenergies_bags_15year_deal_to_supply_lng_to_chinas_jiangsu-04-nov-2026-185003-article/?rss=true",
+      "date": "2026-11-04T10:37:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-Bags-15Year-Deal-to-Supply-LNG-to-Chinas-Jiangsu-185003-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Says Four Oil Tankers Destroyed by Mines Near Strait of Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+      "date": "2026-11-04T10:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_hmqcuk5xte.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Races to Triple Coal Stockpiles to Prevent Summer Blackouts",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Races-to-Triple-Coal-Stockpiles-to-Prevent-Summer-Blackouts.html",
+      "date": "2026-11-04T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_qmzruqmnhb.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Lone Star Goes Blue",
+      "lien": "https://www.rigzone.com/news/wire/lone_star_goes_blue-04-nov-2026-185002-article/?rss=true",
+      "date": "2026-11-04T08:18:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Lone-Star-Goes-Blue-185002-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Now Home to Nearly Half of World's Clean Industrial Plants",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Now-Home-to-Nearly-Half-of-Worlds-Clean-Industrial-Plants.html",
+      "date": "2026-11-04T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_kwfqtnuwr9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rebound as Middle East Supply Fears Return",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Middle-East-Supply-Fears-Return.html",
+      "date": "2026-11-04T06:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_jfmbangop7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pentagon Eyes Unprecedented 75-Year Deal to End China's Rare Earth Stranglehold",
+      "lien": "https://oilprice.com/Energy/Energy-General/Pentagon-Eyes-Unprecedented-75-Year-Deal-to-End-Chinas-Rare-Earth-Stranglehold.html",
+      "date": "2026-11-04T01:22:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_hbmp5fzvsd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Doubles Egypt’s LNG Bill as Gas Output Keeps Falling",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Iran-War-Doubles-Egypts-LNG-Bill-as-Gas-Output-Keeps-Falling.html",
+      "date": "2026-11-04T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_leofq0wopw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Diesel Crunch Set to Last Well Into 2027",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Global-Diesel-Crunch-Set-to-Last-Well-Into-2027.html",
+      "date": "2026-11-04T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_duxzi0frrj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Big Oil Puts Debt Reduction Ahead of New Investments",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Puts-Debt-Reduction-Ahead-of-New-Investments.html",
+      "date": "2026-11-03T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-03_hwbsa5zucg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Crude Oil Inventories Still in Freefall",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Still-in-Freefall.html",
+      "date": "2026-11-03T22:00:47+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-03_bd4iyouttn.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Swing on Conflicting Iran Signals",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_swing_on_conflicting_iran_signals-03-nov-2026-185001-article/?rss=true",
+      "date": "2026-11-03T20:49:31+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Swing-on-Conflicting-Iran-Signals-185001-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Houthi Fighters Launch Ground Incursions Into Saudi Arabia",
       "lien": "https://oilprice.com/Geopolitics/Middle-East/Houthi-Fighters-Launch-Ground-Incursions-Into-Saudi-Arabia.html",
       "date": "2026-11-03T20:00:00+00:00",
