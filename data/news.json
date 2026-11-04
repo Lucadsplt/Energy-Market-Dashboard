@@ -2,6 +2,139 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Iran War and AI Boom Drive Global Gas Supply Crunch",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Iran-War-and-AI-Boom-Drive-Global-Gas-Supply-Crunch.html",
+      "date": "2026-11-04T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_o2mepzbk69.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Plunges as Election Shifts Iran Outlook",
+      "lien": "https://www.rigzone.com/news/wire/oil_plunges_as_election_shifts_iran_outlook-04-nov-2026-185012-article/?rss=true",
+      "date": "2026-11-04T20:50:39+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Plunges-as-Election-Shifts-Iran-Outlook-185012-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UAE Weighs Plans for Third Strait of Hormuz Bypass Pipeline",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/UAE-Weighs-Plans-for-Third-Strait-of-Hormuz-Bypass-Pipeline.html",
+      "date": "2026-11-04T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_pgn8u9qflt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UAE Mulls 3rd Crude Oil Pipeline to Avoid Hormuz",
+      "lien": "https://www.rigzone.com/news/wire/uae_mulls_3rd_crude_oil_pipeline_to_avoid_hormuz-04-nov-2026-185009-article/?rss=true",
+      "date": "2026-11-04T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/UAE-Mulls-3rd-Crude-Oil-Pipeline-to-Avoid-Hormuz-185009-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Pertamina to acquire interests in three fields onshore Algeria",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55416600/pertamina-to-acquire-interests-in-three-fields-onshore-algeria",
+      "date": "2026-11-04T19:16:32+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Polar Vortex Puts Europe's Gas Reserves at Risk",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Polar-Vortex-Puts-Europes-Gas-Reserves-at-Risk.html",
+      "date": "2026-11-04T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_ku0x153bgq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories down 900,000 bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55416690/eia-us-crude-oil-inventories-down-900000-bbl",
+      "date": "2026-11-04T18:49:17+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aeb7e26238c4a95022a5e41-ogjrecapoctober302026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html",
+      "date": "2026-11-04T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_v3usjt5jgq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "JPMorgan sees global oil market return to surplus",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55416618/jpmorgan-sees-global-oil-market-return-to-surplus",
+      "date": "2026-11-04T18:13:31+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aeb6e37a3bff0719d2b7695-c4d80abe2b9546528ec52aa8dbad642e.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China's Rail Line Into Central Asia Is Set for 2031",
+      "lien": "https://oilprice.com/Energy/Energy-General/Chinas-Rail-Line-Into-Central-Asia-Is-Set-for-2031.html",
+      "date": "2026-11-04T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_igdvbygabs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Fire Shuts Equinor’s Visund Platform in Norwegian North Sea",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Fire-Shuts-Equinors-Visund-Platform-in-Norwegian-North-Sea.html",
+      "date": "2026-11-04T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_4oinydakpq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "New Jersey Moves to Block Trump's Russian Diesel Imports",
+      "lien": "https://oilprice.com/Energy/Energy-General/New-Jersey-Moves-to-Block-Trumps-Russian-Diesel-Imports.html",
+      "date": "2026-11-04T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_x0gcpmax9e.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dangote Breaks Ground on $2.5 Billion Namibia Fuel Hub for Southern Africa",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Dangote-Breaks-Ground-on-25-Billion-Namibia-Fuel-Hub-for-Southern-Africa.html",
+      "date": "2026-11-04T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_sgdv2dhunm.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "More Workers Join Strike at Reach Subsea",
+      "lien": "https://www.rigzone.com/news/more_workers_join_strike_at_reach_subsea-04-nov-2026-185011-article/?rss=true",
+      "date": "2026-11-04T15:48:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/More-Workers-Join-Strike-at-Reach-Subsea-185011-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Oil Inventories Fall Further As Demand Holds",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Further-As-Demand-Holds.html",
+      "date": "2026-11-04T15:37:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_r7jexzqvzl.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Ups 2026, 2027 USA Demand Forecasts",
+      "lien": "https://www.rigzone.com/news/eia_ups_2026_2027_usa_demand_forecasts-04-nov-2026-185010-article/?rss=true",
+      "date": "2026-11-04T15:30:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EIA-Ups-2026-2027-USA-Demand-Forecasts-185010-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html",
+      "date": "2026-11-04T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-04_2bu1ef9msj.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Democrat Wins Texas Oil Regulator Seat",
+      "lien": "https://www.rigzone.com/news/wire/democrat_wins_texas_oil_regulator_seat-04-nov-2026-185008-article/?rss=true",
+      "date": "2026-11-04T15:09:36+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Democrat-Wins-Texas-Oil-Regulator-Seat-185008-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Europa Appeals to Revive Cloughton Gas Project",
+      "lien": "https://www.rigzone.com/news/europa_appeals_to_revive_cloughton_gas_project-04-nov-2026-185007-article/?rss=true",
+      "date": "2026-11-04T15:05:51+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Europa-Appeals-to-Revive-Cloughton-Gas-Project-185007-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Russia and Ukraine Head to White House for Melania Trump-Led Talks",
       "lien": "https://oilprice.com/Geopolitics/Africa/Russia-and-Ukraine-Head-to-White-House-for-Melania-Trump-Led-Talks.html",
       "date": "2026-11-04T15:00:00+00:00",
