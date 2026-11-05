@@ -1,6 +1,125 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Oil Rebounds After Sharp Iran War Selloff",
+      "lien": "https://www.rigzone.com/news/wire/oil_rebounds_after_sharp_iran_war_selloff-05-nov-2026-185023-article/?rss=true",
+      "date": "2026-11-05T21:08:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Rebounds-After-Sharp-Iran-War-Selloff-185023-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Batteries Are Taking the Gas Peaker’s Best Hours",
+      "lien": "https://oilprice.com/Energy/Energy-General/Batteries-Are-Taking-the-Gas-Peakers-Best-Hours.html",
+      "date": "2026-11-05T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_ryyxju2gqu.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "APA to beef up exploration spending in 2027",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417056/apa-to-beef-up-exploration-spending-in-27",
+      "date": "2026-11-05T20:54:40+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aecdb67e09eeb479906b09d-apa_suriname_map_2026_11.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ConocoPhillips Doubles Profit to $4 Billion, Raises Dividend",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-Doubles-Profit-to-4-Billion-Raises-Dividend.html",
+      "date": "2026-11-05T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-05_8vnbmbxstl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "France's Debt Crisis Could Trigger a Much Bigger European Meltdown",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Frances-Debt-Crisis-Could-Trigger-a-Much-Bigger-European-Meltdown.html",
+      "date": "2026-11-05T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_ortz7shyby.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Drop in Rhine Water Levels Risks Higher Barge Rates",
+      "lien": "https://www.rigzone.com/news/wire/drop_in_rhine_water_levels_risks_higher_barge_rates-05-nov-2026-185019-article/?rss=true",
+      "date": "2026-11-05T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Drop-in-Rhine-Water-Levels-Risks-Higher-Barge-Rates-185019-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rebound Sharply After Brutal Midweek Rout",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html",
+      "date": "2026-11-05T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-05_ifnqxv9k7c.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US and Turkmenistan Explore New Gas Routes Across the Caspian",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-and-Turkmenistan-Explore-New-Gas-Routes-Across-the-Caspian.html",
+      "date": "2026-11-05T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_k0oijfcdhc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Refineries Make Dramatic Shift Away From Gasoline",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Refineries-Make-Dramatic-Shift-Away-From-Gasoline.html",
+      "date": "2026-11-05T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_retpu9ns4g.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US sanctions network supporting Iranian oil shipments",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55416991/us-sanctions-network-supporting-iranian-oil-shipments",
+      "date": "2026-11-05T17:52:53+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aecb9f64a7f7b971f42102e-red_sanctions_oil_barrel_stamp.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Guyana’s Oil Boom Could Ease the Global Supply Crunch",
+      "lien": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Could-Ease-the-Global-Supply-Crunch.html",
+      "date": "2026-11-05T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-04_lkbqtnvfye.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Turkey Unveils $500 Billion Energy Plan Built on Gas, Solar, Nuclear",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-Unveils-500-Billion-Energy-Plan-Built-on-Gas-Solar-Nuclear.html",
+      "date": "2026-11-05T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-05_rrqc8dvw5g.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Matador eyes 5%+ production growth next year",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55416852/matador-eyes-5-production-growth-next-year",
+      "date": "2026-11-05T16:07:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aebcc71235aba9d8d9da29f-mtdr_delaware_1.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Opens Strait of Hormuz to China and India as U.S. Blockade Continues",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iran-Opens-Strait-of-Hormuz-to-China-and-India-as-US-Blockade-Continues.html",
+      "date": "2026-11-05T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_a3cramjhkq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Rigzone Talks to the 'Disruption Wing' of the USA DOE",
+      "lien": "https://www.rigzone.com/news/rigzone_talks_to_the_disruption_wing_of_the_usa_doe-05-nov-2026-185022-article/?rss=true",
+      "date": "2026-11-05T15:41:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Rigzone-Talks-to-the-Disruption-Wing-of-the-USA-DOE-185022-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "CNOOC Ltd Production Hits Historic High",
+      "lien": "https://www.rigzone.com/news/cnooc_ltd_production_hits_historic_high-05-nov-2026-185021-article/?rss=true",
+      "date": "2026-11-05T15:30:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/CNOOC-Ltd-Production-Hits-Historic-High-185021-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Not Planning to Resume Russian Gas Purchases",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Not-Planning-to-Resume-Russian-Gas-Purchases.html",
+      "date": "2026-11-05T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-05_rwmtdbibln.jpg"
+    },
+    {
       "source": "OilPrice",
       "titre": "Iran Braces for Trump's Next Move After Democrats Sweep Congress",
       "lien": "https://oilprice.com/Energy/Energy-General/Iran-Braces-for-Trumps-Next-Move-After-Democrats-Sweep-Congress.html",
