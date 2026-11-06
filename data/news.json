@@ -2,6 +2,111 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Oil Traders Want U.S. to Release Sanctioned Tankers as Freight Costs Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Traders-Want-US-to-Release-Sanctioned-Tankers-as-Freight-Costs-Soar.html",
+      "date": "2026-11-06T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_jg3aswavys.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Devon takes more divestitures off the table",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417343/devon-takes-more-divestitures-off-the-table",
+      "date": "2026-11-06T19:37:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aee2a3f892fc260364fe53b-dvn_permian_2.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Vista lets drilling contract for Vaca Muerta development",
+      "lien": "https://www.ogj.com/general-interest/news/55417282/vista-lets-drilling-contract-for-vaca-muerta",
+      "date": "2026-11-06T19:14:53+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aee2803283302e8fac7ed89-159458497__aleksei_zakirov_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Aker BP lets subsea contract for Lyra development",
+      "lien": "https://www.ogj.com/exploration-development/news/55417274/aker-bp-lets-subsea-contract-for-lyra-development",
+      "date": "2026-11-06T19:08:48+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Energy Reliability Is Becoming More Important Than Energy Politics",
+      "lien": "https://oilprice.com/Energy/Energy-General/Energy-Reliability-Is-Becoming-More-Important-Than-Energy-Politics.html",
+      "date": "2026-11-06T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_tn5potlajh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil, Gas Drillers See Minor Uptick as Oil Prices Crash",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Drillers-See-Minor-Uptick-as-Oil-Prices-Crash.html",
+      "date": "2026-11-06T18:21:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_tj2vot7l6f.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ONGC Moves to Take Over Venezuelan Oilfields, Recover $500 Million",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ONGC-Moves-to-Take-Over-Venezuelan-Oilfields-Recover-500-Million.html",
+      "date": "2026-11-06T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_t3yb9aqdvo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway’s Oil and Gas Industry Faces a Major Decline Without New Discoveries",
+      "lien": "https://oilprice.com/Energy/Energy-General/Norways-Oil-and-Gas-Industry-Faces-a-Major-Decline-Without-New-Discoveries.html",
+      "date": "2026-11-06T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_1fpswuty6w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA Sees 4,800 GW of New Renewables by 2031",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-4800-GW-of-New-Renewables-by-2031.html",
+      "date": "2026-11-06T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_dnbo7q1xh0.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Oil Stocks Drop by Almost 1MM Bpd Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_oil_stocks_drop_by_almost_1mm_bpd_week_on_week-06-nov-2026-185033-article/?rss=true",
+      "date": "2026-11-06T15:35:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Oil-Stocks-Drop-by-Almost-1MM-Bpd-Week-on-Week-185033-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Energy Aspects Slashes Forecast of China’s November Diesel Exports",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Energy-Aspects-Slashes-Forecast-of-Chinas-November-Diesel-Exports.html",
+      "date": "2026-11-06T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_phr49xmb3z.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Iran War Isn't Over, but Oil Traders Are Already Pricing In Peace",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html",
+      "date": "2026-11-06T15:28:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_qixr9lh142.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Kyiv Hits 6th Russian Oil Plant in Week",
+      "lien": "https://www.rigzone.com/news/wire/kyiv_hits_6th_russian_oil_plant_in_week-06-nov-2026-185031-article/?rss=true",
+      "date": "2026-11-06T15:23:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Kyiv-Hits-6th-Russian-Oil-Plant-in-Week-185031-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Orsted Reaches Commercial Operation at Revolution Wind",
+      "lien": "https://www.rigzone.com/news/orsted_reaches_commercial_operation_at_revolution_wind-06-nov-2026-185029-article/?rss=true",
+      "date": "2026-11-06T15:04:23+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Orsted-Reaches-Commercial-Operation-at-Revolution-Wind-185029-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump’s Iran Strategy Reaches a Critical Crossroads After Midterm Defeat",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Trumps-Iran-Strategy-Reaches-a-Critical-Crossroads-After-Midterm-Defeat.html",
+      "date": "2026-11-06T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_zhlwctqj98.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Europe's Grid Spending Is Up 155% Since 2019",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Grid-Spending-Is-Up-155-Since-2019.html",
       "date": "2026-11-06T14:30:00+00:00",
