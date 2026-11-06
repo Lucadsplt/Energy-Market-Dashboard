@@ -1,6 +1,160 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Europe's Grid Spending Is Up 155% Since 2019",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Grid-Spending-Is-Up-155-Since-2019.html",
+      "date": "2026-11-06T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_aln4hu7pyc.jpg"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. crude oil imports from Venezuela in July were highest since 2017",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
+      "date": "2026-11-06T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.06/main.png?1793977023"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "FGE NexantECA Sees Slim Chance of U.S.-Iran Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/FGE-NexantECA-Sees-Slim-Chance-of-US-Iran-Deal.html",
+      "date": "2026-11-06T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_ez6lmyoskn.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Market Arrives at 'Remarkable Destination'",
+      "lien": "https://www.rigzone.com/news/oil_market_arrives_at_remarkable_destination-06-nov-2026-185028-article/?rss=true",
+      "date": "2026-11-06T13:19:43+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Market-Arrives-at-Remarkable-Destination-185028-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Plunge as U.S. Elections Shake Up the Iran War",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Plunge-as-US-Elections-Shake-Up-the-Iran-War.html",
+      "date": "2026-11-06T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_asp7mrayjh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Israel’s Election Dispute Escalates Amid Claims of Foreign Interference",
+      "lien": "https://oilprice.com/Energy/Energy-General/Israels-Election-Dispute-Escalates-Amid-Claims-of-Foreign-Interference.html",
+      "date": "2026-11-06T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_hqtri6cxug.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "A New Middle East Power Struggle Is Taking Shape in the Red Sea",
+      "lien": "https://oilprice.com/Energy/Energy-General/A-New-Middle-East-Power-Struggle-Is-Taking-Shape-in-the-Red-Sea.html",
+      "date": "2026-11-06T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_kuo0uexfmr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asia’s Fuel Oil Market Signals Hopes of U.S.-Iran De-Escalation",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Fuel-Oil-Market-Signals-Hopes-of-US-Iran-De-Escalation.html",
+      "date": "2026-11-06T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_cehvm4bref.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ONGC Posts Highest H1 Profit",
+      "lien": "https://www.rigzone.com/news/ongc_posts_highest_h1_profit-06-nov-2026-185027-article/?rss=true",
+      "date": "2026-11-06T12:11:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ONGC-Posts-Highest-H1-Profit-185027-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s HPCL Struggles to Secure Oil Tankers as Hormuz Risks Persist",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-HPCL-Struggles-to-Secure-Oil-Tankers-as-Hormuz-Risks-Persist.html",
+      "date": "2026-11-06T11:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_0ttvzu9efj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ADNOC Expands LNG Empire With Major New India Supply Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Expands-LNG-Empire-With-Major-New-India-Supply-Deal.html",
+      "date": "2026-11-06T10:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_gxsmfpzlsq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UK Launches Energy Independence Bill",
+      "lien": "https://www.rigzone.com/news/uk_launches_energy_independence_bill-06-nov-2026-185026-article/?rss=true",
+      "date": "2026-11-06T09:55:06+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "Carburants durables de l’aviation et du maritime : un nouveau programme de recherche",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/carburants-durables-laviation-et-du-maritime-nouveau-programme-recherche",
+      "date": "2026-11-06T09:51:01+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC to Supply Gujarat Energy 4 MMtpa of LNG for 10 Years",
+      "lien": "https://www.rigzone.com/news/adnoc_to_supply_gujarat_energy_4_mmtpa_of_lng_for_10_years-06-nov-2026-185025-article/?rss=true",
+      "date": "2026-11-06T09:24:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-to-Supply-Gujarat-Energy-4-MMtpa-of-LNG-for-10-Years-185025-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Carbon Emissions Plunge 3.1% as Oil Demand Slumps",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Carbon-Emissions-Plunge-31-as-Oil-Demand-Slumps.html",
+      "date": "2026-11-06T08:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_em9vdfgckx.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Russian Spending on Refinery Subsidies Hits Highest since 2022",
+      "lien": "https://www.rigzone.com/news/wire/russian_spending_on_refinery_subsidies_hits_highest_since_2022-06-nov-2026-185024-article/?rss=true",
+      "date": "2026-11-06T08:11:30+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Russian-Spending-on-Refinery-Subsidies-Hits-Highest-since-2022-185024-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Global Oil Glut Returns as High Prices Crush Demand",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/The-Global-Oil-Glut-Returns-as-High-Prices-Crush-Demand.html",
+      "date": "2026-11-06T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_ryhurvfann.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Head for 12% Weekly Loss Despite Fresh Tanker Attacks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html",
+      "date": "2026-11-06T06:05:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_1uaxnd4aom.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s Rare Earth Reckoning Is Less Than 60 Days Away",
+      "lien": "https://oilprice.com/Energy/Energy-General/Americas-Rare-Earth-Reckoning-Is-Less-Than-60-Days-Away.html",
+      "date": "2026-11-06T02:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_segnteywmx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html",
+      "date": "2026-11-06T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_9cik1nxs7p.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Shale-Giants-Hold-Back-on-Drilling-Despite-Higher-Oil-Prices.html",
+      "date": "2026-11-06T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_ewsso3xlnb.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asia Hopes U.S. Midterm Results Will Ease Energy Crisis",
+      "lien": "https://oilprice.com/Energy/Energy-General/Asia-Hopes-US-Midterm-Results-Will-Ease-Energy-Crisis.html",
+      "date": "2026-11-05T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_ead9sx0btk.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "Oil Rebounds After Sharp Iran War Selloff",
       "lien": "https://www.rigzone.com/news/wire/oil_rebounds_after_sharp_iran_war_selloff-05-nov-2026-185023-article/?rss=true",
