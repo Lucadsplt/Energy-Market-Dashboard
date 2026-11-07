@@ -1,62 +1,7 @@
 {
-  "genere": "2026-10-28T11:57:00Z",
+  "genere": "2026-11-07T12:16:51Z",
   "verifie_le": "2026-10-26",
   "evenements": [
-    {
-      "quand": "2026-10-28T18:00:00Z",
-      "titre": "Fed (FOMC) : d\u00e9cision sur les taux, conf\u00e9rence de presse \u00e0 14 h 30 (New York)",
-      "type": "banque_centrale",
-      "marches": [
-        "petrole",
-        "gaz"
-      ],
-      "importance": "moyenne",
-      "statut": "confirme",
-      "note": "R\u00e9union des 27 et 28 octobre. Effet indirect sur les prix de l'\u00e9nergie : dollar, croissance, demande.",
-      "source": "R\u00e9serve f\u00e9d\u00e9rale am\u00e9ricaine",
-      "lien": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-    },
-    {
-      "quand": "2026-10-29T13:15:00Z",
-      "titre": "BCE : d\u00e9cision sur les taux (14 h 15 Paris), conf\u00e9rence de presse \u00e0 14 h 45",
-      "type": "banque_centrale",
-      "marches": [
-        "petrole",
-        "gaz"
-      ],
-      "importance": "moyenne",
-      "statut": "confirme",
-      "note": "R\u00e9union des 28 et 29 octobre. Effet indirect : euro, croissance europ\u00e9enne, co\u00fbt du financement.",
-      "source": "Banque centrale europ\u00e9enne",
-      "lien": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
-    },
-    {
-      "jour": "2026-11-01",
-      "titre": "OPEP+ : r\u00e9union mensuelle des sept pays qui fixent les quotas de production",
-      "type": "opep",
-      "marches": [
-        "petrole"
-      ],
-      "importance": "haute",
-      "statut": "confirme",
-      "note": "Date annonc\u00e9e dans le communiqu\u00e9 du 4 octobre. Les quotas de novembre avaient \u00e9t\u00e9 laiss\u00e9s inchang\u00e9s.",
-      "source": "OPEP, communiqu\u00e9 du 4 octobre 2026",
-      "lien": "https://www.opec.org/pr-detail/616-4-october-2026.html"
-    },
-    {
-      "jour": "2026-11-03",
-      "titre": "\u00c9tats-Unis : \u00e9lections de mi-mandat",
-      "type": "politique",
-      "marches": [
-        "petrole",
-        "gaz"
-      ],
-      "importance": "moyenne",
-      "statut": "confirme",
-      "note": "Peut changer l'\u00e9quilibre du Congr\u00e8s, donc la politique \u00e9nerg\u00e9tique et fiscale am\u00e9ricaine. Date fix\u00e9e par la loi : premier mardi apr\u00e8s le premier lundi de novembre.",
-      "source": "Calendrier \u00e9lectoral f\u00e9d\u00e9ral am\u00e9ricain",
-      "lien": null
-    },
     {
       "jour": "2026-11-09",
       "fin_jour": "2026-11-20",
@@ -125,8 +70,8 @@
       "note": "Stocks de brut, d'essence et de distillats : l'un des chiffres les plus suivis du march\u00e9 p\u00e9trolier.",
       "lien": "https://www.eia.gov/petroleum/supply/weekly/",
       "prochaines": [
-        "2026-10-28T14:30:00Z",
-        "2026-11-04T15:30:00Z"
+        "2026-11-11T15:30:00Z",
+        "2026-11-18T15:30:00Z"
       ]
     },
     {
@@ -138,8 +83,8 @@
       "note": "Variation hebdomadaire des stocks, compar\u00e9e \u00e0 la moyenne des ann\u00e9es pass\u00e9es.",
       "lien": "https://ir.eia.gov/ngs/ngs.html",
       "prochaines": [
-        "2026-10-29T14:30:00Z",
-        "2026-11-05T15:30:00Z"
+        "2026-11-12T15:30:00Z",
+        "2026-11-19T15:30:00Z"
       ]
     },
     {
@@ -152,8 +97,8 @@
       "note": "Indicateur avanc\u00e9 de la production am\u00e9ricaine.",
       "lien": "https://rigcount.bakerhughes.com/",
       "prochaines": [
-        "2026-10-30T17:00:00Z",
-        "2026-11-06T18:00:00Z"
+        "2026-11-13T18:00:00Z",
+        "2026-11-20T18:00:00Z"
       ]
     },
     {
@@ -166,8 +111,8 @@
       "note": "Les donn\u00e9es datent du mardi pr\u00e9c\u00e9dent. Elles alimentent la r\u00e8gle \u00ab positionnement des fonds \u00bb de l'onglet Strat\u00e9gies.",
       "lien": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
       "prochaines": [
-        "2026-10-30T19:30:00Z",
-        "2026-11-06T20:30:00Z"
+        "2026-11-13T20:30:00Z",
+        "2026-11-20T20:30:00Z"
       ]
     }
   ]

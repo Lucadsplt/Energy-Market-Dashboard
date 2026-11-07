@@ -2,10 +2,45 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Wall Street’s “Energy Transition” Funds Are Packed With Natural Gas",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Wall-Streets-Energy-Transition-Funds-Are-Packed-With-Natural-Gas.html",
+      "date": "2026-11-06T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_idytap6mlf.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil prices fall as mid-terms signal possible end to Iran war",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55417388/oil-prices-fall-as-mid-terms-signal-possible-end-to-iran-war",
+      "date": "2026-11-06T22:33:50+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Posts Biggest Weekly Drop Since 2022",
+      "lien": "https://www.rigzone.com/news/wire/oil_posts_biggest_weekly_drop_since_2022-06-nov-2026-185035-article/?rss=true",
+      "date": "2026-11-06T21:05:21+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Posts-Biggest-Weekly-Drop-Since-2022-185035-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Revival-Is-Running-Into-a-Fuel-Supply-Wall.html",
+      "date": "2026-11-06T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_fr64njfdv8.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Oil Traders Want U.S. to Release Sanctioned Tankers as Freight Costs Soar",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Traders-Want-US-to-Release-Sanctioned-Tankers-as-Freight-Costs-Soar.html",
       "date": "2026-11-06T20:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-06_jg3aswavys.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "UK Cabinet in Push to Approve Drilling at Rosebank",
+      "lien": "https://www.rigzone.com/news/wire/uk_cabinet_in_push_to_approve_drilling_at_rosebank-06-nov-2026-185032-article/?rss=true",
+      "date": "2026-11-06T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/UK-Cabinet-in-Push-to-Approve-Drilling-at-Rosebank-185032-1200x628.png"
     },
     {
       "source": "Oil & Gas Journal",
