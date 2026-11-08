@@ -1,6 +1,55 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "South Bow Q3 Profit Beats Estimates",
+      "lien": "https://www.rigzone.com/news/wire/south_bow_q3_profit_beats_estimates-08-nov-2026-185034-article/?rss=true",
+      "date": "2026-11-08T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/South-Bow-Q3-Profit-Beats-Estimates-185034-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wars May Spur Faster Electrification",
+      "lien": "https://oilprice.com/Energy/Energy-General/Wars-May-Spur-Faster-Electrification.html",
+      "date": "2026-11-08T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_rrxflxiow8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The U.S. Has $50 Billion for Nuclear Waste and Nowhere to Put It",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-50-Billion-for-Nuclear-Waste-and-Nowhere-to-Put-It.html",
+      "date": "2026-11-07T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-06_ucknuqxdw1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production",
+      "lien": "https://oilprice.com/Energy/Energy-General/Egypt-Eyes-Billions-in-New-Investment-to-Revive-Oil-and-Gas-Production.html",
+      "date": "2026-11-07T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_df7mlrwqqk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump-Backed Trade Corridor Advances Despite Geopolitical Resistance",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Trump-Backed-Trade-Corridor-Advances-Despite-Geopolitical-Resistance.html",
+      "date": "2026-11-07T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_qtjbh7jzrc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s Hydrogen Revolution Stalls Amid Funding Cuts and Weak Demand",
+      "lien": "https://oilprice.com/Energy/Energy-General/Americas-Hydrogen-Revolution-Stalls-Amid-Funding-Cuts-and-Weak-Demand.html",
+      "date": "2026-11-07T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-05_cbs2brelar.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Survey Shows OPEC Output Neared Pre-War Levels",
+      "lien": "https://www.rigzone.com/news/wire/survey_shows_opec_output_neared_prewar_levels-07-nov-2026-185030-article/?rss=true",
+      "date": "2026-11-07T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Survey-Shows-OPEC-Output-Neared-PreWar-Levels-185030-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "Wall Street’s “Energy Transition” Funds Are Packed With Natural Gas",
       "lien": "https://oilprice.com/Energy/Natural-Gas/Wall-Streets-Energy-Transition-Funds-Are-Packed-With-Natural-Gas.html",
