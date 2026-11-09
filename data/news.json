@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
+      "date": "2026-11-09T17:16:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global LNG Markets Face a Winter of Extreme Uncertainty",
+      "lien": "https://oilprice.com/Energy/Energy-General/Global-LNG-Markets-Face-a-Winter-of-Extreme-Uncertainty.html",
+      "date": "2026-11-09T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_6mohegpdua.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Power Prices Jump to 2022 High as Wind and Solar Falter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Power-Prices-Jump-to-2022-High-as-Wind-and-Solar-Falter.html",
+      "date": "2026-11-09T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_kcc7u3oq5i.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "After Midterm Failure, Trump’s Foreign Strategy May Be Even More Dangerous",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/After-Midterm-Failure-Trumps-Foreign-Strategy-May-Be-Even-More-Dangerous.html",
+      "date": "2026-11-09T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_xyyerqrnzz.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Goes Back to Losing Rigs, BH Shows",
+      "lien": "https://www.rigzone.com/news/north_america_goes_back_to_losing_rigs_bh_shows-09-nov-2026-185045-article/?rss=true",
+      "date": "2026-11-09T15:31:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Goes-Back-to-Losing-Rigs-BH-Shows-185045-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "COP31 Opens in Antalya With a UN Push for Faster Climate Action",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/COP31-Opens-in-Antalya-With-a-UN-Push-for-Faster-Climate-Action.html",
+      "date": "2026-11-09T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_v7vnbxmbrk.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Says He Backs Energy Permitting Bill on Eve of Vote",
+      "lien": "https://www.rigzone.com/news/wire/trump_says_he_backs_energy_permitting_bill_on_eve_of_vote-09-nov-2026-185043-article/?rss=true",
+      "date": "2026-11-09T15:17:23+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Says-He-Backs-Energy-Permitting-Bill-on-Eve-of-Vote-185043-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Strathcona, Greenfire Agree Oil Sands Merger",
+      "lien": "https://www.rigzone.com/news/strathcona_greenfire_agree_oil_sands_merger-09-nov-2026-185042-article/?rss=true",
+      "date": "2026-11-09T15:03:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Strathcona-Greenfire-Agree-Oil-Sands-Merger-185042-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia Targets Ukraine's Power Grid Ahead of Crucial Abu Dhabi Peace Talks",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Russia-Targets-Ukraines-Power-Grid-Ahead-of-Crucial-Abu-Dhabi-Peace-Talks.html",
+      "date": "2026-11-09T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_l5jriczouy.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Moves to Control Oil Terminals in China, Leak Shows",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Control-Oil-Terminals-in-China-Leak-Shows.html",
+      "date": "2026-11-09T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_s7hxyrdjo2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC, SNOC to Explore Gas Partnership",
+      "lien": "https://www.rigzone.com/news/adnoc_snoc_to_explore_gas_partnership-09-nov-2026-185041-article/?rss=true",
+      "date": "2026-11-09T13:49:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-SNOC-to-Explore-Gas-Partnership-185041-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Sinks to $94 as Iran’s $8 Billion Hormuz Deal Heads to Trump",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
+      "date": "2026-11-09T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_klfucob53m.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Which USA Oil Major Produced the Most in Q3 2026?",
+      "lien": "https://www.rigzone.com/news/which_usa_oil_major_produced_the_most_in_q3_2026-09-nov-2026-185040-article/?rss=true",
+      "date": "2026-11-09T13:05:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Which-USA-Oil-Major-Produced-the-Most-in-Q3-2026-185040-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "QatarEnergy, Chevron Expand Exploration Partnership offshore Namibia",
+      "lien": "https://www.rigzone.com/news/qatarenergy_chevron_expand_exploration_partnership_offshore_namibia-09-nov-2026-185039-article/?rss=true",
+      "date": "2026-11-09T12:51:30+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/QatarEnergy-Chevron-Expand-Exploration-Partnership-offshore-Namibia-185039-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "IEA Backs Electrification Efforts at COP31 Climate Summit",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Backs-Electrification-Efforts-at-COP31-Climate-Summit.html",
+      "date": "2026-11-09T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_o8hye1aki6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Hungary's MOL Group Sees Profit Surge on Bumper Refining Margins",
+      "lien": "https://www.rigzone.com/news/hungarys_mol_group_sees_profit_surge_on_bumper_refining_margins-09-nov-2026-185038-article/?rss=true",
+      "date": "2026-11-09T11:36:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Hungarys-MOL-Group-Sees-Profit-Surge-on-Bumper-Refining-Margins-185038-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq's Oil Sales to America Fall to Lowest Since the 2003 War",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Sales-to-America-Fall-to-Lowest-Since-the-2003-War.html",
+      "date": "2026-11-09T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_j5elmujxgh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Experiences Sharpest Weekly Decline in Months",
+      "lien": "https://www.rigzone.com/news/oil_experiences_sharpest_weekly_decline_in_months-09-nov-2026-185037-article/?rss=true",
+      "date": "2026-11-09T11:07:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Experiences-Sharpest-Weekly-Decline-in-Months-185037-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Nordic Power Prices Could Soar This Winter as Hydropower Reserves Plunge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Nordic-Power-Prices-Could-Soar-This-Winter-as-Hydropower-Reserves-Plunge.html",
+      "date": "2026-11-09T10:20:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_zt3oaxbqvn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq Strikes U.S. Deal to Boost Oil Exports Through Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Strikes-US-Deal-to-Boost-Oil-Exports-Through-Hormuz.html",
+      "date": "2026-11-09T09:10:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_nerwa0wpvf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Hints US Holding Back from Striking Iran",
+      "lien": "https://www.rigzone.com/news/wire/trump_hints_us_holding_back_from_striking_iran-09-nov-2026-185036-article/?rss=true",
+      "date": "2026-11-09T09:00:16+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Hints-US-Holding-Back-from-Striking-Iran-185036-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Cuts LNG Imports as Cheap Domestic Gas Undercuts Global Prices",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Cuts-LNG-Imports-as-Cheap-Domestic-Gas-Undercuts-Global-Prices.html",
+      "date": "2026-11-09T08:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_o1quepqnms.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Fall as Trump Signals No New Attacks on Iran",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html",
+      "date": "2026-11-09T05:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-08_rkf3unp2de.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Iraqs-5-Million-Bpd-Oil-Claim-Complicates-Its-OPEC-Quota-Push.html",
+      "date": "2026-11-09T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-08_txpt6ylbae.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "South Bow Q3 Profit Beats Estimates",
       "lien": "https://www.rigzone.com/news/wire/south_bow_q3_profit_beats_estimates-08-nov-2026-185034-article/?rss=true",
@@ -9217,13 +9385,6 @@
       "titre": "United States on track for record natural gas production in 2026",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
       "date": "2026-08-12T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
-      "date": "2026-08-10T14:00:00+00:00",
       "image": null
     },
     {
