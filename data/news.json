@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Oil Prices Retreat as Peace Hopes Grow",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_retreat_as_peace_hopes_grow-10-nov-2026-185054-article/?rss=true",
+      "date": "2026-11-10T21:02:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Retreat-as-Peace-Hopes-Grow-185054-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Houthis Launch Another Attack on Pumping Stations Along Crucial Saudi East-West",
+      "lien": "https://oilprice.com/Energy/Energy-General/Houthis-Launch-Another-Attack-on-Pumping-Stations-Along-Crucial-Saudi-East-West.html",
+      "date": "2026-11-10T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_iu8tycs6mm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "British Airways Owner Warns Green Fuel Mandates Could Kill European Aviation",
+      "lien": "https://oilprice.com/Energy/Energy-General/British-Airways-Owner-Warns-Green-Fuel-Mandates-Could-Kill-European-Aviation.html",
+      "date": "2026-11-10T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_eh63awtlay.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Venture Global moves up first LNG date for CP2",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417927/venture-global-moves-up-first-lng-date-for-cp2",
+      "date": "2026-11-10T19:36:30+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af36d85b62b635fe74b8c3a-vg_cp2_construction_2026_11.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Turkey Wants COP31 to Focus on Electrification Instead of Fossil Fuel Cuts",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-Wants-COP31-to-Focus-on-Electrification-Instead-of-Fossil-Fuel-Cuts.html",
+      "date": "2026-11-10T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_inrd1ofy35.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Midterm Shake-Up Could Reshape Global Oil and Gas Markets",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Midterm-Shake-Up-Could-Reshape-Global-Oil-and-Gas-Markets.html",
+      "date": "2026-11-10T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_h2npx43t09.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Truth Behind Iraq’s Oil Rebound And The Secret Red Sea Plan",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Truth-Behind-Iraqs-Oil-Rebound-And-The-Secret-Red-Sea-Plan.html",
+      "date": "2026-11-10T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_z2jwwzqiyr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukrainian Strikes Disrupt 30% of Russia's Oil Refining Capacity",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Strikes-Disrupt-30-of-Russias-Oil-Refining-Capacity.html",
+      "date": "2026-11-10T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_jedb390ffz.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Diamondback, KKR to jointly own entirety of Midland basin water network Deep Blue",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417839/diamondback-kkr-to-jointly-own-entirety-of-midland-basin-water-network-deep-blue",
+      "date": "2026-11-10T17:55:58+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af34ae7283302e8fad9faa5-deepbluewaterinfrastructureedsacquisition1536x1023.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil falls below $90 amid easing US-Iran tensions",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55417830/oil-falls-below-90-amid-easing-us-iran-tensions",
+      "date": "2026-11-10T17:46:33+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af347631635830cb224feb4-market_5.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Falls to Lowest Level Since August",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Falls-to-Lowest-Level-Since-August.html",
+      "date": "2026-11-10T16:34:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_q1c6lwtbuh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Average U.S. Gasoline Price Dips below $4 for First Time since July",
+      "lien": "https://oilprice.com/Energy/Gas-Prices/Regular-gasoline-averaged-39788-a-gallon-on-Tuesday-per-AAA-the-first-readin.html",
+      "date": "2026-11-10T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_7ickq9qpve.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Macron Negotiates Hormuz Insurance with Gulf States",
+      "lien": "https://www.rigzone.com/news/wire/macron_negotiates_hormuz_insurance_with_gulf_states-10-nov-2026-185053-article/?rss=true",
+      "date": "2026-11-10T15:44:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Macron-Negotiates-Hormuz-Insurance-with-Gulf-States-185053-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Occidental Profit Tops Estimates as Debt Slashed",
+      "lien": "https://www.rigzone.com/news/occidental_profit_tops_estimates_as_debt_slashed-10-nov-2026-185052-article/?rss=true",
+      "date": "2026-11-10T15:32:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Occidental-Profit-Tops-Estimates-as-Debt-Slashed-185052-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "China’s Coal Buyers Resist Waiver Demands in New Indonesian Deals",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Buyers-Resist-Waiver-Demands-in-New-Indonesian-Deals.html",
