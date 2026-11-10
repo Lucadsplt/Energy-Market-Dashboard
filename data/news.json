@@ -2,6 +2,125 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "China’s Coal Buyers Resist Waiver Demands in New Indonesian Deals",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Buyers-Resist-Waiver-Demands-in-New-Indonesian-Deals.html",
+      "date": "2026-11-10T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_3lrp4czioq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ORLEN Cites Foreign Operations as Profit Rises",
+      "lien": "https://www.rigzone.com/news/orlen_cites_foreign_operations_as_profit_rises-10-nov-2026-185051-article/?rss=true",
+      "date": "2026-11-10T14:36:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ORLEN-Cites-Foreign-Operations-as-Profit-Rises-185051-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Peace Talks Face an Uphill Battle as Winter Approaches",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Ukraine-Peace-Talks-Face-an-Uphill-Battle-as-Winter-Approaches.html",
+      "date": "2026-11-10T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_x4ewtrzqzv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Set to Drive A Drop in Global Fossil Fuel Emissions in 2026",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-to-Drive-A-Drop-in-Global-Fossil-Fuel-Emissions-in-2026.html",
+      "date": "2026-11-10T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_pjn2hctxrs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Tribunal Hearings Begin in UK-Argentina Row Over Falklands Oil Project",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Tribunal-Hearings-Begin-in-UK-Argentina-Row-Over-Falklands-Oil-Project.html",
+      "date": "2026-11-10T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_fyvuhclal7.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Uniper to Increase Dividend",
+      "lien": "https://www.rigzone.com/news/uniper_to_increase_dividend-10-nov-2026-185050-article/?rss=true",
+      "date": "2026-11-10T12:47:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Uniper-to-Increase-Dividend-185050-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Is Buying Oil Again After Months of Living Off Its Stockpiles",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Is-Buying-Oil-Again-After-Months-of-Living-Off-Its-Stockpiles.html",
+      "date": "2026-11-10T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_bdacekjtr6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC Gas Profit Flat YoY as Hormuz Continues to Weigh on Exports",
+      "lien": "https://www.rigzone.com/news/adnoc_gas_profit_flat_yoy_as_hormuz_continues_to_weigh_on_exports-10-nov-2026-185049-article/?rss=true",
+      "date": "2026-11-10T11:59:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-Gas-Profit-Flat-YoY-as-Hormuz-Continues-to-Weigh-on-Exports-185049-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Military Coordinates With Saudi Oil Tankers on Risky Hormuz Crossings",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Military-Coordinates-With-Saudi-Oil-Tankers-on-Risky-Hormuz-Crossings.html",
+      "date": "2026-11-10T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_abjsqdkwgf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Crude Falls Below $90 for First Time Since August",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+      "date": "2026-11-10T10:06:35+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_zg39taqf57.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Market Focus: Balancing AI opportunities and risks in upstream operations",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/podcast/55417379/market-focus-balancing-ai-opportunities-and-risks-in-upstream-operations",
+      "date": "2026-11-10T10:00:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "US Holds Off Strikes after Qatari Mediation",
+      "lien": "https://www.rigzone.com/news/wire/us_holds_off_strikes_after_qatari_mediation-10-nov-2026-185048-article/?rss=true",
+      "date": "2026-11-10T09:42:19+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/US-Holds-Off-Strikes-after-Qatari-Mediation-185048-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ADNOC Gas Posts Stunning Profit Recovery as Energy Exports Rebound",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Gas-Posts-Stunning-Profit-Recovery-as-Energy-Exports-Rebound.html",
+      "date": "2026-11-10T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_osklmxrwj1.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Qatar LNG Loadings Gain Pace",
+      "lien": "https://www.rigzone.com/news/wire/qatar_lng_loadings_gain_pace-10-nov-2026-185047-article/?rss=true",
+      "date": "2026-11-10T08:58:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Qatar-LNG-Loadings-Gain-Pace-185047-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "LNG Traffic Through Hormuz Hits Highest Level Since Iran War Began",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Traffic-Through-Hormuz-Hits-Highest-Level-Since-Iran-War-Began.html",
+      "date": "2026-11-10T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_phrijskidq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+      "date": "2026-11-10T05:20:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_kt3ucktdyw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The 75-Year Army Deal That Could Reshape America's Rare Earth Supply",
+      "lien": "https://oilprice.com/Interviews/The-75-Year-Army-Deal-That-Could-Reshape-Americas-Rare-Earth-Supply.html",
+      "date": "2026-11-10T04:00:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/interviews/medium/2026-11-09_d7qsg9jhxv.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "U.S. Traders Weigh the Cost of Taking Trump’s Russian Diesel",
       "lien": "https://oilprice.com/Energy/Crude-Oil/US-Traders-Weigh-the-Cost-of-Taking-Trumps-Russian-Diesel.html",
       "date": "2026-11-10T01:00:00+00:00",
@@ -9462,13 +9581,6 @@
       "titre": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
       "date": "2026-08-17T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "United States on track for record natural gas production in 2026",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
-      "date": "2026-08-12T14:00:00+00:00",
       "image": null
     },
     {
