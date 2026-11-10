@@ -2,6 +2,90 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "U.S. Traders Weigh the Cost of Taking Trump’s Russian Diesel",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Traders-Weigh-the-Cost-of-Taking-Trumps-Russian-Diesel.html",
+      "date": "2026-11-10T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_h12um4kaqo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China to Spend $940B on Energy Transition in 2026",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/China-to-Spend-940B-on-Energy-Transition-in-2026.html",
+      "date": "2026-11-10T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_jsdvsawqaj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Scientists Develop Cheap Filter That Could Slash Oil Refining Energy Use by 32%",
+      "lien": "https://oilprice.com/Energy/Energy-General/Scientists-Develop-Cheap-Filter-That-Could-Slash-Oil-Refining-Energy-Use-by-32.html",
+      "date": "2026-11-09T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_fbzgsxlx0k.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Sink on Iran Peace Hopes",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_sink_on_iran_peace_hopes-09-nov-2026-185046-article/?rss=true",
+      "date": "2026-11-09T21:27:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Sink-on-Iran-Peace-Hopes-185046-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Sudan's Civil War Is Becoming a U.S. National Security Threat",
+      "lien": "https://oilprice.com/Geopolitics/Africa/Why-Sudans-Civil-War-Is-Becoming-a-US-National-Security-Threat.html",
+      "date": "2026-11-09T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_1teng7s9xx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crashes-7-on-Iran-Peace-Hopes-Despite-Fresh-Saudi-Pipeline-Attack.html",
+      "date": "2026-11-09T20:10:55+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_u2pk1ytalm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Raw Material Future Lies Next Door, If It Does Not Repeat the Past",
+      "lien": "https://oilprice.com/Energy/Energy-General/Europes-Raw-Material-Future-Lies-Next-Door-If-It-Does-Not-Repeat-the-Past.html",
+      "date": "2026-11-09T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_vioywsxa5w.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Tower Targeted",
+      "lien": "https://www.rigzone.com/news/wire/aramco_tower_targeted-09-nov-2026-185044-article/?rss=true",
+      "date": "2026-11-09T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Tower-Targeted-185044-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Central Asia Confronts Growing Threat of AI-Enabled Extremism",
+      "lien": "https://oilprice.com/Energy/Energy-General/Central-Asia-Confronts-Growing-Threat-of-AI-Enabled-Extremism.html",
+      "date": "2026-11-09T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_pflhrbg4iq.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Bayou Midstream II closes deal for Bakken gas gathering assets",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417564/bayou-midstream-ii-closes-deal-for-bakken-gas-gathering-assets",
+      "date": "2026-11-09T18:32:00+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The AI Power Grab That Could Upend America's Electricity Industry",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-AI-Power-Grab-That-Could-Upend-Americas-Electricity-Industry.html",
+      "date": "2026-11-09T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-09_gq1x8taq9d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Murphy Oil Bets on Israeli Gas Near Leviathan",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Murphy-Oil-Bets-on-Israeli-Gas-Near-Leviathan.html",
+      "date": "2026-11-09T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-09_dfujekibyh.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
       "date": "2026-11-09T17:16:00+00:00",
