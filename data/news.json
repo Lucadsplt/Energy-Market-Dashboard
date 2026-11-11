@@ -2,10 +2,129 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Yttrium's 125-Fold Price Gap Looms Over Trump-Xi Talks in Shenzhen",
+      "lien": "https://oilprice.com/Metals/Commodities/Yttriums-125-Fold-Price-Gap-Looms-Over-Trump-Xi-Talks-in-Shenzhen.html",
+      "date": "2026-11-11T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-11_p8qrd4ut6h.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Burnham Heads to COP31 Torn Between Cheaper Power and Net Zero",
+      "lien": "https://oilprice.com/Energy/Energy-General/Burnham-Heads-to-COP31-Torn-Between-Cheaper-Power-and-Net-Zero.html",
+      "date": "2026-11-11T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-11_xqz4nvshua.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Murphy Oil signs production sharing contracts for blocks offshore Cameroon",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55418254/murphy-oil-signs-production-sharing-contracts-for-blocks-offshore-cameroon",
+      "date": "2026-11-11T19:31:14+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US DOE closes first oil and gas production loan, with $480 million for Arena Energy’s Gulf project",
+      "lien": "https://www.ogj.com/general-interest/government/news/55418253/us-doe-closes-first-oil-and-gas-production-loan-with-480-million-for-arena-energys-gulf-project",
+      "date": "2026-11-11T19:30:15+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Murphy Oil Draws Boycott Call Over Israeli Gas Licenses",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Murphy-Oil-Draws-Boycott-Call-Over-Israeli-Gas-Licenses.html",
+      "date": "2026-11-11T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_23xipmn0gl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Expands Its Central Asian Footprint Through Aviation, Energy, and Trade",
+      "lien": "https://oilprice.com/Energy/Energy-General/China-Expands-Its-Central-Asian-Footprint-Through-Aviation-Energy-and-Trade.html",
+      "date": "2026-11-11T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_z2myzaykjn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Vitol’s Venezuela Oil Windfall Traced to Trader’s Ties to JD Vance",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Vitols-Venezuela-Oil-Windfall-Traced-to-Traders-Ties-to-JD-Vance.html",
+      "date": "2026-11-11T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_id1pmxn2qg.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA sees Brent near $100/bbl through yearend 2026 as Middle East supply constraints persist",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55418180/eia-sees-brent-near-100-bbl-through-yearend-2026-as-middle-east-supply-constraints-persist",
+      "date": "2026-11-11T18:26:26+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af49a23892fc26036663485-steo_1126.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35%",
+      "lien": "https://oilprice.com/Energy/Energy-General/Crude-Is-Back-at-80-in-the-Gulf-but-Refined-Products-Are-Stuck-at-35.html",
+      "date": "2026-11-11T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-11_olm7gwdnvz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "European Gas Prices Rebound on Iran War Uncertainty",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rebound-on-Iran-War-Uncertainty.html",
+      "date": "2026-11-11T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_uhfriqie0s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Germany Bets Big on Natural Gas to Keep the Lights On",
+      "lien": "https://oilprice.com/Energy/Energy-General/Germany-Bets-Big-on-Natural-Gas-to-Keep-the-Lights-On.html",
+      "date": "2026-11-11T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_gh0gkd8tlx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Jumps Nearly 3% as Iran Denies Any Talks With Washington",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
+      "date": "2026-11-11T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_s7wbdqpbml.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How a Super El Niño Could Reshape Global Coal Markets",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-a-Super-El-Nio-Could-Reshape-Global-Coal-Markets.html",
+      "date": "2026-11-11T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-11_bp5kjhwaei.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html",
+      "date": "2026-11-11T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_v1f7rrhua6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "How Did USA Upstream M&A Look in Q3 2026?",
+      "lien": "https://www.rigzone.com/news/how_did_usa_upstream_ma_look_in_q3_2026-11-nov-2026-185061-article/?rss=true",
+      "date": "2026-11-11T15:07:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/How-Did-USA-Upstream-MA-Look-in-Q3-2026-185061-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Iran War Breathes New Life Into Turkmenistan’s $10 Billion Pipeline Dream",
       "lien": "https://oilprice.com/Energy/Energy-General/Iran-War-Breathes-New-Life-Into-Turkmenistans-10-Billion-Pipeline-Dream.html",
       "date": "2026-11-11T15:00:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_s6lmoaect7.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Petrobras Results Disappoint",
+      "lien": "https://www.rigzone.com/news/wire/petrobras_results_disappoint-11-nov-2026-185060-article/?rss=true",
+      "date": "2026-11-11T14:50:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Petrobras-Results-Disappoint-185060-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudis Tell OPEC Production Surged to Highest Since War Began",
+      "lien": "https://www.rigzone.com/news/wire/saudis_tell_opec_production_surged_to_highest_since_war_began-11-nov-2026-185059-article/?rss=true",
+      "date": "2026-11-11T14:40:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudis-Tell-OPEC-Production-Surged-to-Highest-Since-War-Began-185059-1200x628.png"
     },
     {
       "source": "OilPrice",
