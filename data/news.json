@@ -1,6 +1,118 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "India Eyes 50% Wind Power Capacity Boost Without Acquiring More Land",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Eyes-50-Wind-Power-Capacity-Boost-Without-Acquiring-More-Land.html",
+      "date": "2026-11-11T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_9irlb6xvu4.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Gasoline Falls Below $4 for 1st Time Since August",
+      "lien": "https://www.rigzone.com/news/usa_gasoline_falls_below_4_for_1st_time_since_august-11-nov-2026-185058-article/?rss=true",
+      "date": "2026-11-11T12:26:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Gasoline-Falls-Below-4-for-1st-Time-Since-August-185058-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "RWE and KKR Seal $16 Billion UK Offshore Wind Mega-Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/RWE-and-KKR-Seal-16-Billion-UK-Offshore-Wind-Mega-Deal.html",
+      "date": "2026-11-11T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_csyxenqp58.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Public Support for UK Oil, Gas Higher than Ever, OEUK Says",
+      "lien": "https://www.rigzone.com/news/public_support_for_uk_oil_gas_higher_than_ever_oeuk_says-11-nov-2026-185057-article/?rss=true",
+      "date": "2026-11-11T10:34:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Public-Support-for-UK-Oil-Gas-Higher-than-Ever-OEUK-Says-185057-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Russia and Ukraine Resume Push for Peace Deal",
+      "lien": "https://www.rigzone.com/news/wire/russia_and_ukraine_resume_push_for_peace_deal-11-nov-2026-185056-article/?rss=true",
+      "date": "2026-11-11T10:01:51+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Russia-and-Ukraine-Resume-Push-for-Peace-Deal-185056-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Siemens Energy More Than Triples Dividend After Record Year",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Siemens-Energy-More-Than-Triples-Dividend-After-Record-Year.html",
+      "date": "2026-11-11T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_taj30v9uy5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ExxonMobil CEO to Miss UN Climate Talks",
+      "lien": "https://www.rigzone.com/news/wire/exxonmobil_ceo_to_miss_un_climate_talks-11-nov-2026-185055-article/?rss=true",
+      "date": "2026-11-11T09:54:19+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ExxonMobil-CEO-to-Miss-UN-Climate-Talks-185055-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia and Turkey Sign Major 3 GW Wind Power Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-and-Turkey-Sign-Major-3-GW-Wind-Power-Deal.html",
+      "date": "2026-11-11T08:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_l9jvudayj1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Poland's Orlen Becomes First Buyer to Cancel Long-Term Qatar LNG Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html",
+      "date": "2026-11-11T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_weryq4lbug.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rise as Iran Peace Optimism Fades",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Peace-Optimism-Fades.html",
+      "date": "2026-11-11T05:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_vywbqs4sya.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Middle East Oil Flows Far from Normal Despite Signs of Oversupply",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Middle-East-Oil-Flows-Far-from-Normal-Despite-Signs-of-Oversupply.html",
+      "date": "2026-11-11T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_isnyax5l8s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Sudan Courts Oil Investors as Sudan’s Warring Forces Take Their Share",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/South-Sudan-Courts-Oil-Investors-as-Sudans-Warring-Forces-Take-Their-Share.html",
+      "date": "2026-11-11T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_wh5ydcigz3.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Chevron signs Namibia license farm-out deal with QatarEnergy",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55417945/chevron-signs-namibia-license-farm-out-deal-with-qatarenergy",
+      "date": "2026-11-10T23:32:05+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af376d71635830cb225a58d-260413namibia_id_327002273__juan_alejandro_bernal_.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Midterm Results Could Trip Trump’s Energy Independence Plans",
+      "lien": "https://oilprice.com/Energy/Energy-General/Midterm-Results-Could-Trip-Trumps-Energy-Independence-Plans.html",
+      "date": "2026-11-10T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_1k4djoatjh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "A ‘Geologic Freak’ in Arkansas Is Big Oil’s New Lithium Bet",
+      "lien": "https://oilprice.com/Metals/Commodities/A-Geologic-Freak-in-Arkansas-Is-Big-Oils-New-Lithium-Bet.html",
+      "date": "2026-11-10T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_tc9p6aouwn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "API Shows Sharp Build in US Crude Oil, Distillate Inventories",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Sharp-Build-in-US-Crude-Oil-Distillate-Inventories.html",
+      "date": "2026-11-10T21:59:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-10_kjob3gsr8j.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "Oil Prices Retreat as Peace Hopes Grow",
       "lien": "https://www.rigzone.com/news/wire/oil_prices_retreat_as_peace_hopes_grow-10-nov-2026-185054-article/?rss=true",
