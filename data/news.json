@@ -2,6 +2,27 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Iran War Breathes New Life Into Turkmenistan’s $10 Billion Pipeline Dream",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iran-War-Breathes-New-Life-Into-Turkmenistans-10-Billion-Pipeline-Dream.html",
+      "date": "2026-11-11T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-10_s6lmoaect7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Approves $7.3 Billion High-Capacity Power Link to Back Renewables",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Approves-73-Billion-High-Capacity-Power-Link-to-Back-Renewables.html",
+      "date": "2026-11-11T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_chjljzchp6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukrainian Drone Attack Sparks Fire at Russia’s Key Baltic Oil Export Hub",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Sparks-Fire-at-Russias-Key-Baltic-Oil-Export-Hub.html",
+      "date": "2026-11-11T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-11_eey8x3zjjc.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "India Eyes 50% Wind Power Capacity Boost Without Acquiring More Land",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Eyes-50-Wind-Power-Capacity-Boost-Without-Acquiring-More-Land.html",
       "date": "2026-11-11T12:30:00+00:00",
