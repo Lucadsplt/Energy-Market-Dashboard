@@ -1,6 +1,6 @@
 {
   "meta": {
-    "periode": "2000-08-30 \u2192 2026-11-11",
+    "periode": "2000-08-30 \u2192 2026-11-12",
     "cout_pb_par_jambe": 5.0,
     "retard_reference_jours": 1,
     "nb_tests": 4,
@@ -14,7 +14,7 @@
     "max_drawdown_pct": -90.4,
     "trades": 0,
     "jours_en_position_pct": 100,
-    "p_valeur": 0.059
+    "p_valeur": 0.063
   },
   "signaux": [
     {
@@ -70,9 +70,9 @@
           "sharpe": -0.22
         }
       ],
-      "p_valeur": 0.768,
+      "p_valeur": 0.776,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,768 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,776 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2000-08",
@@ -1026,7 +1026,7 @@
           61.4,
           63.3,
           60.6,
-          70.5
+          69.5
         ]
       },
       "etat": {
@@ -1049,7 +1049,7 @@
         "jours_en_position_pct": 81
       },
       "metriques_sans_retard": {
-        "annualise_pct": -2.1,
+        "annualise_pct": -2.2,
         "volatilite_pct": 54.5,
         "sharpe": 0.23,
         "max_drawdown_pct": -93.3,
@@ -1088,9 +1088,9 @@
           "sharpe": 0.17
         }
       ],
-      "p_valeur": 0.126,
+      "p_valeur": 0.134,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,126 (seuil corrig\u00e9 0,0125).",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,134 (seuil corrig\u00e9 0,0125).",
       "courbe": {
         "dates": [
           "2000-08",
@@ -1726,7 +1726,7 @@
           26.7,
           27.1,
           25.9,
-          30.1
+          29.7
         ],
         "reference": [
           100.0,
@@ -2044,7 +2044,7 @@
           61.4,
           63.3,
           60.6,
-          70.5
+          69.5
         ]
       },
       "etat": {
@@ -2059,17 +2059,17 @@
       "actif": "\u00c9cart TTF \u2212 Henry Hub",
       "regle": "Quand l'\u00e9cart s'\u00e9loigne de plus de 2 \u00e9carts-types de sa moyenne sur un an, on parie sur son retour ; on sort sous 0,5 \u00e9cart-type.",
       "metriques": {
-        "annualise_pct": -21.4,
+        "annualise_pct": -21.8,
         "volatilite_pct": 45.0,
-        "sharpe": -0.31,
+        "sharpe": -0.32,
         "max_drawdown_pct": -93.9,
         "trades": 17,
-        "jours_en_position_pct": 38
+        "jours_en_position_pct": 39
       },
       "metriques_sans_retard": {
-        "annualise_pct": -21.5,
+        "annualise_pct": -21.8,
         "volatilite_pct": 46.1,
-        "sharpe": -0.29,
+        "sharpe": -0.3,
         "max_drawdown_pct": -91.8,
         "trades": 17,
         "jours_en_position_pct": 39
@@ -2077,23 +2077,23 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": -0.29
+          "sharpe": -0.3
         },
         {
           "jours": 1,
-          "sharpe": -0.31
+          "sharpe": -0.32
         },
         {
           "jours": 2,
-          "sharpe": -0.28
+          "sharpe": -0.29
         },
         {
           "jours": 3,
-          "sharpe": -0.23
+          "sharpe": -0.24
         },
         {
           "jours": 5,
-          "sharpe": -0.14
+          "sharpe": -0.15
         }
       ],
       "sous_periodes": [
@@ -2103,12 +2103,12 @@
         },
         {
           "nom": "2022\u20132026",
-          "sharpe": 0.02
+          "sharpe": 0.0
         }
       ],
-      "p_valeur": 0.871,
+      "p_valeur": 0.872,
       "verdict": "non_demontre",
-      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,871 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
+      "explication": "Non d\u00e9montr\u00e9 : probabilit\u00e9 de hasard de 0,872 (seuil corrig\u00e9 0,0125) ; r\u00e9sultat n\u00e9gatif sur au moins une sous-p\u00e9riode ; le r\u00e9sultat ne r\u00e9siste pas au retard d'ex\u00e9cution.",
       "courbe": {
         "dates": [
           "2017-10",
@@ -2332,11 +2332,11 @@
           14.2,
           13.5,
           9.6,
-          11.3
+          10.8
         ]
       },
       "etat": {
-        "libelle": "Vendeur d'\u00e9cart : z-score de +1.7, on parie sur sa baisse",
+        "libelle": "Vendeur d'\u00e9cart : z-score de +1.9, on parie sur sa baisse",
         "depuis": "2026-07-17",
         "position": -1.0
       }
@@ -2347,17 +2347,17 @@
       "actif": "\u00c9cart JKM \u2212 TTF",
       "regle": "M\u00eame principe sur l'arbitrage du GNL entre l'Asie et l'Europe.",
       "metriques": {
-        "annualise_pct": 12.3,
+        "annualise_pct": 12.4,
         "volatilite_pct": 25.4,
         "sharpe": 0.58,
         "max_drawdown_pct": -45.7,
-        "trades": 38,
+        "trades": 39,
         "jours_en_position_pct": 19
       },
       "metriques_sans_retard": {
-        "annualise_pct": 13.9,
+        "annualise_pct": 14.0,
         "volatilite_pct": 26.1,
-        "sharpe": 0.62,
+        "sharpe": 0.63,
         "max_drawdown_pct": -45.6,
         "trades": 39,
         "jours_en_position_pct": 19
@@ -2365,7 +2365,7 @@
       "retard": [
         {
           "jours": 0,
-          "sharpe": 0.62
+          "sharpe": 0.63
         },
         {
           "jours": 1,
@@ -2391,7 +2391,7 @@
         },
         {
           "nom": "2022\u20132026",
-          "sharpe": 0.73
+          "sharpe": 0.74
         }
       ],
       "p_valeur": 0.021,
@@ -2620,11 +2620,11 @@
           249.1,
           269.2,
           285.1,
-          285.1
+          287.4
         ]
       },
       "etat": {
-        "libelle": "Vendeur d'\u00e9cart : z-score de +1.8, on parie sur sa baisse",
+        "libelle": "Vendeur d'\u00e9cart : z-score de +1.4, on parie sur sa baisse",
         "depuis": "2026-11-09",
         "position": -1.0
       }
