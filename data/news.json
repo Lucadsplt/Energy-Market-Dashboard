@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "More Drilling Won’t Shield U.S. Consumers From Oil Price Shocks",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/More-Drilling-Wont-Shield-US-Consumers-From-Oil-Price-Shocks.html",
+      "date": "2026-11-12T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_ms13xuz2wq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe Enters Winter With Its Lowest Gas Inventory of the 2020s",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Europe-Enters-Winter-With-Its-Lowest-Gas-Inventory-of-the-2020s.html",
+      "date": "2026-11-12T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_xihg54cpke.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "VEN Sends First Oil Gear in Years to USA for Repairs",
+      "lien": "https://www.rigzone.com/news/wire/ven_sends_first_oil_gear_in_years_to_usa_for_repairs-12-nov-2026-185072-article/?rss=true",
+      "date": "2026-11-12T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/VEN-Sends-First-Oil-Gear-in-Years-to-USA-for-Repairs-185072-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "$7 Billion in Oil Debt Has Nigerian Banks Holding Back Lending",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/7-Billion-in-Oil-Debt-Has-Nigerian-Banks-Holding-Back-Lending.html",
+      "date": "2026-11-12T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_rb52rco4mo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Central Asia’s B20 Message to Washington: Let’s Make Deals",
+      "lien": "https://oilprice.com/Geopolitics/International/Central-Asias-B20-Message-to-Washington-Lets-Make-Deals.html",
+      "date": "2026-11-12T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_vbxhl2aj8r.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories up 4.7 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55418589/eia-us-crude-oil-inventories-up-47-million-bbl",
+      "date": "2026-11-12T19:20:17+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af61166283302e8fae33232-ogjrecapnovember62026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Record Car Prices Are Pushing American Drivers Deeper Into Debt",
+      "lien": "https://oilprice.com/Energy/Energy-General/Record-Car-Prices-Are-Pushing-American-Drivers-Deeper-Into-Debt.html",
+      "date": "2026-11-12T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_gnwldbqxfj.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Morningstar holds 2027 Brent forecast at $71/bbl as Persian Gulf supply recovers",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55418528/morningstar-holds-2027-brent-forecast-at-71-bbl-as-persian-gulf-supply-recovers",
+      "date": "2026-11-12T18:15:55+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af5fb065dea69f6dc9e001e-morningstar.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Citgo refineries set quarterly throughput, distillate records",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55418522/citgo-refineries-set-quarterly-throughput-distillate-records",
+      "date": "2026-11-12T18:02:56+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af5f83791cd0f94d47f17c9-citgo_petroleum_corp.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Argentina Could Overtake Chile as South America’s Top Lithium Producer by 2035",
+      "lien": "https://oilprice.com/Metals/Commodities/Argentina-Could-Overtake-Chile-as-South-Americas-Top-Lithium-Producer-by-2035.html",
+      "date": "2026-11-12T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_pnstzclrnc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EIA Data Shows Builds in Crude, Gasoline and Distillates",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/EIA-Data-Shows-Builds-in-Crude-Gasoline-and-Distillates.html",
+      "date": "2026-11-12T17:46:04+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_a8x6udd3jn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
+      "date": "2026-11-12T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_ysnkewz3jt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Soaring Electricity Costs Force Britain to Rethink Its Green Agenda",
+      "lien": "https://oilprice.com/Energy/Energy-General/Soaring-Electricity-Costs-Force-Britain-to-Rethink-Its-Green-Agenda.html",
+      "date": "2026-11-12T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_mchio9usb5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Vows Global Climate Leadership as PM Doubles Down on Net Zero",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Vows-Global-Climate-Leadership-as-PM-Doubles-Down-on-Net-Zero.html",
+      "date": "2026-11-12T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_la6wg3ner5.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Admin Unveils New Plan to Sell Federal Land",
+      "lien": "https://www.rigzone.com/news/wire/trump_admin_unveils_new_plan_to_sell_federal_land-12-nov-2026-185071-article/?rss=true",
+      "date": "2026-11-12T16:20:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Admin-Unveils-New-Plan-to-Sell-Federal-Land-185071-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Naftogaz Gets Dutch Grant to Secure Winter Gas",
+      "lien": "https://www.rigzone.com/news/naftogaz_gets_dutch_grant_to_secure_winter_gas-12-nov-2026-185070-article/?rss=true",
+      "date": "2026-11-12T16:09:22+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Naftogaz-Gets-Dutch-Grant-to-Secure-Winter-Gas-185070-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Who is Really Paying for the Data Center Boom?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Who-is-Really-Paying-for-the-Data-Center-Boom.html",
+      "date": "2026-11-12T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-11_gdq5mclzve.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Vår Energi selects SLB for integrated drilling services offshore Norway",
+      "lien": "https://www.ogj.com/general-interest/news/55418462/var-energi-selects-slb-for-integrated-drilling-services-offshore-norway",
+      "date": "2026-11-12T15:53:35+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af5df66660a4681b05a0fa4-deepsea_bergen__north_sea__2026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
       "source": "Rigzone",
       "titre": "USA DOE Closes $480MM Loan to Expand American Energy Output",
       "lien": "https://www.rigzone.com/news/usa_doe_closes_480mm_loan_to_expand_american_energy_output-12-nov-2026-185069-article/?rss=true",
@@ -286,6 +412,13 @@
       "lien": "https://www.rigzone.com/news/wire/saudis_tell_opec_production_surged_to_highest_since_war_began-11-nov-2026-185059-article/?rss=true",
       "date": "2026-11-11T14:40:29+00:00",
       "image": "https://images.rigzone.com/images/news/articles/Saudis-Tell-OPEC-Production-Surged-to-Highest-Since-War-Began-185059-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saudi Oil Production Surges to One of Highest Levels in Years",
+      "lien": "https://www.rigzone.com/news/wire/saudi_oil_production_surges_to_one_of_highest_levels_in_years-11-nov-2026-185059-article/?rss=true",
+      "date": "2026-11-11T14:40:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudi-Oil-Production-Surges-to-One-of-Highest-Levels-in-Years-185059-1200x628.png"
     },
     {
       "source": "OilPrice",
