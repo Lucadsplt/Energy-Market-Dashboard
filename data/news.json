@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "USA DOE Closes $480MM Loan to Expand American Energy Output",
+      "lien": "https://www.rigzone.com/news/usa_doe_closes_480mm_loan_to_expand_american_energy_output-12-nov-2026-185069-article/?rss=true",
+      "date": "2026-11-12T15:30:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-DOE-Closes-480MM-Loan-to-Expand-American-Energy-Output-185069-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Imports of Russian LNG Top 2025 Value Ahead of January Ban",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Imports-of-Russian-LNG-Top-2025-Value-Ahead-of-January-Ban.html",
+      "date": "2026-11-12T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_1kyck5pstr.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Raises 2026, 2027 Oil Price Forecasts Yet Again",
+      "lien": "https://www.rigzone.com/news/eia_raises_2026_2027_oil_price_forecasts_yet_again-12-nov-2026-185067-article/?rss=true",
+      "date": "2026-11-12T15:22:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EIA-Raises-2026-2027-Oil-Price-Forecasts-Yet-Again-185067-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Uniper Starts Green Hydrogen Production at Central German Energy Park",
+      "lien": "https://www.rigzone.com/news/uniper_starts_green_hydrogen_production_at_central_german_energy_park-12-nov-2026-185068-article/?rss=true",
+      "date": "2026-11-12T15:06:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Uniper-Starts-Green-Hydrogen-Production-at-Central-German-Energy-Park-185068-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine Peace Talks Yield Prisoner Deal but No Path to Peace",
+      "lien": "https://oilprice.com/Energy/Energy-General/Ukraine-Peace-Talks-Yield-Prisoner-Deal-but-No-Path-to-Peace.html",
+      "date": "2026-11-12T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_7qn0jzmkgo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Angola Looks to Diversify from Crude with Windfall Oil Revenues",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Angola-Looks-to-Diversify-from-Crude-with-Windfall-Oil-Revenues.html",
+      "date": "2026-11-12T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_2e7xarnkjg.jpg"
+    },
+    {
       "source": "EIA",
       "titre": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
