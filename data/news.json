@@ -2,10 +2,122 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Iran Says Gas Tanker Hit Mine in Strait of Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html",
+      "date": "2026-11-13T12:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_4q72m6gnbi.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Oil, Gas Workforce Hits Lowest Figure So Far in 2026",
+      "lien": "https://www.rigzone.com/news/usa_oil_gas_workforce_hits_lowest_figure_so_far_in_2026-13-nov-2026-185077-article/?rss=true",
+      "date": "2026-11-13T12:32:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Oil-Gas-Workforce-Hits-Lowest-Figure-So-Far-in-2026-185077-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Nvidia Spy Scandal Threatens the Gulf’s AI Ambitions",
+      "lien": "https://oilprice.com/Energy/Energy-General/Nvidia-Spy-Scandal-Threatens-the-Gulfs-AI-Ambitions.html",
+      "date": "2026-11-13T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-13_lfiosbnfir.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Falling Oil Prices Won't Save America From Inflation",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Falling-Oil-Prices-Wont-Save-America-From-Inflation.html",
+      "date": "2026-11-13T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-13_cof4qz1d9w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "WTI Stages Sharp Comeback as Middle East Supply Risks Intensify",
+      "lien": "https://oilprice.com/Energy/Energy-General/WTI-Stages-Sharp-Comeback-as-Middle-East-Supply-Risks-Intensify.html",
+      "date": "2026-11-13T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_jny8icgre4.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asian Refiners Turn Back to Gulf Oil Despite War Risks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Turn-Back-to-Gulf-Oil-Despite-War-Risks.html",
+      "date": "2026-11-13T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_cnomak2wlz.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco, PIF Close HUMAIN AI Deal",
+      "lien": "https://www.rigzone.com/news/aramco_pif_close_humain_ai_deal-13-nov-2026-185076-article/?rss=true",
+      "date": "2026-11-13T11:22:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-PIF-Close-HUMAIN-AI-Deal-185076-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni Plans Nearly $15B Gross Investment in UK through 2030",
+      "lien": "https://www.rigzone.com/news/eni_plans_nearly_15b_gross_investment_in_uk_through_2030-13-nov-2026-185075-article/?rss=true",
+      "date": "2026-11-13T10:53:24+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Plans-Nearly-15B-Gross-Investment-in-UK-through-2030-185075-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Seeks Private Investors for $910 Million Oil Reserve",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Seeks-Private-Investors-for-910-Million-Oil-Reserve.html",
+      "date": "2026-11-13T10:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_xuz2ssvouc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "IEA Sees Oil Surplus for First Time in Iran War",
+      "lien": "https://www.rigzone.com/news/wire/iea_sees_oil_surplus_for_first_time_in_iran_war-13-nov-2026-185074-article/?rss=true",
+      "date": "2026-11-13T09:36:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/IEA-Sees-Oil-Surplus-for-First-Time-in-Iran-War-185074-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Asian Airlines Face a $148-a-Barrel Fuel Gamble",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Airlines-Face-a-148-a-Barrel-Fuel-Gamble.html",
+      "date": "2026-11-13T08:50:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_jgiwq96kbc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html",
+      "date": "2026-11-13T05:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-12_fambhuyzvp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Rare Earth Wars: U.S. General Sounds Alarm Over China's Military Leverage",
+      "lien": "https://oilprice.com/Energy/Energy-General/Rare-Earth-Wars-US-General-Sounds-Alarm-Over-Chinas-Military-Leverage.html",
+      "date": "2026-11-13T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_u2crwjqmxk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Squeezed-Between-Peace-Hopes-and-Iran-Escalation-Risk.html",
+      "date": "2026-11-13T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_acuinvfz10.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela Ends 19-Year Power Monopoly, With Oil Fields First in Line",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Venezuela-Ends-19-Year-Power-Monopoly-With-Oil-Fields-First-in-Line.html",
+      "date": "2026-11-12T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_6savk58bay.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "More Drilling Won’t Shield U.S. Consumers From Oil Price Shocks",
       "lien": "https://oilprice.com/Energy/Crude-Oil/More-Drilling-Wont-Shield-US-Consumers-From-Oil-Price-Shocks.html",
       "date": "2026-11-12T22:00:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_ms13xuz2wq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Rises as Trump Dims Iran Deal Hopes",
+      "lien": "https://www.rigzone.com/news/wire/oil_rises_as_trump_dims_iran_deal_hopes-12-nov-2026-185073-article/?rss=true",
+      "date": "2026-11-12T21:50:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Rises-as-Trump-Dims-Iran-Deal-Hopes-185073-1200x628.png"
     },
     {
       "source": "OilPrice",
