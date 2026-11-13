@@ -2,6 +2,34 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "How Global Energy Markets Survived Eight Months of Iran War Disruptions",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-Global-Energy-Markets-Survived-Eight-Months-of-Iran-War-Disruptions.html",
+      "date": "2026-11-13T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_j9namu13qt.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Murphy Oil Re-Enters Cameroon",
+      "lien": "https://www.rigzone.com/news/murphy_oil_reenters_cameroon-13-nov-2026-185079-article/?rss=true",
+      "date": "2026-11-13T14:27:30+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Murphy-Oil-ReEnters-Cameroon-185079-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pakistan Scrambles for LNG as Winter Gas Crisis Deepens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-LNG-as-Winter-Gas-Crisis-Deepens.html",
+      "date": "2026-11-13T14:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_xzb2t5ombl.jpg"
+    },
+    {
+      "source": "EIA",
+      "titre": "Hydropower generation in the Southwest fell to record lows this summer",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68445",
+      "date": "2026-11-13T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.13/main.png?1794583187"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Iran Says Gas Tanker Hit Mine in Strait of Hormuz",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Gas-Tanker-Hit-Mine-in-Strait-of-Hormuz.html",
       "date": "2026-11-13T12:45:00+00:00",
