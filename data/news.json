@@ -2,6 +2,125 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Will the Senate's BAAJA Bill Let AI Giants Outmuscle Utilities?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Will-the-Senates-BAAJA-Bill-Let-AI-Giants-Outmuscle-Utilities.html",
+      "date": "2026-11-13T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-13_0yxdgjw2ir.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Crude Fluctuates as Iran Tensions Persist",
+      "lien": "https://www.rigzone.com/news/wire/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article/?rss=true",
+      "date": "2026-11-13T20:49:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Crude-Fluctuates-as-Iran-Tensions-Persist-185085-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Benin Ships 1st Crude Cargo for Decades From Revived Oil Field",
+      "lien": "https://www.rigzone.com/news/wire/benin_ships_1st_crude_cargo_for_decades_from_revived_oil_field-13-nov-2026-185084-article/?rss=true",
+      "date": "2026-11-13T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Benin-Ships-1st-Crude-Cargo-for-Decades-From-Revived-Oil-Field-185084-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Extends Jones Act Waiver For Another 90 Days",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html",
+      "date": "2026-11-13T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_ftijjedqur.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Beijing Turns to Soft Power as Washington Expands Central Asia Ties",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Beijing-Turns-to-Soft-Power-as-Washington-Expands-Central-Asia-Ties.html",
+      "date": "2026-11-13T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_9ed4hbpf6a.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Germany Eyes €4 Billion Buyout of RWE and E.ON’s Urenco Stake",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Eyes-4-Billion-Buyout-of-RWE-and-EONs-Urenco-Stake.html",
+      "date": "2026-11-13T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_nuaxziqwbg.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "MARAD approves Energy Transfer's $1-billion Blue Marlin crude oil export port",
+      "lien": "https://www.ogj.com/general-interest/government/news/55418858/marad-approves-energy-transfers-1-billion-blue-marlin-crude-oil-export-port",
+      "date": "2026-11-13T18:11:29+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af7529a861bf046cce610b0-blue_marlin_rendering.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil Rig Count Holds at 463 as Crude Output Hits Another Record",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rigs-Hold-at-463-as-Crude-Output-Hits-Another-Record.html",
+      "date": "2026-11-13T18:11:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-13_cgevs2tfaw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq’s Oil Production Soars to 2019 High as Hormuz Flows Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Production-Soars-to-2019-High-as-Hormuz-Flows-Surge.html",
+      "date": "2026-11-13T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_qghl8pktob.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Crude Climbs Back Above $96 as Iran Tensions Escalate",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brent-Crude-Climbs-Back-Above-96-as-Iran-Tensions-Escalate.html",
+      "date": "2026-11-13T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-13_gxye810jf9.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "IEA sees oil market surplus returning as Gulf exports recover",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55418773/iea-sees-oil-market-surplus-returning-as-gulf-exports-recover",
+      "date": "2026-11-13T16:44:12+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af73083113efee4722eaac2-picture_1113.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India's Road Fuel Demand Won't Peak Until 2034",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Road-Fuel-Demand-Wont-Peak-Until-2034.html",
+      "date": "2026-11-13T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_ykosoqw2pq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ukraine Hits 9th Russian Oil Refinery Since Start of Nov",
+      "lien": "https://www.rigzone.com/news/wire/ukraine_hits_9th_russian_oil_refinery_since_start_of_nov-13-nov-2026-185083-article/?rss=true",
+      "date": "2026-11-13T16:20:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ukraine-Hits-9th-Russian-Oil-Refinery-Since-Start-of-Nov-185083-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Germany Is Dismantling a Nord Stream Power Plant for Ukraine",
+      "lien": "https://oilprice.com/Energy/Energy-General/Germany-Is-Dismantling-a-Nord-Stream-Power-Plant-for-Ukraine.html",
+      "date": "2026-11-13T16:10:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-12_fialycswnf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Rise Almost 5MM Barrels Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_almost_5mm_barrels_week_on_week-13-nov-2026-185081-article/?rss=true",
+      "date": "2026-11-13T16:06:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Rise-Almost-5MM-Barrels-Week-on-Week-185081-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ExxonMobil Greenlights Eighth Stabroek Project",
+      "lien": "https://www.rigzone.com/news/exxonmobil_greenlights_eighth_stabroek_project-13-nov-2026-185080-article/?rss=true",
+      "date": "2026-11-13T15:32:01+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ExxonMobil-Greenlights-Eighth-Stabroek-Project-185080-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Rules Out Return of UN Nuclear Inspectors as U.S. War Talks Stall",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Rules-Out-Return-of-UN-Nuclear-Inspectors-as-US-War-Talks-Stall.html",
+      "date": "2026-11-13T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-13_ygi5tmdztn.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "How Global Energy Markets Survived Eight Months of Iran War Disruptions",
       "lien": "https://oilprice.com/Energy/Energy-General/How-Global-Energy-Markets-Survived-Eight-Months-of-Iran-War-Disruptions.html",
       "date": "2026-11-13T14:30:00+00:00",
