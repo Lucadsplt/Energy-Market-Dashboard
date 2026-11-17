@@ -2,6 +2,118 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Airlines Face Fuel Crisis as Price Hedges Expire",
+      "lien": "https://oilprice.com/Energy/Energy-General/Airlines-Face-Fuel-Crisis-as-Price-Hedges-Expire.html",
+      "date": "2026-11-17T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_gqpl2xzewg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Uganda Pushes First Oil to Mid-2027 as Iran War Holds Up Equipment",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Uganda-Pushes-First-Oil-to-Mid-2027-as-Iran-War-Holds-Up-Equipment.html",
+      "date": "2026-11-16T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_cex2igvsj4.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can Underwater Data Centers Escape the Land-Based Backlash?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Can-Underwater-Data-Centers-Escape-the-Land-Based-Backlash.html",
+      "date": "2026-11-16T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_8gon1qs9fa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Can Economic Populism Survive an Age of Scarcity?",
+      "lien": "https://oilprice.com/Geopolitics/North-America/Can-Economic-Populism-Survive-an-Age-of-Scarcity.html",
+      "date": "2026-11-16T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_ztaevmuxss.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Retreats as Traders Weigh Supply Glut",
+      "lien": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/?rss=true",
+      "date": "2026-11-16T20:41:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Retreats-as-Traders-Weigh-Supply-Glut-185096-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Diamondback to acquire remaining Double Eagle Midland basin interest in multibillion cash, stock deal",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55419221/diamondback-to-acquire-remaining-double-eagle-midland-basin-interest-in-multibillion-cash-stock-deal",
+      "date": "2026-11-16T20:30:21+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afb57cec79604fff09eb842-double_eagle.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Libya Has Africa's Biggest Oil Reserves, but Western Majors Aren't Biting",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Libya-Has-Africas-Biggest-Oil-Reserves-but-Western-Majors-Arent-Biting.html",
+      "date": "2026-11-16T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_eutxsdwnih.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Sunday Times Says Burnham Faces Rebellion Over Rosebank",
+      "lien": "https://www.rigzone.com/news/wire/sunday_times_says_burnham_faces_rebellion_over_rosebank-16-nov-2026-185093-article/?rss=true",
+      "date": "2026-11-16T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Sunday-Times-Says-Burnham-Faces-Rebellion-Over-Rosebank-185093-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Turkmenistan Races to Complete Key TAPI Pipeline Section by Year-End",
+      "lien": "https://oilprice.com/Energy/Energy-General/Turkmenistan-Races-to-Complete-Key-TAPI-Pipeline-Section-by-Year-End.html",
+      "date": "2026-11-16T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_mqm9vb1xv3.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "North American oil and gas firms report higher third-quarter earnings",
+      "lien": "https://www.ogj.com/members/article/55418960/north-american-oil-and-gas-firms-report-higher-third-quarter-earnings",
+      "date": "2026-11-16T18:50:01+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6af787f40fb7cdcef3caea0a-q32026oilgaslinkedininfographic.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Diamondback to Buy Double Eagle’s Midland Stake for $5 Billion",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Diamondback-to-Buy-Double-Eagles-Midland-Stake-for-5-Billion.html",
+      "date": "2026-11-16T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-16_k2ihynbd69.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Hidden Cost Holding Back Europe’s Energy Innovators",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Hidden-Cost-Holding-Back-Europes-Energy-Innovators.html",
+      "date": "2026-11-16T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_2jfoeuki4d.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Illinois Ethanol Plant Bomb Is the Latest Threat to U.S. Energy Sites",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Illinois-Ethanol-Plant-Bomb-Is-the-Latest-Threat-to-US-Energy-Sites.html",
+      "date": "2026-11-16T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-16_7lhtoyj65m.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Canadian Natural Resources to add Montney, Charlie Lake assets through Advantage Energy acquisition",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55419148/canadian-natural-resources-to-add-montney-charlie-lake-assets-through-advantage-energy-acquisition",
+      "date": "2026-11-16T17:24:43+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "China’s oil demand falls 7.1% as economic weakness deepens",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55419094/chinas-oil-demand-falls-71-as-economic-weakness-deepens",
+      "date": "2026-11-16T17:20:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afb29bfe0075074ded4a74b-629901f5dbcf4d659a9506ae9cfdb7ab.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela’s Oil Comeback Faces a New Threat From Washington",
+      "lien": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Comeback-Faces-a-New-Threat-From-Washington.html",
+      "date": "2026-11-16T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_noi1nce7z4.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Europe Has Already Drained 10% of Its Summer Gas Injections",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-10-of-Its-Summer-Gas-Injections.html",
       "date": "2026-11-16T16:30:00+00:00",
