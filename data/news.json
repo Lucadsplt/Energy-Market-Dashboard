@@ -2,6 +2,104 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Cuba’s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
+      "lien": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
+      "date": "2026-11-17T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_uiztpwuskl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Carbon Capture Keeps Advancing Despite Critics",
+      "lien": "https://oilprice.com/Energy/Energy-General/UK-Carbon-Capture-Keeps-Advancing-Despite-Critics.html",
+      "date": "2026-11-17T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_hkovlr7cee.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "API Shows Substantial Crude Oil, Gasoline Inventory Builds",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html",
+      "date": "2026-11-17T21:58:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_c2hzfacziv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Tests 250-Mile Electric Plane in Major Aviation Milestone",
+      "lien": "https://oilprice.com/Energy/Energy-General/China-Tests-250-Mile-Electric-Plane-in-Major-Aviation-Milestone.html",
+      "date": "2026-11-17T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_ttcpdavj1x.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Swing as Gulf Attacks Continue",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article/?rss=true",
+      "date": "2026-11-17T20:53:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Prices-Swing-as-Gulf-Attacks-Continue-185107-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ukrainian Drones Target 2 Oil Refineries Deep Inside Russia",
+      "lien": "https://www.rigzone.com/news/wire/ukrainian_drones_target_2_oil_refineries_deep_inside_russia-17-nov-2026-185104-article/?rss=true",
+      "date": "2026-11-17T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ukrainian-Drones-Target-2-Oil-Refineries-Deep-Inside-Russia-185104-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Rystad: Market could begin next year with ‘pretty large surplus’",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55419628/rystad-market-could-begin-next-year-with-pretty-large-surplus",
+      "date": "2026-11-17T19:56:12+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Are Resource Limits Fueling the World's Growing Conflicts?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Are-Resource-Limits-Fueling-the-Worlds-Growing-Conflicts.html",
+      "date": "2026-11-17T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_poqgz9d7gk.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Gulf Trade With Central Asia Surges as Energy Ties Deepen",
+      "lien": "https://oilprice.com/Energy/Energy-General/Gulf-Trade-With-Central-Asia-Surges-as-Energy-Ties-Deepen.html",
+      "date": "2026-11-17T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_pdg6bmqdlh.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "IEA: High diesel prices ease demand, supply constraints persist",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55419515/iea-high-diesel-prices-ease-demand-supply-constraints-persist",
+      "date": "2026-11-17T17:41:44+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afc78559a47ebe47951a6c9-diesel_market.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russian Crude Exports Hit Four-Month High",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html",
+      "date": "2026-11-17T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_zypkngxcrv.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Delfin LNG seeks sixth FERC extension, pushing deadline to 2030",
+      "lien": "https://www.ogj.com/general-interest/government/news/55419522/delfin-lng-seeks-sixth-ferc-extension-pushing-deadline-to-2030",
+      "date": "2026-11-17T17:17:23+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Democrats Target Trump’s $100 Billion Venezuela Oil Deal",
+      "lien": "https://oilprice.com/Energy/Energy-General/Democrats-Target-Trumps-100-Billion-Venezuela-Oil-Deal.html",
+      "date": "2026-11-17T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_d3yp2dieys.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "White House extends Jones Act waiver for another 90 days",
+      "lien": "https://www.ogj.com/general-interest/government/news/55419532/white-house-extends-jones-act-waiver-for-another-90-days",
+      "date": "2026-11-17T16:38:52+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Reliance Bets $1.6 Billion on India's Biogas Boom",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Reliance-Bets-16-Billion-on-Indias-Biogas-Boom.html",
       "date": "2026-11-17T16:30:00+00:00",
