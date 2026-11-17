@@ -2,6 +2,181 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Reliance Bets $1.6 Billion on India's Biogas Boom",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Reliance-Bets-16-Billion-on-Indias-Biogas-Boom.html",
+      "date": "2026-11-17T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_t9cumqv4e7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
+      "lien": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html",
+      "date": "2026-11-17T16:00:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Kazakhstan Unveils $85 Million Oil and Gas Manufacturing Push",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Unveils-85-Million-Oil-and-Gas-Manufacturing-Push.html",
+      "date": "2026-11-17T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_mq81dxoack.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Canadian Natural to Acquire Advantage Energy for $1.8B",
+      "lien": "https://www.rigzone.com/news/canadian_natural_to_acquire_advantage_energy_for_18b-17-nov-2026-185106-article/?rss=true",
+      "date": "2026-11-17T15:05:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Canadian-Natural-to-Acquire-Advantage-Energy-for-18B-185106-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EIA Sees USA Oil Output Averaging 13.99MM Bpd in Q4",
+      "lien": "https://www.rigzone.com/news/eia_sees_usa_oil_output_averaging_1399mm_bpd_in_q4-17-nov-2026-185105-article/?rss=true",
+      "date": "2026-11-17T14:54:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EIA-Sees-USA-Oil-Output-Averaging-1399MM-Bpd-in-Q4-185105-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
+      "lien": "https://www.rigzone.com/news/wire/dems_plan_probes_of_trumps_100b_venezuela_oil_deal-17-nov-2026-185103-article/?rss=true",
+      "date": "2026-11-17T14:36:56+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Dems-Plan-Probes-of-Trumps-100B-Venezuela-Oil-Deal-185103-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Opens New Front in Campaign to Cut Off Iran’s Supply Routes",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/US-Opens-New-Front-in-Campaign-to-Cut-Off-Irans-Supply-Routes.html",
+      "date": "2026-11-17T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_yix2pljvop.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "TTF Gas Bounces Back to 86 Euros as Hormuz Risks Resurface",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/TTF-Gas-Bounces-Back-to-86-Euros-as-Hormuz-Risks-Resurface.html",
+      "date": "2026-11-17T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_udnhnt43gw.jpg"
+    },
+    {
+      "source": "EIA",
+      "titre": "How does EIA account for small differences between energy supply and demand data?",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68464",
+      "date": "2026-11-17T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.17/main.png?1794934261"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "bp names Lewis to lead downstream business",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55419443/bp-names-lewis-to-lead-downstream-business",
+      "date": "2026-11-17T13:32:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afc4bd20fb7cdcef3dc54c9-emma_lewis.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Malaysia Signs First Critical Minerals Pact With France",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Malaysia-Signs-First-Critical-Minerals-Pact-With-France.html",
+      "date": "2026-11-17T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_hd7s3twt6a.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC, IEA, IEF Meet for 'Crucial' Dialogue on Maritime Flows",
+      "lien": "https://www.rigzone.com/news/opec_iea_ief_meet_for_crucial_dialogue_on_maritime_flows-17-nov-2026-185102-article/?rss=true",
+      "date": "2026-11-17T13:04:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-IEA-IEF-Meet-for-Crucial-Dialogue-on-Maritime-Flows-185102-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Diamondback to Acquire Double Eagle Assets in Midland Basin",
+      "lien": "https://www.rigzone.com/news/diamondback_to_acquire_double_eagle_assets_in_midland_basin-17-nov-2026-185101-article/?rss=true",
+      "date": "2026-11-17T12:32:49+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Diamondback-to-Acquire-Double-Eagle-Assets-in-Midland-Basin-185101-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Pushes for Global Levies on Polluting Industries",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Pushes-for-Global-Levies-on-Polluting-Industries.html",
+      "date": "2026-11-17T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_6cofzqn0yo.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Canada Invests $140MM in Woodfibre LNG",
+      "lien": "https://www.rigzone.com/news/canada_invests_140mm_in_woodfibre_lng-17-nov-2026-185100-article/?rss=true",
+      "date": "2026-11-17T11:49:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Canada-Invests-140MM-in-Woodfibre-LNG-185100-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India Gives Green Light to Commercial Sustainable Jet Fuel Production",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/India-Gives-Green-Light-to-Commercial-Sustainable-Jet-Fuel-Production.html",
+      "date": "2026-11-17T11:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_pmzl9i5rck.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BP Bolsters Board",
+      "lien": "https://www.rigzone.com/news/bp_bolsters_board-17-nov-2026-185099-article/?rss=true",
+      "date": "2026-11-17T10:33:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BP-Bolsters-Board-185099-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran and Oman Hold Talks on Strait of Hormuz Security as Tanker Attacks Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-and-Oman-Hold-Talks-on-Strait-of-Hormuz-Security-as-Tanker-Attacks-Surge.html",
+      "date": "2026-11-17T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_ptf80sxrbs.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Guyana to Reach 1.1 MMbpd of Oil Production as Uaru Starts Up",
+      "lien": "https://www.rigzone.com/news/guyana_to_reach_11_mmbpd_of_oil_production_as_uaru_starts_up-17-nov-2026-185098-article/?rss=true",
+      "date": "2026-11-17T09:51:10+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Guyana-to-Reach-11-MMbpd-of-Oil-Production-as-Uaru-Starts-Up-185098-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan Proposes an 'Asian IEA' to Protect Oil Supplies",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html",
+      "date": "2026-11-17T08:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_hbn2k8cefg.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Kenya Signs Nearly $700MM Deal for LNG Power Plant",
+      "lien": "https://www.rigzone.com/news/wire/kenya_signs_nearly_700mm_deal_for_lng_power_plant-17-nov-2026-185097-article/?rss=true",
+      "date": "2026-11-17T08:34:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Kenya-Signs-Nearly-700MM-Deal-for-LNG-Power-Plant-185097-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s Biggest Grid Operator Races to Keep Up With Data Center Boom",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Americas-Biggest-Grid-Operator-Races-to-Keep-Up-With-Data-Center-Boom.html",
+      "date": "2026-11-17T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_m6xi3kpesx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Slide as Global Glut Fears Eclipse Hormuz Attacks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html",
+      "date": "2026-11-17T06:10:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_8pjwoavisu.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Army Just Did Something Extraordinary To Break China’s Rare Earth Monopoly",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Army-Just-Did-Something-Extraordinary-To-Break-Chinas-Rare-Earth-Monopoly.html",
+      "date": "2026-11-17T02:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_jegvdqy1tm.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Iraq Just Fast-Tracked Chevron’s Takeover Of A 14-Billion-Barrel Supergiant",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Iraq-Just-Fast-Tracked-Chevrons-Takeover-Of-A-14-Billion-Barrel-Supergiant.html",
+      "date": "2026-11-17T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-16_1nankwjifx.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Airlines Face Fuel Crisis as Price Hedges Expire",
       "lien": "https://oilprice.com/Energy/Energy-General/Airlines-Face-Fuel-Crisis-as-Price-Hedges-Expire.html",
       "date": "2026-11-17T00:00:00+00:00",
@@ -10771,13 +10946,6 @@
       "titre": "IFP School de nouveau mise à l’honneur par le Label DD&RS",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-nouveau-mise-lhonneur-label-ddrs",
       "date": "2026-08-24T12:48:11+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "Longer wells boost Permian crude oil and natural gas production",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
-      "date": "2026-08-19T14:00:00+00:00",
       "image": null
     },
     {
