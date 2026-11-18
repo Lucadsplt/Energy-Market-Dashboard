@@ -2,6 +2,104 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Equinor Hack Adds to Wave of Cyberattacks on Energy Companies",
+      "lien": "https://oilprice.com/Energy/Energy-General/Equinor-Hack-Adds-to-Wave-of-Cyberattacks-on-Energy-Companies.html",
+      "date": "2026-11-18T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_ghzf31v4sc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Burns Less Oil and Coal as the Iran War Reshapes Its Energy Mix",
+      "lien": "https://oilprice.com/Energy/Energy-General/China-Burns-Less-Oil-and-Coal-as-the-Iran-War-Reshapes-Its-Energy-Mix.html",
+      "date": "2026-11-18T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_hbyqqsriwi.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Falls 3% Despite Middle East Attacks",
+      "lien": "https://www.rigzone.com/news/wire/oil_falls_3_despite_middle_east_attacks-18-nov-2026-185118-article/?rss=true",
+      "date": "2026-11-18T21:14:37+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Falls-3-Despite-Middle-East-Attacks-185118-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Thames Water's Rescue Deal Comes With a Dirty Catch",
+      "lien": "https://oilprice.com/Energy/Energy-General/Thames-Waters-Rescue-Deal-Comes-With-a-Dirty-Catch.html",
+      "date": "2026-11-18T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_nsayff7ztl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq's Border Shutdown With Iran Threatens a Much Bigger Economic Crisis",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/Iraqs-Border-Shutdown-With-Iran-Threatens-a-Much-Bigger-Economic-Crisis.html",
+      "date": "2026-11-18T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_allxcmscuo.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Strikes IRGC Site on Qeshm Island",
+      "lien": "https://www.rigzone.com/news/wire/usa_strikes_irgc_site_on_qeshm_island-18-nov-2026-185116-article/?rss=true",
+      "date": "2026-11-18T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Strikes-IRGC-Site-on-Qeshm-Island-185116-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Secures Major Gas Deal as Its Influence Grows Across Central Asia",
+      "lien": "https://oilprice.com/Energy/Energy-General/China-Secures-Major-Gas-Deal-as-Its-Influence-Grows-Across-Central-Asia.html",
+      "date": "2026-11-18T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_49fnzqj8ue.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Copper Heads for Longest Weekly Losing Streak in Two Years",
+      "lien": "https://oilprice.com/Metals/Commodities/Copper-Heads-for-Longest-Weekly-Losing-Streak-in-Two-Years.html",
+      "date": "2026-11-18T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_umsjoay1gr.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories up 3.4 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55419999/eia-us-crude-oil-inventories-up-34-million-bbl",
+      "date": "2026-11-18T17:57:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afde7080add2c7689c233b3-ogjrecapnovember132026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Thiel Doubles Down on Vaca Muerta as Trump Calls Venezuela an “Acquisition”",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Thiel-Doubles-Down-on-Vaca-Muerta-as-Trump-Calls-Venezuela-an-Acquisition.html",
+      "date": "2026-11-18T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_rwbax7ivdo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Mozambique Approves Exxon’s Redesigned $30 Billion Rovuma LNG Plan",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html",
+      "date": "2026-11-18T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_ijf3engzr8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Democrats Could Slow Venezuela’s Push Toward 3 Million Bpd",
+      "lien": "https://oilprice.com/Energy/Energy-General/Democrats-Could-Slow-Venezuelas-Push-Toward-3-Million-Bpd.html",
+      "date": "2026-11-18T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_twl0bavbsf.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Presidio to acquire Southern Midland basin assets for $360 million",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55419900/presidio-to-acquire-southern-midland-basin-assets-for-360-million",
+      "date": "2026-11-18T16:30:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Set to Hike 2027 UK Energy Bills to Four-Year High",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-to-Hike-2027-UK-Energy-Bills-to-Four-Year-High.html",
+      "date": "2026-11-18T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_xgjmyhgte8.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "US Oil Inventories On the Rise",
       "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-On-the-Rise.html",
       "date": "2026-11-18T15:39:53+00:00",
