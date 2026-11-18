@@ -2,6 +2,34 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "US Oil Inventories On the Rise",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-On-the-Rise.html",
+      "date": "2026-11-18T15:39:53+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "MMA Announces Federal OCS Reef in Place Program",
+      "lien": "https://www.rigzone.com/news/mma_announces_federal_ocs_reef_in_place_program-18-nov-2026-185117-article/?rss=true",
+      "date": "2026-11-18T15:38:47+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Gas Upsizes Long-Term LNG Supply with U.S. Venture Global",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Gas-Upsizes-Long-Term-LNG-Supply-with-US-Venture-Global.html",
+      "date": "2026-11-18T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_8kr0th7ysw.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EU Joins Call to Raise Global Electrification to 35 Percent by 2035",
+      "lien": "https://www.rigzone.com/news/eu_joins_call_to_raise_global_electrification_to_35_percent_by_2035-18-nov-2026-185115-article/?rss=true",
+      "date": "2026-11-18T15:20:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EU-Joins-Call-to-Raise-Global-Electrification-to-35-Percent-by-2035-185115-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "U.S.-Iran Conflict Flares Again as Gulf Nations Brace for Attacks",
       "lien": "https://oilprice.com/Geopolitics/Middle-East/US-Iran-Conflict-Flares-Again-as-Gulf-Nations-Brace-for-Attacks.html",
       "date": "2026-11-18T14:30:00+00:00",
