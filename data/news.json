@@ -2,6 +2,153 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "U.S.-Iran Conflict Flares Again as Gulf Nations Brace for Attacks",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/US-Iran-Conflict-Flares-Again-as-Gulf-Nations-Brace-for-Attacks.html",
+      "date": "2026-11-18T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_x7rxogokvv.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Calls Venezuela an 'Acquisition'",
+      "lien": "https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true",
+      "date": "2026-11-18T14:02:52+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Calls-Venezuela-an-Acquisition-185114-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "U.S. natural gas inventories end injection season above normal levels",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68484",
+      "date": "2026-11-18T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.18/main.png?1795013778"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shell Increases Gas Production offshore Malaysia",
+      "lien": "https://www.rigzone.com/news/shell_increases_gas_production_offshore_malaysia-18-nov-2026-185113-article/?rss=true",
+      "date": "2026-11-18T13:39:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shell-Increases-Gas-Production-offshore-Malaysia-185113-1200x628.png"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "CITGO appoints Uitenbogaart as CFO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55419804/citgo-appoints-uitenbogaart-as-cfo",
+      "date": "2026-11-18T13:38:23+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "NEO Next+ to acquire UK upstream business from EnQuest for up to $960 million",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55419799/neo-next-to-acquire-uk-upstream-business-from-enquest-for-up-to-960-million",
+      "date": "2026-11-18T13:32:25+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6afda84e5d039209cb4bdad3-magnus.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Fracking Giants Tapped to Drill Gas Project in Western Australia",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Fracking-Giants-Tapped-to-Drill-Gas-Project-in-Western-Australia.html",
+      "date": "2026-11-18T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_mnuc5mhrpa.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iran Conflict Reshapes Global LNG Trade",
+      "lien": "https://www.rigzone.com/news/iran_conflict_reshapes_global_lng_trade-18-nov-2026-185112-article/?rss=true",
+      "date": "2026-11-18T13:00:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iran-Conflict-Reshapes-Global-LNG-Trade-185112-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Woodside Bags 10-Year Deal to Supply LNG to Trafigura",
+      "lien": "https://www.rigzone.com/news/woodside_bags_10year_deal_to_supply_lng_to_trafigura-18-nov-2026-185111-article/?rss=true",
+      "date": "2026-11-18T12:55:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Woodside-Bags-10Year-Deal-to-Supply-LNG-to-Trafigura-185111-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EnQuest Exits UK North Sea in $960 Million Deal",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EnQuest-Exits-UK-North-Sea-in-960-Million-Deal.html",
+      "date": "2026-11-18T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_8ndmgzqkco.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Small Vessel Trade Thrives in Hormuz as Iran Targets Supertankers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Small-Vessel-Trade-Thrives-in-Hormuz-as-Iran-Targets-Supertankers.html",
+      "date": "2026-11-18T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_ujmcurfjah.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EnQuest Exits UK, Pivots to SE Asia",
+      "lien": "https://www.rigzone.com/news/enquest_exits_uk_pivots_to_se_asia-18-nov-2026-185110-article/?rss=true",
+      "date": "2026-11-18T10:54:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EnQuest-Exits-UK-Pivots-to-SE-Asia-185110-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Agency Reports Suggest Oil Market Approaching Turning Point",
+      "lien": "https://www.rigzone.com/news/agency_reports_suggest_oil_market_approaching_turning_point-18-nov-2026-185109-article/?rss=true",
+      "date": "2026-11-18T10:45:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Agency-Reports-Suggest-Oil-Market-Approaching-Turning-Point-185109-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ADNOC Ship Attacked in Hormuz as Maritime Security Risks Rise",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Ship-Attacked-in-Hormuz-as-Maritime-Security-Risks-Rise.html",
+      "date": "2026-11-18T10:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_wcoejnq8aa.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Mozambique Approves Amended Plan for Rovuma LNG",
+      "lien": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true",
+      "date": "2026-11-18T09:07:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Mozambique-Approves-Amended-Plan-for-Rovuma-LNG-185108-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Moves to Fast-Track Renewables as Oil Import Costs Soar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Moves-to-Fast-Track-Renewables-as-Oil-Import-Costs-Soar.html",
+      "date": "2026-11-18T08:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_8pkbsl4jf5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Western Australia Wins Battle Over Federal Gas Reservation Scheme",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Western-Australia-Wins-Battle-Over-Federal-Gas-Reservation-Scheme.html",
+      "date": "2026-11-18T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-18_236iuxwpwg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Escalating-US-Iran-Conflict.html",
+      "date": "2026-11-18T05:55:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-17_z0bun8igov.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "In 45 Days Defense Giants Must Prove Their Magnets Are China-Free",
+      "lien": "https://oilprice.com/Energy/Energy-General/In-45-Days-Defense-Giants-Must-Prove-Their-Magnets-Are-China-Free.html",
+      "date": "2026-11-18T02:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_gc630xwlue.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Oil and Gas Stocks That Crushed Third-Quarter Earnings Estimates",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/5-Oil-and-Gas-Stocks-That-Crushed-Third-Quarter-Earnings-Estimates.html",
+      "date": "2026-11-18T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_c6johehixp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s LNG Scramble Sends Shockwaves Through Asian Gas Markets",
+      "lien": "https://oilprice.com/Energy/Energy-General/Europes-LNG-Scramble-Sends-Shockwaves-Through-Asian-Gas-Markets.html",
+      "date": "2026-11-18T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_l2vuckxhwt.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Cuba’s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
       "lien": "https://oilprice.com/Energy/Energy-General/Cubas-Energy-Crisis-Turns-Into-a-Goldmine-for-US-Fuel-Exporters.html",
       "date": "2026-11-17T23:00:00+00:00",

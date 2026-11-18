@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-13T13:47:29Z",
+  "genere": "2026-11-18T14:57:05Z",
   "verifie_le": "2026-10-26",
   "evenements": [
     {
@@ -97,8 +97,8 @@
       "note": "Indicateur avanc\u00e9 de la production am\u00e9ricaine.",
       "lien": "https://rigcount.bakerhughes.com/",
       "prochaines": [
-        "2026-11-13T18:00:00Z",
-        "2026-11-20T18:00:00Z"
+        "2026-11-20T18:00:00Z",
+        "2026-11-27T18:00:00Z"
       ]
     },
     {
@@ -111,8 +111,8 @@
       "note": "Les donn\u00e9es datent du mardi pr\u00e9c\u00e9dent. Elles alimentent la r\u00e8gle \u00ab positionnement des fonds \u00bb de l'onglet Strat\u00e9gies.",
       "lien": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
       "prochaines": [
-        "2026-11-13T20:30:00Z",
-        "2026-11-20T20:30:00Z"
+        "2026-11-20T20:30:00Z",
+        "2026-11-27T20:30:00Z"
       ]
     }
   ]
