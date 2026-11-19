@@ -2,6 +2,174 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Carlyle and Orlen Team Up to Hunt for Energy Deals Across Europe",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Carlyle-and-Orlen-Team-Up-to-Hunt-for-Energy-Deals-Across-Europe.html",
+      "date": "2026-11-19T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_xp5nikceyz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
+      "lien": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
+      "date": "2026-11-19T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_ythwxdi4c6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Venezuela Turns to AI to Cut Methane Leaks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Turns-to-AI-to-Cut-Methane-Leaks.html",
+      "date": "2026-11-19T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_1i6vtgmnat.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Another ADNOC Vessel Attacked",
+      "lien": "https://www.rigzone.com/news/another_adnoc_vessel_attacked-19-nov-2026-185127-article/?rss=true",
+      "date": "2026-11-19T14:52:59+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Another-ADNOC-Vessel-Attacked-185127-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Russia Faces a Logistics Nightmare After Crimea Bridge Collapse",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Russia-Faces-a-Logistics-Nightmare-After-Crimea-Bridge-Collapse.html",
+      "date": "2026-11-19T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_mjs2proqh4.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Australia Explores Gas Phase-Out Deal in Talks on Reservation Scheme",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Explores-Gas-Phase-Out-Deal-in-Talks-on-Reservation-Scheme.html",
+      "date": "2026-11-19T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_s2rq186zeh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saipem Posts Nearly 50 Percent YoY Increase in Bookings",
+      "lien": "https://www.rigzone.com/news/saipem_posts_nearly_50_percent_yoy_increase_in_bookings-19-nov-2026-185126-article/?rss=true",
+      "date": "2026-11-19T14:28:17+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saipem-Posts-Nearly-50-Percent-YoY-Increase-in-Bookings-185126-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "Oil flows through Middle East chokepoints increased in the third quarter",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "date": "2026-11-19T14:00:00+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA, China, Russia Agree to Increase Supply of Global Fuels",
+      "lien": "https://www.rigzone.com/news/wire/usa_china_russia_agree_to_increase_supply_of_global_fuels-19-nov-2026-185124-article/?rss=true",
+      "date": "2026-11-19T13:51:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-China-Russia-Agree-to-Increase-Supply-of-Global-Fuels-185124-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "2026 Delivers 'Double Major Surprise' to Oil Markets",
+      "lien": "https://www.rigzone.com/news/2026_delivers_double_major_surprise_to_oil_markets-19-nov-2026-185123-article/?rss=true",
+      "date": "2026-11-19T13:32:25+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/2026-Delivers-Double-Major-Surprise-to-Oil-Markets-185123-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Traders Seek Long-Term Crude Supply Deals with Qatar",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Traders-Seek-Long-Term-Crude-Supply-Deals-with-Qatar.html",
+      "date": "2026-11-19T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_3ofmyxtdoe.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Coking Coal Hits Three-Month Low as Supply Recovers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Coking-Coal-Hits-Three-Month-Low-as-Supply-Recovers.html",
+      "date": "2026-11-19T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_ymh09t7xdf.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shell Divests West African Solar Unit",
+      "lien": "https://www.rigzone.com/news/shell_divests_west_african_solar_unit-19-nov-2026-185122-article/?rss=true",
+      "date": "2026-11-19T12:17:36+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shell-Divests-West-African-Solar-Unit-185122-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global Cooling Demand Overtakes Heating for the First Time",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Global-Cooling-Demand-Overtakes-Heating-for-the-First-Time.html",
+      "date": "2026-11-19T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_eiwkz87lnm.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Philippines Advances Plans for Strategic Oil Reserves",
+      "lien": "https://www.rigzone.com/news/philippines_advances_plans_for_strategic_oil_reserves-19-nov-2026-185121-article/?rss=true",
+      "date": "2026-11-19T10:42:41+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Philippines-Advances-Plans-for-Strategic-Oil-Reserves-185121-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s Oil Imports Hit Record High as Saudi Shipments Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Imports-Hit-Record-High-as-Saudi-Shipments-Surge.html",
+      "date": "2026-11-19T10:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_4nsdl7pm02.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Workers Ask PM to Greenlight Rosebank Before Christmas",
+      "lien": "https://www.rigzone.com/news/workers_ask_pm_to_greenlight_rosebank_before_christmas-19-nov-2026-185120-article/?rss=true",
+      "date": "2026-11-19T10:01:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Workers-Ask-PM-to-Greenlight-Rosebank-Before-Christmas-185120-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Middle East War Has Wiped 2.8 Billion Barrels Off Global Oil Supply",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/The-Middle-East-War-Has-Wiped-28-Billion-Barrels-Off-Global-Oil-Supply.html",
+      "date": "2026-11-19T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_ub9jjl6ovc.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EU Agrees Further Delay on Methane Rules for Energy Imports",
+      "lien": "https://www.rigzone.com/news/wire/eu_agrees_further_delay_on_methane_rules_for_energy_imports-19-nov-2026-185119-article/?rss=true",
+      "date": "2026-11-19T08:39:04+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EU-Agrees-Further-Delay-on-Methane-Rules-for-Energy-Imports-185119-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Delays Methane Rules by Two Years Amid Energy Supply Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-by-Two-Years-Amid-Energy-Supply-Fears.html",
+      "date": "2026-11-19T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_q76jdgd8vi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Steady as Hormuz Tanker Threats Offset Supply Glut Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Steady-as-Hormuz-Tanker-Threats-Offset-Supply-Glut-Fears.html",
+      "date": "2026-11-19T06:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_coto2belpw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Inside the Army’s 75 Year Plan to Escape China’s Rare Earth Dominance",
+      "lien": "https://oilprice.com/Energy/Energy-General/Inside-the-Armys-75-Year-Plan-to-Escape-Chinas-Rare-Earth-Dominance.html",
+      "date": "2026-11-19T02:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-17_rsk7fwtqt1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Permian Growth Turns Moderate Despite War",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Permian-Growth-Turns-Moderate-Despite-War.html",
+      "date": "2026-11-19T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_57pwa8i9t6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Google Signs Landmark Superhot Geothermal Deal",
+      "lien": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/Google-Signs-Landmark-Superhot-Geothermal-Deal.html",
+      "date": "2026-11-19T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-18_alyk0eoid4.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Equinor Hack Adds to Wave of Cyberattacks on Energy Companies",
       "lien": "https://oilprice.com/Energy/Energy-General/Equinor-Hack-Adds-to-Wave-of-Cyberattacks-on-Energy-Companies.html",
       "date": "2026-11-18T23:00:00+00:00",
