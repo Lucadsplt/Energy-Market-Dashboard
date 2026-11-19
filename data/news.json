@@ -2,10 +2,108 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Hormuz Oil Exports Could Decline amid Inbound Tanker Shortage",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Oil-Exports-Could-Decline-amid-Inbound-Tanker-Shortage.html",
+      "date": "2026-11-19T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_2vhmqs3jji.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Prices Swing on Middle East Uncertainty",
+      "lien": "https://www.rigzone.com/news/wire/oil_prices_swing_on_middle_east_uncertainty-19-nov-2026-185129-article/?rss=true",
+      "date": "2026-11-19T22:31:27+00:00",
+      "image": "https://images.rigzone.com/images/misc/products_pricing_2.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Energy Stocks to Benefit from Anthropic’s $1.5 Trillion Debut",
+      "lien": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-to-Benefit-from-Anthropics-15-Trillion-Debut.html",
+      "date": "2026-11-19T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_xbdvy1awjj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Mercosur’s Tax Break Is Fueling Brazil’s Oil Push Into Europe",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Mercosurs-Tax-Break-Is-Fueling-Brazils-Oil-Push-Into-Europe.html",
+      "date": "2026-11-19T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_iup6d4po1i.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TPAO In Talks for $1B Loan",
+      "lien": "https://www.rigzone.com/news/wire/tpao_in_talks_for_1b_loan-19-nov-2026-185125-article/?rss=true",
+      "date": "2026-11-19T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TPAO-In-Talks-for-1B-Loan-185125-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU Moves to Overhaul Emergency Oil Stockpiles",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-Moves-to-Overhaul-Emergency-Oil-Stockpiles.html",
+      "date": "2026-11-19T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_0tdzqj5hke.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "HF Sinclair names Carsten as CFO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55420368/hf-sinclair-names-carsten-as-cfo",
+      "date": "2026-11-19T19:18:20+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "INPEX sanctions Ichthys LNG expansion project, awards contract",
+      "lien": "https://www.ogj.com/general-interest/news/55420326/inpex-sanctions-ichthys-lng-expansion-project-awards-contract",
+      "date": "2026-11-19T19:09:20+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aff3a92b46a2e5ccffc1dbf-photo42l.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Central Asia Faces a Looming Water Crisis as Glaciers Retreat",
+      "lien": "https://oilprice.com/Energy/Energy-General/Central-Asia-Faces-a-Looming-Water-Crisis-as-Glaciers-Retreat.html",
+      "date": "2026-11-19T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_ari5c1r9qw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trafigura Not Rushing to Alternative Marine Fuels",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Not-Rushing-to-Alternative-Marine-Fuels.html",
+      "date": "2026-11-19T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_uf6op7zrtl.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "7,000 Egyptian Factories Will Soon Be Solar-powered",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/7000-Egyptian-Factories-Will-Soon-Be-Solar-powered.html",
+      "date": "2026-11-19T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_mrghastkco.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "IEA sees potential for looser oil, LNG markets after Hormuz crisis",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55420309/iea-sees-potential-for-looser-oil-lng-markets-after-hormuz-crisis",
+      "date": "2026-11-19T17:41:38+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6aff32d16143d1aca42a3c8a-20026iea_outlook.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "How Energy Security Is Reshaping Global Investment Decisions",
+      "lien": "https://oilprice.com/Energy/Energy-General/How-Energy-Security-Is-Reshaping-Global-Investment-Decisions.html",
+      "date": "2026-11-19T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_dfwaowt5gc.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Carlyle and Orlen Team Up to Hunt for Energy Deals Across Europe",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Carlyle-and-Orlen-Team-Up-to-Hunt-for-Energy-Deals-Across-Europe.html",
       "date": "2026-11-19T16:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_xp5nikceyz.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "SSE Nearly Doubles Core Shareholder Metric",
+      "lien": "https://www.rigzone.com/news/sse_nearly_doubles_core_shareholder_metric-19-nov-2026-185128-article/?rss=true",
+      "date": "2026-11-19T16:01:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/SSE-Nearly-Doubles-Core-Shareholder-Metric-185128-1200x628.png"
     },
     {
       "source": "OilPrice",
