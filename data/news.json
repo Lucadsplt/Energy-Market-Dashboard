@@ -2,6 +2,146 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Europe Has Already Drained 11% of Its Summer Gas Injections",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-11-of-Its-Summer-Gas-Injections.html",
+      "date": "2026-11-20T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_crdkz6w5mh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "India’s LPG Consumption Hits 8-Month High as Supply Rebounds",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Indias-LPG-Consumption-Hits-8-Month-High-as-Supply-Rebounds.html",
+      "date": "2026-11-20T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_yov7hehq4x.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Energy Transfer Seals Vaquero Acquisition",
+      "lien": "https://www.rigzone.com/news/energy_transfer_seals_vaquero_acquisition-20-nov-2026-185135-article/?rss=true",
+      "date": "2026-11-20T13:21:09+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Energy-Transfer-Seals-Vaquero-Acquisition-185135-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA EIA Sees Henry Hub NatGas Price Dropping in 2026, 2027",
+      "lien": "https://www.rigzone.com/news/usa_eia_sees_henry_hub_natgas_price_dropping_in_2026_2027-20-nov-2026-185134-article/?rss=true",
+      "date": "2026-11-20T12:57:41+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-EIA-Sees-Henry-Hub-NatGas-Price-Dropping-in-2026-2027-185134-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump’s Ukraine Energy Truce Unravels as Russian Missiles Hit Kyiv",
+      "lien": "https://oilprice.com/Energy/Energy-General/Trumps-Ukraine-Energy-Truce-Unravels-as-Russian-Missiles-Hit-Kyiv.html",
+      "date": "2026-11-20T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_cyibzkuqzv.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq's Oil Crackdown Sparks New Showdown With Kurdistan",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iraqs-Oil-Crackdown-Sparks-New-Showdown-With-Kurdistan.html",
+      "date": "2026-11-20T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_gas2ircllb.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "WTI Crude Sinks More Than 5% as Global Oil Glut Fears Grow",
+      "lien": "https://oilprice.com/Energy/Energy-General/WTI-Crude-Sinks-More-Than-5-as-Global-Oil-Glut-Fears-Grow.html",
+      "date": "2026-11-20T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_ytyqrzhuzw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Steps Up Hormuz Tanker Attacks as Oil Prices Slide",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html",
+      "date": "2026-11-20T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_owmdpm3nhq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ORLEN Pens Agreements to Strengthen Gas Supply in Eastern Europe",
+      "lien": "https://www.rigzone.com/news/orlen_pens_agreements_to_strengthen_gas_supply_in_eastern_europe-20-nov-2026-185133-article/?rss=true",
+      "date": "2026-11-20T12:15:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ORLEN-Pens-Agreements-to-Strengthen-Gas-Supply-in-Eastern-Europe-185133-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Refuses Nuclear Inspections as U.S. Military Threats Mount",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Refuses-Nuclear-Inspections-as-US-Military-Threats-Mount.html",
+      "date": "2026-11-20T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_0mkfspioti.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Shenzhen Summit Fuel Pledge Offers Little Near-Term Relief",
+      "lien": "https://www.rigzone.com/news/shenzhen_summit_fuel_pledge_offers_little_nearterm_relief-20-nov-2026-185132-article/?rss=true",
+      "date": "2026-11-20T10:59:31+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Shenzhen-Summit-Fuel-Pledge-Offers-Little-NearTerm-Relief-185132-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China’s Solar Exports Surge 21% as U.S. Tariff Deadline Looms",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Solar-Exports-Surge-21-as-US-Tariff-Deadline-Looms.html",
+      "date": "2026-11-20T10:15:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_deetpk6joy.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Moves to Restart Oil Exports Despite U.S. Naval Blockade",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Restart-Oil-Exports-Despite-US-Naval-Blockade.html",
+      "date": "2026-11-20T09:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_hroejlznvs.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Says Cyberattack Stopped",
+      "lien": "https://www.rigzone.com/news/equinor_says_cyberattack_stopped-20-nov-2026-185131-article/?rss=true",
+      "date": "2026-11-20T08:58:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Says-Cyberattack-Stopped-185131-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Senate Passes Sweeping Energy Permitting Reform Bill in 62-33 Vote",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html",
+      "date": "2026-11-20T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_uomhokfx5g.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Gulf Sees Iran Oil Movement as US Widens Blockade",
+      "lien": "https://www.rigzone.com/news/wire/gulf_sees_iran_oil_movement_as_us_widens_blockade-20-nov-2026-185130-article/?rss=true",
+      "date": "2026-11-20T07:09:34+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Gulf-Sees-Iran-Oil-Movement-as-US-Widens-Blockade-185130-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html",
+      "date": "2026-11-20T05:51:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_c1vz4fasyp.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Canada Builds an Energy Exit From the U.S.",
+      "lien": "https://oilprice.com/Energy/Energy-General/Canada-Builds-an-Energy-Exit-From-the-US.html",
+      "date": "2026-11-20T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_bzj6vzfndd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Oil and Gas Deal Boom Lures BMO Back Into the Market",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-and-Gas-Deal-Boom-Lures-BMO-Back-Into-the-Market.html",
+      "date": "2026-11-20T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-19_fba8gup10q.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Guyana Oil Boom Rekindles Frontier Drilling Appetite",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Boom-Rekindles-Frontier-Drilling-Appetite.html",
+      "date": "2026-11-20T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_c08wzjfmnr.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Hormuz Oil Exports Could Decline amid Inbound Tanker Shortage",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Oil-Exports-Could-Decline-amid-Inbound-Tanker-Shortage.html",
       "date": "2026-11-19T23:00:00+00:00",
