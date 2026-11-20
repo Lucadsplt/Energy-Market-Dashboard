@@ -2,6 +2,76 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election",
+      "lien": "https://oilprice.com/Energy/Energy-General/Argentine-Energy-Firms-Rush-to-Sell-Bonds-Before-the-2027-Election.html",
+      "date": "2026-11-20T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_igtpxkdouz.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Posts Third Weekly Loss Amid Surplus",
+      "lien": "https://www.rigzone.com/news/wire/oil_posts_third_weekly_loss_amid_surplus-20-nov-2026-185141-article/?rss=true",
+      "date": "2026-11-20T21:25:54+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Posts-Third-Weekly-Loss-Amid-Surplus-185141-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Indian Refiners Race to Secure Oil Tankers",
+      "lien": "https://www.rigzone.com/news/wire/indian_refiners_race_to_secure_oil_tankers-20-nov-2026-185139-article/?rss=true",
+      "date": "2026-11-20T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Indian-Refiners-Race-to-Secure-Oil-Tankers-185139-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Data Center Boom Faces a New Political Reality",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Data-Center-Boom-Faces-a-New-Political-Reality.html",
+      "date": "2026-11-20T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_jhiit6zsnf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia Expands Oil Storage in Japan as Tokyo Restocks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html",
+      "date": "2026-11-20T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_aftx968d7p.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Oil Drillers Pick Up the Pace Just as Oil Prices Fall",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Pick-Up-the-Pace-Just-as-Oil-Prices-Fall.html",
+      "date": "2026-11-20T18:09:09+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_dslodqtqi3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Lufthansa to Slash 1,000 Jobs as Airlines Reel from High Fuel Costs",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Lufthansa-to-Slash-1000-Jobs-as-Airlines-Reel-from-High-Fuel-Costs.html",
+      "date": "2026-11-20T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_drikvzf3tf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Tankers Are Being Hit Daily. So Why Is Oil Falling?",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html",
+      "date": "2026-11-20T17:11:05+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_qlfqaer527.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The 2026 Midterms Have Changed the Battle for American Energy",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-2026-Midterms-Have-Changed-the-Battle-for-American-Energy.html",
+      "date": "2026-11-20T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_ddnsweraxf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway’s Gas Sales Surge Nearly 20% as Europe Braces for Winter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Norways-Gas-Sales-Surge-Nearly-20-as-Europe-Braces-for-Winter.html",
+      "date": "2026-11-20T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_7xmzuisabk.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
       "date": "2026-11-20T15:36:00+00:00",
