@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "China’s Oil Imports from Persian Gulf Jump to Wartime High",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Oil-Imports-from-Persian-Gulf-Jump-to-Wartime-High.html",
+      "date": "2026-11-20T15:36:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-20_mnx6k5wrqi.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "FERC approves Sabine Pass LNG expansion, four other major gas projects",
+      "lien": "https://www.ogj.com/general-interest/government/news/55420550/ferc-approves-sabine-pass-lng-expansion-four-other-major-gas-projects",
+      "date": "2026-11-20T15:33:53+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b006816e3f3cdf88eeacdc7-250814id_252512254__timon_schneider_dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Rise Over 3 Million Barrels WoW",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_over_3_million_barrels_wow-20-nov-2026-185140-article/?rss=true",
+      "date": "2026-11-20T15:14:11+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Rise-Over-3-Million-Barrels-WoW-185140-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Historic Superpower Summit Delivers Big Promises but Few Breakthroughs",
+      "lien": "https://oilprice.com/Geopolitics/Asia/Historic-Superpower-Summit-Delivers-Big-Promises-but-Few-Breakthroughs.html",
+      "date": "2026-11-20T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_cwg4raumh2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Sour Crude's War Premium Vanishes",
+      "lien": "https://www.rigzone.com/news/wire/usa_sour_crudes_war_premium_vanishes-20-nov-2026-185138-article/?rss=true",
+      "date": "2026-11-20T14:45:02+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Sour-Crudes-War-Premium-Vanishes-185138-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Europe Has Already Drained 11% of Its Summer Gas Injections",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Europe-Has-Already-Drained-11-of-Its-Summer-Gas-Injections.html",
       "date": "2026-11-20T14:30:00+00:00",
