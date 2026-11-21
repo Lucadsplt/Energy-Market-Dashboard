@@ -3843,7 +3843,7 @@
         ]
       },
       "etat": {
-        "libelle": "Hors march\u00e9 : positionnement des fonds banal (centile 12)",
+        "libelle": "Hors march\u00e9 : positionnement des fonds banal (centile 10)",
         "depuis": "2026-11-13",
         "position": 0.0
       }

@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Saudis Make Deal with Japan to Replenish Oil Stocks",
+      "lien": "https://www.rigzone.com/news/wire/saudis_make_deal_with_japan_to_replenish_oil_stocks-21-nov-2026-185137-article/?rss=true",
+      "date": "2026-11-21T12:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saudis-Make-Deal-with-Japan-to-Replenish-Oil-Stocks-185137-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Caught Between a Looming Glut and Middle East Turmoil",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Caught-Between-a-Looming-Glut-and-Middle-East-Turmoil.html",
+      "date": "2026-11-21T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_4lj1w8vw2i.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Oil Prices Fall Despite Hostilities as Flows Increase",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/article/55420777/oil-prices-fall-despite-hostilities-as-flows-increase",
+      "date": "2026-11-20T22:56:02+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
       "source": "OilPrice",
       "titre": "Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election",
       "lien": "https://oilprice.com/Energy/Energy-General/Argentine-Energy-Firms-Rush-to-Sell-Bonds-Before-the-2027-Election.html",
