@@ -2,6 +2,55 @@
   "articles": [
     {
       "source": "Rigzone",
+      "titre": "TechnipFMC to Supply Subsea Production Systems for Longtail Project",
+      "lien": "https://www.rigzone.com/news/technipfmc_to_supply_subsea_production_systems_for_longtail_project-22-nov-2026-185136-article/?rss=true",
+      "date": "2026-11-22T11:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TechnipFMC-to-Supply-Subsea-Production-Systems-for-Longtail-Project-185136-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "AI Boom Forces Massive Investment in Power Grids Worldwide",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Forces-Massive-Investment-in-Power-Grids-Worldwide.html",
+      "date": "2026-11-22T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_qspdraqzby.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Wind Could Cut the Cost of Round-the-Clock Solar Power by 18%, Ember Says",
+      "lien": "https://oilprice.com/Alternative-Energy/Wind-Power/Wind-Could-Cut-the-Cost-of-Round-the-Clock-Solar-Power-by-18-Ember-Says.html",
+      "date": "2026-11-21T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-20_0mbxitbd6s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump’s Coal Revival Is Costing Americans More Than Expected",
+      "lien": "https://oilprice.com/Energy/Coal/Trumps-Coal-Revival-Is-Costing-Americans-More-Than-Expected.html",
+      "date": "2026-11-21T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_1ye8ggviui.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Thanksgiving Gas Prices Could Break a Record Despite Recent Plunge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html",
+      "date": "2026-11-21T19:10:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-21_x2drkfyhb5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Britain's Net Zero Revolution Has a China Problem",
+      "lien": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Revolution-Has-a-China-Problem.html",
+      "date": "2026-11-21T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_t2yizds0kx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Races to Rewrite Nuclear Rules by 2027",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/UK-Races-to-Rewrite-Nuclear-Rules-by-2027.html",
+      "date": "2026-11-21T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-19_hq0ietmipw.jpg"
+    },
+    {
+      "source": "Rigzone",
       "titre": "Saudis Make Deal with Japan to Replenish Oil Stocks",
       "lien": "https://www.rigzone.com/news/wire/saudis_make_deal_with_japan_to_replenish_oil_stocks-21-nov-2026-185137-article/?rss=true",
       "date": "2026-11-21T12:00:00+00:00",
@@ -11835,20 +11884,6 @@
       "titre": "Dangote refinery drives increase in petroleum shipments from Nigeria",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
       "date": "2026-08-24T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "IFP School remporte le SPE Energython Europe 2026",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-remporte-spe-energython-europe-2026",
-      "date": "2026-08-24T12:55:50+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "IFP School de nouveau mise à l’honneur par le Label DD&RS",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifp-school-nouveau-mise-lhonneur-label-ddrs",
-      "date": "2026-08-24T12:48:11+00:00",
       "image": null
     },
     {
