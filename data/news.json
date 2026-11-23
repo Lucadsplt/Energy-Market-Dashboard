@@ -1,6 +1,202 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Why Blocking the Sun Won't Solve the Climate Crisis",
+      "lien": "https://oilprice.com/Energy/Energy-General/Why-Blocking-the-Sun-Wont-Solve-the-Climate-Crisis.html",
+      "date": "2026-11-23T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-22_btyhzvl5ow.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Pakistan and Iran Move to Boost Energy Cooperation",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-and-Iran-Move-to-Boost-Energy-Cooperation.html",
+      "date": "2026-11-23T18:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_lifuqjvzw6.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Searah to develop 8 tcf of gas in Kutei basin, offshore Indonesia",
+      "lien": "https://www.ogj.com/exploration-development/news/55420991/searah-to-develop-8-tcf-of-gas-in-kutei-basin-offshore-indonesia",
+      "date": "2026-11-23T18:07:47+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Energy Transition Needs More Metals but Less Extraction",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Energy-Transition-Needs-More-Metals-but-Less-Extraction.html",
+      "date": "2026-11-23T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_mmkx8ruvof.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan’s Electricity Prices Surge to 2022 High as Cold Weather Arrives",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-to-2022-High-as-Cold-Weather-Arrives.html",
+      "date": "2026-11-23T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_jubv8tlvah.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "America’s Biggest Oil Export Port Faces Thousands of Cyberattack Attempts",
+      "lien": "https://oilprice.com/Energy/Energy-General/Americas-Biggest-Oil-Export-Port-Faces-Thousands-of-Cyberattack-Attempts.html",
+      "date": "2026-11-23T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_eeor2hulms.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Vår Energi to acquire ConocoPhillips' Norway business, including Greater Ekofisk operatorship, in $4.4-billion deal",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55420939/var-energi-to-acquire-conocophillips-norway-business-including-greater-ekofisk-operatorship-in-44-billion-deal",
+      "date": "2026-11-23T16:57:03+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b0467009a4bead42d98613d-ncs.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Storms and Drones Disrupt Russia’s Oil Exports",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Storms-and-Drones-Disrupt-Russias-Oil-Exports.html",
+      "date": "2026-11-23T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_9ki3adna8l.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "TotalEnergies acquires interests in US gas assets from Continental Resources",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55420906/totalenergies-acquires-interests-in-us-gas-assets-from-continental-resources",
+      "date": "2026-11-23T16:15:54+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b045f28e6caa3fe493a33cb-261123us_flag744998__le_skills__dreamstime.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "What Is Trump Up To Bombing Iran’s Qeshm Island?",
+      "lien": "https://oilprice.com/Geopolitics/Middle-East/What-Is-Trump-Up-To-Bombing-Irans-Qeshm-Island.html",
+      "date": "2026-11-23T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_cusf8dint9.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Slides Nearly 4% as Returning Supply Outweighs Gulf Attacks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html",
+      "date": "2026-11-23T15:51:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_leje08uvac.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukrainian Naval Drones Sink Russian Warship in Libya",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Naval-Drones-Sink-Russian-Warship-in-Libya.html",
+      "date": "2026-11-23T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_bvqyy5oxj7.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Trump Suggests Iran Strikes Will Resume in 2027 If Talks Fail",
+      "lien": "https://www.rigzone.com/news/wire/trump_suggests_iran_strikes_will_resume_in_2027_if_talks_fail-23-nov-2026-185150-article/?rss=true",
+      "date": "2026-11-23T15:28:27+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Trump-Suggests-Iran-Strikes-Will-Resume-in-2027-If-Talks-Fail-185150-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Natural Gas Price Sees Volatile Swing",
+      "lien": "https://www.rigzone.com/news/usa_natural_gas_price_sees_volatile_swing-23-nov-2026-185149-article/?rss=true",
+      "date": "2026-11-23T15:17:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Natural-Gas-Price-Sees-Volatile-Swing-185149-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Weighs NATO-Style Security Guarantees for Ukraine as Russia Pushes Back",
+      "lien": "https://oilprice.com/Geopolitics/Europe/US-Weighs-NATO-Style-Security-Guarantees-for-Ukraine-as-Russia-Pushes-Back.html",
+      "date": "2026-11-23T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-22_b750csqowj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Drops-Below-90-as-Wall-Street-Splits-on-2027-Oil-Outlook.html",
+      "date": "2026-11-23T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_dmmb0enzxv.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ORLEN Taps BigTech to Secure, Modernize Operations",
+      "lien": "https://www.rigzone.com/news/orlen_taps_bigtech_to_secure_modernize_operations-23-nov-2026-185148-article/?rss=true",
+      "date": "2026-11-23T13:50:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ORLEN-Taps-BigTech-to-Secure-Modernize-Operations-185148-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Korea Asks Qatar for Priority LNG Once Hormuz Reopens",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Asks-Qatar-for-Priority-LNG-Once-Hormuz-Reopens.html",
+      "date": "2026-11-23T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_fgptqxs03b.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Europa Oil Gets Environmental Permit for Cloughton Appraisal Well",
+      "lien": "https://www.rigzone.com/news/europa_oil_gets_environmental_permit_for_cloughton_appraisal_well-23-nov-2026-185147-article/?rss=true",
+      "date": "2026-11-23T12:59:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Europa-Oil-Gets-Environmental-Permit-for-Cloughton-Appraisal-Well-185147-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "North America Enters Rig Addition Streak, BH Shows",
+      "lien": "https://www.rigzone.com/news/north_america_enters_rig_addition_streak_bh_shows-23-nov-2026-185146-article/?rss=true",
+      "date": "2026-11-23T12:34:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/North-America-Enters-Rig-Addition-Streak-BH-Shows-185146-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Says Strikes on Iran Could Resume After New Year",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Says-Strikes-on-Iran-Could-Resume-After-New-Year.html",
+      "date": "2026-11-23T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_j87ia3pcmx.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Western Australia Offers New Oil, Carbon Storage Exploration Areas",
+      "lien": "https://www.rigzone.com/news/western_australia_offers_new_oil_carbon_storage_exploration_areas-23-nov-2026-185145-article/?rss=true",
+      "date": "2026-11-23T11:59:03+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Western-Australia-Offers-New-Oil-Carbon-Storage-Exploration-Areas-185145-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ConocoPhillips to Exit Norway in $4.4 Billion Deal With Vår Energi",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-44-Billion-Deal-With-Vr-Energi.html",
+      "date": "2026-11-23T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_tplbv19ayr.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Narrative Has Turned, Strategists Warn",
+      "lien": "https://www.rigzone.com/news/oil_narrative_has_turned_strategists_warn-23-nov-2026-185144-article/?rss=true",
+      "date": "2026-11-23T10:41:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Narrative-Has-Turned-Strategists-Warn-185144-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Libya’s Oil Output Plunges as Armed Groups Shut Key Pipelines",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Oil-Output-Plunges-as-Armed-Groups-Shut-Key-Pipelines.html",
+      "date": "2026-11-23T09:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_yebngsrqch.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Norway Gas Production Hits 9-Month High",
+      "lien": "https://www.rigzone.com/news/norway_gas_production_hits_9month_high-23-nov-2026-185143-article/?rss=true",
+      "date": "2026-11-23T09:36:33+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Norway-Gas-Production-Hits-9Month-High-185143-1200x628.png"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IPC et IFPEN : des  expertises conjointes pour protéger la filière plastique française",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ipc-et-ifpen-des-expertises-conjointes-proteger-filiere-plastique-francaise",
+      "date": "2026-11-23T08:52:48+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "COP Crumbles as Oil Nations Reject Fossil Fuel Language",
+      "lien": "https://www.rigzone.com/news/wire/cop_crumbles_as_oil_nations_reject_fossil_fuel_language-23-nov-2026-185142-article/?rss=true",
+      "date": "2026-11-23T08:27:29+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/COP-Crumbles-as-Oil-Nations-Reject-Fossil-Fuel-Language-185142-1200x628.png"
+    },
+    {
       "source": "Rigzone",
       "titre": "TechnipFMC to Supply Subsea Production Systems for Longtail Project",
       "lien": "https://www.rigzone.com/news/technipfmc_to_supply_subsea_production_systems_for_longtail_project-22-nov-2026-185136-article/?rss=true",
@@ -11877,13 +12073,6 @@
       "titre": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
       "date": "2026-08-26T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "Dangote refinery drives increase in petroleum shipments from Nigeria",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
-      "date": "2026-08-24T14:00:00+00:00",
       "image": null
     },
     {
