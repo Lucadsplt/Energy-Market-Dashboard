@@ -2,6 +2,69 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "America's Refiners Drowned Their Own Gasoline Windfall",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Americas-Refiners-Drowned-Their-Own-Gasoline-Windfall.html",
+      "date": "2026-11-24T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_rv3wsxlzt6.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Climate Finance Dispute Derails COP31 Negotiations",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Climate-Finance-Dispute-Derails-COP31-Negotiations.html",
+      "date": "2026-11-24T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_1imvaecjut.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Quantum Computing Could Accelerate the Energy Transition",
+      "lien": "https://oilprice.com/Energy/Energy-General/Quantum-Computing-Could-Accelerate-the-Energy-Transition.html",
+      "date": "2026-11-23T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_vrl4pegk9s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
+      "lien": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html",
+      "date": "2026-11-23T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_fkol6z3smm.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Falls as Trump Signals Iran Talks",
+      "lien": "https://www.rigzone.com/news/wire/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article/?rss=true",
+      "date": "2026-11-23T21:30:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Falls-as-Trump-Signals-Iran-Talks-185152-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Will Batteries Kill Off Gas Turbines at Data Centers",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Will-Batteries-Kill-Off-Gas-Turbines-at-Data-Centers.html",
+      "date": "2026-11-23T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_xbbvgkwdei.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Washington's Iran Strategy Risks Strengthening Its Biggest Rivals",
+      "lien": "https://oilprice.com/Energy/Energy-General/Washingtons-Iran-Strategy-Risks-Strengthening-Its-Biggest-Rivals.html",
+      "date": "2026-11-23T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_yamkgjuhsu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Historic Winner of RRC Seat Wants Faster Permits",
+      "lien": "https://www.rigzone.com/news/wire/historic_winner_of_rrc_seat_wants_faster_permits-23-nov-2026-185151-article/?rss=true",
+      "date": "2026-11-23T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Historic-Winner-of-RRC-Seat-Wants-Faster-Permits-185151-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "ConocoPhillips to Exit Norway in $4.43 Billion Deal with Vaar Energi",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html",
+      "date": "2026-11-23T19:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_urlduor3cb.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Why Blocking the Sun Won't Solve the Climate Crisis",
       "lien": "https://oilprice.com/Energy/Energy-General/Why-Blocking-the-Sun-Wont-Solve-the-Climate-Crisis.html",
       "date": "2026-11-23T19:00:00+00:00",
@@ -13,6 +76,13 @@
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-and-Iran-Move-to-Boost-Energy-Cooperation.html",
       "date": "2026-11-23T18:30:00+00:00",
       "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-23_lifuqjvzw6.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Navitas Petroleum to drill Sea Lion Northern Development Area",
+      "lien": "https://www.ogj.com/drilling-production/news/55421002/navitas-petroleum-to-drill-sea-lion-northern-development-area",
+      "date": "2026-11-23T18:29:13+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
     },
     {
       "source": "Oil & Gas Journal",
