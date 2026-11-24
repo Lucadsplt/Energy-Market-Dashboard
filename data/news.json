@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html",
+      "date": "2026-11-24T18:30:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Canada’s Oilfield Services Sector Is Gearing Up for a Stronger 2027",
+      "lien": "https://oilprice.com/Energy/Energy-General/Canadas-Oilfield-Services-Sector-Is-Gearing-Up-for-a-Stronger-2027.html",
+      "date": "2026-11-24T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_cwezulxspt.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Equinor signs 18-year natural gas supply contract with German VNG",
+      "lien": "https://www.ogj.com/general-interest/news/55421288/equinor-signs-18-year-natural-gas-supply-contract-with-german-vng",
+      "date": "2026-11-24T17:30:05+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b05b7cac6bc007e5a1e337d-contractsigningequinorvng_copyojbratland.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Petrobras targets refining, renewable fuels growth in new 2027-31 business plan",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55421329/petrobras-targets-refining-renewable-fuels-growth-in-new-2027-31-business-plan",
+      "date": "2026-11-24T17:21:40+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b05c703c8afe1b414d4d4b6-petrleo_brasileiro_sa_rpbc_refinery.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Europe’s Gas Prices Jumped 163% in a Year",
+      "lien": "https://oilprice.com/Energy/Natural-Gas/Europes-Gas-Prices-Jumped-163-in-a-Year.html",
+      "date": "2026-11-24T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_tusp125jqr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Saudi Arabia Sees Smaller Economic Slump as More Oil Reaches Market",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sees-Smaller-Economic-Slump-as-More-Oil-Reaches-Market.html",
+      "date": "2026-11-24T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_gr4b6hn5ql.jpg"
+    },
+    {
       "source": "Rigzone",
       "titre": "Hartree Is Top Supplier Behind $10MM Oil Crypto Coin Mint",
       "lien": "https://www.rigzone.com/news/wire/hartree_is_top_supplier_behind_10mm_oil_crypto_coin_mint-24-nov-2026-185159-article/?rss=true",
