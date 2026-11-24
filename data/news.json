@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Hartree Is Top Supplier Behind $10MM Oil Crypto Coin Mint",
+      "lien": "https://www.rigzone.com/news/wire/hartree_is_top_supplier_behind_10mm_oil_crypto_coin_mint-24-nov-2026-185159-article/?rss=true",
+      "date": "2026-11-24T15:50:32+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Hartree-Is-Top-Supplier-Behind-10MM-Oil-Crypto-Coin-Mint-185159-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Ousted BP Chairman to Join Aggreko Board",
+      "lien": "https://www.rigzone.com/news/wire/ousted_bp_chairman_to_join_aggreko_board-24-nov-2026-185158-article/?rss=true",
+      "date": "2026-11-24T15:44:21+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Ousted-BP-Chairman-to-Join-Aggreko-Board-185158-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Petrobras Lifts Spending to $122B",
+      "lien": "https://www.rigzone.com/news/wire/petrobras_lifts_spending_to_122b-24-nov-2026-185157-article/?rss=true",
+      "date": "2026-11-24T15:39:11+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Petrobras-Lifts-Spending-to-122B-185157-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "EU to Seek Overhaul of UN Climate Consensus Decisions After COP31 Failure",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/EU-to-Seek-Overhaul-of-UN-Climate-Consensus-Decisions-After-COP31-Failure.html",
+      "date": "2026-11-24T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_fruge0ihxg.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC+ at a Crossroads",
+      "lien": "https://www.rigzone.com/news/opec_at_a_crossroads-24-nov-2026-185156-article/?rss=true",
+      "date": "2026-11-24T15:27:50+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-at-a-Crossroads-185156-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Libya and Iraq Could Be the Next Big Headache for Oil Markets",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Libya-and-Iraq-Could-Be-the-Next-Big-Headache-for-Oil-Markets.html",
+      "date": "2026-11-24T15:21:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_bnwl5kcgu3.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Faces a Deepening Natural Gas Crisis Ahead of Winter",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iran-Faces-a-Deepening-Natural-Gas-Crisis-Ahead-of-Winter.html",
+      "date": "2026-11-24T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_oefezklhrg.jpg"
+    },
+    {
+      "source": "EIA",
+      "titre": "How does EIA compare different types of energy?",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
+      "date": "2026-11-24T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.24/main.png?1795539133"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq Seeks Federal Control Over Disputed Kurdistan Oilfields",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Seeks-Federal-Control-Over-Disputed-Kurdistan-Oilfields.html",
+      "date": "2026-11-24T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_oncbfa0dmt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Korea Says Its Crude Supply Is Stable Through the Winter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Says-Its-Crude-Supply-Is-Stable-Through-the-Winter.html",
+      "date": "2026-11-24T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_cs0ubila2e.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "BAAJA Permitting Bill Passes Senate",
+      "lien": "https://www.rigzone.com/news/baaja_permitting_bill_passes_senate-24-nov-2026-185155-article/?rss=true",
+      "date": "2026-11-24T12:15:35+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/BAAJA-Permitting-Bill-Passes-Senate-185155-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html",
+      "date": "2026-11-24T11:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_ntvxphjwyk.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "EU, UK Agree to Link Emissions Trading Systems",
+      "lien": "https://www.rigzone.com/news/eu_uk_agree_to_link_emissions_trading_systems-24-nov-2026-185154-article/?rss=true",
+      "date": "2026-11-24T10:54:47+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/EU-UK-Agree-to-Link-Emissions-Trading-Systems-185154-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan Poised to Ramp Up LNG Buying as Power Prices Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Poised-to-Ramp-Up-LNG-Buying-as-Power-Prices-Surge.html",
+      "date": "2026-11-24T10:35:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_gtkhdfa7sq.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Chinese Refiners Snap Up Cut-Price Oil to Refill Stockpiles",
+      "lien": "https://www.rigzone.com/news/wire/chinese_refiners_snap_up_cutprice_oil_to_refill_stockpiles-24-nov-2026-185153-article/?rss=true",
+      "date": "2026-11-24T09:29:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Chinese-Refiners-Snap-Up-CutPrice-Oil-to-Refill-Stockpiles-185153-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Equinor Locks In Longest Gas Supply Deal in 40 Years",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-Locks-In-Longest-Gas-Supply-Deal-in-40-Years.html",
+      "date": "2026-11-24T09:25:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_utweh5vtwq.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html",
+      "date": "2026-11-24T07:05:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_db4xpuseop.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Electric and Hybrid Cars Capture Three-Quarters of Europe’s Auto Market",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Electric-and-Hybrid-Cars-Capture-Three-Quarters-of-Europes-Auto-Market.html",
+      "date": "2026-11-24T06:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_7pacrl0nep.jpg"
+    },
+    {
       "source": "OilPrice",
       "titre": "America's Refiners Drowned Their Own Gasoline Windfall",
       "lien": "https://oilprice.com/Energy/Crude-Oil/Americas-Refiners-Drowned-Their-Own-Gasoline-Windfall.html",
@@ -12129,20 +12255,6 @@
       "titre": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
       "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
       "date": "2026-08-28T14:00:00+00:00",
-      "image": null
-    },
-    {
-      "source": "IFPEN",
-      "titre": "Table ronde \"Carburants d'aviation durables : quels leviers d'action en France ?\"",
-      "lien": "https://www.ifpenergiesnouvelles.fr/article/table-ronde-carburants-daviation-durables-quels-leviers-daction-en-france",
-      "date": "2026-08-26T15:25:29+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
-      "date": "2026-08-26T14:00:00+00:00",
       "image": null
     },
     {
