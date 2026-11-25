@@ -2,6 +2,76 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "The Diesel Crunch Isn’t Over Yet",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Diesel-Crunch-Isnt-Over-Yet.html",
+      "date": "2026-11-25T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_kp7sc16iop.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Senate Investigates Vance’s Alleged Role in Venezuela Oil Deal",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Senate-Investigates-Vances-Alleged-Role-in-Venezuela-Oil-Deal.html",
+      "date": "2026-11-25T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_kqwhbxs6dg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Washington Is Buying Its Way Out of China's Tungsten Grip",
+      "lien": "https://oilprice.com/Metals/Commodities/Washington-Is-Buying-Its-Way-Out-of-Chinas-Tungsten-Grip.html",
+      "date": "2026-11-24T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_ekgakfg7s9.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Climbs Despite Growing Oversupply Fears",
+      "lien": "https://www.rigzone.com/news/wire/oil_climbs_despite_growing_oversupply_fears-24-nov-2026-185160-article/?rss=true",
+      "date": "2026-11-24T22:26:39+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Climbs-Despite-Growing-Oversupply-Fears-185160-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Trump's Flagship Lithium Project Now Costs 31% More Than Planned",
+      "lien": "https://oilprice.com/Metals/Commodities/Why-Trumps-Flagship-Lithium-Project-Now-Costs-31-More-Than-Planned.html",
+      "date": "2026-11-24T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_2cyhr4e37n.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "US Crude Oil Inventories Inches Up as Gasoline Holds Steady",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Inches-Up-as-Gasoline-Holds-Steady.html",
+      "date": "2026-11-24T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_ozfsnmhkx1.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Where Does Texas' Data Center Boom Go From Here?",
+      "lien": "https://oilprice.com/Energy/Energy-General/Where-Does-Texas-Data-Center-Boom-Go-From-Here.html",
+      "date": "2026-11-24T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_ebadpeczrf.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Is This Tiny Oil Giant The Real Crown Jewel Of Trump’s New World Order?",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Is-This-Tiny-Oil-Giant-The-Real-Crown-Jewel-Of-Trumps-New-World-Order.html",
+      "date": "2026-11-24T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_drlo3ashmn.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Central Asia Pushes Ahead With Regional Electricity Market",
+      "lien": "https://oilprice.com/Energy/Energy-General/Central-Asia-Pushes-Ahead-With-Regional-Electricity-Market.html",
+      "date": "2026-11-24T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-23_c3cxykm0bl.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Petrobras to invest heavily in E&P 2027–2031",
+      "lien": "https://www.ogj.com/exploration-development/news/55421344/petrobras-to-invest-heavily-in-ep-20272031",
+      "date": "2026-11-24T18:54:35+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html",
       "date": "2026-11-24T18:30:00+00:00",
