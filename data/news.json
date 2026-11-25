@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Kazakhstan Joins Iraq in Pushing OPEC+ for a Higher Capacity Rating",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Joins-Iraq-in-Pushing-OPEC-for-a-Higher-Capacity-Rating.html",
+      "date": "2026-11-25T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_eqbpandi6v.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Suncor Energy names new CFO",
+      "lien": "https://www.ogj.com/general-interest/personnel-moves-promotions/news/55421189/suncor-energy-names-new-cfo",
+      "date": "2026-11-25T17:07:21+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Equinor boosts Verdande stake in $65-million NCS asset swap with JAPEX",
+      "lien": "https://www.ogj.com/general-interest/companies/news/55421599/equinor-boosts-verdande-stake-in-65-million-ncs-asset-swap-with-japex",
+      "date": "2026-11-25T17:06:05+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b0714bbdf855cf312be99e8-verdande.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Diplomatic Push Revives Hopes for Trans-Caspian Gas Pipeline",
+      "lien": "https://oilprice.com/Energy/Energy-General/US-Diplomatic-Push-Revives-Hopes-for-Trans-Caspian-Gas-Pipeline.html",
+      "date": "2026-11-25T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_vewc02qoun.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "Alby PtX advances proposed 66,000-tpy Swedish e-SAF plant",
+      "lien": "https://www.ogj.com/energy-transition/news/55421525/alby-ptx-advances-proposed-66000-tpy-swedish-e-saf-plant",
+      "date": "2026-11-25T16:41:57+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b06fc956485c8443c1e7c1b-alby_ptx_ab_location_and_artistic_rendition_of_pro.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Aramco Opens $7 Billion Petrochemical Complex in South Korea",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Opens-7-Billion-Petrochemical-Complex-in-South-Korea.html",
       "date": "2026-11-25T16:31:00+00:00",
@@ -15,11 +50,25 @@
       "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
     },
     {
+      "source": "Rigzone",
+      "titre": "Putin Says Russia Will Respond to Ukraine Refinery Attacks",
+      "lien": "https://www.rigzone.com/news/wire/putin_says_russia_will_respond_to_ukraine_refinery_attacks-25-nov-2026-185169-article/?rss=true",
+      "date": "2026-11-25T15:34:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Putin-Says-Russia-Will-Respond-to-Ukraine-Refinery-Attacks-185169-1200x628.png"
+    },
+    {
       "source": "OilPrice",
       "titre": "Oil Jumps Over 2% as Saudi Arabia Downs Drones Over Ras Tanura",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html",
       "date": "2026-11-25T15:30:00+00:00",
       "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ConocoPhillips Sells Norway Business to Var Energi",
+      "lien": "https://www.rigzone.com/news/conocophillips_sells_norway_business_to_var_energi-25-nov-2026-185168-article/?rss=true",
+      "date": "2026-11-25T15:21:44+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ConocoPhillips-Sells-Norway-Business-to-Var-Energi-185168-1200x628.png"
     },
     {
       "source": "Rigzone",
