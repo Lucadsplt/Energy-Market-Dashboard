@@ -2,6 +2,146 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Aramco Opens $7 Billion Petrochemical Complex in South Korea",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Opens-7-Billion-Petrochemical-Complex-in-South-Korea.html",
+      "date": "2026-11-25T16:31:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_kg2js3lawc.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Inventories Continue to Rise in the US",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html",
+      "date": "2026-11-25T15:42:56+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Jumps Over 2% as Saudi Arabia Downs Drones Over Ras Tanura",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html",
+      "date": "2026-11-25T15:30:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Price Volatility Persists for USA Natural Gas",
+      "lien": "https://www.rigzone.com/news/price_volatility_persists_for_usa_natural_gas-25-nov-2026-185167-article/?rss=true",
+      "date": "2026-11-25T15:17:53+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Price-Volatility-Persists-for-USA-Natural-Gas-185167-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Energy Bills Set to Soar 26% as Iran War Drives Up Gas Prices",
+      "lien": "https://oilprice.com/Energy/Energy-General/UK-Energy-Bills-Set-to-Soar-26-as-Iran-War-Drives-Up-Gas-Prices.html",
+      "date": "2026-11-25T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_pvdnvt3qy6.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "TotalEnergies to Acquire Stake in US Gas Assets from Continental",
+      "lien": "https://www.rigzone.com/news/totalenergies_to_acquire_stake_in_us_gas_assets_from_continental-25-nov-2026-185166-article/?rss=true",
+      "date": "2026-11-25T14:07:28+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/TotalEnergies-to-Acquire-Stake-in-US-Gas-Assets-from-Continental-185166-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Big Oil and Big Tech Lobby EU for Faster Gas-Fired Data Center Permits",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-and-Big-Tech-Lobby-EU-for-Faster-Gas-Fired-Data-Center-Permits.html",
+      "date": "2026-11-25T14:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_fvhmpqwto7.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor Bags 18-Year Deal to Supply Gas to Germany's VNG",
+      "lien": "https://www.rigzone.com/news/equinor_bags_18year_deal_to_supply_gas_to_germanys_vng-25-nov-2026-185165-article/?rss=true",
+      "date": "2026-11-25T13:17:57+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Equinor-Bags-18Year-Deal-to-Supply-Gas-to-Germanys-VNG-185165-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran War Is Pushing Record Numbers of Fuel Tankers Into Crude Trade",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Is-Pushing-Record-Numbers-of-Fuel-Tankers-Into-Crude-Trade.html",
+      "date": "2026-11-25T13:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_fp8v60mwez.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC+ Will See One of Most Complicated Meetings in Years",
+      "lien": "https://www.rigzone.com/news/opec_will_see_one_of_most_complicated_meetings_in_years-25-nov-2026-185164-article/?rss=true",
+      "date": "2026-11-25T12:14:06+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-Will-See-One-of-Most-Complicated-Meetings-in-Years-185164-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "UK Energy Price Cap Jumps 26% in January, Highest Since 2023",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/UK-Energy-Price-Cap-Jumps-26-in-January-Highest-Since-2023.html",
+      "date": "2026-11-25T12:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_minblvxoqj.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "JP Morgan Outlines Oil Outlook for 2027, 2028",
+      "lien": "https://www.rigzone.com/news/jp_morgan_outlines_oil_outlook_for_2027_2028-25-nov-2026-185163-article/?rss=true",
+      "date": "2026-11-25T11:27:14+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/JP-Morgan-Outlines-Oil-Outlook-for-2027-2028-185163-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Aramco Completes $7B Petrochemical Project in South Korea",
+      "lien": "https://www.rigzone.com/news/aramco_completes_7b_petrochemical_project_in_south_korea-25-nov-2026-185162-article/?rss=true",
+      "date": "2026-11-25T11:24:48+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Aramco-Completes-7B-Petrochemical-Project-in-South-Korea-185162-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dangote Refinery Set to Become Africa’s Most Valuable Listed Company",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Dangote-Refinery-Set-to-Become-Africas-Most-Valuable-Listed-Company.html",
+      "date": "2026-11-25T11:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_6dpilkezxa.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html",
+      "date": "2026-11-25T09:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_ethfke0im4.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Iraq Rebuffs OPEC Assessment of Output Capacity",
+      "lien": "https://www.rigzone.com/news/wire/iraq_rebuffs_opec_assessment_of_output_capacity-25-nov-2026-185161-article/?rss=true",
+      "date": "2026-11-25T08:45:31+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iraq-Rebuffs-OPEC-Assessment-of-Output-Capacity-185161-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Global LNG Supply Crunch Set to Spill Into 2027",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Global-LNG-Supply-Crunch-Set-to-Spill-Into-2027.html",
+      "date": "2026-11-25T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_8jdhwylx23.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Goldman Sachs Sees U.S. Natural Gas Demand Surging on Data Center Boom",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-US-Natural-Gas-Demand-Surging-on-Data-Center-Boom.html",
+      "date": "2026-11-25T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_cf1okrgupd.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Slide-Despite-Mounting-Threats-in-the-Strait-of-Hormuz.html",
+      "date": "2026-11-25T05:50:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-24_tywrpcof7q.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Goes on Oil Buying Spree as Crude Prices Slide",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Goes-on-Oil-Buying-Spree-as-Crude-Prices-Slide.html",
+      "date": "2026-11-25T05:25:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-24_q1fh7kygwo.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "The Diesel Crunch Isn’t Over Yet",
       "lien": "https://oilprice.com/Energy/Energy-General/The-Diesel-Crunch-Isnt-Over-Yet.html",
       "date": "2026-11-25T01:00:00+00:00",
