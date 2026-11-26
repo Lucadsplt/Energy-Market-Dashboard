@@ -2,6 +2,139 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Why Copper's Thanksgiving Bounce May Not Be the Start of Anything",
+      "lien": "https://oilprice.com/Metals/Commodities/Why-Coppers-Thanksgiving-Bounce-May-Not-Be-the-Start-of-Anything.html",
+      "date": "2026-11-26T16:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_gofhqc62ia.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Europe Diesel Demand Set to Trail Covid Levels in 2026",
+      "lien": "https://www.rigzone.com/news/wire/europe_diesel_demand_set_to_trail_covid_levels_in_2026-26-nov-2026-185178-article/?rss=true",
+      "date": "2026-11-26T15:30:02+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Europe-Diesel-Demand-Set-to-Trail-Covid-Levels-in-2026-185178-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Cold Snap Squeezes UK Spare Power Capacity",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Cold-Snap-Squeezes-UK-Spare-Power-Capacity.html",
+      "date": "2026-11-26T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_vhgbztcnrb.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "OPEC Mulls Sticking with Current Quotas",
+      "lien": "https://www.rigzone.com/news/wire/opec_mulls_sticking_with_current_quotas-26-nov-2026-185177-article/?rss=true",
+      "date": "2026-11-26T15:21:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/OPEC-Mulls-Sticking-with-Current-Quotas-185177-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eldridge Consortium Pens Deal to Acquire Lukoil International",
+      "lien": "https://www.rigzone.com/news/eldridge_consortium_pens_deal_to_acquire_lukoil_international-26-nov-2026-185176-article/?rss=true",
+      "date": "2026-11-26T15:02:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eldridge-Consortium-Pens-Deal-to-Acquire-Lukoil-International-185176-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iranian Hardliners Call for Tanker Convoy to Defy U.S. Blockade",
+      "lien": "https://oilprice.com/Energy/Energy-General/Iranian-Hardliners-Call-for-Tanker-Convoy-to-Defy-US-Blockade.html",
+      "date": "2026-11-26T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_lcph79sud5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "One Crew Member Dies as Diesel Tanker Sinks off Ibiza",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/One-Crew-Member-Dies-as-Diesel-Tanker-Sinks-off-Ibiza.html",
+      "date": "2026-11-26T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_wcihgqz6jd.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Constellation Completes $5B Sale of 4.4GW PJM Assets to LS Power",
+      "lien": "https://www.rigzone.com/news/constellation_completes_5b_sale_of_44gw_pjm_assets_to_ls_power-26-nov-2026-185175-article/?rss=true",
+      "date": "2026-11-26T13:35:43+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Constellation-Completes-5B-Sale-of-44GW-PJM-Assets-to-LS-Power-185175-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Dutch Gas Network Operator Proposes Creation of Strategic Reserve",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Dutch-Gas-Network-Operator-Proposes-Creation-of-Strategic-Reserve.html",
+      "date": "2026-11-26T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_0j2i1qv9wz.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Rebound as Middle East Supply Fears Return",
+      "lien": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rebound-as-Middle-East-Supply-Fears-Return.html",
+      "date": "2026-11-26T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_9uwrvbophs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iran Says LNG Carrier Exploded After Hitting a Mine in Hormuz",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-LNG-Carrier-Exploded-After-Hitting-a-Mine-in-Hormuz.html",
+      "date": "2026-11-26T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_a2snbpw9an.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Turkmenistan Nears Major Milestone in $10 Billion TAPI Gas Pipeline",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Turkmenistan-Nears-Major-Milestone-in-10-Billion-TAPI-Gas-Pipeline.html",
+      "date": "2026-11-26T11:40:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_ucyjqze1l3.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Equinor, JAPEX Agree Swap Involving Goliat, Verdande",
+      "lien": "https://www.rigzone.com/news/equinor_japex_agree_swap_involving_goliat_verdande-26-nov-2026-185174-article/?rss=true",
+      "date": "2026-11-26T11:20:15+00:00",
+      "image": "https://images.rigzone.com/images/rz-facebook.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Japan’s Nuclear Revival Hits a Snag as TEPCO Delays Reactor Restart",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Nuclear-Revival-Hits-a-Snag-as-TEPCO-Delays-Reactor-Restart.html",
+      "date": "2026-11-26T10:55:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_dwfveiapiu.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Tullow, Ghana Settle Tax Row",
+      "lien": "https://www.rigzone.com/news/tullow_ghana_settle_tax_row-26-nov-2026-185173-article/?rss=true",
+      "date": "2026-11-26T10:36:16+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Tullow-Ghana-Settle-Tax-Row-185173-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Libya Plans New Oil Bidding Rounds Despite Mounting Security Risks",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Plans-New-Oil-Bidding-Rounds-Despite-Mounting-Security-Risks.html",
+      "date": "2026-11-26T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_qgjqjtyzob.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Houthis Strike Saudi Ports on Red Sea",
+      "lien": "https://www.rigzone.com/news/wire/houthis_strike_saudi_ports_on_red_sea-26-nov-2026-185172-article/?rss=true",
+      "date": "2026-11-26T07:46:45+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Houthis-Strike-Saudi-Ports-on-Red-Sea-185172-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Enbridge Eyes $1 Billion Pipeline Deal With Indigenous Communities",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Enbridge-Eyes-1-Billion-Pipeline-Deal-With-Indigenous-Communities.html",
+      "date": "2026-11-26T06:45:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_9vxnmsleo0.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Rallies as Hormuz Mine Strikes Rattle Global Markets",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html",
+      "date": "2026-11-26T05:18:59+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_tneeaoimxc.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Labor Shortages Could Derail Canada’s Oil and Gas Growth Momentum",
       "lien": "https://oilprice.com/Energy/Energy-General/Labor-Shortages-Could-Derail-Canadas-Oil-and-Gas-Growth-Momentum.html",
       "date": "2026-11-26T01:00:00+00:00",
@@ -12647,13 +12780,6 @@
       "titre": "Tableau de bord transport - 2ème trimestre 2026",
       "lien": "https://www.ifpenergiesnouvelles.fr/article/tableau-bord-transport-2eme-trimestre-2026",
       "date": "2026-08-31T08:17:29+00:00",
-      "image": null
-    },
-    {
-      "source": "EIA",
-      "titre": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
-      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
-      "date": "2026-08-28T14:00:00+00:00",
       "image": null
     },
     {
