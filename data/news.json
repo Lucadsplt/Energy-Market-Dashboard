@@ -2,6 +2,104 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Labor Shortages Could Derail Canada’s Oil and Gas Growth Momentum",
+      "lien": "https://oilprice.com/Energy/Energy-General/Labor-Shortages-Could-Derail-Canadas-Oil-and-Gas-Growth-Momentum.html",
+      "date": "2026-11-26T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_06pxtd2lag.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Africa Eyeing SMRs to Supply 5.2 GW of Nuclear Capacity",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/South-Africa-Eyeing-SMRs-to-Supply-52-GW-of-Nuclear-Capacity.html",
+      "date": "2026-11-26T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_r4adovmt5s.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Traders Ignore Growing Threat to Persian Gulf Supply",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/Oil-Traders-Ignore-Growing-Threat-to-Persian-Gulf-Supply.html",
+      "date": "2026-11-25T23:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_pdvnbjrghj.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Small Modular Reactors Finally Have Real Momentum in the U.S.",
+      "lien": "https://oilprice.com/Energy/Energy-General/Small-Modular-Reactors-Finally-Have-Real-Momentum-in-the-US.html",
+      "date": "2026-11-25T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_jkivy9raen.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Up as Hormuz Attacks Counter Recovery in Supply",
+      "lien": "https://www.rigzone.com/news/wire/oil_up_as_hormuz_attacks_counter_recovery_in_supply-25-nov-2026-185171-article/?rss=true",
+      "date": "2026-11-25T21:16:34+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Up-as-Hormuz-Attacks-Counter-Recovery-in-Supply-185171-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Rig Count Holds Steady as Oil Production Hits Fifth Straight Record",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/US-Rig-Count-Holds-Steady-as-Oil-Production-Hits-Fifth-Straight-Record.html",
+      "date": "2026-11-25T21:06:52+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_xnubwa8qtg.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Pentagon Wants Detroit to Build America's Next Drone Army",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Pentagon-Wants-Detroit-to-Build-Americas-Next-Drone-Army.html",
+      "date": "2026-11-25T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_he1sgym27w.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S.-Backed Consortium Signs Deal for Lukoil's International Oil Empire",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Signs-Deal-for-Lukoils-International-Oil-Empire.html",
+      "date": "2026-11-25T20:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-25_la1ewhiflx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Cheaper Gasoline Won't Fix the Diesel Squeeze Hitting Freight Costs",
+      "lien": "https://oilprice.com/Energy/Gas-Prices/Cheaper-Gasoline-Wont-Fix-the-Diesel-Squeeze-Hitting-Freight-Costs.html",
+      "date": "2026-11-25T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_l63wuwe0ju.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "ADNOC Places Restrictions on Tankers After Attacks",
+      "lien": "https://www.rigzone.com/news/wire/adnoc_places_restrictions_on_tankers_after_attacks-25-nov-2026-185170-article/?rss=true",
+      "date": "2026-11-25T20:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/ADNOC-Places-Restrictions-on-Tankers-After-Attacks-185170-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Could Russia’s Secret Space Weapon Knock Out Starlink?",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Could-Russias-Secret-Space-Weapon-Knock-Out-Starlink.html",
+      "date": "2026-11-25T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_ulza7lh8d9.jpg"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "EIA: US crude oil inventories up 1.1 million bbl",
+      "lien": "https://www.ogj.com/general-interest/economics-markets/news/55421642/eia-us-crude-oil-inventories-up-11-million-bbl",
+      "date": "2026-11-25T18:40:06+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/2026/11/6b072b77a4574e391af7da92-ogjrecapnovember202026.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+    },
+    {
+      "source": "Oil & Gas Journal",
+      "titre": "US-led consortium aims to acquire LUKOIL International’s energy portfolio",
+      "lien": "https://www.ogj.com/general-interest/news/55421625/us-led-consortium-agrees-to-acquire-lukoil-internationals-energy-portfolio",
+      "date": "2026-11-25T18:05:37+00:00",
+      "image": "https://img.ogj.com/files/base/ebm/ogj/image/website/logos/1752245958870-ogj_horizontalcolor_reg2.png?auto=format,compress&fit=fill&fill=solid&fill-color=&w=1200&h=627"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "JAPEX Eyes More Than 10,000 Boe/d in Norway with Goliat Deal",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/JAPEX-Eyes-More-Than-10000-Boed-in-Norway-with-Goliat-Deal.html",
+      "date": "2026-11-25T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-25_zsp9fn6bcf.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Kazakhstan Joins Iraq in Pushing OPEC+ for a Higher Capacity Rating",
       "lien": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Joins-Iraq-in-Pushing-OPEC-for-a-Higher-Capacity-Rating.html",
       "date": "2026-11-25T17:30:00+00:00",
