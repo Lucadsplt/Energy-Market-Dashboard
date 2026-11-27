@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "source": "Rigzone",
+      "titre": "Iran, Turkey Extend Natural Gas Deal",
+      "lien": "https://www.rigzone.com/news/wire/iran_turkey_extend_natural_gas_deal-27-nov-2026-185188-article/?rss=true",
+      "date": "2026-11-27T15:48:13+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Iran-Turkey-Extend-Natural-Gas-Deal-185188-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Copper Heads for First Weekly Gain Since Early October After 6.5% Surge",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Copper-Heads-for-First-Weekly-Gain-Since-Early-October-After-65-Surge.html",
+      "date": "2026-11-27T15:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_xdcnoyibvo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Trump Urges Putin to End Aggression as Europe Braces for U.S. Military Cuts",
+      "lien": "https://oilprice.com/Geopolitics/Europe/Trump-Urges-Putin-to-End-Aggression-as-Europe-Braces-for-US-Military-Cuts.html",
+      "date": "2026-11-27T15:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-27_4m31qhvbpi.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "U.S. Encouraged Iraq and Venezuela to Leave OPEC, Sources Say",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/US-Pushed-Iraq-and-Venezuela-to-Consider-Quitting-OPEC-Sources-Say.html",
+      "date": "2026-11-27T14:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_divaqr6uj2.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Eni, Petronas Receive Indonesian Approval for Geliga Gas Project",
+      "lien": "https://www.rigzone.com/news/eni_petronas_receive_indonesian_approval_for_geliga_gas_project-27-nov-2026-185185-article/?rss=true",
+      "date": "2026-11-27T14:11:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Eni-Petronas-Receive-Indonesian-Approval-for-Geliga-Gas-Project-185185-1200x628.png"
+    },
+    {
+      "source": "EIA",
+      "titre": "Global electricity generation more than doubled from 2000 to 2025",
+      "lien": "https://www.eia.gov/todayinenergy/detail.php?id=68525",
+      "date": "2026-11-27T14:00:00+00:00",
+      "image": "https://www.eia.gov/todayinenergy/images/2026.11.27/main.png?1795795055"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "South Sudan Readies Licensing Round to Boost Oil Production",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/South-Sudan-Readies-Licensing-Round-to-Boost-Oil-Production.html",
+      "date": "2026-11-27T13:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_8gt41cymdg.jpg"
+    },
+    {
+      "source": "IFPEN",
+      "titre": "IFPEN au Carrefour des gestions locales de l'eau 2027",
+      "lien": "https://www.ifpenergiesnouvelles.fr/article/ifpen-au-carrefour-des-gestions-locales-leau-2027",
+      "date": "2026-11-27T13:08:58+00:00",
+      "image": null
+    },
+    {
+      "source": "Rigzone",
+      "titre": "SAFE Ends Strike at Reach Subsea",
+      "lien": "https://www.rigzone.com/news/safe_ends_strike_at_reach_subsea-27-nov-2026-185184-article/?rss=true",
+      "date": "2026-11-27T12:55:47+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/SAFE-Ends-Strike-at-Reach-Subsea-185184-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Saipem Bags New Middle East Deals Worth $650MM",
+      "lien": "https://www.rigzone.com/news/saipem_bags_new_middle_east_deals_worth_650mm-27-nov-2026-185183-article/?rss=true",
+      "date": "2026-11-27T12:46:55+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Saipem-Bags-New-Middle-East-Deals-Worth-650MM-185183-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Baghdad Moves to Seize Control of Kurdish Oil and Borders",
+      "lien": "https://oilprice.com/Energy/Energy-General/Baghdad-Moves-to-Seize-Control-of-Kurdish-Oil-and-Borders.html",
+      "date": "2026-11-27T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-27_0e7dziugjs.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Next Hormuz?",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Next-Hormuz.html",
+      "date": "2026-11-27T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-27_crfj54iexo.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Stockpiling Will Support Oil Prices in 2027, Energy Aspects Says",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Stockpiling-Will-Support-Oil-Prices-in-2027-Energy-Aspects-Says.html",
+      "date": "2026-11-27T12:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_96yllghgkx.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Brent Heads for 1st Weekly Gain in 5 Weeks",
+      "lien": "https://www.rigzone.com/news/brent_heads_for_1st_weekly_gain_in_5_weeks-27-nov-2026-185182-article/?rss=true",
+      "date": "2026-11-27T11:32:46+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Brent-Heads-for-1st-Weekly-Gain-in-5-Weeks-185182-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq Boosts Oil Exports to 3.6 Million Barrels per Day",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Boosts-Oil-Exports-to-36-Million-Barrels-per-Day.html",
+      "date": "2026-11-27T11:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_gtudoxelz7.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "China Has More Than Enough Energy to Weather the Winter",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/China-Has-More-Than-Enough-Energy-to-Weather-the-Winter.html",
+      "date": "2026-11-27T10:20:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_wleygdtu5o.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Petronas Greenlights Suriname's 1st Offshore Gas Project",
+      "lien": "https://www.rigzone.com/news/petronas_greenlights_surinames_1st_offshore_gas_project-27-nov-2026-185181-article/?rss=true",
+      "date": "2026-11-27T09:21:44+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Petronas-Greenlights-Surinames-1st-Offshore-Gas-Project-185181-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Iraq Delays Up to 30 Million Barrels of Crude Oil Shipments",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Delays-Up-to-30-Million-Barrels-of-Crude-Oil-Shipments.html",
+      "date": "2026-11-27T08:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_awldsk4oby.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Deadly Houthi Strike at Jazan Refinery Halts Some Operations",
+      "lien": "https://www.rigzone.com/news/wire/deadly_houthi_strike_at_jazan_refinery_halts_some_operations-27-nov-2026-185180-article/?rss=true",
+      "date": "2026-11-27T08:03:11+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Deadly-Houthi-Strike-at-Jazan-Refinery-Halts-Some-Operations-185180-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Australia Passes Landmark Law to Reserve Gas for Domestic Consumers",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Passes-Landmark-Law-to-Reserve-Gas-for-Domestic-Consumers.html",
+      "date": "2026-11-27T07:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_m0kgh4tgf5.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Prices Climb as Middle East Supply Risks Overshadow Glut Fears",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Middle-East-Supply-Risks-Overshadow-Glut-Fears.html",
+      "date": "2026-11-27T05:18:44+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-26_g91kjiytqr.jpg"
+    },
+    {
       "source": "OilPrice",
       "titre": "Standard Chartered: Oil Needs a New Shock to Fall Further",
       "lien": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Oil-Needs-a-New-Shock-to-Fall-Further.html",
