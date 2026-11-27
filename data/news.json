@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "source": "OilPrice",
+      "titre": "The Oil Glut Everyone Expected Is Looking Increasingly Elusive",
+      "lien": "https://oilprice.com/Energy/Crude-Oil/The-Oil-Glut-Everyone-Expected-Is-Looking-Increasingly-Elusive.html",
+      "date": "2026-11-27T17:04:00+00:00",
+      "image": "https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Soaring Fuel Prices Threaten to Push More Airlines Into Bankruptcy",
+      "lien": "https://oilprice.com/Energy/Energy-General/Soaring-Fuel-Prices-Threaten-to-Push-More-Airlines-Into-Bankruptcy.html",
+      "date": "2026-11-27T17:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_itcu79mrq8.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Oil Surge Pushes Indonesia to Mull First Subsidized Fuel Price Hike in Years",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Surge-Pushes-Indonesia-to-Mull-First-Subsidized-Fuel-Price-Hike-in-Years.html",
+      "date": "2026-11-27T16:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_9mdwnx7gwh.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "USA Crude Oil Stocks Rise Week on Week",
+      "lien": "https://www.rigzone.com/news/usa_crude_oil_stocks_rise_week_on_week-27-nov-2026-185190-article/?rss=true",
+      "date": "2026-11-27T15:56:42+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/USA-Crude-Oil-Stocks-Rise-Week-on-Week-185190-1200x628.png"
+    },
+    {
       "source": "Rigzone",
       "titre": "Iran, Turkey Extend Natural Gas Deal",
       "lien": "https://www.rigzone.com/news/wire/iran_turkey_extend_natural_gas_deal-27-nov-2026-185188-article/?rss=true",
