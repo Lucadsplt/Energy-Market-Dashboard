@@ -2,6 +2,55 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Standard Chartered: Oil Needs a New Shock to Fall Further",
+      "lien": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Oil-Needs-a-New-Shock-to-Fall-Further.html",
+      "date": "2026-11-27T01:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_a4cxaeipli.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Ukraine's Strike in Benghazi Threatens the Deal That Keeps Libya at Peace",
+      "lien": "https://oilprice.com/Geopolitics/Africa/Ukraines-Strike-in-Benghazi-Threatens-the-Deal-That-Keeps-Libya-at-Peace.html",
+      "date": "2026-11-27T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_kga2ili9dr.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "NASA Wanted a 100-Kilowatt Reactor on the Moon but Is Settling for 20",
+      "lien": "https://oilprice.com/Alternative-Energy/Nuclear-Power/NASA-Wanted-a-100-Kilowatt-Reactor-on-the-Moon-but-Is-Settling-for-20.html",
+      "date": "2026-11-27T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_sknoyxi9dw.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "The Next Big Clean Energy Bet Borrows Its Drilling Tech From Big Oil",
+      "lien": "https://oilprice.com/Energy/Energy-General/The-Next-Big-Clean-Energy-Bet-Borrows-Its-Drilling-Tech-From-Big-Oil.html",
+      "date": "2026-11-26T22:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_lthbpcjkog.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Why Making Electricity From Seawater Has Failed",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Why-Making-Electricity-From-Seawater-Has-Failed.html",
+      "date": "2026-11-26T21:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_vzff9tiuzt.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Norway Pauses Data Center Grid Reservations as Requests Top Peak Demand",
+      "lien": "https://oilprice.com/Energy/Energy-General/Norway-Pauses-Data-Center-Grid-Reservations-as-Requests-Top-Peak-Demand.html",
+      "date": "2026-11-26T20:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_0hrlw1axkh.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "When the Grid Fails, Solar Does Not Wait for the State",
+      "lien": "https://oilprice.com/Alternative-Energy/Solar-Energy/When-the-Grid-Fails-Solar-Does-Not-Wait-for-the-State.html",
+      "date": "2026-11-26T18:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-26_j9qmtcapl0.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "Why Gasoline Prices Are Falling While Diesel Remains Expensive",
       "lien": "https://oilprice.com/Energy/Energy-General/Why-Gasoline-Prices-Are-Falling-While-Diesel-Remains-Expensive.html",
       "date": "2026-11-26T17:00:00+00:00",

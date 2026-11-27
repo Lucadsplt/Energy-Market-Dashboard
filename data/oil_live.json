@@ -1,9 +1,9 @@
 {
   "brent": {
     "prix": 91.17,
-    "veille": 91.4,
-    "variation": -0.23,
-    "variation_pct": -0.25,
+    "veille": 92.15,
+    "variation": -0.98,
+    "variation_pct": -1.06,
     "heure_utc": "2026-11-26T04:55:00Z",
     "dates": [
       "2026-10-26",
@@ -55,14 +55,14 @@
       89.37,
       91.4,
       94.61,
-      91.4
+      92.15
     ]
   },
   "wti": {
     "prix": 84.42,
-    "veille": 84.73,
-    "variation": -0.31,
-    "variation_pct": -0.37,
+    "veille": 85.46,
+    "variation": -1.04,
+    "variation_pct": -1.22,
     "heure_utc": "2026-11-26T04:55:00Z",
     "dates": [
       "2026-10-26",
@@ -114,7 +114,7 @@
       80.17,
       82.05,
       83.68,
-      84.73
+      85.46
     ]
   }
 }
