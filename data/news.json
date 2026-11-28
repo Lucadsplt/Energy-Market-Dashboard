@@ -2,6 +2,41 @@
   "articles": [
     {
       "source": "OilPrice",
+      "titre": "Wasted Wind and Solar Power Could Run Factories and Data Centers",
+      "lien": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Wasted-Wind-and-Solar-Power-Could-Run-Factories-and-Data-Centers.html",
+      "date": "2026-11-28T00:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-27_0jbsfu5kry.jpg"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Oil Swings with Rising ME Attacks in Focus",
+      "lien": "https://www.rigzone.com/news/wire/oil_swings_with_rising_me_attacks_in_focus-27-nov-2026-185191-article/?rss=true",
+      "date": "2026-11-27T21:16:15+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Oil-Swings-with-Rising-ME-Attacks-in-Focus-185191-1200x628.png"
+    },
+    {
+      "source": "Rigzone",
+      "titre": "Alberta Raises Projected Surplus to $6B as Oil Surges",
+      "lien": "https://www.rigzone.com/news/wire/alberta_raises_projected_surplus_to_6b_as_oil_surges-27-nov-2026-185189-article/?rss=true",
+      "date": "2026-11-27T21:00:00+00:00",
+      "image": "https://images.rigzone.com/images/news/articles/Alberta-Raises-Projected-Surplus-to-6B-as-Oil-Surges-185189-1200x628.png"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "Georgia Voters to Decide Fate of $17 Billion Data Center Megaproject",
+      "lien": "https://oilprice.com/Energy/Energy-General/Georgia-Voters-to-Decide-Fate-of-17-Billion-Data-Center-Megaproject.html",
+      "date": "2026-11-27T19:00:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-11-27_qarewqdhmx.jpg"
+    },
+    {
+      "source": "OilPrice",
+      "titre": "OPEC+ Faces Growing Pressure As Iraq Pushes for Higher Quota",
+      "lien": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Faces-Growing-Pressure-As-Iraq-Pushes-for-Higher-Quota.html",
+      "date": "2026-11-27T17:30:00+00:00",
+      "image": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-11-27_nxovadutmp.jpg"
+    },
+    {
+      "source": "OilPrice",
       "titre": "The Oil Glut Everyone Expected Is Looking Increasingly Elusive",
       "lien": "https://oilprice.com/Energy/Crude-Oil/The-Oil-Glut-Everyone-Expected-Is-Looking-Increasingly-Elusive.html",
       "date": "2026-11-27T17:04:00+00:00",
